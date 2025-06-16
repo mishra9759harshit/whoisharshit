@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Blog Uploader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #1a1a2e, #0f0f1b);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+    input, textarea {
+      background-color: #1f2937;
+      color: #fff;
+    }
+    input:focus, textarea:focus {
+      border-color: #7c3aed;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.3);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-2xl bg-gray-900 p-8 rounded-xl shadow-2xl">
+    <h1 class="text-3xl font-bold mb-6 text-indigo-400">🛠️ Admin Blog Uploader</h1>
+
+    <form id="blogForm" class="space-y-5">
+      <div>
+        <label class="block mb-1 text-sm font-semibold">Blog Title</label>
+        <input type="text" id="title" class="w-full px-4 py-2 rounded border border-gray-700" required />
+      </div>
+      <div>
+        <label class="block mb-1 text-sm font-semibold">Description</label>
+        <textarea id="description" class="w-full px-4 py-2 rounded border border-gray-700" required></textarea>
+      </div>
+      <div>
+        <label class="block mb-1 text-sm font-semibold">Image URL</label>
+        <input type="url" id="image" class="w-full px-4 py-2 rounded border border-gray-700" required />
+      </div>
+      <div>
+        <label class="block mb-1 text-sm font-semibold">GitHub Markdown URL</label>
+        <input type="url" id="url" class="w-full px-4 py-2 rounded border border-gray-700" required />
+      </div>
+
+      <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 rounded shadow transition duration-300">
+        🚀 Upload Blog
+      </button>
+    </form>
+
+    <div id="status" class="mt-4 text-sm font-semibold text-green-400 hidden">✅ Blog uploaded successfully!</div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+    import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
+
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyADGOyCgU6Xa9WIR1p1PBLb249-6rK4bRU",
+      authDomain: "code-f0d55.firebaseapp.com",
+      databaseURL: "https://code-f0d55-default-rtdb.firebaseio.com",
+      projectId: "code-f0d55",
+      storageBucket: "code-f0d55.appspot.com",
+      messagingSenderId: "704792212542",
+      appId: "1:704792212542:web:4a210131decc9a2b03cd6f"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    const form = document.getElementById("blogForm");
+    const statusDiv = document.getElementById("status");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const title = document.getElementById("title").value.trim();
+      const description = document.getElementById("description").value.trim();
+      const image = document.getElementById("image").value.trim();
+      const url = document.getElementById("url").value.trim();
+
+      if (!title || !description || !image || !url) return;
+
+      const blogRef = ref(db, "blogs");
+      await push(blogRef, {
+        title,
+        description,
+        image,
+        url
+      });
+
+      statusDiv.classList.remove("hidden");
+
+      // Clear form
+      form.reset();
+
+      // Hide status after 3 seconds
+      setTimeout(() => {
+        statusDiv.classList.add("hidden");
+      }, 3000);
+    });
+  </script>
+</body>
+</html>

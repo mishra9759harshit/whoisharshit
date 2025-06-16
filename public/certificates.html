@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Certificate Projector – Sci-Fi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: radial-gradient(ellipse at center, #0a0f1f 0%, #000000 100%);
+      color: #00ffff;
+      font-family: 'Orbitron', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .projector-wrapper {
+      perspective: 1200px;
+    }
+
+    .projector {
+      position: relative;
+      transition: transform 0.6s ease;
+      border-radius: 1rem;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .projector:hover {
+      transform: scale(1.03);
+    }
+
+    .projector::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      width: 4px;
+      height: 80px;
+      background: linear-gradient(to bottom, #00ffffaa 30%, transparent);
+      animation: beamPulse 2s infinite;
+      transform: translateX(-50%);
+    }
+
+    @keyframes beamPulse {
+      0%, 100% {
+        opacity: 0.2;
+        height: 60px;
+      }
+      50% {
+        opacity: 1;
+        height: 100px;
+      }
+    }
+
+    .glow-img {
+      box-shadow: 0 0 30px #00ffff88, 0 0 100px #00ffff44;
+      border: 2px solid #00ffff55;
+      transition: transform 0.4s ease;
+    }
+
+    .glow-img:hover {
+      transform: scale(1.02);
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 50;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 20, 30, 0.95);
+      backdrop-filter: blur(10px);
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .modal img {
+      max-width: 90vw;
+      max-height: 80vh;
+      border: 3px solid #00ffff88;
+      box-shadow: 0 0 50px #00ffff88, 0 0 100px #00ffff44;
+      animation: fadeInZoom 0.6s ease-out;
+    }
+
+    @keyframes fadeInZoom {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .card-title {
+      text-shadow: 0 0 8px #00ffffcc, 0 0 20px #00ffff88;
+    }
+  </style>
+</head>
+<body class="p-6">
+
+  <div class="text-center mb-12">
+    <h1 class="text-4xl md:text-5xl font-bold text-cyan-300 card-title">🛡 Holographic Certificate Console</h1>
+    <p class="text-cyan-400 mt-2 uppercase tracking-widest">Tap for Full Projection</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto projector-wrapper">
+
+    <!-- Card 1 -->
+    <div class="bg-[#0f172a] p-4 rounded-xl glow-img projector" onclick="openModal('https://media.licdn.com/dms/image/v2/D4D2DAQF5LIsbI1VdJw/profile-treasury-image-shrink_800_800/B4DZdah00PGgAg-/0/1749570507140?e=1750600800&v=beta&t=FMnrfKS-6VAQETnzUY-tXMG5yfEaIR4AQSGBxx_PUqk')">
+      <img src="https://media.licdn.com/dms/image/v2/D4D2DAQF5LIsbI1VdJw/profile-treasury-image-shrink_800_800/B4DZdah00PGgAg-/0/1749570507140?e=1750600800&v=beta&t=FMnrfKS-6VAQETnzUY-tXMG5yfEaIR4AQSGBxx_PUqk" alt="Certificate 1" class="rounded-lg w-full object-cover" />
+      <div class="mt-4 text-center text-cyan-300">AI System Control</div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-[#0f172a] p-4 rounded-xl glow-img projector" onclick="openModal('https://media.licdn.com/dms/image/v2/D4D2DAQHZ2urHsPaI1A/profile-treasury-image-shrink_800_800/B4DZdagfgzHAAg-/0/1749570158669?e=1750600800&v=beta&t=C2XrgR057etU9DWUELpT2M8f5y4-nsssbqMeXkT2HbE')">
+      <img src="https://media.licdn.com/dms/image/v2/D4D2DAQHZ2urHsPaI1A/profile-treasury-image-shrink_800_800/B4DZdagfgzHAAg-/0/1749570158669?e=1750600800&v=beta&t=C2XrgR057etU9DWUELpT2M8f5y4-nsssbqMeXkT2HbE" alt="Certificate 2" class="rounded-lg w-full object-cover" />
+      <div class="mt-4 text-center text-cyan-300">Cybersecurity Certificate</div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-[#0f172a] p-4 rounded-xl glow-img projector" onclick="openModal('https://media.licdn.com/dms/image/v2/D4D2DAQGXmYHZklUZfg/profile-treasury-image-shrink_800_800/B4DZcp3LMvHwAc-/0/1748754021686?e=1750600800&v=beta&t=lRqcb8d9CkKtIDS37oEYX3Kzs3wEPd90TDmzVQLt0w8')">
+      <img src="https://media.licdn.com/dms/image/v2/D4D2DAQGXmYHZklUZfg/profile-treasury-image-shrink_800_800/B4DZcp3LMvHwAc-/0/1748754021686?e=1750600800&v=beta&t=lRqcb8d9CkKtIDS37oEYX3Kzs3wEPd90TDmzVQLt0w8" alt="Certificate 3" class="rounded-lg w-full object-cover" />
+      <div class="mt-4 text-center text-cyan-300">Python for Robotics</div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <img id="modalImg" src="" alt="Full Certificate" />
+    <p class="text-cyan-300 mt-4">Click anywhere to close</p>
+  </div>
+
+  <!-- Sound -->
+  <audio id="beepSound" src="data:audio/mp3;base64,//uQxAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAACAAACcQCAgICAgICAgICAgP..." preload="auto"></audio>
+
+  <!-- Script -->
+  <script>
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImg");
+    const beepSound = document.getElementById("beepSound");
+
+    function openModal(src) {
+      modalImg.src = src;
+      modal.classList.add("active");
+      beepSound.currentTime = 0;
+      beepSound.play();
+    }
+
+    function closeModal() {
+      modal.classList.remove("active");
+      beepSound.currentTime = 0;
+    }
+
+    // Optional: add hover sound too
+    document.querySelectorAll('.projector').forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        beepSound.currentTime = 0;
+        beepSound.play();
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Console</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Model Viewer -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #0a0f1f, #000000);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #d0dfff;
+    }
+
+    model-viewer::part(default-progress-bar) {
+      display: none;
+    }
+
+    .glass-box {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(0, 128, 255, 0.3);
+    }
+  </style>
+</head>
+
+<body class="flex items-center justify-center min-h-screen p-6">
+
+  <div class="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative">
+
+    <!-- 3D Walkie Talkie Container -->
+    <div class="relative">
+      <div id="modelContainer" class="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg relative overflow-hidden">
+        <model-viewer
+          src="../assets/portable_radio__walkie_talkie_dual_band.glb"
+          alt="Tech Walkie Talkie"
+          auto-rotate
+          camera-controls
+          autoplay
+          disable-zoom
+          ar
+          style="width: 100%; height: 100%; background: transparent;">
+        </model-viewer>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="glass-box p-8 rounded-xl shadow-xl form-box">
+      <h2 class="text-3xl font-bold mb-6 text-cyan-300 flex items-center gap-3">
+        <i class="fas fa-headset text-cyan-400"></i> Contact Control Console
+      </h2>
+      <!-- Your Contact Form -->
+<form id="contactForm" class="space-y-5">
+
+  <!-- Name -->
+  <div>
+    <label class="block mb-1 text-cyan-200">Your Name</label>
+    <div class="relative">
+      <i class="fas fa-user absolute top-3 left-3 text-cyan-400"></i>
+      <input id="name" type="text" placeholder="Enter your name"
+        class="w-full p-3 pl-10 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-cyan-400 text-white" required />
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div>
+    <label class="block mb-1 text-cyan-200">Email Address</label>
+    <div class="relative">
+      <i class="fas fa-envelope absolute top-3 left-3 text-cyan-400"></i>
+      <input id="email" type="email" placeholder="you@system.net"
+        class="w-full p-3 pl-10 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-cyan-400 text-white" required />
+    </div>
+  </div>
+
+  <!-- Message -->
+  <div>
+    <label class="block mb-1 text-cyan-200">Message</label>
+    <div class="relative">
+      <i class="fas fa-comment-dots absolute top-3 left-3 text-cyan-400"></i>
+      <textarea id="message" rows="4" placeholder="Type your message..."
+        class="w-full p-3 pl-10 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-cyan-400 text-white" required></textarea>
+    </div>
+  </div>
+
+  
+  <p id="confirmation" class="text-green-400 text-sm mt-2 hidden">✅ Message sent to Command Center.</p>
+</form>
+      <!-- Army Tech Style Social Icons -->
+<div class="mt-8 text-center">
+  <p class="text-cyan-200 text-sm mb-3 uppercase tracking-widest font-mono">Follow Command Units</p>
+  <div class="flex justify-center gap-6">
+    <a href="https://t.me/" target="_blank" class="text-cyan-400 hover:text-green-400 hover:scale-110 transition-transform">
+      <i class="fab fa-telegram fa-xl"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCtETkLhy-BJT4p3WWOwSLWA" target="_blank" class="text-cyan-400 hover:text-pink-500 hover:scale-110 transition-transform">
+      <i class="fab fa-youtube fa-xl"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/harshit-mishra-mr-robot" target="_blank" class="text-cyan-400 hover:text-blue-400 hover:scale-110 transition-transform">
+      <i class="fab fa-linkedin fa-xl"></i>
+    </a>
+    <a href="https://github.com/mishra9759harshit" target="_blank" class="text-cyan-400 hover:text-gray-300 hover:scale-110 transition-transform">
+      <i class="fab fa-github fa-xl"></i>
+    </a>
+  </div>
+</div>
+
+        <!-- Submit Button -->
+        <button type="submit"
+          class="w-full px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg shadow-md hover:scale-105 transition-transform">
+          📡 Transmit Message
+        </button>
+      </form>
+       <!-- Go to Homepage Button -->
+      <div class="mt-6 text-center">
+        <a href="index.html" class="inline-block px-6 py-3 bg-blue-800 hover:bg-blue-900 text-white font-semibold rounded-lg shadow-md hover:scale-105 transition-transform">
+          Go Back to Headquarters
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script type="module" src="../js/db.js"></script>
+
+</body>
+</html>

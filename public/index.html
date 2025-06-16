@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Harshit Mishra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Tailwind & Tabler -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.150.1/examples/jsm/"
+    }
+  }
+  </script>
+  <!-- Three.js + OrbitControls + GLTFLoader + GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+
+  <!-- Sidebar & Drawer Toggle -->
+  <!-- Sidebar -->
+<aside id="sidebar" class="fixed transform -translate-x-full md:translate-x-0 top-0 left-0 h-full w-64 bg-gradient-to-b from-indigo-900 to-purple-900 shadow-lg z-40 flex flex-col items-center py-8 px-4 transition-transform duration-300">
+  <!-- Stylish Logo/Profile Picture -->
+  <div class="relative w-20 h-20 rounded-full overflow-hidden border-4 border-cyan-400 shadow-xl ring-2 ring-fuchsia-500 mb-8 animate-glow cursor-pointer">
+    <img src="assets/logo.png" alt="Logo" class="object-cover w-full h-full" />
+  </div>
+
+  <!-- Navigation Links -->
+  <nav class="w-full flex flex-col space-y-6">
+    <a href="index.html" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M3 9.5l9-7 9 7v10a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 19.5v-10z"/>
+  </svg>
+  Home
+</a>
+
+<a href="#about" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M12 12c2.5 0 4-2.015 4-4.5S14.5 3 12 3 8 5.015 8 7.5 9.5 12 12 12zm0 2c-3.333 0-10 1.667-10 5v1h20v-1c0-3.333-6.667-5-10-5z"/>
+  </svg>
+  About Me
+</a>
+
+<a href="#projects" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M8 3H6a2 2 0 00-2 2v4h4V3zM10 21v-4H4v4a2 2 0 002 2h2a2 2 0 002-2zm4-4h6v4a2 2 0 01-2 2h-2a2 2 0 01-2-2v-4zm6-10h-4v4h4V7a2 2 0 00-2-2h-2a2 2 0 00-2 2v4h6V7z"/>
+  </svg>
+  Projects
+</a>
+
+<a href="blog.html" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M5 4h14a2 2 0 012 2v14l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2z"/>
+  </svg>
+  Blogs
+</a>
+
+<a href="certificates.html" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200"> 
+  <!-- Certificate / Award Icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a5 5 0 00-10 0v2a5 5 0 0010 0zm-5 4a7 7 0 00-7 7v1h14v-1a7 7 0 00-7-7z"/>
+  </svg>
+  Certificates and Achievements
+</a>
+
+<a href="contact.html" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M4 4h16v16H4V4zm2 2v2h12V6H6zm0 4v8h12v-8H6z"/>
+  </svg>
+  Contact
+</a>
+  <!-- Social Media Icons -->
+<div class="mt-10 flex gap-4">
+  <!-- GitHub -->
+  <a href="https://github.com/mishra9759harshit" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-gray-700 to-black shadow-lg shadow-black/40 hover:shadow-indigo-500/60 transition-transform transform hover:scale-110">
+    <i class="fab fa-github text-white text-lg"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/harshit-mishra-mr-robot" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-800 shadow-lg shadow-blue-500/40 hover:shadow-blue-400/60 transition-transform transform hover:scale-110">
+    <i class="fab fa-linkedin-in text-white text-lg"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.youtube.com/channel/UCtETkLhy-BJT4p3WWOwSLWA" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 shadow-lg shadow-pink-500/40 hover:shadow-pink-300/60 transition-transform transform hover:scale-110">
+    <i class="fab fa-youtube text-white text-lg"></i>
+  </a>
+
+  <!-- Twitter -->
+  <a href="https://t.me/yourtelegramusername" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 shadow-lg shadow-cyan-500/40 hover:shadow-cyan-300/60 transition-transform transform hover:scale-110">
+    <i class="fab fa-telegram text-white text-lg"></i>
+  </a>
+</div>
+
+  </nav>
+</aside>
+
+<aside id="socialbar"
+  class="fixed top-1/2 right-0 transform -translate-y-1/2 w-12 z-50 flex flex-col items-center justify-center space-y-4 bg-transparent backdrop-blur-sm">
+  
+  <!-- GitHub -->
+  <a href="https://github.com/mishra9759harshit" target="_blank"
+     class="text-gray-300 hover:text-white transition">
+    <i class="fab fa-github text-xl"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/harshit-mishra-mr-robot" target="_blank"
+     class="text-blue-400 hover:text-white transition">
+    <i class="fab fa-linkedin text-xl"></i>
+  </a>
+
+  <!-- Twitter -->
+  <a href="https://www.youtube.com/channel/UCtETkLhy-BJT4p3WWOwSLWA" target="_blank"
+     class="text-cyan-400 hover:text-white transition">
+    <i class="fab fa-twitter text-xl"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://t.me/yourtelegramusername" target="_blank"
+     class="text-pink-400 hover:text-white transition">
+    <i class="fab fa-telegram text-xl"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:securecoderdev@gmail.com"
+     class="text-green-400 hover:text-white transition">
+    <i class="fas fa-envelope text-xl"></i>
+  </a>
+</aside>
+
+
+<!-- Mobile Toggle Profile Image (visible only on small screens) -->
+<div id="drawerBtn" class="fixed top-4 left-4 md:hidden z-50 group">
+  <!-- Profile Icon with Glow -->
+  <div class="w-14 h-14 rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl animate-glow cursor-pointer relative">
+    <img src="assets/logo.png" alt="Open Sidebar" class="w-full h-full object-cover" />
+    <span class="absolute -bottom-7 left-1/2 transform -translate-x-1/2 text-xs bg-gradient-to-r from-fuchsia-600 to-cyan-500 text-white px-2 py-0.5 rounded-full shadow-md font-semibold animate-pulse">
+      HM
+    </span>
+  </div>
+
+  <!-- Floating Info Tooltip -->
+  <div id="drawerInfo"
+       class="absolute left-20 top-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-sm font-medium px-4 py-2 rounded-xl shadow-2xl animate-slideIn backdrop-blur-sm ring-2 ring-white/10">
+    👆 Tap the profile to open the menu
+  </div>
+</div>
+
+
+
+  <!-- Main -->
+  <main id="mainContent" class="md:ml-64 p-6 space-y-12">
+    
+<!-- Hero Section -->
+<section id="home" class="max-w-4xl mx-auto text-center px-6 pt-16 prose prose-invert">
+  <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-600 flex justify-center items-center gap-3">
+    <i class="ti ti-user-code stroke-[1.5] text-indigo-300"></i>
+    Hi, I'm <span class="text-white">Harshit Mishra</span> 👋
+  </h1>
+
+  <div class="mt-6 text-center space-y-3">
+
+  <p class="text-xl text-cyan-300 font-semibold flex justify-center items-center gap-2">
+    <i class="fas fa-code text-cyan-400"></i> Full Stack Web Developer
+  </p>
+
+  <p class="text-lg text-gray-300 flex justify-center items-center gap-2">
+    <i class="fas fa-shield-alt text-red-400"></i> Practicing Cyber Security & Ethical Hacking
+  </p>
+
+  <p class="text-lg text-gray-300 flex justify-center items-center gap-2">
+    <i class="fas fa-vr-cardboard text-indigo-400"></i> Creator of Immersive 3D Experiences & Futuristic Interfaces
+  </p>
+
+  <p class="text-base text-gray-400">
+    I build <span class="text-indigo-400">real-time UI systems</span>, design <span class="text-purple-400">interactive apps</span>, and explore <span class="text-pink-400">next-gen Web3D</span> & AI integrations.
+  </p>
+
+  <p class="text-base text-gray-400">
+    Passionate about <span class="text-yellow-300">technology education</span>, <span class="text-green-400">open-source</span>, and the future of <span class="text-blue-400">human–AI collaboration</span>.
+  </p>
+
+</div>
+
+
+  <!-- 🔗 Social + GitHub Badges -->
+  <div class="flex flex-wrap justify-center items-center gap-3 mt-6">
+    <img src="https://img.shields.io/github/followers/mishra9759harshit=GitHub&style=social" alt="GitHub Followers" />
+    <img src="https://img.shields.io/twitter/follow/yourhandle?style=social" alt="Twitter Follow" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+    <img src="https://komarev.com/ghpvc/?username=mishra9759harshit&style=flat&color=blueviolet" alt="Visitors" />
+  </div>
+
+  <!-- 📊 GitHub Stats -->
+  <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+    <img src="https://github-readme-stats.vercel.app/api?username=mishra9759harshit&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" class="rounded-xl shadow-lg" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mishra9759harshit&theme=tokyonight&hide_border=true" alt="GitHub Streak" class="rounded-xl shadow-lg" />
+  </div>
+
+      <!-- 🧠 Skills and Stacks -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+
+      <!-- Programming Languages -->
+      <div>
+        <h4 class="text-indigo-300 font-semibold mb-2">Languages</h4>
+        <div class="flex flex-wrap justify-center gap-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="w-8 h-8 animate-glow" alt="C">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-8 h-8" alt="Python">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" class="w-8 h-8" alt="Dart">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-8 h-8" alt="HTML5">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-8 h-8" alt="CSS3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-8 h-8" alt="JavaScript">
+          <img src="https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white" class="h-6 rounded" alt="Bash">
+          <img src="https://img.shields.io/badge/VBS-001F3F?style=flat&logo=visual-studio&logoColor=white" class="h-6 rounded" alt="VBS">
+        </div>
+      </div>
+
+      <!-- Tech Stacks -->
+      <div>
+        <h4 class="text-green-300 font-semibold mb-2">Tech Stack</h4>
+        <div class="flex flex-wrap justify-center gap-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" class="w-8 h-8" alt="Flutter">
+          <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" class="h-6 rounded" alt="Tailwind">
+          <img src="https://img.shields.io/badge/SCSS-CD6799?style=flat&logo=sass&logoColor=white" class="h-6 rounded" alt="SCSS">
+        </div>
+      </div>
+
+      <!-- OS -->
+      <div>
+        <h4 class="text-blue-400 font-semibold mb-2">Operating Systems</h4>
+        <div class="flex flex-wrap justify-center gap-3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="w-8 h-8" alt="Windows">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-8 h-8" alt="Linux">
+          <img src="https://img.shields.io/badge/Kali-557C94?style=flat&logo=linux&logoColor=white" class="h-6 rounded" alt="Kali">
+          <img src="https://img.shields.io/badge/RaspberryPi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white" class="h-6 rounded" alt="RPi">
+        </div>
+      </div>
+
+      <!-- Cybersecurity Tools -->
+      <div>
+        <h4 class="text-pink-400 font-semibold mb-2">Cyber Tools</h4>
+        <div class="flex flex-wrap justify-center gap-3">
+          <img src="https://img.shields.io/badge/Metasploit-2A2A2A?style=flat&logo=metasploit&logoColor=white" class="h-6 rounded" alt="Metasploit">
+          <img src="https://img.shields.io/badge/SEToolkit-2A2A2A?style=flat&logo=gnu&logoColor=white" class="h-6 rounded" alt="SEToolkit">
+          <img src="https://img.shields.io/badge/BurpSuite-ff5722?style=flat&logo=burpsuite&logoColor=white" class="h-6 rounded" alt="BurpSuite">
+          <img src="https://img.shields.io/badge/Hydra-202020?style=flat&logo=hydra&logoColor=white" class="h-6 rounded" alt="Hydra">
+          <img src="https://img.shields.io/badge/Spooftooth-1E1E1E?style=flat&logo=bluetooth&logoColor=white" class="h-6 rounded" alt="Spooftooth">
+        </div>
+      </div>
+      </div>
+      
+  <!-- 3D Logo Viewer -->
+  <div id="logo3d" class="model-viewer">
+        <div class="absolute bottom-2 right-3 text-sm text-purple-400 animate-hintSlide opacity-90 group-hover:opacity-100">
+    🎮 Click to Full Screen<span class="animate-bounce">⬈</span>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="prose prose-invert max-w-4xl mx-auto px-4 animate-fadeIn">
+  <h2 class="text-3xl font-bold flex items-center gap-3 text-white mb-2">
+    <i class="ti ti-user-cog text-indigo-400 animate-glow-text"></i>
+    <span class="animate-pulseText">About Me</span>
+  </h2>
+
+  <p class="text-lg text-gray-300 leading-relaxed">
+    I'm <span class="text-indigo-400 font-medium">passionate</span> about <span class="text-pink-400 font-medium">AI</span>, 
+    <span class="text-purple-400 font-medium">3D UIs</span>, and <span class="text-blue-400 font-medium">real-time web experiences</span>.
+    My mission is to craft <span class="italic text-yellow-300">immersive digital worlds</span> using 
+    <span class="text-green-400 font-medium">WebGL</span>, <span class="text-red-300 font-medium">Three.js</span>, and 
+    other cutting-edge technologies.
+  </p>
+
+  <!-- 3D Map Trigger -->
+  <div id="map3d"
+       class="model-viewer">
+     <div class="absolute bottom-2 right-3 text-sm text-purple-400 animate-hintSlide opacity-90 group-hover:opacity-100">
+    🎮 Click to Full Screen<span class="animate-bounce">⬈</span>
+  </div>
+  </div>
+  <button
+  type="button"
+  onclick="togglePopup('aboutPopup')"
+  class="group relative mt-4 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-700 text-white font-semibold text-base shadow-xl 
+         transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-indigo-500/80"
+>
+  <i class="fas fa-cube text-white text-lg animate-pulse"></i>
+  About More
+  <!-- 3D Border Animation -->
+  <span class="absolute inset-0 border-2 border-indigo-300 rounded-lg transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:translate-y-1"></span>
+</button>
+</section>
+
+
+<!-- Popup Overlay -->
+<div id="aboutPopup" class="hidden fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
+  <div class="bg-gray-900 p-6 rounded-xl max-w-3xl w-full relative shadow-2xl animate-fadeIn border border-indigo-700">
+    
+    <!-- Close Button -->
+    <button class="absolute top-3 right-4 text-gray-400 hover:text-white text-xl" onclick="togglePopup('aboutPopup')">
+      ✖
+    </button>
+
+    <!-- Heading -->
+    <h3 class="text-3xl mb-4 font-bold text-white flex items-center gap-2">
+      <i class="ti ti-terminal-2 text-purple-400 animate-glow-text"></i> 
+      <span class="animate-pulseText">About Me</span>
+    </h3>
+
+    <!-- Intro Text -->
+    <p class="mb-6 text-gray-300 leading-relaxed">
+      I'm deeply passionate about building <span class="text-indigo-400 font-medium">immersive</span>, 
+      <span class="text-purple-400 font-medium">futuristic</span> digital experiences using 
+      <span class="text-blue-400 font-medium">WebGL</span>, <span class="text-yellow-300 font-medium">AI</span>, 
+      and modern <span class="text-green-400 font-medium">frontend tech</span>. 
+      I believe in learning by building — <span class="italic text-pink-400">always evolving 🚀</span>
+    </p>
+
+    <!-- Hint Message -->
+    <div class="text-sm text-indigo-300 mt-2 animate-fadeIn">
+      💡 <span class="italic">Click anywhere outside to close or explore more on the profile to know my tech stack and tools.</span>
+    </div>
+
+  </div>
+</div>
+
+
+   
+
+    <!-- Projects with 3D model -->
+<!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects"
+        
+         class="prose prose-invert max-w-3xl mx-auto cursor-pointer transition hover:scale-105 duration-300 relative animate-fadeIn group">
+  <h2 class="text-3xl font-bold text-white flex items-center gap-2">
+    <i class="ti ti-device-desktop text-indigo-400 animate-glow-text"></i> Projects
+  </h2>
+  <p class="text-gray-400 text-lg mb-4">
+    Dive into futuristic builds, immersive 3D UIs, and real-time web experiments powered by cutting-edge technologies.
+  </p>
+
+  <!-- Game-like hint -->
+  <div class="absolute bottom-2 right-3 text-sm text-purple-400 animate-hintSlide opacity-90 group-hover:opacity-100">
+    🎮 Click to open project box <span class="animate-bounce">⬈</span>
+  </div>
+
+  <div id="computer3d" class="model-viewer"></div>
+  <button
+  type="button"
+  onclick="togglePopup('projectsPopup')"
+  class="group relative mt-4 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-700 text-white font-semibold text-base shadow-xl 
+         transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-indigo-500/80"
+>
+  <i class="fas fa-cube text-white text-lg animate-pulse"></i>
+  View Projects
+  <!-- 3D Border Animation -->
+  <span class="absolute inset-0 border-2 border-indigo-300 rounded-lg transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 group-hover:translate-y-1"></span>
+</button>
+
+</section>
+
+<!-- Projects Popup -->
+<div id="projectsPopup" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 backdrop-blur-lg">
+  <div class="bg-gradient-to-br from-gray-900 to-black border-2 border-purple-600 shadow-2xl rounded-2xl w-[90%] max-w-6xl relative overflow-hidden animate-riseFromLamp">
+
+    <!-- Magical Smoke -->
+    <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-40 h-40 genie-smoke z-0"></div>
+
+    <!-- Close Button -->
+    <button onclick="togglePopup('projectsPopup')"
+            class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl z-10">✖</button>
+
+    <!-- Swipeable Carousel -->
+    <div class="swiper my-swiper z-10">
+      <div class="swiper-wrapper">
+        <!-- Project 1 -->
+        <div class="swiper-slide p-4">
+          <img src="../assets/astro_love.png" alt="Astro Love" class="rounded-xl shadow-xl w-full h-80 object-cover" />
+        </div>
+        <!-- Project 2 -->
+        <div class="swiper-slide p-4">
+          <img src="../assets/bcb_web.png" alt="BCB Web" class="rounded-xl shadow-xl w-full h-80 object-cover" />
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Swiper CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  function togglePopup(id) {
+    const popup = document.getElementById(id);
+    popup.classList.toggle("hidden");
+  }
+
+  // Initialize Swiper
+  document.addEventListener("DOMContentLoaded", () => {
+    new Swiper(".my-swiper", {
+      effect: "cards",
+      grabCursor: true,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  });
+</script>
+
+<!-- Rating Summary -->
+<!-- Rating Summary -->
+<section class="py-12 bg-[#0b1115] border-t border-cyan-700/20 shadow-inner backdrop-blur-md">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-cyan-200 uppercase tracking-wider mb-6">
+      <i class="fas fa-comments text-cyan-400 mr-2"></i> User Feedback
+    </h2>
+
+    <div id="overallRating" class="mt-6 mb-8 text-center text-cyan-300 text-xl font-medium"></div>
+
+    <!-- Slidable Feedback Cards on small, grid on large -->
+    <div id="feedbackList"
+         class="flex overflow-x-auto gap-6 snap-x snap-mandatory scroll-pl-4 md:grid md:grid-cols-2 xl:grid-cols-3 md:overflow-visible">
+      <!-- Cards will be injected here by JS -->
+    </div>
+  </div>
+</section>
+
+<div class="mt-8 text-center text-cyan-300 text-lg font-semibold">
+  You are Visitor Number:
+</div>
+<div id="viewCountColumns" class="flex justify-center gap-2 mt-3 mb-10"></div>
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="prose prose-invert max-w-3xl mx-auto text-center">
+      <h2>Contact Me</h2>
+      <p>📧 <a href="mailto:you@example.com" class="text-cyan-400">securecoderdev@gmail.com</a></p>
+    </section>
+  </main>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import {
+    getDatabase,
+    ref,
+    push,
+    get,
+    child
+  } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
+
+
+
+  function getTodayDate() {
+    const today = new Date();
+    return today.toISOString().split("T")[0]; // Format: YYYY-MM-DD
+  }
+
+  function hashIdentifier(ip, userAgent, date) {
+    return btoa(`${ip}_${userAgent}_${date}`).replace(/=/g, ""); // base64 without '='
+  }
+
+  async function logFullLocationDetails() {
+    try {
+      const res = await fetch("https://ipapi.co/json/");
+      const data = await res.json();
+      const userAgent = navigator.userAgent;
+      const date = getTodayDate();
+      const hashKey = hashIdentifier(data.ip, userAgent, date);
+
+      const hashRef = ref(db, `loggedVisitors/${hashKey}`);
+      const snapshot = await get(hashRef);
+
+      if (snapshot.exists()) {
+        console.log("Already logged today.");
+        return;
+      }
+
+      // Not logged yet — proceed to log
+      const locationRef = ref(db, "detailedVisitors");
+      await push(locationRef, {
+        ip: data.ip,
+        network: data.network,
+        version: data.version,
+        city: data.city,
+        region: data.region,
+        region_code: data.region_code,
+        country: data.country,
+        country_name: data.country_name,
+        country_code: data.country_code,
+        country_code_iso3: data.country_code_iso3,
+        country_capital: data.country_capital,
+        country_tld: data.country_tld,
+        continent_code: data.continent_code,
+        in_eu: data.in_eu,
+        postal: data.postal,
+        latitude: data.latitude,
+        longitude: data.longitude,
+        timezone: data.timezone,
+        utc_offset: data.utc_offset,
+        country_calling_code: data.country_calling_code,
+        currency: data.currency,
+        currency_name: data.currency_name,
+        languages: data.languages,
+        country_area: data.country_area,
+        country_population: data.country_population,
+        asn: data.asn,
+        org: data.org,
+        userAgent: userAgent,
+        timestamp: new Date().toISOString()
+      });
+
+      // Mark as logged for today
+      await push(ref(db, `loggedVisitors/${hashKey}`), {
+        timestamp: new Date().toISOString()
+      });
+
+      console.log("Visitor logged for today:", hashKey);
+
+    } catch (err) {
+      console.error("Error logging geolocation:", err);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", logFullLocationDetails);
+</script>
+
+
+ <script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+function loadGLB(containerId, modelUrl, rotate = true) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 1000);
+  camera.position.set(0, 1.5, 3);
+
+  const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
+
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+
+  const light = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
+  scene.add(light);
+
+  const loader = new GLTFLoader();
+  loader.load(modelUrl,
+    (gltf) => {
+      const model = gltf.scene;
+      model.scale.set(1.2, 1.2, 1.2);
+      model.position.y = -1;
+      scene.add(model);
+      console.log(`✅ Loaded: ${modelUrl}`);
+
+      function animate() {
+        requestAnimationFrame(animate);
+        if (rotate) model.rotation.y += 0.005;
+        controls.update();
+        renderer.render(scene, camera);
+      }
+      animate();
+    },
+    (xhr) => console.log(`${(xhr.loaded / xhr.total * 100).toFixed(2)}% loaded`),
+    (error) => console.error(`❌ Failed to load ${modelUrl}`, error)
+  );
+
+  window.addEventListener('resize', () => {
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+  });
+
+  // 🧭 Add fullscreen toggle on click
+  container.addEventListener('click', async () => {
+    // If already in fullscreen, do nothing
+    if (document.fullscreenElement) return;
+
+    container.classList.add('fullscreen');
+    await container.requestFullscreen?.();
+
+    // Resize canvas
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    // Add close button
+    const closeBtn = document.createElement('button');
+    closeBtn.innerText = '✖';
+    closeBtn.className = 'close-btn';
+    closeBtn.onclick = () => document.exitFullscreen();
+    container.appendChild(closeBtn);
+
+    // 🧲 Swipe-down to exit fullscreen on mobile
+    let startY = 0;
+    container.addEventListener('touchstart', (e) => {
+      startY = e.touches[0].clientY;
+    });
+    container.addEventListener('touchend', (e) => {
+      const endY = e.changedTouches[0].clientY;
+      if (endY - startY > 100) {
+        document.exitFullscreen();
+      }
+    });
+  });
+
+  // 🧼 On exit fullscreen, cleanup UI
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement) {
+      container.classList.remove('fullscreen');
+      const closeBtn = container.querySelector('.close-btn');
+      if (closeBtn) closeBtn.remove();
+
+      // Reset renderer size
+      camera.aspect = container.clientWidth / container.clientHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(container.clientWidth, container.clientHeight);
+    }
+  });
+}
+
+// Init models
+loadGLB('logo3d', '../assets/pilot_avatar.glb');
+loadGLB('computer3d', '../assets/sci-fi_computer.glb');
+loadGLB('map3d', '../assets/tos_bridge.glb', false);
+</script>
+
+
+
+
+  <!-- Scripts -->
+  <script  src="../js/app.js"></script>
+  <script type="module" src="../js/feedback_render.js"></script>
+</body>
+</html>
