@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DBMS MCQ Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col items-center justify-start py-10 px-4">
+      <nav class="w-full flex flex-col space-y-6">
+    <a href="index.html" class="flex items-center gap-3 p-2 rounded hover:bg-gray-800 hover:translate-x-1 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M3 9.5l9-7 9 7v10a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 19.5v-10z"/>
+  </svg>
+  Go Harshit's Home page
+</a>
+  <h1 class="text-3xl font-bold mb-8 text-center">DBMS MCQ Practice</h1>
+
+  <div id="quizContainer" class="max-w-2xl w-full bg-white p-6 rounded-xl shadow-lg">
+    <div id="questionBox" class="space-y-4">
+      <!-- Question will be injected here -->
+    </div>
+
+    <div class="flex justify-between mt-6">
+      <button onclick="prevQuestion()" class="bg-slate-700 text-white px-4 py-2 rounded hover:bg-slate-900 disabled:opacity-50" id="prevBtn" disabled>Previous</button>
+      <button onclick="nextQuestion()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800" id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <div id="resultBox" class="hidden mt-10 text-center">
+    <h2 class="text-2xl font-semibold mb-2">Your Result</h2>
+    <p id="scoreText" class="text-lg"></p>
+    <p class="mt-2 text-sm text-gray-600">Review your wrong answers for better understanding!</p>
+  </div>
+
+  <script>
+  let questions = [];
+  let current = 0;
+  let score = 0;
+  const userAnswers = [];
+
+  async function loadQuestions() {
+    try {
+      const res = await fetch("dbms_questions.json");
+      questions = await res.json();
+      renderQuestion();
+    } catch (err) {
+      document.getElementById("questionBox").innerHTML = "<p class='text-red-600'>Failed to load questions.</p>";
+      console.error("Error loading JSON:", err);
+    }
+  }
+
+  function renderQuestion() {
+    const q = questions[current];
+    const qBox = document.getElementById("questionBox");
+    let html = `
+      <h2 class="text-xl font-semibold">${current + 1}. ${q.question}</h2>
+      <div class="space-y-2" id="optionsGroup">
+    `;
+    q.options.forEach((opt, i) => {
+      html += `
+        <label class="block border rounded px-3 py-2 cursor-pointer hover:bg-blue-100">
+          <input type="radio" name="option" value="${i}" class="mr-2" onchange="handleOptionSelect(${i})"> ${opt}
+        </label>
+      `;
+    });
+    html += `</div><p id="explanation" class="text-sm mt-4 text-green-700 hidden"></p>`;
+    qBox.innerHTML = html;
+    document.getElementById("prevBtn").disabled = current === 0;
+  }
+
+  function handleOptionSelect(selectedIndex) {
+    const explanation = document.getElementById("explanation");
+    explanation.classList.remove("hidden");
+
+    const correctIndex = questions[current].answer;
+
+    if (userAnswers[current] === undefined) {
+      userAnswers[current] = selectedIndex;
+      if (selectedIndex === correctIndex) {
+        score++;
+      }
+    }
+
+    explanation.textContent = selectedIndex === correctIndex
+      ? "✅ Correct: " + questions[current].explanation
+      : "❌ Incorrect: " + questions[current].explanation;
+
+    document.querySelectorAll('input[name="option"]').forEach(opt => opt.disabled = true);
+  }
+
+  function nextQuestion() {
+    if (current < questions.length - 1) {
+      current++;
+      renderQuestion();
+    } else {
+      showResult();
+    }
+  }
+
+  function prevQuestion() {
+    if (current > 0) {
+      current--;
+      renderQuestion();
+    }
+  }
+
+  function showResult() {
+    document.getElementById("quizContainer").classList.add("hidden");
+    document.getElementById("resultBox").classList.remove("hidden");
+    document.getElementById("scoreText").innerText =
+      `You scored ${score} out of ${questions.length} (${Math.round((score / questions.length) * 100)}%)`;
+  }
+
+  // Load on page
+  loadQuestions();
+</script>
+
+</body>
+</html>

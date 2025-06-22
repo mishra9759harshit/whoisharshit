@@ -1,0 +1,1771 @@
+[
+  {
+    "topic": "Introduction to DBMS",
+    "question": "What is a Database?",
+    "options": [
+      "A collection of data",
+      "A collection of programs",
+      "A collection of data organized in a way that data can be easily accessed",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "A database is an organized collection of structured data that can be easily accessed and managed."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is not a type of DBMS?",
+    "options": [
+      "Hierarchical",
+      "Relational",
+      "Network",
+      "Linear"
+    ],
+    "answer": 3,
+    "explanation": "Linear is not a type of DBMS. Common types include Hierarchical, Network, Relational, and Object-oriented."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Who is responsible for managing the database system?",
+    "options": [
+      "Database Designer",
+      "Database Administrator (DBA)",
+      "End User",
+      "Application Programmer"
+    ],
+    "answer": 1,
+    "explanation": "The DBA is responsible for managing, backing up, and securing the database system."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which component of DBMS is responsible for data storage, retrieval, and update?",
+    "options": [
+      "Query Processor",
+      "Storage Manager",
+      "Transaction Manager",
+      "Buffer Manager"
+    ],
+    "answer": 1,
+    "explanation": "Storage Manager handles storage, retrieval, and updating of data."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "What does DBMS stand for?",
+    "options": [
+      "Database Machine System",
+      "Database Management System",
+      "Data Backup Management Software",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "DBMS stands for Database Management System."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of these is NOT an advantage of DBMS?",
+    "options": [
+      "Data Redundancy",
+      "Data Security",
+      "Concurrent Access",
+      "Backup and Recovery"
+    ],
+    "answer": 0,
+    "explanation": "DBMS helps reduce data redundancy."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "What type of language is SQL?",
+    "options": [
+      "Procedural",
+      "Object-Oriented",
+      "Query",
+      "Machine"
+    ],
+    "answer": 2,
+    "explanation": "SQL is a query language used to interact with relational databases."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is an example of a relational DBMS?",
+    "options": [
+      "MongoDB",
+      "Oracle",
+      "Neo4j",
+      "Redis"
+    ],
+    "answer": 1,
+    "explanation": "Oracle is a relational DBMS. MongoDB and Neo4j are non-relational."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is used to uniquely identify a record in a table?",
+    "options": [
+      "Foreign Key",
+      "Unique Key",
+      "Primary Key",
+      "Candidate Key"
+    ],
+    "answer": 2,
+    "explanation": "Primary Key uniquely identifies a record in a table."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which language is used by DBMS to define the database schema?",
+    "options": [
+      "DML",
+      "DDL",
+      "TCL",
+      "DCL"
+    ],
+    "answer": 1,
+    "explanation": "DDL (Data Definition Language) is used to define schema and database structure."
+  },
+  
+  
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is a data model?",
+    "options": [
+      "Entity-Relationship Model",
+      "Relational Model",
+      "Object-Oriented Model",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All listed models are types of data models used in DBMS."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which command is used to remove all records from a table in SQL?",
+    "options": [
+      "DELETE",
+      "REMOVE",
+      "ERASE",
+      "DROP"
+    ],
+    "answer": 0,
+    "explanation": "DELETE removes all or selected records from a table."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which DBMS component ensures data consistency during concurrent access?",
+    "options": [
+      "Storage Manager",
+      "Transaction Manager",
+      "Query Processor",
+      "Buffer Manager"
+    ],
+    "answer": 1,
+    "explanation": "Transaction Manager ensures consistency and manages concurrent operations."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which one is not a DBMS software?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "Linux",
+      "MongoDB"
+    ],
+    "answer": 2,
+    "explanation": "Linux is an operating system, not a DBMS."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "What is the primary goal of a DBMS?",
+    "options": [
+      "Efficient file management",
+      "Data storage",
+      "Provide an environment to store and retrieve data efficiently",
+      "Allow unauthorized access"
+    ],
+    "answer": 2,
+    "explanation": "DBMS is designed to manage data efficiently and securely."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which level of data abstraction describes how data is actually stored?",
+    "options": [
+      "External level",
+      "Conceptual level",
+      "Internal level",
+      "Logical level"
+    ],
+    "answer": 2,
+    "explanation": "Internal level is concerned with physical storage of data."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which SQL clause is used to filter records?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "answer": 2,
+    "explanation": "WHERE clause filters records based on a specified condition."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is not a type of key in DBMS?",
+    "options": [
+      "Candidate Key",
+      "Super Key",
+      "Primary Key",
+      "Atomic Key"
+    ],
+    "answer": 3,
+    "explanation": "Atomic Key is not a recognized key type in DBMS."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which component interprets user queries in DBMS?",
+    "options": [
+      "Transaction Manager",
+      "Query Processor",
+      "Buffer Manager",
+      "Authorization Manager"
+    ],
+    "answer": 1,
+    "explanation": "Query Processor interprets and executes user queries."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of these is responsible for data recovery in case of system failure?",
+    "options": [
+      "Transaction Manager",
+      "Recovery Manager",
+      "Security Manager",
+      "Lock Manager"
+    ],
+    "answer": 1,
+    "explanation": "Recovery Manager handles database recovery after failures."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following provides the user interface to interact with DBMS?",
+    "options": [
+      "Database Engine",
+      "Front-end Tools",
+      "DDL Compiler",
+      "Disk Storage"
+    ],
+    "answer": 1,
+    "explanation": "Front-end tools provide graphical interfaces for user interaction."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which language is used to access and manipulate data in DBMS?",
+    "options": [
+      "DML",
+      "DDL",
+      "HTML",
+      "CSS"
+    ],
+    "answer": 0,
+    "explanation": "DML (Data Manipulation Language) is used to retrieve and manipulate data."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "What does normalization in DBMS aim to reduce?",
+    "options": [
+      "Data Integrity",
+      "Data Redundancy",
+      "Data Security",
+      "Data Access"
+    ],
+    "answer": 1,
+    "explanation": "Normalization reduces redundancy and ensures integrity."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which key enforces entity integrity?",
+    "options": [
+      "Foreign Key",
+      "Primary Key",
+      "Unique Key",
+      "Candidate Key"
+    ],
+    "answer": 1,
+    "explanation": "Primary Key ensures each row in a table is unique and not null."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following represents a set of entities with the same attributes?",
+    "options": [
+      "Entity Type",
+      "Attribute Type",
+      "Entity Set",
+      "Object Class"
+    ],
+    "answer": 2,
+    "explanation": "Entity Set is a collection of similar entities in DBMS."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which tool allows visual design of database schema?",
+    "options": [
+      "ER Diagram",
+      "SQL Editor",
+      "Command Prompt",
+      "Control Panel"
+    ],
+    "answer": 0,
+    "explanation": "ER Diagrams are used to visually represent database schema."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "In DBMS, what does the acronym ACID stand for?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integrity, Data",
+      "Association, Classification, Indexing, Division",
+      "Array, Condition, Integration, Design"
+    ],
+    "answer": 0,
+    "explanation": "ACID properties ensure reliable transactions in DBMS."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which type of user uses DBMS through predefined queries and forms?",
+    "options": [
+      "Application Programmer",
+      "Naive User",
+      "Database Administrator",
+      "System Analyst"
+    ],
+    "answer": 1,
+    "explanation": "Naive users use DBMS via application front-ends without writing queries."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which file in DBMS holds metadata?",
+    "options": [
+      "Data Dictionary",
+      "System File",
+      "Backup File",
+      "Archive File"
+    ],
+    "answer": 0,
+    "explanation": "Data Dictionary contains metadata about data definitions and structure."
+  },
+  {
+    "topic": "Introduction to DBMS",
+    "question": "Which of the following is true about DBMS transactions?",
+    "options": [
+      "They must be completed fully or not at all",
+      "They must always involve multiple tables",
+      "They can be cancelled only by admin",
+      "They do not support rollback"
+    ],
+    "answer": 0,
+    "explanation": "Transactions are atomic — either fully completed or fully rolled back."
+  }
+
+,
+  {
+    "topic": "E-R Modeling",
+    "question": "What does ER in ER Model stand for?",
+    "options": ["Entity Relationship", "Entity Relational", "Entry Record", "Entity Registry"],
+    "answer": 0,
+    "explanation": "ER stands for Entity-Relationship, which models real-world entities and their relationships."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is an example of an entity?",
+    "options": ["Employee", "Salary", "Database", "ER Diagram"],
+    "answer": 0,
+    "explanation": "An employee is a real-world object, so it's an example of an entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is an entity set?",
+    "options": ["A group of attributes", "A group of related relationships", "A collection of similar entities", "A record in the database"],
+    "answer": 2,
+    "explanation": "An entity set is a group of entities with the same attributes."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What uniquely identifies an entity in an entity set?",
+    "options": ["Attribute", "Primary Key", "Foreign Key", "Relationship"],
+    "answer": 1,
+    "explanation": "A primary key uniquely identifies an entity in an entity set."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What does a diamond symbol represent in an ER diagram?",
+    "options": ["Entity", "Attribute", "Key", "Relationship"],
+    "answer": 3,
+    "explanation": "Diamond shapes are used to represent relationships in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following best describes a weak entity?",
+    "options": ["An entity with many attributes", "An entity without a primary key", "An entity that cannot exist without a related strong entity", "A duplicate entity"],
+    "answer": 2,
+    "explanation": "A weak entity depends on a strong entity and doesn't have a primary key."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What represents an attribute in an ER diagram?",
+    "options": ["Rectangle", "Oval", "Diamond", "Triangle"],
+    "answer": 1,
+    "explanation": "Ovals represent attributes in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is a derived attribute?",
+    "options": ["Employee Name", "Employee ID", "Age", "Date of Birth"],
+    "answer": 2,
+    "explanation": "Age is derived from Date of Birth; it's not stored directly."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is true for a composite attribute?",
+    "options": ["Cannot be divided further", "Contains multiple atomic values", "Can be divided into smaller sub-parts", "Must be a primary key"],
+    "answer": 2,
+    "explanation": "Composite attributes can be broken into smaller components."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In an ER model, which represents a one-to-many relationship?",
+    "options": ["1:1", "1:N", "N:N", "N:1"],
+    "answer": 1,
+    "explanation": "1:N means one entity is related to many instances of another entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which relationship type describes many entities on both sides?",
+    "options": ["One-to-One", "One-to-Many", "Many-to-Many", "None"],
+    "answer": 2,
+    "explanation": "Many-to-many (M:N) describes entities related to many others on both sides."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which symbol is used to represent multivalued attributes?",
+    "options": ["Double oval", "Dotted line", "Dashed diamond", "Double rectangle"],
+    "answer": 0,
+    "explanation": "Multivalued attributes are represented by double ovals in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is a key attribute?",
+    "options": ["An optional attribute", "An attribute that can be null", "An attribute that uniquely identifies an entity", "A multivalued attribute"],
+    "answer": 2,
+    "explanation": "Key attributes help uniquely identify entity instances."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is an identifying relationship?",
+    "options": ["Connects two strong entities", "Connects a weak entity with its owner", "Connects attributes", "None of the above"],
+    "answer": 1,
+    "explanation": "Identifying relationships associate a weak entity with its owning entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "A set of all entities that share the same attributes is known as?",
+    "options": ["Entity Set", "Attribute Set", "Relationship Set", "Key Set"],
+    "answer": 0,
+    "explanation": "Entity Set refers to a group of entities with identical structure."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is not a valid attribute type?",
+    "options": ["Atomic", "Derived", "Multi-valued", "External"],
+    "answer": 3,
+    "explanation": "External is not an attribute type in ER modeling."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is true about a strong entity?",
+    "options": ["It depends on another entity", "It has a partial key", "It does not depend on another entity", "It is always weak"],
+    "answer": 2,
+    "explanation": "A strong entity is self-sufficient and identified by its own key."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following best defines a ternary relationship?",
+    "options": ["A relationship involving two entities", "A recursive relationship", "A relationship involving three entities", "None of these"],
+    "answer": 2,
+    "explanation": "Ternary relationships involve three participating entity sets."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is an example of a unary relationship?",
+    "options": ["Employee manages Department", "Student enrolled in Course", "Person married to Person", "Teacher teaches Student"],
+    "answer": 2,
+    "explanation": "A unary or recursive relationship is between instances of the same entity type."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "ER modeling is a type of:",
+    "options": ["Physical Design", "Logical Design", "Hardware Model", "Entity Deployment"],
+    "answer": 1,
+    "explanation": "ER modeling is part of the logical design phase in database design."
+  }
+  ,
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is used to represent total participation in an ER diagram?",
+    "options": ["Double rectangle", "Double oval", "Double line", "Dashed line"],
+    "answer": 2,
+    "explanation": "A double line connects the entity set to the relationship set in total participation."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "A partial key is used in:",
+    "options": ["Strong entities", "Weak entities", "Relationships", "Attributes"],
+    "answer": 1,
+    "explanation": "A partial key is used by weak entities and must be combined with the key of the strong entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In an ER model, the number of entity types that participate in a relationship is called:",
+    "options": ["Cardinality", "Degree", "Participation", "Multiplicity"],
+    "answer": 1,
+    "explanation": "The degree of a relationship refers to the number of participating entity sets."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which ER diagram symbol is used for an entity?",
+    "options": ["Diamond", "Oval", "Rectangle", "Line"],
+    "answer": 2,
+    "explanation": "Entities are represented using rectangles in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following attributes can have multiple values for a single entity?",
+    "options": ["Derived", "Composite", "Atomic", "Multivalued"],
+    "answer": 3,
+    "explanation": "Multivalued attributes can store more than one value for a single entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which one is NOT a valid relationship type?",
+    "options": ["One-to-One", "One-to-Many", "Many-to-One", "One-to-Two"],
+    "answer": 3,
+    "explanation": "One-to-Two is not a valid relationship type in ER modeling."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In ER diagrams, which shape represents attributes?",
+    "options": ["Rectangle", "Oval", "Diamond", "Parallelogram"],
+    "answer": 1,
+    "explanation": "Ovals are used to represent attributes."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "A derived attribute is usually represented by:",
+    "options": ["Dashed oval", "Bold rectangle", "Double line", "Dashed rectangle"],
+    "answer": 0,
+    "explanation": "Derived attributes are shown using dashed ovals."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following best represents a composite attribute?",
+    "options": ["Phone Number", "Name (with First, Last)", "Salary", "Email"],
+    "answer": 1,
+    "explanation": "Name can be broken into subparts like First Name, Last Name, etc."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In ER diagrams, what connects entities and attributes?",
+    "options": ["Lines", "Arrows", "Rectangles", "Dashes"],
+    "answer": 0,
+    "explanation": "Lines connect attributes to entities or relationships in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which relationship set connects an entity to itself?",
+    "options": ["Recursive", "Reflexive", "Circular", "Unary"],
+    "answer": 0,
+    "explanation": "Recursive relationships connect an entity set to itself."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is cardinality in an ER model?",
+    "options": ["Number of entities in a set", "Number of attributes", "Number of relationships an entity can participate in", "None of the above"],
+    "answer": 2,
+    "explanation": "Cardinality defines the number of relationship instances allowed between entities."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which relationship indicates optional participation of an entity?",
+    "options": ["Double line", "Single line", "Bold line", "Arrow"],
+    "answer": 1,
+    "explanation": "A single line indicates optional participation in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In ER modeling, an attribute that can be divided into smaller sub-parts is called:",
+    "options": ["Derived", "Atomic", "Composite", "Multivalued"],
+    "answer": 2,
+    "explanation": "Composite attributes can be divided into smaller parts."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which attribute type cannot be broken down further?",
+    "options": ["Atomic", "Derived", "Composite", "Multivalued"],
+    "answer": 0,
+    "explanation": "Atomic attributes are indivisible units of data."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "The process of designing a database from ER diagram is called:",
+    "options": ["Schema Design", "Data Abstraction", "ER Mapping", "Normalization"],
+    "answer": 2,
+    "explanation": "ER Mapping is the process of converting ER diagrams into relational schemas."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "A strong entity set has a:",
+    "options": ["Dashed rectangle", "Double rectangle", "Regular rectangle", "Bold rectangle"],
+    "answer": 2,
+    "explanation": "Strong entities are shown using a regular rectangle in ER diagrams."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is not true about weak entities?",
+    "options": ["They do not have a primary key", "They depend on strong entities", "They can exist independently", "They use identifying relationships"],
+    "answer": 2,
+    "explanation": "Weak entities cannot exist without a strong entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "An attribute that identifies each entity uniquely is called:",
+    "options": ["Identifier", "Discriminator", "Primary key", "Qualifier"],
+    "answer": 2,
+    "explanation": "Primary keys uniquely identify each entity."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is an example of an entity set?",
+    "options": ["Student", "Roll Number", "Marks", "Date of Birth"],
+    "answer": 0,
+    "explanation": "Student is an entity set that can contain multiple student entities."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What does the participation constraint specify?",
+    "options": ["Cardinality of relationship", "Whether all entities must participate in a relationship", "Degree of relationship", "Optional attributes"],
+    "answer": 1,
+    "explanation": "Participation constraint specifies whether all entities must be related."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "How is a relationship represented in a relational schema?",
+    "options": ["Attribute", "Table", "Tuple", "View"],
+    "answer": 1,
+    "explanation": "Relationships are converted into tables when mapping ER diagrams to relational models."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following relationships would need a bridge entity/table?",
+    "options": ["1:1", "1:N", "M:N", "0:1"],
+    "answer": 2,
+    "explanation": "M:N (many-to-many) relationships need a bridge table in the relational model."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following is correct about generalization?",
+    "options": ["Combining several entities into one", "Breaking entity into multiple tables", "Creating foreign keys", "Linking attributes"],
+    "answer": 0,
+    "explanation": "Generalization combines multiple lower-level entities into a single higher-level one."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is specialization in an ER diagram?",
+    "options": ["Creating more attributes", "Dividing an entity set into sub-entity sets", "Creating foreign keys", "Using weak entities"],
+    "answer": 1,
+    "explanation": "Specialization divides a high-level entity into lower-level sub-entities."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of these is not a step in ER to relational mapping?",
+    "options": ["Entity to table", "Attribute to column", "Key to constraint", "Line to file"],
+    "answer": 3,
+    "explanation": "Lines in ER diagrams don't directly map to files in relational schema."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which attribute must be present in weak entities?",
+    "options": ["Derived attribute", "Partial key", "Multivalued attribute", "Composite key"],
+    "answer": 1,
+    "explanation": "Weak entities must have a partial key to distinguish them within the relationship."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "In designing an ER model, what is a constraint?",
+    "options": ["A rule applied to data values", "An attribute name", "A data type", "A view"],
+    "answer": 0,
+    "explanation": "Constraints define rules for the data stored in the database."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "What is the result of converting an ER model into a database schema?",
+    "options": ["ER diagram", "Data dictionary", "Relational schema", "Instance set"],
+    "answer": 2,
+    "explanation": "The final output of ER modeling is a relational schema used to create tables."
+  },
+  {
+    "topic": "E-R Modeling",
+    "question": "Which of the following helps visually design database structures?",
+    "options": ["ER Modeling", "JavaScript", "C++", "CSS"],
+    "answer": 0,
+    "explanation": "ER Modeling is used to visually design database entities and relationships."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is a relation in the relational model?",
+    "options": ["A database file", "A set of tables", "A table with rows and columns", "A file with data"],
+    "answer": 2,
+    "explanation": "In relational databases, a relation refers to a table consisting of rows (tuples) and columns (attributes)."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "A row in a relation is called:",
+    "options": ["Attribute", "Field", "Tuple", "Schema"],
+    "answer": 2,
+    "explanation": "Each row in a table is called a tuple in relational model terminology."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following uniquely identifies a tuple in a relation?",
+    "options": ["Foreign key", "Primary key", "Candidate key", "Super key"],
+    "answer": 1,
+    "explanation": "A primary key is a minimal set of attributes that uniquely identify a tuple."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is used to maintain referential integrity?",
+    "options": ["Unique Key", "Check Constraint", "Foreign Key", "Primary Key"],
+    "answer": 2,
+    "explanation": "A foreign key is used to ensure that relationships between tables remain consistent."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which key can accept null values?",
+    "options": ["Primary key", "Foreign key", "Unique key", "Composite key"],
+    "answer": 1,
+    "explanation": "Foreign keys can be null if the relationship is optional."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is a super key?",
+    "options": ["A key used to lock tables", "A minimal unique key", "A set of one or more attributes that can uniquely identify a tuple", "A derived key"],
+    "answer": 2,
+    "explanation": "Super key is any set of attributes that uniquely identifies a tuple in a relation."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which key is a candidate key selected to uniquely identify rows?",
+    "options": ["Primary key", "Foreign key", "Super key", "Alternate key"],
+    "answer": 0,
+    "explanation": "A primary key is a selected candidate key used to identify records."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is not a valid constraint in the relational model?",
+    "options": ["Entity Integrity", "Referential Integrity", "Semantic Integrity", "Domain Integrity"],
+    "answer": 2,
+    "explanation": "Semantic integrity is not a defined relational constraint like the others."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which normal form eliminates repeating groups?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": 0,
+    "explanation": "1NF removes repeating groups by ensuring each field contains atomic values."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which normal form removes partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": 1,
+    "explanation": "2NF removes partial dependency — where a non-key attribute is dependent on part of a composite key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which normal form removes transitive dependency?",
+    "options": ["1NF", "2NF", "3NF", "4NF"],
+    "answer": 2,
+    "explanation": "3NF removes transitive dependencies among non-prime attributes."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is functional dependency?",
+    "options": ["One attribute is a primary key of another", "One attribute uniquely determines another", "One tuple depends on another", "None of the above"],
+    "answer": 1,
+    "explanation": "A functional dependency means one attribute's value determines another’s value."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "In A → B, A is called:",
+    "options": ["Dependent", "Determinant", "Candidate", "Prime"],
+    "answer": 1,
+    "explanation": "In a functional dependency A → B, A is the determinant."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is a full functional dependency?",
+    "options": ["X → Y and X is a subset of candidate key", "Y depends on part of a composite key", "Y depends on the whole composite key", "None"],
+    "answer": 2,
+    "explanation": "Full dependency means the attribute is dependent on the entire composite key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "A relation is in 2NF if it is in 1NF and:",
+    "options": ["Has a candidate key", "No transitive dependency", "No partial dependency", "No foreign key"],
+    "answer": 2,
+    "explanation": "2NF eliminates partial dependency on a composite primary key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is the main goal of normalization?",
+    "options": ["Improve performance", "Reduce redundancy", "Add constraints", "Create indexes"],
+    "answer": 1,
+    "explanation": "Normalization helps reduce redundancy and improve data integrity."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is NOT a type of join in relational databases?",
+    "options": ["Inner Join", "Outer Join", "Middle Join", "Cross Join"],
+    "answer": 2,
+    "explanation": "There is no such thing as a 'Middle Join' in relational databases."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which normal form is stronger than 3NF and removes anomalies caused by overlapping candidate keys?",
+    "options": ["1NF", "BCNF", "2NF", "4NF"],
+    "answer": 1,
+    "explanation": "BCNF (Boyce-Codd Normal Form) handles anomalies not covered by 3NF."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of these describes transitive dependency?",
+    "options": ["A → B and B → C, then A → C", "A → B but not B → A", "B → A only if A is a key", "None"],
+    "answer": 0,
+    "explanation": "Transitive dependency means an indirect relationship through another attribute."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which is true for primary keys?",
+    "options": ["Can be null", "Can have duplicates", "Must be unique and not null", "Must be a composite key"],
+    "answer": 2,
+    "explanation": "Primary keys must be unique and not null for entity integrity."
+  },
+
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following violates 1NF?",
+    "options": ["Atomic values", "Repeating groups", "Unique rows", "Foreign keys"],
+    "answer": 1,
+    "explanation": "Repeating groups violate the atomicity rule of 1NF."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following allows duplication in values?",
+    "options": ["Primary key", "Unique key", "Foreign key", "Super key"],
+    "answer": 2,
+    "explanation": "Foreign keys can have duplicate values since they may relate to the same parent key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of these is not a feature of relational databases?",
+    "options": ["Tables", "Hierarchical structure", "Data Integrity", "Query language"],
+    "answer": 1,
+    "explanation": "Hierarchical structure is from hierarchical databases, not relational ones."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which is used to represent all dependencies in a relation?",
+    "options": ["Closure", "Subset", "Function", "Cover"],
+    "answer": 0,
+    "explanation": "Attribute closure helps in finding all dependencies implied by a set of functional dependencies."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "How many candidate keys can a relation have?",
+    "options": ["Only one", "Two", "Multiple", "None"],
+    "answer": 2,
+    "explanation": "A relation can have multiple candidate keys; one is chosen as primary key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is the result of decomposing a relation?",
+    "options": ["More redundancy", "Loss of data", "Smaller relations", "None"],
+    "answer": 2,
+    "explanation": "Decomposition results in smaller tables with less redundancy."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "In a relational model, columns are also called:",
+    "options": ["Records", "Tuples", "Attributes", "Files"],
+    "answer": 2,
+    "explanation": "Columns in a relation are called attributes."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is the minimal cover of functional dependencies?",
+    "options": ["Redundant FD set", "Optimized FD set", "Minimal and equivalent FD set", "Subset of keys"],
+    "answer": 2,
+    "explanation": "Minimal cover is the smallest equivalent set of functional dependencies."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is used to describe the structure of a relation?",
+    "options": ["Schema", "Data", "Instance", "Tuple"],
+    "answer": 0,
+    "explanation": "Schema defines the structure of the table: columns and data types."
+  },
+  
+  {
+    "topic": "Relational Data Model",
+    "question": "What is a relation instance?",
+    "options": ["The structure of the table", "A snapshot of data in the table at a given time", "A tuple identifier", "Primary key"],
+    "answer": 1,
+    "explanation": "A relation instance is the actual content or snapshot of the relation (table) at a specific moment."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which term describes a combination of two or more attributes used to uniquely identify a record?",
+    "options": ["Candidate key", "Composite key", "Foreign key", "Super key"],
+    "answer": 1,
+    "explanation": "A composite key is formed by combining two or more columns to uniquely identify a row."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which one is an example of a unary relationship?",
+    "options": ["Employee manages Employee", "Employee works in Department", "Book written by Author", "Student takes Course"],
+    "answer": 0,
+    "explanation": "When an entity relates to itself, such as 'Employee manages Employee', it is a unary relationship."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is a NOT NULL constraint mainly used for?",
+    "options": ["Prevent duplicate values", "Ensure value is not null", "Enforce referential integrity", "Assign primary key"],
+    "answer": 1,
+    "explanation": "NOT NULL constraint ensures that a column cannot have null values."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which operation is used to combine tuples from two relations based on a common attribute?",
+    "options": ["Select", "Project", "Join", "Rename"],
+    "answer": 2,
+    "explanation": "Join is used to retrieve related columns from two or more tables using a common attribute."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following anomalies are removed by normalization?",
+    "options": ["Insertion", "Update", "Deletion", "All of the above"],
+    "answer": 3,
+    "explanation": "Normalization removes insertion, update, and deletion anomalies."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following statements about 3NF is correct?",
+    "options": ["It allows transitive dependencies", "It does not allow partial dependencies", "It allows non-prime attributes to depend on other non-prime attributes", "None of the above"],
+    "answer": 1,
+    "explanation": "3NF ensures no transitive dependency and only allows attributes to depend on candidate keys."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following results in redundancy in the database?",
+    "options": ["Primary key", "Partial dependency", "Composite key", "Tuple"],
+    "answer": 1,
+    "explanation": "Partial dependencies can lead to data redundancy and are removed in 2NF."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What does the term ‘degree of a relation’ mean?",
+    "options": ["Number of tuples", "Number of foreign keys", "Number of attributes", "Number of rows"],
+    "answer": 2,
+    "explanation": "Degree refers to the number of attributes (columns) in a relation."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which term refers to the number of tuples in a relation?",
+    "options": ["Cardinality", "Degree", "Attribute count", "Determinant"],
+    "answer": 0,
+    "explanation": "Cardinality refers to the number of rows (tuples) in a table."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What is the function of the UNIQUE constraint?",
+    "options": ["Allow only numeric data", "Disallow NULLs", "Prevent duplicate values in a column", "Allow only characters"],
+    "answer": 2,
+    "explanation": "UNIQUE constraint ensures that all values in a column are different."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "In functional dependency A → B, which of the following is true?",
+    "options": ["B determines A", "A is functionally dependent on B", "B is functionally dependent on A", "A and B are independent"],
+    "answer": 2,
+    "explanation": "In A → B, B is functionally dependent on A."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What does BCNF stand for?",
+    "options": ["Basic Codd Normal Form", "Boyce-Codd Normal Form", "Binary Code Normal Form", "Basic Column Normal Form"],
+    "answer": 1,
+    "explanation": "BCNF stands for Boyce-Codd Normal Form, a stricter version of 3NF."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which dependency is removed in BCNF?",
+    "options": ["Functional dependency", "Transitive dependency", "Partial dependency", "Every determinant must be a candidate key"],
+    "answer": 3,
+    "explanation": "BCNF ensures every determinant is a candidate key."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is used to eliminate transitive dependencies?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer": 2,
+    "explanation": "3NF removes transitive dependencies."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which operation is used to select certain columns in relational algebra?",
+    "options": ["Projection", "Join", "Union", "Intersection"],
+    "answer": 0,
+    "explanation": "Projection (π) selects specific columns from a relation."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which term describes a set of attributes that uniquely identify a tuple and contains no redundant attributes?",
+    "options": ["Candidate key", "Foreign key", "Super key", "Alternate key"],
+    "answer": 0,
+    "explanation": "Candidate keys are minimal super keys that uniquely identify tuples."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which of the following is a join condition that uses equality?",
+    "options": ["Natural Join", "Equi Join", "Theta Join", "Cartesian Product"],
+    "answer": 1,
+    "explanation": "Equi join uses equality as the join condition."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "Which key refers to a primary key in another table?",
+    "options": ["Alternate key", "Composite key", "Foreign key", "Unique key"],
+    "answer": 2,
+    "explanation": "A foreign key refers to a primary key in another relation."
+  },
+  {
+    "topic": "Relational Data Model",
+    "question": "What does a relation schema define?",
+    "options": ["The data in the relation", "The constraints applied on a table", "The structure: name, attributes, and types", "The number of tuples"],
+    "answer": 2,
+    "explanation": "A relation schema defines the structure of a relation, including attribute names and data types."
+  },
+  
+  {
+    "topic": "SQL",
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "options": ["SELECT", "GET", "FETCH", "EXTRACT"],
+    "answer": 0,
+    "explanation": "The SELECT statement is used to retrieve data from one or more tables."
+  },
+  {
+    "topic": "SQL",
+    "question": "What type of SQL statement is the INSERT command?",
+    "options": ["DDL", "DML", "DCL", "TCL"],
+    "answer": 1,
+    "explanation": "INSERT is a Data Manipulation Language (DML) command used to add data."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which of the following is a DDL command?",
+    "options": ["UPDATE", "SELECT", "CREATE", "INSERT"],
+    "answer": 2,
+    "explanation": "CREATE is a Data Definition Language (DDL) command used to define structures like tables."
+  },
+  {
+    "topic": "SQL",
+    "question": "What keyword is used to prevent duplicate results in a SELECT statement?",
+    "options": ["DISTINCT", "UNIQUE", "FILTER", "ONLY"],
+    "answer": 0,
+    "explanation": "DISTINCT filters duplicate rows from the result set."
+  },
+  {
+    "topic": "SQL",
+    "question": "How do you create a new table in SQL?",
+    "options": ["CREATE NEW TABLE", "CREATE TABLE", "MAKE TABLE", "TABLE NEW"],
+    "answer": 1,
+    "explanation": "The syntax is: CREATE TABLE table_name (...)."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which data type is used to store decimal numbers?",
+    "options": ["INT", "CHAR", "DECIMAL", "DATE"],
+    "answer": 2,
+    "explanation": "DECIMAL (or FLOAT/NUMERIC) is used to store numbers with fractions."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command is used to remove a table from the database?",
+    "options": ["DELETE TABLE", "DROP TABLE", "REMOVE TABLE", "CLEAR TABLE"],
+    "answer": 1,
+    "explanation": "DROP TABLE permanently deletes the table structure and its data."
+  },
+  {
+    "topic": "SQL",
+    "question": "What does the WHERE clause do in a SELECT query?",
+    "options": ["Sorts results", "Joins tables", "Filters rows based on a condition", "Groups data"],
+    "answer": 2,
+    "explanation": "WHERE filters rows that meet specified criteria."
+  },
+  {
+    "topic": "SQL",
+    "question": "How do you update a record in SQL?",
+    "options": ["MODIFY", "UPDATE", "CHANGE", "EDIT"],
+    "answer": 1,
+    "explanation": "UPDATE is used to modify existing records in a table."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command is used to remove all records from a table without removing the structure?",
+    "options": ["DROP", "DELETE", "REMOVE", "TRUNCATE"],
+    "answer": 3,
+    "explanation": "TRUNCATE removes all rows but retains the table structure."
+  },
+
+  {
+    "topic": "SQL",
+    "question": "Which SQL clause is used to sort data?",
+    "options": ["SORT BY", "ORDER", "ORDER BY", "SORT"],
+    "answer": 2,
+    "explanation": "ORDER BY sorts result rows in ascending or descending order."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL clause groups records that have the same values?",
+    "options": ["GROUP", "GROUP BY", "SORT", "ORDER"],
+    "answer": 1,
+    "explanation": "GROUP BY groups rows with identical values into summary rows."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which function returns the number of rows in a table?",
+    "options": ["COUNT()", "SUM()", "TOTAL()", "NUM()"],
+    "answer": 0,
+    "explanation": "COUNT() returns the number of records that match a query."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which function returns the average of a column?",
+    "options": ["SUM()", "AVG()", "MEDIAN()", "MEAN()"],
+    "answer": 1,
+    "explanation": "AVG() calculates the average of numerical values."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command is used to remove only specific rows in a table?",
+    "options": ["DROP", "REMOVE", "DELETE", "CLEAR"],
+    "answer": 2,
+    "explanation": "DELETE is used to remove selected rows using a WHERE clause."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL statement is used to create a relationship between two tables?",
+    "options": ["ADD RELATIONSHIP", "FOREIGN KEY", "JOIN", "RELATE"],
+    "answer": 1,
+    "explanation": "FOREIGN KEY constraints establish relationships between tables."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which constraint ensures uniqueness of values in a column?",
+    "options": ["PRIMARY KEY", "FOREIGN KEY", "DEFAULT", "CHECK"],
+    "answer": 0,
+    "explanation": "PRIMARY KEY ensures that each value is unique and not NULL."
+  },
+  {
+    "topic": "SQL",
+    "question": "What does the LIKE operator do in SQL?",
+    "options": ["Performs arithmetic", "Compares exact values", "Matches patterns", "Compares numbers"],
+    "answer": 2,
+    "explanation": "LIKE is used for pattern matching with wildcards like '%' or '_'."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which character is used in SQL for wildcard matching any number of characters?",
+    "options": ["_", "%", "*", "#"],
+    "answer": 1,
+    "explanation": "'%' is used to match zero or more characters."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which clause is used to rename a column in output?",
+    "options": ["RENAME", "AS", "CHANGE", "MODIFY"],
+    "answer": 1,
+    "explanation": "AS is used to assign an alias to a column or table in the result set."
+  },
+  
+  {
+    "topic": "SQL",
+    "question": "Which function is used to return the largest value in a column?",
+    "options": ["MAX()", "LARGE()", "TOP()", "BIGGEST()"],
+    "answer": 0,
+    "explanation": "MAX() returns the highest value from a numeric column."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL keyword is used to prevent NULL values in a column?",
+    "options": ["UNIQUE", "NOT NULL", "NO NULL", "CHECK"],
+    "answer": 1,
+    "explanation": "NOT NULL ensures that a column cannot have NULL values."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which clause is used with GROUP BY to filter groups?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "JOIN"],
+    "answer": 1,
+    "explanation": "HAVING is used to filter aggregated data returned by GROUP BY."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL clause is used to combine results from multiple SELECT queries?",
+    "options": ["JOIN", "UNION", "MERGE", "GROUP"],
+    "answer": 1,
+    "explanation": "UNION merges results from multiple SELECT queries, removing duplicates."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is the default sorting order of ORDER BY clause?",
+    "options": ["DESC", "RANDOM", "ASC", "NONE"],
+    "answer": 2,
+    "explanation": "ORDER BY defaults to ascending (ASC) order."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL clause is used to change the structure of a table?",
+    "options": ["MODIFY", "UPDATE", "ALTER", "CHANGE"],
+    "answer": 2,
+    "explanation": "ALTER is used to add, delete, or modify columns in a table."
+  },
+  {
+    "topic": "SQL",
+    "question": "How do you retrieve only unique values from a column?",
+    "options": ["SELECT UNIQUE", "SELECT DISTINCT", "SELECT DIFFERENT", "SELECT SINGLE"],
+    "answer": 1,
+    "explanation": "SELECT DISTINCT returns only unique (non-duplicate) values."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which JOIN returns all records from both tables, matching rows where available?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+    "answer": 3,
+    "explanation": "FULL OUTER JOIN returns all rows from both tables with NULLs where no match exists."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is the output of SELECT COUNT(*)?",
+    "options": ["Sum of values", "Number of NULLs", "Number of columns", "Number of rows"],
+    "answer": 3,
+    "explanation": "COUNT(*) returns the total number of rows, including duplicates and NULLs."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which operator is used to check if a value exists in a set?",
+    "options": ["IN", "EXISTS", "BETWEEN", "LIKE"],
+    "answer": 0,
+    "explanation": "IN checks if a value exists within a given set of values."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which keyword is used to rename a table in SQL?",
+    "options": ["RENAME", "MODIFY", "CHANGE", "ALTER TABLE RENAME"],
+    "answer": 3,
+    "explanation": "You can rename a table using ALTER TABLE table_name RENAME TO new_name."
+  },
+  {
+    "topic": "SQL",
+    "question": "How do you add a new column to an existing table?",
+    "options": ["ALTER TABLE ADD COLUMN", "MODIFY TABLE", "INSERT COLUMN", "UPDATE COLUMN"],
+    "answer": 0,
+    "explanation": "ALTER TABLE table_name ADD column_name datatype adds a new column."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL command is used to change a column's data type?",
+    "options": ["CHANGE COLUMN", "UPDATE COLUMN", "MODIFY COLUMN", "ALTER COLUMN"],
+    "answer": 3,
+    "explanation": "ALTER TABLE table_name ALTER COLUMN column_name TYPE datatype is the standard way."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which keyword is used to delete a database?",
+    "options": ["REMOVE DATABASE", "DROP DATABASE", "DELETE DATABASE", "DESTROY DATABASE"],
+    "answer": 1,
+    "explanation": "DROP DATABASE permanently deletes the database."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which operator is used to filter rows between a range of values?",
+    "options": ["IN", "BETWEEN", "LIKE", "ANY"],
+    "answer": 1,
+    "explanation": "BETWEEN allows filtering values within a range (inclusive)."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL statement is used to retrieve records based on a pattern?",
+    "options": ["SELECT WHERE = ", "SELECT WHERE LIKE", "SELECT WHERE MATCH", "SELECT WHERE COMPARE"],
+    "answer": 1,
+    "explanation": "LIKE is used with SELECT and WHERE to filter by patterns."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which wildcard character in SQL represents a single character?",
+    "options": ["*", "?", "%", "_"],
+    "answer": 3,
+    "explanation": "Underscore (_) is used to match exactly one character."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is the output of SELECT 10/4 in SQL?",
+    "options": ["2", "2.5", "Depends on DBMS", "Error"],
+    "answer": 2,
+    "explanation": "The result may vary: integer division or float depending on DBMS and data type."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is the purpose of the DEFAULT constraint?",
+    "options": ["Restrict NULL", "Set default value if none is provided", "Ensure unique values", "Limit column length"],
+    "answer": 1,
+    "explanation": "DEFAULT provides a preset value for a column when no value is specified."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command displays table structure in SQL?",
+    "options": ["SHOW COLUMNS", "DESCRIBE table_name", "SHOW TABLE STRUCTURE", "DISPLAY SCHEMA"],
+    "answer": 1,
+    "explanation": "DESCRIBE (or DESC) is used to view the structure of a table."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which clause combines rows based on a common column?",
+    "options": ["UNION", "JOIN", "INTERSECT", "GROUP BY"],
+    "answer": 1,
+    "explanation": "JOINs combine rows from two or more tables based on related columns."
+  },
+  {
+    "topic": "SQL",
+    "question": "What does the EXISTS operator do?",
+    "options": ["Checks for duplicates", "Checks for NULLs", "Checks for the existence of rows", "Compares two values"],
+    "answer": 2,
+    "explanation": "EXISTS returns TRUE if the subquery returns one or more records."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which function gives the current date in SQL?",
+    "options": ["SYSDATE()", "NOW()", "GETDATE()", "All of the above"],
+    "answer": 3,
+    "explanation": "Different DBMS use different syntax (NOW, SYSDATE, GETDATE) to return current date/time."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which of the following can be used to fetch only 5 rows?",
+    "options": ["SELECT LIMIT 5", "TOP 5", "FETCH FIRST 5 ROWS ONLY", "All of the above"],
+    "answer": 3,
+    "explanation": "All are valid depending on the SQL dialect (MySQL, SQL Server, Oracle)."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which keyword is used to assign a name to a result column?",
+    "options": ["ALIAS", "AS", "RENAME", "SET"],
+    "answer": 1,
+    "explanation": "AS is used to create an alias for a column or table."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is a view in SQL?",
+    "options": ["A physical table", "A virtual table based on SELECT", "A form", "A schema"],
+    "answer": 1,
+    "explanation": "A view is a virtual table derived from a query result."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command is used to modify the definition of an existing view?",
+    "options": ["CHANGE VIEW", "ALTER VIEW", "UPDATE VIEW", "MODIFY VIEW"],
+    "answer": 1,
+    "explanation": "ALTER VIEW changes the structure or query used in a view."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which command is used to delete a view?",
+    "options": ["DROP VIEW", "REMOVE VIEW", "DELETE VIEW", "DESTROY VIEW"],
+    "answer": 0,
+    "explanation": "DROP VIEW removes the view from the database."
+  },
+  {
+    "topic": "SQL",
+    "question": "Which SQL statement is used to create a report combining multiple aggregate values?",
+    "options": ["GROUP BY with aggregation", "SELECT DISTINCT", "HAVING with WHERE", "ORDER BY GROUP"],
+    "answer": 0,
+    "explanation": "GROUP BY with aggregate functions like COUNT, AVG, etc., is used in reports."
+  },
+  {
+    "topic": "SQL",
+    "question": "What is the purpose of forms in a database?",
+    "options": ["Store data", "Design tables", "Input and interact with data easily", "Run SQL commands"],
+    "answer": 2,
+    "explanation": "Forms provide user-friendly interfaces for entering and editing data."
+  },
+  
+  {
+    "topic": "Database Security",
+    "question": "Which of the following is a threat to database security?",
+    "options": ["Unauthorized access", "Data leakage", "Malware", "All of the above"],
+    "answer": 3,
+    "explanation": "All listed options can compromise database security."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which command in SQL is used to control user access rights?",
+    "options": ["GRANT", "ACCESS", "PERMIT", "CONTROL"],
+    "answer": 0,
+    "explanation": "GRANT is used to assign access privileges to users."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What is the purpose of database authentication?",
+    "options": ["To back up data", "To verify user identity", "To index tables", "To remove viruses"],
+    "answer": 1,
+    "explanation": "Authentication ensures that users are who they claim to be."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "Which type of integrity ensures each row is uniquely identified?",
+    "options": ["Referential Integrity", "Domain Integrity", "Entity Integrity", "User Integrity"],
+    "answer": 2,
+    "explanation": "Entity integrity ensures that each row has a unique primary key."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "Which constraint enforces referential integrity?",
+    "options": ["CHECK", "NOT NULL", "FOREIGN KEY", "UNIQUE"],
+    "answer": 2,
+    "explanation": "FOREIGN KEY enforces referential integrity between tables."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What does SQL injection target?",
+    "options": ["Table structure", "Stored procedures", "Application code", "Query vulnerabilities"],
+    "answer": 3,
+    "explanation": "SQL injection exploits flaws in query execution paths."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which of the following can prevent SQL injection?",
+    "options": ["Firewall", "Antivirus", "Prepared statements", "Backup"],
+    "answer": 2,
+    "explanation": "Prepared statements help sanitize inputs and prevent SQL injection."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "What is domain integrity concerned with?",
+    "options": ["Foreign key accuracy", "Valid values in a column", "Unique user IDs", "Physical storage"],
+    "answer": 1,
+    "explanation": "Domain integrity ensures that only valid data types/values are used in a column."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which of the following is used to monitor database usage?",
+    "options": ["Auditing", "Encryption", "Normalization", "Clustering"],
+    "answer": 0,
+    "explanation": "Auditing tracks database access and operations for monitoring and security."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which term refers to controlling access to resources based on user identity?",
+    "options": ["Authorization", "Verification", "Recognition", "Detection"],
+    "answer": 0,
+    "explanation": "Authorization defines what a verified user is allowed to do."
+  },
+
+  {
+    "topic": "Database Security",
+    "question": "Which one is not a security measure for databases?",
+    "options": ["Firewalls", "Access controls", "Encryption", "Denormalization"],
+    "answer": 3,
+    "explanation": "Denormalization is a design choice, not a security feature."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which of these is a recent trend in DBMS technology?",
+    "options": ["Hierarchical databases", "Manual indexing", "Cloud-based DBMS", "Flat file systems"],
+    "answer": 2,
+    "explanation": "Cloud DBMS is a modern, scalable trend in data management."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Data encryption helps in:",
+    "options": ["Data entry", "Data backup", "Securing data in transit/storage", "Data migration"],
+    "answer": 2,
+    "explanation": "Encryption protects data from unauthorized access."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which tool is often used to control data concurrency?",
+    "options": ["Transaction logs", "Locks", "Keys", "Triggers"],
+    "answer": 1,
+    "explanation": "Locks ensure consistency in concurrent database access."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which of the following is a feature of distributed databases?",
+    "options": ["Centralized control", "Multiple users access a single file", "Data stored on multiple nodes", "No network dependency"],
+    "answer": 2,
+    "explanation": "Distributed databases store data across multiple machines or locations."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which of the following provides backup in case of system failure?",
+    "options": ["Firewall", "Log file", "Replication", "Rollback"],
+    "answer": 1,
+    "explanation": "Log files maintain records of operations for recovery after failures."
+  },
+  {
+    "topic": "Deductive Databases",
+    "question": "Which logic does deductive databases primarily use?",
+    "options": ["Boolean logic", "Predicate logic", "Arithmetic logic", "Symbolic logic"],
+    "answer": 1,
+    "explanation": "Deductive databases are based on predicate logic (rules and facts)."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "A CHECK constraint is used to:",
+    "options": ["Restrict NULLs", "Restrict values to a condition", "Create indexes", "Link tables"],
+    "answer": 1,
+    "explanation": "CHECK enforces a specific rule on a column's value."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which mechanism allows restoring data to a consistent state after crash?",
+    "options": ["Deadlock prevention", "Transaction rollback", "Indexing", "Encryption"],
+    "answer": 1,
+    "explanation": "Rollback undoes changes from failed or incomplete transactions."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which term defines protection against accidental or intentional data loss?",
+    "options": ["Backup", "Recovery", "Integrity", "Security"],
+    "answer": 3,
+    "explanation": "Security covers protection from all kinds of threats to data integrity and availability."
+  },
+  
+  {
+    "topic": "Database Integrity",
+    "question": "What ensures that data remains accurate and consistent over its lifecycle?",
+    "options": ["Security", "Integrity", "Access Control", "Triggers"],
+    "answer": 1,
+    "explanation": "Data integrity ensures the correctness and consistency of data."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which of the following is an example of physical security?",
+    "options": ["Data encryption", "Biometric access", "Firewall", "Role-based access control"],
+    "answer": 1,
+    "explanation": "Biometric access is a form of physical security to restrict access."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What is the main aim of a firewall in database systems?",
+    "options": ["Encrypt data", "Detect viruses", "Prevent unauthorized access", "Create indexes"],
+    "answer": 2,
+    "explanation": "Firewalls monitor and control incoming/outgoing traffic to prevent unauthorized access."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which is a key characteristic of NoSQL databases?",
+    "options": ["Relational schema", "Table joins", "Horizontal scaling", "Fixed structure"],
+    "answer": 2,
+    "explanation": "NoSQL databases support horizontal scaling for distributed environments."
+  },
+  {
+    "topic": "Database Control",
+    "question": "What is the purpose of a database trigger?",
+    "options": ["Create backups", "Automatically execute code on data changes", "Encrypt data", "Control user roles"],
+    "answer": 1,
+    "explanation": "Triggers are routines that run automatically in response to specific events."
+  },
+  {
+    "topic": "Distributed Databases",
+    "question": "What is a challenge with distributed databases?",
+    "options": ["Data redundancy", "Single point of failure", "Data consistency", "Low availability"],
+    "answer": 2,
+    "explanation": "Maintaining consistency across distributed nodes is a primary challenge."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which concept is used to manage simultaneous transactions?",
+    "options": ["Authorization", "Isolation", "Encryption", "Rollback"],
+    "answer": 1,
+    "explanation": "Isolation ensures transactions do not interfere with each other."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which of the following is considered a recent advancement in DBMS?",
+    "options": ["Batch processing", "Paper-based records", "In-memory databases", "Manual backups"],
+    "answer": 2,
+    "explanation": "In-memory DBMS use RAM for high-speed data access and processing."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which method is used to disguise data to protect privacy?",
+    "options": ["Indexing", "Masking", "Referencing", "Normalization"],
+    "answer": 1,
+    "explanation": "Data masking hides original data with modified content."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which term describes ensuring only authorized users access data?",
+    "options": ["Integrity", "Encryption", "Access Control", "Concurrency"],
+    "answer": 2,
+    "explanation": "Access control restricts access to data based on user roles and policies."
+  },
+
+  {
+    "topic": "Database Control",
+    "question": "Which ACID property ensures changes by a transaction are saved?",
+    "options": ["Atomicity", "Consistency", "Durability", "Isolation"],
+    "answer": 2,
+    "explanation": "Durability ensures once a transaction is committed, the changes are permanent."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "Which of the following is violated if a primary key is duplicated?",
+    "options": ["Referential Integrity", "Entity Integrity", "Domain Integrity", "Physical Integrity"],
+    "answer": 1,
+    "explanation": "Entity Integrity requires primary keys to be unique and not null."
+  },
+  {
+    "topic": "Deductive Databases",
+    "question": "What is a key feature of deductive databases?",
+    "options": ["Triggers", "Rule-based inference", "Redundancy", "Unstructured storage"],
+    "answer": 1,
+    "explanation": "Deductive databases use logic rules to derive new facts from existing data."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which method helps recover data after a system crash?",
+    "options": ["Triggers", "Rollback", "Audit Trail", "Redo logs"],
+    "answer": 3,
+    "explanation": "Redo logs reapply operations to recover committed transactions."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which of the following is a passive threat to database security?",
+    "options": ["Eavesdropping", "SQL injection", "Data tampering", "Privilege escalation"],
+    "answer": 0,
+    "explanation": "Eavesdropping silently listens to data without altering it."
+  },
+  {
+    "topic": "Database Control",
+    "question": "A ___________ ensures that transactions are completed fully or not at all.",
+    "options": ["Lock", "Trigger", "Atomic operation", "Session"],
+    "answer": 2,
+    "explanation": "Atomicity ensures that transactions are indivisible operations."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What does RBAC stand for?",
+    "options": ["Role-Based Access Control", "Relational Backup Access Control", "Read-Blocked Access Check", "Remote Backup and Control"],
+    "answer": 0,
+    "explanation": "RBAC manages user permissions based on roles within the system."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which is NOT a component of database security architecture?",
+    "options": ["Encryption", "Authentication", "Normalization", "Authorization"],
+    "answer": 2,
+    "explanation": "Normalization is a design technique, not a security component."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "Which statement best describes referential integrity?",
+    "options": ["All data should be normalized", "Each value must be unique", "Child table references must match parent values", "Indexes must be used for all keys"],
+    "answer": 2,
+    "explanation": "Referential integrity ensures foreign keys reference existing primary keys."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What is the main goal of database backup?",
+    "options": ["Minimize redundancy", "Improve normalization", "Prevent unauthorized access", "Prevent data loss"],
+    "answer": 3,
+    "explanation": "Backups protect against data loss due to failures or attacks."
+  },
+  {
+    "topic": "Distributed Databases",
+    "question": "Which term refers to the ability of a system to continue functioning despite failures?",
+    "options": ["Latency", "Scalability", "Fault Tolerance", "Integrity"],
+    "answer": 2,
+    "explanation": "Fault tolerance allows systems to handle failures without service disruption."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which database trend uses AI to optimize query performance?",
+    "options": ["Manual indexing", "Self-driving databases", "Hierarchical modeling", "Relational mapping"],
+    "answer": 1,
+    "explanation": "Self-driving DBMS use AI to auto-tune and manage performance."
+  },
+  {
+    "topic": "Database Security",
+    "question": "What is the result of excessive privilege assignment?",
+    "options": ["Faster queries", "Normalization", "Security vulnerabilities", "Index errors"],
+    "answer": 2,
+    "explanation": "Giving users more rights than needed can lead to data breaches."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which tool ensures actions are recorded for future review?",
+    "options": ["Transaction control", "Firewall", "Audit log", "Access matrix"],
+    "answer": 2,
+    "explanation": "Audit logs keep track of all changes made to the database."
+  },
+  {
+    "topic": "Deductive Databases",
+    "question": "Deductive databases are an integration of logic programming and:",
+    "options": ["Object-oriented databases", "Hierarchical databases", "Relational databases", "Time series databases"],
+    "answer": 2,
+    "explanation": "They combine logic rules with relational database foundations."
+  },
+  {
+    "topic": "Database Integrity",
+    "question": "Which action can violate domain integrity?",
+    "options": ["Entering text in a number column", "Using foreign keys", "Creating triggers", "Running backups"],
+    "answer": 0,
+    "explanation": "Values outside the defined domain (e.g., wrong type) violate domain integrity."
+  },
+  {
+    "topic": "Database Trends",
+    "question": "Which of the following uses distributed ledger technology?",
+    "options": ["Blockchain databases", "Relational databases", "Object-oriented databases", "Flat file databases"],
+    "answer": 0,
+    "explanation": "Blockchain databases are based on distributed ledger technology for immutability."
+  },
+  {
+    "topic": "Database Control",
+    "question": "Which scheduling approach avoids deadlock?",
+    "options": ["Concurrency control", "Wait-die and wound-wait", "Two-phase locking", "Time-stamping"],
+    "answer": 1,
+    "explanation": "Wait-die and wound-wait are deadlock avoidance techniques in DBMS."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which type of malware targets databases specifically?",
+    "options": ["Worm", "Trojan", "Ransomware", "Spyware"],
+    "answer": 2,
+    "explanation": "Ransomware can encrypt or lock database files, demanding ransom to unlock."
+  },
+  {
+    "topic": "Database Security",
+    "question": "Which policy defines what actions users may or may not perform?",
+    "options": ["Encryption policy", "Security policy", "Transaction policy", "Locking policy"],
+    "answer": 1,
+    "explanation": "Security policies define access levels and permissions for database users."
+  }
+
+
+]
