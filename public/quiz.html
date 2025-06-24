@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DBMS MCQ Quiz</title>
+  <title>BOM MCQ Quiz</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col items-center justify-start py-10 px-4">
@@ -14,7 +14,7 @@
   </svg>
   Go Harshit's Home page
 </a>
-  <h1 class="text-3xl font-bold mb-8 text-center">DBMS MCQ Practice</h1>
+  <h1 class="text-3xl font-bold mb-8 text-center">BOM MCQ Practice</h1>
 
   <div id="quizContainer" class="max-w-2xl w-full bg-white p-6 rounded-xl shadow-lg">
     <div id="questionBox" class="space-y-4">
@@ -41,7 +41,7 @@
 
   async function loadQuestions() {
     try {
-      const res = await fetch("dbms_questions.json");
+      const res = await fetch("bom.json");
       questions = await res.json();
       renderQuestion();
     } catch (err) {
