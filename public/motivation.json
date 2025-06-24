@@ -1,0 +1,580 @@
+[
+  {
+    "topic": "Motivation: Definition",
+    "question": "What is the primary goal of motivation in an organization?",
+    "options": [
+      "To increase hierarchy",
+      "To direct employee behavior towards goals",
+      "To conduct performance reviews",
+      "To ensure fixed working hours"
+    ],
+    "answer": 1,
+    "explanation": "Motivation aims to influence behavior toward achieving organizational objectives."
+  },
+  {
+    "topic": "Motivation: Types",
+    "question": "Which of the following is an example of intrinsic motivation?",
+    "options": [
+      "Bonus payment",
+      "Promotion",
+      "Job satisfaction",
+      "Overtime pay"
+    ],
+    "answer": 2,
+    "explanation": "Intrinsic motivation arises from within, like personal satisfaction or interest."
+  },
+  {
+    "topic": "Motivation: Types",
+    "question": "Extrinsic motivation includes:",
+    "options": [
+      "Interest in the task",
+      "Personal growth",
+      "Praise and rewards",
+      "Job engagement"
+    ],
+    "answer": 2,
+    "explanation": "Extrinsic motivation is influenced by external rewards like money or recognition."
+  },
+  {
+    "topic": "Need Hierarchy Theory",
+    "question": "Which need is at the top of Maslow’s hierarchy?",
+    "options": [
+      "Safety needs",
+      "Esteem needs",
+      "Physiological needs",
+      "Self-actualization"
+    ],
+    "answer": 3,
+    "explanation": "Self-actualization represents personal growth and is the highest level in Maslow’s theory."
+  },
+  {
+    "topic": "Need Hierarchy Theory",
+    "question": "What type of need is ‘job security’ in Maslow’s model?",
+    "options": [
+      "Physiological",
+      "Safety",
+      "Esteem",
+      "Social"
+    ],
+    "answer": 1,
+    "explanation": "Job security satisfies the second level of Maslow’s hierarchy—Safety needs."
+  },
+  {
+    "topic": "Need Hierarchy Theory",
+    "question": "Esteem needs in Maslow's theory relate to:",
+    "options": [
+      "Health and rest",
+      "Love and belonging",
+      "Recognition and respect",
+      "Water and food"
+    ],
+    "answer": 2,
+    "explanation": "Esteem needs are about status, respect, and recognition."
+  },
+  {
+    "topic": "Need Hierarchy Theory",
+    "question": "Social needs refer to:",
+    "options": [
+      "Desire for status",
+      "Need for friendship and belonging",
+      "Financial incentives",
+      "Survival needs"
+    ],
+    "answer": 1,
+    "explanation": "These are related to relationships and a sense of belonging."
+  },
+  {
+    "topic": "Hygiene Theory",
+    "question": "Who proposed the Hygiene theory of motivation?",
+    "options": [
+      "Henry Fayol",
+      "Elton Mayo",
+      "Frederick Herzberg",
+      "Abraham Maslow"
+    ],
+    "answer": 2,
+    "explanation": "Frederick Herzberg developed the two-factor theory of motivation."
+  },
+  {
+    "topic": "Hygiene Theory",
+    "question": "In Herzberg’s theory, hygiene factors lead to:",
+    "options": [
+      "High motivation",
+      "Job dissatisfaction if absent",
+      "Self-actualization",
+      "Increased creativity"
+    ],
+    "answer": 1,
+    "explanation": "Hygiene factors don’t motivate, but their absence causes dissatisfaction."
+  },
+  {
+    "topic": "Hygiene Theory",
+    "question": "Which of the following is a motivator according to Herzberg?",
+    "options": [
+      "Salary",
+      "Job security",
+      "Recognition",
+      "Working conditions"
+    ],
+    "answer": 2,
+    "explanation": "Motivators like recognition and achievement lead to satisfaction."
+  },
+  {
+    "topic": "Hygiene Theory",
+    "question": "Herzberg’s theory divides motivation into:",
+    "options": [
+      "Three categories",
+      "Hygiene and Motivators",
+      "External and internal forces",
+      "Positive and negative reinforcements"
+    ],
+    "answer": 1,
+    "explanation": "It classifies job factors into hygiene (dissatisfiers) and motivators (satisfiers)."
+  },
+  {
+    "topic": "Hygiene Theory",
+    "question": "Which of these is a hygiene factor?",
+    "options": [
+      "Challenging work",
+      "Achievement",
+      "Promotion",
+      "Company policy"
+    ],
+    "answer": 3,
+    "explanation": "Company policies are hygiene factors that can cause dissatisfaction if poor."
+  },
+  {
+    "topic": "Leadership: Definition",
+    "question": "Leadership is best defined as:",
+    "options": [
+      "Supervising work",
+      "Issuing orders",
+      "Influencing people to achieve goals",
+      "Avoiding decisions"
+    ],
+    "answer": 2,
+    "explanation": "Leadership involves influencing and guiding team members toward goals."
+  },
+  {
+    "topic": "Leadership Styles",
+    "question": "Autocratic leadership involves:",
+    "options": [
+      "Team decision-making",
+      "Subordinate participation",
+      "Full control by leader",
+      "Consensus building"
+    ],
+    "answer": 2,
+    "explanation": "Autocratic leaders make decisions without input from others."
+  },
+  {
+    "topic": "Leadership Styles",
+    "question": "Democratic leadership emphasizes:",
+    "options": [
+      "Centralized power",
+      "No involvement from team",
+      "Employee participation",
+      "Fear-based decisions"
+    ],
+    "answer": 2,
+    "explanation": "Democratic leaders involve their team in decision-making."
+  },
+  {
+    "topic": "Leadership Styles",
+    "question": "Which leadership style provides complete freedom to subordinates?",
+    "options": [
+      "Autocratic",
+      "Free-rein",
+      "Democratic",
+      "Transactional"
+    ],
+    "answer": 1,
+    "explanation": "Free-rein leaders give autonomy to their team with minimal interference."
+  },
+  {
+    "topic": "Leadership Styles",
+    "question": "Which leadership style works best in emergencies?",
+    "options": [
+      "Autocratic",
+      "Democratic",
+      "Laissez-faire",
+      "Participative"
+    ],
+    "answer": 0,
+    "explanation": "Autocratic style is effective when quick decisions are needed."
+  },
+  {
+    "topic": "Managerial Grid",
+    "question": "Who developed the Managerial Grid?",
+    "options": [
+      "Blake and Mouton",
+      "Maslow",
+      "Fayol",
+      "Herzberg"
+    ],
+    "answer": 0,
+    "explanation": "Robert Blake and Jane Mouton created the Managerial Grid to analyze leadership styles."
+  },
+  {
+    "topic": "Managerial Grid",
+    "question": "In the Managerial Grid, a leader high in both concern for people and production is:",
+    "options": [
+      "Impoverished manager",
+      "Team leader",
+      "Task manager",
+      "Country club manager"
+    ],
+    "answer": 1,
+    "explanation": "Team leadership is the ideal style with high concern for both people and tasks."
+  },
+  {
+    "topic": "Managerial Grid",
+    "question": "Which style scores low in concern for both people and production?",
+    "options": [
+      "Task manager",
+      "Team leader",
+      "Impoverished manager",
+      "Middle-of-the-road manager"
+    ],
+    "answer": 2,
+    "explanation": "Impoverished management shows minimum concern for both factors."
+  },
+  {
+    "topic": "Managerial Grid",
+    "question": "The ‘Country Club’ style emphasizes:",
+    "options": [
+      "Only output",
+      "Concern for people",
+      "Task delegation",
+      "Strict rules"
+    ],
+    "answer": 1,
+    "explanation": "Country Club managers prioritize relationships over productivity."
+  },
+  {
+    "topic": "Managerial Grid",
+    "question": "Middle-of-the-road managers focus on:",
+    "options": [
+      "Maximum productivity",
+      "Complete delegation",
+      "Balanced concern for people and production",
+      "Personal goals"
+    ],
+    "answer": 2,
+    "explanation": "They aim for moderate levels in both people and task orientation."
+  },
+  {
+    "topic": "Motivation",
+    "question": "Motivation results in:",
+    "options": [
+      "Reduced communication",
+      "Enhanced performance and commitment",
+      "Increased absenteeism",
+      "Decreased morale"
+    ],
+    "answer": 1,
+    "explanation": "Motivated employees are more productive and committed to goals."
+  },
+  {
+    "topic": "Motivation",
+    "question": "Which factor does not influence motivation?",
+    "options": [
+      "Work environment",
+      "Manager behavior",
+      "Employee hobbies",
+      "Incentives"
+    ],
+    "answer": 2,
+    "explanation": "Hobbies are personal and unrelated to workplace motivation."
+  },
+  
+  {
+    "topic": "Coordination: Definition",
+    "question": "Coordination in management refers to:",
+    "options": [
+      "Supervising employees",
+      "Bringing harmony among activities",
+      "Reporting outcomes",
+      "Assigning punishments"
+    ],
+    "answer": 1,
+    "explanation": "Coordination ensures all organizational efforts align towards common goals."
+  },
+  {
+    "topic": "Coordination: Need",
+    "question": "Why is coordination essential in organizations?",
+    "options": [
+      "To reduce the workforce",
+      "To monitor attendance",
+      "To integrate individual efforts",
+      "To avoid salary increments"
+    ],
+    "answer": 2,
+    "explanation": "Coordination integrates various efforts to avoid conflict and ensure unity."
+  },
+  {
+    "topic": "Coordination: Need",
+    "question": "Coordination is often called the:",
+    "options": [
+      "Last function of management",
+      "Essence of management",
+      "Least important task",
+      "Job of only HR"
+    ],
+    "answer": 1,
+    "explanation": "Coordination connects all functions, making it the essence of management."
+  },
+  {
+    "topic": "Coordination: Difficulties",
+    "question": "A key difficulty in coordination is:",
+    "options": [
+      "Too much cooperation",
+      "Conflicting personal goals",
+      "Excessive clarity",
+      "Minimal hierarchy"
+    ],
+    "answer": 1,
+    "explanation": "Personal goals may conflict with organizational objectives, making coordination difficult."
+  },
+  {
+    "topic": "Coordination: Effectiveness",
+    "question": "Effective coordination leads to:",
+    "options": [
+      "Overlapping efforts",
+      "Confused roles",
+      "Goal alignment",
+      "Reduced efficiency"
+    ],
+    "answer": 2,
+    "explanation": "Good coordination aligns departments and people towards shared goals."
+  },
+  {
+    "topic": "Control: Definition",
+    "question": "Control in management means:",
+    "options": [
+      "Firing employees",
+      "Checking deviations from goals",
+      "Conducting elections",
+      "Installing cameras"
+    ],
+    "answer": 1,
+    "explanation": "Control ensures actual performance aligns with planned objectives."
+  },
+  {
+    "topic": "Control: Process",
+    "question": "Which is the first step in the control process?",
+    "options": [
+      "Measure actual performance",
+      "Compare performance with standards",
+      "Establish standards",
+      "Take corrective action"
+    ],
+    "answer": 2,
+    "explanation": "Control starts by setting performance benchmarks or standards."
+  },
+  {
+    "topic": "Control: Process",
+    "question": "Taking corrective action comes after:",
+    "options": [
+      "Hiring employees",
+      "Setting goals",
+      "Measuring and comparing performance",
+      "Awarding bonuses"
+    ],
+    "answer": 2,
+    "explanation": "Corrective actions are taken after deviations are found during evaluation."
+  },
+  {
+    "topic": "Control: Process",
+    "question": "The final step in the control process is:",
+    "options": [
+      "Setting budgets",
+      "Feedback and adjustment",
+      "Team hiring",
+      "Goal setting"
+    ],
+    "answer": 1,
+    "explanation": "Feedback helps revise control mechanisms for future improvement."
+  },
+  {
+    "topic": "Essentials of Good Control",
+    "question": "A good control system should be:",
+    "options": [
+      "Complex",
+      "Delayed",
+      "Flexible",
+      "Secretive"
+    ],
+    "answer": 2,
+    "explanation": "Control systems must be flexible to adapt to changes in the environment."
+  },
+  {
+    "topic": "Essentials of Good Control",
+    "question": "Which of the following is NOT an essential of a good control system?",
+    "options": [
+      "Accuracy",
+      "Promptness",
+      "Inflexibility",
+      "Objectivity"
+    ],
+    "answer": 2,
+    "explanation": "Inflexibility hinders adaptability, making the control system ineffective."
+  },
+  {
+    "topic": "Essentials of Good Control",
+    "question": "A good control system should focus on:",
+    "options": [
+      "All activities equally",
+      "Critical or key result areas",
+      "Irrelevant processes",
+      "Non-measurable items"
+    ],
+    "answer": 1,
+    "explanation": "Control should prioritize vital areas that significantly impact performance."
+  },
+  {
+    "topic": "Merits of Control",
+    "question": "One major benefit of a control system is:",
+    "options": [
+      "Increased confusion",
+      "Higher operating costs",
+      "Improved resource utilization",
+      "Decreased employee morale"
+    ],
+    "answer": 2,
+    "explanation": "Effective control ensures optimal use of resources and timely corrections."
+  },
+  {
+    "topic": "Merits of Control",
+    "question": "Control helps in:",
+    "options": [
+      "Avoiding responsibility",
+      "Reducing productivity",
+      "Measuring performance objectively",
+      "Ignoring plans"
+    ],
+    "answer": 2,
+    "explanation": "Control provides benchmarks and metrics for evaluating performance."
+  },
+  {
+    "topic": "Demerits of Control",
+    "question": "Excessive control may lead to:",
+    "options": [
+      "Increased innovation",
+      "Employee resentment",
+      "Efficient leadership",
+      "Empowered teams"
+    ],
+    "answer": 1,
+    "explanation": "Too much control can demoralize employees and reduce creativity."
+  },
+  {
+    "topic": "Demerits of Control",
+    "question": "A disadvantage of strict control is:",
+    "options": [
+      "Cost reduction",
+      "Delayed decisions",
+      "Improved motivation",
+      "Greater autonomy"
+    ],
+    "answer": 1,
+    "explanation": "Strict control often creates a bottleneck in quick decision-making."
+  },
+  {
+    "topic": "Control: Definition",
+    "question": "In management, control is a function that:",
+    "options": [
+      "Occurs only once",
+      "Is separate from planning",
+      "Is continuous and future-oriented",
+      "Avoids feedback"
+    ],
+    "answer": 2,
+    "explanation": "Control is ongoing and helps guide future planning."
+  },
+  {
+    "topic": "Control: Process",
+    "question": "Which element ensures the control process leads to learning?",
+    "options": [
+      "Punishment",
+      "Feedback",
+      "Ignorance",
+      "Guesswork"
+    ],
+    "answer": 1,
+    "explanation": "Feedback helps management adapt future strategies."
+  },
+  {
+    "topic": "Coordination: Effectiveness",
+    "question": "Effective coordination increases:",
+    "options": [
+      "Departmental rivalry",
+      "Duplication of work",
+      "Synergy in teams",
+      "Communication barriers"
+    ],
+    "answer": 2,
+    "explanation": "Synergy means combined efforts yield better results than individuals working alone."
+  },
+  {
+    "topic": "Coordination: Difficulties",
+    "question": "Large organizations face coordination issues due to:",
+    "options": [
+      "Fewer levels",
+      "Over-communication",
+      "Complex structures and varied goals",
+      "Single decision-maker"
+    ],
+    "answer": 2,
+    "explanation": "Complexity increases the challenge of aligning activities and goals."
+  },
+  {
+    "topic": "Control: Merits",
+    "question": "Control ensures that:",
+    "options": [
+      "Employees act without supervision",
+      "Goals are ignored",
+      "Activities remain aligned with plans",
+      "Plans are not required"
+    ],
+    "answer": 2,
+    "explanation": "Control helps ensure operations stay aligned with objectives."
+  },
+  {
+    "topic": "Essentials of Control",
+    "question": "Control systems should be:",
+    "options": [
+      "Rigid and bureaucratic",
+      "Easily understandable and timely",
+      "Complex and slow",
+      "Focused only on punishment"
+    ],
+    "answer": 1,
+    "explanation": "Simple, timely control systems are easier to implement and follow."
+  },
+  {
+    "topic": "Control Process",
+    "question": "The purpose of comparing performance with standards is to:",
+    "options": [
+      "Fire employees",
+      "Identify variances",
+      "Create confusion",
+      "Generate new policies"
+    ],
+    "answer": 1,
+    "explanation": "It helps identify where actual performance deviates from expected outcomes."
+  },
+  {
+    "topic": "Coordination: Need",
+    "question": "Coordination is required at:",
+    "options": [
+      "Only top level",
+      "Only middle level",
+      "Only in production",
+      "All levels and departments"
+    ],
+    "answer": 3,
+    "explanation": "Coordination is essential across all organizational levels."
+  }
+  ]
+  
