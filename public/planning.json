@@ -1,1202 +1,724 @@
 [
   {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management?",
+    "topic": "Planning - Definition",
+    "question": "What is planning in the context of management?",
     "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
+      "Setting goals only",
+      "A one-time activity",
+      "Deciding in advance what is to be done",
+      "Hiring employees"
     ],
     "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
+    "explanation": "Planning is the process of deciding in advance what is to be done to achieve objectives."
   },
   {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management?",
+    "topic": "Planning - Importance",
+    "question": "Which of the following highlights the importance of planning?",
     "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
+      "It reduces confusion",
+      "It avoids legal problems",
+      "It increases unpredictability",
+      "It avoids documentation"
+    ],
+    "answer": 0,
+    "explanation": "Planning helps to reduce confusion by providing direction and clarity."
+  },
+  {
+    "topic": "Planning - Steps",
+    "question": "Which is the first step in the planning process?",
+    "options": [
+      "Selecting the best plan",
+      "Setting objectives",
+      "Following up",
+      "Evaluating performance"
     ],
     "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
+    "explanation": "The first step in planning is setting the objectives to be achieved."
   },
   {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process?",
+    "topic": "Planning - Steps",
+    "question": "After identifying objectives, what comes next in planning?",
+    "options": [
+      "Evaluating performance",
+      "Analyzing internal controls",
+      "Developing premises",
+      "Monitoring cash flow"
+    ],
+    "answer": 2,
+    "explanation": "Developing planning premises is the second step after setting objectives."
+  },
+  {
+    "topic": "Planning - Limitations",
+    "question": "One major limitation of planning is:",
+    "options": [
+      "It ensures flexibility",
+      "It requires accurate forecasts",
+      "It prevents leadership",
+      "It avoids responsibility"
+    ],
+    "answer": 1,
+    "explanation": "Planning depends heavily on forecasts, which may not always be accurate."
+  },
+  {
+    "topic": "Planning - Types of Plans",
+    "question": "Strategic plans are generally:",
+    "options": [
+      "Short-term and simple",
+      "Focused on daily tasks",
+      "Long-term and broad",
+      "Not written down"
+    ],
+    "answer": 2,
+    "explanation": "Strategic plans guide the long-term direction of the organization."
+  },
+  {
+    "topic": "Planning - Types of Plans",
+    "question": "Tactical plans focus on:",
+    "options": [
+      "Long-term strategies",
+      "Routine paperwork",
+      "Specific departments or units",
+      "Only the CEO’s role"
+    ],
+    "answer": 2,
+    "explanation": "Tactical plans break down strategic plans into actionable plans for departments."
+  },
+  {
+    "topic": "Planning - Definition",
+    "question": "Planning is considered a ________ function of management.",
+    "options": [
+      "Final",
+      "Financial",
+      "Primary",
+      "Optional"
+    ],
+    "answer": 2,
+    "explanation": "Planning is the primary function from which all other functions stem."
+  },
+  {
+    "topic": "Planning - Importance",
+    "question": "How does planning reduce risk and uncertainty?",
+    "options": [
+      "By increasing luck",
+      "Through careful forecasting and goal setting",
+      "By avoiding decision-making",
+      "By reducing communication"
+    ],
+    "answer": 1,
+    "explanation": "Planning anticipates possible changes and prepares actions to address them."
+  },
+  {
+    "topic": "Planning - Limitations",
+    "question": "Which statement is a limitation of planning?",
+    "options": [
+      "It guarantees success",
+      "It fosters spontaneity",
+      "It creates rigidity",
+      "It encourages unlimited freedom"
+    ],
+    "answer": 2,
+    "explanation": "Strict adherence to plans can limit flexibility and adaptability."
+  },
+  {
+    "topic": "Planning - Types",
+    "question": "Which type of plan outlines specific actions for the short-term?",
+    "options": [
+      "Strategic plan",
+      "Tactical plan",
+      "Operational plan",
+      "Contingency plan"
+    ],
+    "answer": 2,
+    "explanation": "Operational plans focus on routine, short-term procedures and tasks."
+  },
+  {
+    "topic": "Planning - Steps",
+    "question": "Evaluating alternatives is part of which process?",
+    "options": [
+      "Controlling",
+      "Planning",
+      "Organizing",
+      "Leading"
+    ],
+    "answer": 1,
+    "explanation": "Planning involves evaluating possible alternatives to meet objectives."
+  },
+  {
+    "topic": "Planning - Importance",
+    "question": "Planning helps in coordinating different departments by:",
+    "options": [
+      "Avoiding teamwork",
+      "Providing common objectives",
+      "Hiding information",
+      "Reducing authority"
+    ],
+    "answer": 1,
+    "explanation": "A common plan ensures that all departments are aligned in their goals."
+  },
+  {
+    "topic": "Planning - Types",
+    "question": "What is a contingency plan?",
+    "options": [
+      "A core strategic plan",
+      "A budget control system",
+      "A backup plan for emergencies",
+      "A promotion policy"
+    ],
+    "answer": 2,
+    "explanation": "Contingency plans are prepared for unexpected situations."
+  },
+  {
+    "topic": "Planning - Limitations",
+    "question": "Why can planning become ineffective in dynamic environments?",
+    "options": [
+      "Due to poor leadership",
+      "Because plans cannot change",
+      "Because planning cannot predict sudden changes",
+      "Due to limited staff"
+    ],
+    "answer": 2,
+    "explanation": "Sudden market or external changes may render detailed plans obsolete."
+  },
+  {
+    "topic": "Planning - Steps",
+    "question": "Which step follows evaluating alternative courses of action?",
+    "options": [
+      "Selecting the best alternative",
+      "Delegation",
+      "Coordination",
+      "Budgeting"
+    ],
+    "answer": 0,
+    "explanation": "After evaluating, the best plan is selected based on feasibility and goals."
+  },
+  {
+    "topic": "Planning - Definition",
+    "question": "Planning deals primarily with:",
+    "options": [
+      "Past data analysis",
+      "Improving employee benefits",
+      "Future activities and outcomes",
+      "Day-to-day minor issues"
+    ],
+    "answer": 2,
+    "explanation": "Planning is forward-looking and prepares an organization for future events."
+  },
+  {
+    "topic": "Planning - Importance",
+    "question": "Which of the following is not a benefit of planning?",
+    "options": [
+      "Encouraging coordination",
+      "Reduces ambiguity",
+      "Avoids overthinking",
+      "Helps in goal achievement"
+    ],
+    "answer": 2,
+    "explanation": "Planning requires deliberate thinking, so it doesn't 'avoid overthinking.'"
+  },
+  {
+    "topic": "Planning - Types",
+    "question": "Which plan is concerned with policy formation and mission setting?",
+    "options": [
+      "Strategic plan",
+      "Contingency plan",
+      "Operational plan",
+      "Growth plan"
+    ],
+    "answer": 0,
+    "explanation": "Strategic plans guide long-term policy and mission execution."
+  },
+  {
+    "topic": "Planning - Limitations",
+    "question": "How can excessive planning reduce innovation?",
+    "options": [
+      "By increasing risk-taking",
+      "By limiting improvisation",
+      "By rewarding mistakes",
+      "By encouraging autonomy"
+    ],
+    "answer": 1,
+    "explanation": "Rigid plans can reduce the opportunity for creative thinking and spontaneous problem-solving."
+  },
+  {
+    "topic": "Decision Making - Definition",
+    "question": "What is decision-making in management?",
+    "options": [
+      "Avoiding problems",
+      "Delegating authority",
+      "Choosing among alternatives",
+      "Following instructions"
+    ],
+    "answer": 2,
+    "explanation": "Decision-making involves selecting the best alternative to solve a problem or achieve a goal."
+  },
+  {
+    "topic": "Decision Making - Process",
+    "question": "What is the first step in the decision-making process?",
+    "options": [
+      "Choosing an alternative",
+      "Identifying the problem",
+      "Evaluating alternatives",
+      "Implementing the decision"
+    ],
+    "answer": 1,
+    "explanation": "The first step in decision-making is to clearly identify the problem or objective."
+  },
+  {
+    "topic": "Decision Making - Process",
+    "question": "Which step involves comparing pros and cons of each option?",
+    "options": [
+      "Problem identification",
+      "Implementation",
+      "Evaluation of alternatives",
+      "Follow-up"
+    ],
+    "answer": 2,
+    "explanation": "Evaluation helps in assessing the effectiveness and feasibility of each alternative."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "Programmed decisions are usually:",
+    "options": [
+      "Creative and new",
+      "Based on intuition",
+      "Routine and repetitive",
+      "One-time only"
+    ],
+    "answer": 2,
+    "explanation": "Programmed decisions deal with structured, recurring problems."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "Which of these is a non-programmed decision?",
+    "options": [
+      "Scheduling employee shifts",
+      "Inventory reordering",
+      "Developing a new product strategy",
+      "Setting lunch breaks"
+    ],
+    "answer": 2,
+    "explanation": "Non-programmed decisions are unstructured and require custom solutions."
+  },
+  {
+    "topic": "Decision Making - Process",
+    "question": "Implementing the decision occurs after:",
     "options": [
       "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
+      "Identifying the problem",
+      "Gathering information",
+      "Choosing the best alternative"
     ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
+    "answer": 3,
+    "explanation": "The decision must be selected before it can be implemented."
   },
   {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning?",
+    "topic": "Decision Making - Types",
+    "question": "Strategic decisions typically affect:",
     "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan?",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
+      "Only a department",
+      "Daily operations",
+      "Long-term direction",
+      "Technical procedures"
     ],
     "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
+    "explanation": "Strategic decisions are high-level and guide the overall mission and vision."
   },
   {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management?",
+    "topic": "Decision Making - Types",
+    "question": "Routine decisions are usually made by:",
     "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
+      "Top management",
+      "Customers",
+      "Lower or middle management",
+      "External consultants"
+    ],
+    "answer": 2,
+    "explanation": "Routine decisions are handled by operational or middle-level managers."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "What differentiates major and minor decisions?",
+    "options": [
+      "Level of authority required",
+      "Number of meetings",
+      "Location of decision",
+      "Personality of the manager"
+    ],
+    "answer": 0,
+    "explanation": "Major decisions usually involve higher risks and require top-level approval."
+  },
+  {
+    "topic": "Decision Making - Definition",
+    "question": "In decision-making, the term 'alternatives' refers to:",
+    "options": [
+      "Past records",
+      "Different choices available",
+      "Random events",
+      "Employee feedback"
     ],
     "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
+    "explanation": "Alternatives are the different options considered in the decision-making process."
   },
   {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations?",
+    "topic": "Decision Making - Process",
+    "question": "Which is the final step in the decision-making process?",
     "options": [
-      "Strategic decision",
+      "Implementing the decision",
+      "Identifying alternatives",
+      "Evaluating the outcome",
+      "Problem definition"
+    ],
+    "answer": 2,
+    "explanation": "Evaluating the outcome helps assess the effectiveness of the decision."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "An example of a strategic decision is:",
+    "options": [
+      "Hiring a temporary worker",
+      "Ordering office supplies",
+      "Launching a new business unit",
+      "Approving leave requests"
+    ],
+    "answer": 2,
+    "explanation": "Strategic decisions have long-term impact and are made by top management."
+  },
+  {
+    "topic": "Decision Making - Individual vs Group",
+    "question": "A benefit of group decision-making is:",
+    "options": [
+      "Quick results",
+      "Diverse perspectives",
+      "Less responsibility",
+      "Fewer conflicts"
+    ],
+    "answer": 1,
+    "explanation": "Group decisions benefit from multiple viewpoints, enhancing the quality of decisions."
+  },
+  {
+    "topic": "Decision Making - Individual vs Group",
+    "question": "A drawback of group decision-making is:",
+    "options": [
+      "Better creativity",
+      "Time-consuming process",
+      "More ideas",
+      "Faster execution"
+    ],
+    "answer": 1,
+    "explanation": "Group decisions take more time due to discussions and consensus-building."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "Which type of decision is made with minimal analysis?",
+    "options": [
+      "Routine decision",
       "Non-programmed decision",
+      "Major decision",
+      "Strategic decision"
+    ],
+    "answer": 0,
+    "explanation": "Routine decisions are repetitive and often require minimal thought."
+  },
+  {
+    "topic": "Decision Making - Process",
+    "question": "Gathering relevant data occurs in which stage?",
+    "options": [
+      "Implementation",
+      "Follow-up",
+      "Analysis of situation",
+      "Alternative selection"
+    ],
+    "answer": 2,
+    "explanation": "Analyzing the situation involves collecting and interpreting relevant information."
+  },
+  {
+    "topic": "Decision Making - Programmed vs Non-Programmed",
+    "question": "Non-programmed decisions are typically associated with:",
+    "options": [
+      "Routine tasks",
+      "Structured problems",
+      "New and unique problems",
+      "Daily operations"
+    ],
+    "answer": 2,
+    "explanation": "Non-programmed decisions address novel and unstructured challenges."
+  },
+  {
+    "topic": "Decision Making - Process",
+    "question": "Which of the following is critical for evaluating decision alternatives?",
+    "options": [
+      "Cost and feasibility",
+      "Manager’s preferences",
+      "Competitor opinion",
+      "Tradition"
+    ],
+    "answer": 0,
+    "explanation": "Feasibility and cost-benefit analysis are key in selecting the best decision."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "Which decision is made repeatedly and becomes a standard?",
+    "options": [
+      "Non-programmed decision",
+      "Major decision",
       "Programmed decision",
       "Group decision"
     ],
     "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
+    "explanation": "Programmed decisions are routine and often automated or based on policies."
   },
   {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making?",
+    "topic": "Decision Making - Individual vs Group",
+    "question": "When quick action is needed, which decision-making approach is better?",
     "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 9)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
+      "Group decision",
+      "Committee discussion",
+      "Individual decision",
+      "Brainstorming"
     ],
     "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
+    "explanation": "Individual decisions are faster and suitable in urgent or crisis situations."
   },
   {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 10)",
+    "topic": "Decision Making - Strategic vs Routine",
+    "question": "Which type of decision has long-term implications for an organization?",
     "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 11)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 12)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 13)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 14)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 15)",
-    "options": [
+      "Routine decision",
       "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
+      "Minor decision",
+      "Personal decision"
+    ],
+    "answer": 1,
+    "explanation": "Strategic decisions shape the future direction of the business."
+  },
+  {
+    "topic": "Decision Making - Routine Decisions",
+    "question": "Routine decisions are usually guided by:",
+    "options": [
+      "Organizational vision",
+      "Rules and procedures",
+      "Intuition",
+      "Competitor's actions"
+    ],
+    "answer": 1,
+    "explanation": "Routine decisions are made based on existing rules and policies."
+  },
+  {
+    "topic": "Decision Making - Major vs Minor",
+    "question": "Which is a major decision?",
+    "options": [
+      "Changing printer paper",
+      "Launching a new product line",
+      "Setting weekly meetings",
+      "Assigning seating arrangements"
+    ],
+    "answer": 1,
+    "explanation": "Launching a product line affects strategy, cost, and branding—making it a major decision."
+  },
+  {
+    "topic": "Decision Making - Major vs Minor",
+    "question": "Minor decisions are generally made by:",
+    "options": [
+      "Board of directors",
+      "CEO",
+      "Supervisors or team leaders",
+      "Government authorities"
     ],
     "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
+    "explanation": "Minor decisions are made at lower levels to handle day-to-day operations."
   },
   {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 16)",
+    "topic": "Decision Making - Individual Decision",
+    "question": "Which of the following favors individual decision-making?",
     "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 17)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
+      "Group brainstorming",
+      "Complex problem with no precedent",
+      "Time-sensitive issues",
+      "Team-based collaboration"
     ],
     "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
+    "explanation": "Time-sensitive decisions are often better made by individuals for quick action."
   },
   {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 18)",
+    "topic": "Decision Making - Group Decision",
+    "question": "Group decision-making is preferable when:",
     "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 19)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 20)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 21)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
+      "Quick resolution is required",
+      "The issue is trivial",
+      "Diverse expertise is needed",
+      "There is no data"
     ],
     "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
+    "explanation": "Group input is valuable for complex decisions involving multiple viewpoints."
   },
   {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 22)",
+    "topic": "Decision Making - Strategic vs Routine",
+    "question": "Who typically makes strategic decisions?",
     "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
+      "Team leaders",
+      "Middle managers",
+      "Top-level executives",
+      "Interns"
+    ],
+    "answer": 2,
+    "explanation": "Strategic decisions are made by top executives as they define long-term direction."
+  },
+  {
+    "topic": "Decision Making - Programmed",
+    "question": "Which of the following is most likely a programmed decision?",
+    "options": [
+      "Developing a crisis response plan",
+      "Scheduling weekly meetings",
+      "Changing company goals",
+      "Hiring a CEO"
     ],
     "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
+    "explanation": "Routine, repetitive decisions like scheduling meetings are programmed."
   },
   {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 23)",
+    "topic": "Decision Making - Non-programmed",
+    "question": "Non-programmed decisions require:",
     "options": [
+      "Predefined rules",
+      "Intuition and judgment",
+      "Simple checklists",
+      "Standard formulas"
+    ],
+    "answer": 1,
+    "explanation": "Unique and unstructured situations need creativity and personal judgment."
+  },
+  {
+    "topic": "Decision Making - Strategic",
+    "question": "Entering a new market is an example of:",
+    "options": [
+      "Minor decision",
+      "Routine decision",
       "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
+      "Programmed decision"
     ],
     "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
+    "explanation": "Entering a new market is a major long-term move, thus strategic in nature."
   },
   {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 24)",
+    "topic": "Decision Making - Routine",
+    "question": "Reordering office supplies is an example of:",
     "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 25)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 26)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 27)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 28)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 29)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 30)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 31)",
-    "options": [
+      "Major decision",
+      "Routine decision",
       "Strategic decision",
+      "Non-programmed decision"
+    ],
+    "answer": 1,
+    "explanation": "Such recurring and standardized actions are routine decisions."
+  },
+  {
+    "topic": "Decision Making - Major",
+    "question": "What characterizes a major decision?",
+    "options": [
+      "Low risk and no analysis",
+      "No financial impact",
+      "Significant resources and high impact",
+      "Made by juniors"
+    ],
+    "answer": 2,
+    "explanation": "Major decisions involve high investment and organizational impact."
+  },
+  {
+    "topic": "Decision Making - Individual vs Group",
+    "question": "A key drawback of individual decision-making is:",
+    "options": [
+      "Time delays",
+      "Over-reliance on personal bias",
+      "Too many ideas",
+      "Lack of privacy"
+    ],
+    "answer": 1,
+    "explanation": "Individuals may make biased choices based on personal preference."
+  },
+  {
+    "topic": "Decision Making - Group",
+    "question": "Which term is used to describe the disadvantage of groupthink?",
+    "options": [
+      "Risk enhancement",
+      "Biased logic",
+      "Pressure to conform",
+      "Emotional burnout"
+    ],
+    "answer": 2,
+    "explanation": "Groupthink occurs when members suppress dissent to maintain harmony."
+  },
+  {
+    "topic": "Decision Making - Programmed vs Non-Programmed",
+    "question": "Which of these fits non-programmed decision-making?",
+    "options": [
+      "Repetitive budgeting",
+      "Inventory restocking",
+      "Acquiring a competitor",
+      "Time-sheet processing"
+    ],
+    "answer": 2,
+    "explanation": "Buying a competitor is a unique, high-impact decision needing analysis."
+  },
+  {
+    "topic": "Decision Making - Group",
+    "question": "Which method helps groups avoid bias during decision-making?",
+    "options": [
+      "Brainstorming",
+      "Guessing",
+      "Silent treatment",
+      "Authoritarian rule"
+    ],
+    "answer": 0,
+    "explanation": "Brainstorming encourages creativity while reducing personal bias."
+  },
+  {
+    "topic": "Decision Making - Types",
+    "question": "Choosing a software vendor for an enterprise is:",
+    "options": [
+      "Routine decision",
       "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
+      "Minor decision",
+      "Team-building decision"
+    ],
+    "answer": 1,
+    "explanation": "Vendor selection is critical, often done on a case-by-case basis with research."
+  },
+  {
+    "topic": "Decision Making - Major vs Minor",
+    "question": "Approving a marketing campaign budget is a:",
+    "options": [
+      "Minor decision",
+      "Routine task",
+      "Major decision",
+      "Spontaneous task"
     ],
     "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
+    "explanation": "Budget approvals usually involve significant financial decisions."
   },
   {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 32)",
+    "topic": "Decision Making - Group",
+    "question": "What is a major risk of group decisions?",
     "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
+      "More data",
+      "Slow decision-making",
+      "Enhanced objectivity",
+      "Transparency"
     ],
     "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
+    "explanation": "Reaching consensus can delay timely decision-making."
   },
   {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 33)",
+    "topic": "Decision Making - Programmed",
+    "question": "Which of these decisions can be automated easily?",
     "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
+      "Mergers",
+      "Employee promotions",
+      "Daily attendance marking",
+      "Product launches"
     ],
     "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 34)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 35)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 36)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 37)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 38)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 39)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 40)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 41)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 42)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 43)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 44)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 45)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 46)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 47)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 48)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 49)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 50)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 51)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 52)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 53)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 54)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 55)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 56)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 57)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 58)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 59)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 60)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 61)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 62)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 63)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 64)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 65)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 66)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 67)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 68)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 69)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 70)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 71)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 72)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 73)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 74)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 75)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 76)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 77)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 78)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 79)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 80)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 81)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 82)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 83)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 84)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 85)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 86)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 87)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 88)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 89)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 90)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 91)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 92)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
-  },
-  {
-    "topic": "Types of Plans",
-    "question": "Which of the following is an example of a strategic plan? (Variant 93)",
-    "options": [
-      "Daily sales target",
-      "Annual leave schedule",
-      "Product launch roadmap for five years",
-      "Employee attendance policy"
-    ],
-    "answer": 2,
-    "explanation": "A product launch roadmap for five years is a long-term strategic plan focused on organizational growth."
-  },
-  {
-    "topic": "Definition of Decision Making",
-    "question": "What is decision making in the context of management? (Variant 94)",
-    "options": [
-      "Making informal choices in personal life",
-      "Selecting the best course of action among alternatives",
-      "Providing emotional support to employees",
-      "Assigning work to employees"
-    ],
-    "answer": 1,
-    "explanation": "Decision making is the process of identifying and selecting the best course of action from among multiple alternatives."
-  },
-  {
-    "topic": "Types of Decisions",
-    "question": "Which type of decision is taken in structured and routine situations? (Variant 95)",
-    "options": [
-      "Strategic decision",
-      "Non-programmed decision",
-      "Programmed decision",
-      "Group decision"
-    ],
-    "answer": 2,
-    "explanation": "Programmed decisions are used in routine and repetitive situations where procedures already exist."
-  },
-  {
-    "topic": "Individual vs Group Decisions",
-    "question": "What is a key advantage of group decision making? (Variant 96)",
-    "options": [
-      "Takes less time",
-      "Offers diverse perspectives and better creativity",
-      "Easier accountability",
-      "Reduces communication channels"
-    ],
-    "answer": 1,
-    "explanation": "Group decision making benefits from the diverse viewpoints of its members, leading to more creative and effective solutions."
-  },
-  {
-    "topic": "Definition of Planning",
-    "question": "Which of the following best defines planning in management? (Variant 97)",
-    "options": [
-      "Organizing business processes",
-      "Coordinating with different departments",
-      "Setting goals and deciding in advance the actions to achieve them",
-      "Monitoring the performance of employees"
-    ],
-    "answer": 2,
-    "explanation": "Planning is the process of setting goals and deciding in advance the appropriate actions required to achieve those goals."
-  },
-  {
-    "topic": "Importance of Planning",
-    "question": "Why is planning considered an essential function of management? (Variant 98)",
-    "options": [
-      "It helps in avoiding communication gaps",
-      "It ensures better coordination and reduces uncertainty",
-      "It promotes job satisfaction",
-      "It avoids delegation of work"
-    ],
-    "answer": 1,
-    "explanation": "Planning reduces uncertainties by anticipating future events and provides a framework for coordinated efforts."
-  },
-  {
-    "topic": "Steps in Planning",
-    "question": "What is the first step in the planning process? (Variant 99)",
-    "options": [
-      "Evaluating alternatives",
-      "Setting objectives",
-      "Developing premises",
-      "Selecting a course of action"
-    ],
-    "answer": 1,
-    "explanation": "The first step in planning is setting objectives, which define what the organization aims to achieve."
-  },
-  {
-    "topic": "Limitations of Planning",
-    "question": "Which of the following is a limitation of planning? (Variant 100)",
-    "options": [
-      "Encourages flexibility",
-      "Reduces innovation",
-      "Improves resource utilization",
-      "Provides clear direction"
-    ],
-    "answer": 1,
-    "explanation": "Planning may reduce innovation as it emphasizes following a predetermined path rather than experimenting with new ideas."
+    "explanation": "Attendance is a repeated and rule-based process, ideal for automation."
   }
-]
+  ]
+  
+  
