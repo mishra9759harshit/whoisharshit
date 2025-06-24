@@ -1,1202 +1,1208 @@
 [
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business?",
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "What is the primary motive of a business?",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
+      "Welfare of society",
+      "Earning profit",
+      "Helping government",
+      "Creating infrastructure"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "The main motive of business is to earn profit through the sale of goods or services."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which activity is NOT a part of commerce?",
+    "options": [
+      "Banking",
+      "Insurance",
+      "Production",
+      "Transportation"
+    ],
+    "answer": 2,
+    "explanation": "Production belongs to industry, not commerce."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which of the following best describes industry?",
+    "options": [
+      "Exchange of goods",
+      "Production of goods",
+      "Buying and selling",
+      "Providing loans"
+    ],
+    "answer": 1,
+    "explanation": "Industry refers to the economic activities concerned with production of goods and services."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Which feature distinguishes business from profession?",
+    "options": [
+      "Profit motive",
+      "Personal service",
+      "Skill requirement",
+      "Social service"
+    ],
+    "answer": 0,
+    "explanation": "Unlike profession, business is driven mainly by the profit motive."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Risk is an essential feature of ________.",
+    "options": [
+      "Employment",
+      "Profession",
+      "Business",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "Business always involves risk due to uncertainties in market, demand, and supply."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade?",
+    "question": "Which of the following is not an aid to trade?",
     "options": [
+      "Banking",
+      "Insurance",
       "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry?",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce?",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Advertising"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship?",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 6)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Manufacturing is part of industry, not an aid to trade."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 7)",
+    "question": "Internal trade includes which of the following?",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
+      "Import",
+      "Export",
+      "Wholesale",
+      "Foreign exchange"
     ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "answer": 2,
+    "explanation": "Wholesale is a part of internal trade where goods are sold in bulk."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 8)",
+    "question": "Which of the following is an example of the manufacturing industry?",
     "options": [
       "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 9)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Farming",
+      "Steel production",
+      "Mining"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "Steel production is a manufacturing process where raw materials are converted into finished goods."
+  },
+  {
+    "topic": "Industry: Classification",
+    "question": "Which industry uses living organisms for production?",
+    "options": [
+      "Genetic industry",
+      "Extractive industry",
+      "Construction industry",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "Genetic industry includes activities like animal breeding and plant nurseries."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "Which of the following best explains the role of commerce?",
+    "options": [
+      "Production of goods",
+      "Facilitating distribution of goods",
+      "Consumption of goods",
+      "Import duties"
+    ],
+    "answer": 1,
+    "explanation": "Commerce includes all activities that facilitate the distribution of goods from producers to consumers."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which of these is NOT a function of business?",
+    "options": [
+      "Production",
+      "Marketing",
+      "Banking",
+      "Finance"
+    ],
+    "answer": 2,
+    "explanation": "Banking is an aid to business but not a direct function."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which function involves determining the cost and pricing of products?",
+    "options": [
+      "Marketing",
+      "Finance",
+      "Production",
+      "Accounting"
+    ],
+    "answer": 3,
+    "explanation": "Accounting helps in cost determination and pricing strategies."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 10)",
+    "question": "In which form of business is the owner and business the same legal entity?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Sole Proprietorship",
+      "Partnership",
+      "Company",
+      "LLP"
     ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "answer": 0,
+    "explanation": "In sole proprietorship, there is no legal distinction between the owner and the business."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 11)",
+    "topic": "Forms of Business Organization: Sole Proprietorship",
+    "question": "Which of the following is a major disadvantage of sole proprietorship?",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
+      "Ease of formation",
+      "Limited liability",
+      "Full control",
+      "Undivided profits"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "The owner has unlimited liability in a sole proprietorship."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Which Act governs partnerships in India?",
+    "options": [
+      "Companies Act, 2013",
+      "Partnership Act, 1932",
+      "LLP Act, 2008",
+      "Business Act, 1992"
+    ],
+    "answer": 1,
+    "explanation": "The Indian Partnership Act, 1932 governs partnerships in India."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Minimum number of partners in a partnership firm is?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "A partnership must have at least two people."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "A partner who gives his name but does not share profits is called?",
+    "options": [
+      "Sleeping partner",
+      "Nominal partner",
+      "Minor partner",
+      "Secret partner"
+    ],
+    "answer": 1,
+    "explanation": "A nominal partner only lends his name and does not invest or share profits."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which type of partner takes part in management?",
+    "options": [
+      "Nominal partner",
+      "Sleeping partner",
+      "Active partner",
+      "Minor partner"
+    ],
+    "answer": 2,
+    "explanation": "An active partner contributes capital and takes part in daily business management."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which document defines the rules and regulations of a partnership?",
+    "options": [
+      "Articles of Association",
+      "Memorandum of Understanding",
+      "Partnership Deed",
+      "Business Charter"
+    ],
+    "answer": 2,
+    "explanation": "A partnership deed lays down the rights, duties, and obligations of partners."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which feature distinguishes LLP from general partnership?",
+    "options": [
+      "Written agreement",
+      "Profit-sharing",
+      "Limited liability",
+      "Unlimited partners"
+    ],
+    "answer": 2,
+    "explanation": "Unlike general partnership, LLP provides limited liability protection to all partners."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which activity is involved in the direct exchange of goods without money?",
+    "options": [
+      "Wholesale trade",
+      "Retail trade",
+      "Barter system",
+      "Foreign trade"
+    ],
+    "answer": 2,
+    "explanation": "The barter system involves exchanging goods for goods without using money."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Commerce mainly facilitates:",
+    "options": [
+      "Capital formation",
+      "Production process",
+      "Distribution of goods and services",
+      "Tax collection"
+    ],
+    "answer": 2,
+    "explanation": "Commerce includes all activities that aid in the distribution of goods and services."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Which of the following is a dynamic feature of business?",
+    "options": [
+      "Fixed rules",
+      "Changing environment",
+      "No risk",
+      "Free from government laws"
+    ],
+    "answer": 1,
+    "explanation": "Business operates in a changing environment and must adapt continuously."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Business includes economic activities undertaken for:",
+    "options": [
+      "Charity",
+      "Profit earning",
+      "Worship",
+      "Entertainment"
+    ],
+    "answer": 1,
+    "explanation": "Business refers to economic activities carried out for the purpose of earning profits."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 12)",
+    "question": "Export and import are parts of:",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 13)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 14)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Internal trade",
+      "Retail trade",
+      "External trade",
+      "Domestic trade"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 15)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 16)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "External trade involves both export and import of goods across national borders."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 17)",
+    "question": "Which of the following helps to create awareness about a product?",
     "options": [
-      "Manufacturing",
       "Warehousing",
-      "Farming",
-      "Mining"
+      "Banking",
+      "Insurance",
+      "Advertising"
     ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "answer": 3,
+    "explanation": "Advertising is an aid to trade that promotes products and services to consumers."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 18)",
+    "question": "Construction of buildings and bridges falls under:",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
+      "Manufacturing industry",
+      "Construction industry",
+      "Genetic industry",
+      "Extractive industry"
     ],
     "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
+    "explanation": "Construction industry is involved in making infrastructure like roads, bridges, and buildings."
   },
   {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 19)",
+    "topic": "Industry: Classification",
+    "question": "Which of the following is not part of primary industry?",
     "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Agriculture",
+      "Fishing",
+      "Mining",
+      "Textile manufacturing"
+    ],
+    "answer": 3,
+    "explanation": "Textile manufacturing is part of secondary (manufacturing) industry."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "The main difference between trade and commerce is that:",
+    "options": [
+      "Trade includes services; commerce does not",
+      "Commerce includes trade and auxiliaries to trade",
+      "Commerce is part of trade",
+      "Trade is larger than commerce"
+    ],
+    "answer": 1,
+    "explanation": "Commerce includes trade as well as all the services that facilitate trade."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "Which of these is NOT considered an auxiliary to trade?",
+    "options": [
+      "Banking",
+      "Transport",
+      "Retailing",
+      "Warehousing"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "Retailing is a type of trade, not an aid to trade."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which function ensures regular availability of funds in business?",
+    "options": [
+      "Marketing",
+      "Accounting",
+      "Production",
+      "Finance"
+    ],
+    "answer": 3,
+    "explanation": "Finance function manages funds to ensure business operations run smoothly."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Business decisions are primarily taken to achieve:",
+    "options": [
+      "Maximum employment",
+      "Maximum government support",
+      "Maximum social service",
+      "Organizational goals"
+    ],
+    "answer": 3,
+    "explanation": "All business functions aim to achieve organizational goals effectively."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 20)",
+    "question": "Which of the following best describes sole proprietorship?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Owned by shareholders",
+      "Owned by two or more partners",
+      "Owned and managed by one individual",
+      "Owned by government"
     ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "answer": 2,
+    "explanation": "Sole proprietorship is a form of business owned and managed by a single person."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 21)",
+    "topic": "Forms of Business Organization: Sole Proprietorship",
+    "question": "Sole proprietorship is suitable for:",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
+      "Large scale business",
+      "High capital investment",
+      "Personalized services",
+      "Public sector undertakings"
+    ],
+    "answer": 2,
+    "explanation": "Sole proprietorship works best for small-scale, personalized service businesses."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Which is NOT a feature of partnership?",
+    "options": [
+      "Mutual agency",
+      "Unlimited liability",
+      "Legal personality",
+      "Profit-sharing"
+    ],
+    "answer": 2,
+    "explanation": "A partnership firm does not have a separate legal personality."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "A written agreement among partners is known as:",
+    "options": [
+      "Charter",
+      "Partnership deed",
+      "Memorandum of Association",
+      "Bye-laws"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Partnership deed defines the rights, duties, and liabilities of partners."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "A partner who does not want to disclose his association is called:",
+    "options": [
+      "Nominal partner",
+      "Sleeping partner",
+      "Secret partner",
+      "Minor partner"
+    ],
+    "answer": 2,
+    "explanation": "A secret partner participates in business but keeps identity hidden from the public."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which partner can inspect the accounts but not take decisions?",
+    "options": [
+      "Nominal partner",
+      "Sleeping partner",
+      "Minor partner",
+      "Active partner"
+    ],
+    "answer": 2,
+    "explanation": "A minor partner enjoys profits but cannot manage or bind the firm legally."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which of the following must be registered to become an LLP?",
+    "options": [
+      "LLP Agreement",
+      "Partnership Deed",
+      "License",
+      "Franchise Agreement"
+    ],
+    "answer": 0,
+    "explanation": "An LLP Agreement must be filed and registered with the Registrar of Companies."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "In LLP, liability of each partner is limited to:",
+    "options": [
+      "Unlimited",
+      "Mutual amount",
+      "Their agreed share",
+      "Their contribution"
+    ],
+    "answer": 3,
+    "explanation": "Each partner in an LLP is liable only to the extent of their agreed contribution."
+  },
+  
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which of the following involves economic activities to satisfy human wants?",
+    "options": [
+      "Hobbies",
+      "Business",
+      "Charity",
+      "Volunteering"
+    ],
+    "answer": 1,
+    "explanation": "Business involves regular economic activities aimed at satisfying human wants for a profit."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which of these is a component of commerce?",
+    "options": [
+      "Manufacturing",
+      "Warehousing",
+      "Mining",
+      "Fishing"
+    ],
+    "answer": 1,
+    "explanation": "Warehousing is an auxiliary to trade and thus a component of commerce."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "What defines the continuity of business?",
+    "options": [
+      "Charitable objective",
+      "Government policy",
+      "Regularity of dealings",
+      "Temporary transactions"
+    ],
+    "answer": 2,
+    "explanation": "Business requires regular dealings in goods or services over time."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Which of the following is NOT a characteristic of business?",
+    "options": [
+      "Profit motive",
+      "Risk element",
+      "Legal activity",
+      "Voluntary service"
+    ],
+    "answer": 3,
+    "explanation": "Business is not voluntary service but an economic activity with the aim of earning profit."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 22)",
+    "question": "Retailers sell goods to:",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 23)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 24)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Wholesalers",
+      "Manufacturers",
+      "Consumers",
+      "Distributors"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 25)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 26)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Retailers are the final link in the chain who sell directly to consumers."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 27)",
+    "question": "Which of these is NOT considered an aid to trade?",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
+      "Transport",
+      "Banking",
+      "Education",
+      "Advertising"
     ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "answer": 2,
+    "explanation": "Education is not directly related to trade; it's not an aid to trade."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 28)",
+    "question": "Which of the following is an example of extractive industry?",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
+      "Oil drilling",
+      "Car manufacturing",
+      "Software development",
+      "Construction"
     ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
+    "answer": 0,
+    "explanation": "Extractive industry involves taking out natural resources from the earth."
   },
   {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 29)",
+    "topic": "Industry: Classification",
+    "question": "Which of these is classified under secondary industries?",
     "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Banking",
+      "Fishing",
+      "Construction",
+      "Animal husbandry"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "Construction is a secondary industry as it transforms raw materials into infrastructure."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "Which statement is true about trade and commerce?",
+    "options": [
+      "Commerce is narrower than trade",
+      "Commerce includes both trade and aids to trade",
+      "Trade is not part of commerce",
+      "Commerce involves only buying"
+    ],
+    "answer": 1,
+    "explanation": "Commerce includes trade and all services which facilitate trade."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "What bridges the gap between producers and consumers?",
+    "options": [
+      "Marketing",
+      "Finance",
+      "Commerce",
+      "Research"
+    ],
+    "answer": 2,
+    "explanation": "Commerce acts as a bridge between production and final consumption."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which of these is not a social function of business?",
+    "options": [
+      "Providing employment",
+      "Protecting the environment",
+      "Making maximum profit",
+      "Producing useful goods"
+    ],
+    "answer": 2,
+    "explanation": "Profit-making is an economic function; social functions involve responsibility to society."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Innovation in products is related to which function?",
+    "options": [
+      "Production",
+      "Finance",
+      "Research and Development",
+      "Marketing"
+    ],
+    "answer": 2,
+    "explanation": "R&D plays a vital role in creating innovative products and services."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 30)",
+    "question": "Which document is not mandatory to start a sole proprietorship?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "GST registration",
+      "Bank account",
+      "MOA",
+      "Shop act license"
     ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "answer": 2,
+    "explanation": "MOA (Memorandum of Association) is for companies, not required for sole proprietors."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 31)",
+    "topic": "Forms of Business Organization: Sole Proprietorship",
+    "question": "Sole proprietorship suffers from which major limitation?",
     "options": [
-      "Involves production only",
-      "Profit motive",
+      "Conflicts among owners",
+      "Difficulty in decision making",
+      "Limited capital",
+      "Double taxation"
+    ],
+    "answer": 2,
+    "explanation": "Sole proprietors often face capital constraints as they rely on personal funds."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "In partnership, profits are shared as per:",
+    "options": [
+      "Equal basis only",
+      "Capital ratio only",
+      "Mutual agreement",
+      "Government rules"
+    ],
+    "answer": 2,
+    "explanation": "Partners may share profits based on their mutual agreement stated in the deed."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "A partnership is formed for:",
+    "options": [
+      "Legal services",
       "Social welfare",
-      "Government control"
+      "Business purposes",
+      "Government orders"
+    ],
+    "answer": 2,
+    "explanation": "A partnership is formed for lawful business purposes only."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which type of partner neither invests nor shares profits?",
+    "options": [
+      "Minor partner",
+      "Nominal partner",
+      "Active partner",
+      "Sleeping partner"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "A nominal partner only lends their name without any investment or profit share."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Is registration of a partnership firm compulsory in India?",
+    "options": [
+      "Yes, always",
+      "Only for profit-making firms",
+      "No, it's optional",
+      "Only if the firm has more than 2 partners"
+    ],
+    "answer": 2,
+    "explanation": "Partnership registration is not compulsory in India but is beneficial for legal purposes."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which form of business enjoys separate legal identity?",
+    "options": [
+      "Sole proprietorship",
+      "Ordinary partnership",
+      "LLP",
+      "Hindu Undivided Family"
+    ],
+    "answer": 2,
+    "explanation": "LLP has a separate legal identity from its partners, unlike partnerships."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which of these is NOT a typical clause in a partnership deed?",
+    "options": [
+      "Profit-sharing ratio",
+      "Capital contribution",
+      "Company mission statement",
+      "Duties of partners"
+    ],
+    "answer": 2,
+    "explanation": "A mission statement is part of a company’s formal documents, not a partnership deed."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Business is a part of which broader concept?",
+    "options": [
+      "Trade",
+      "Commerce",
+      "Economy",
+      "Management"
+    ],
+    "answer": 1,
+    "explanation": "Business is a component of commerce, which includes trade and all auxiliaries to trade."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which of the following is not an economic activity?",
+    "options": [
+      "Selling vegetables",
+      "Working in a factory",
+      "Volunteering at an NGO",
+      "Practicing as a lawyer"
+    ],
+    "answer": 2,
+    "explanation": "Volunteering at an NGO is a non-economic activity as it's not done for profit."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Which of the following is compulsory for a business to exist?",
+    "options": [
+      "Profit guarantee",
+      "Legal activity",
+      "Government subsidy",
+      "International trade"
+    ],
+    "answer": 1,
+    "explanation": "Only legal activities are allowed as businesses; illegal activities are not recognized."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "One of the essential features of business is:",
+    "options": [
+      "Government ownership",
+      "Social service only",
+      "Dealing in goods and services",
+      "Fixed income"
+    ],
+    "answer": 2,
+    "explanation": "Business involves dealing in goods and services for value exchange."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 32)",
+    "question": "Importing goods from China is an example of:",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 33)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 34)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Internal trade",
+      "Retail trade",
+      "Foreign trade",
+      "Wholesale trade"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 35)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 36)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Foreign trade involves import and export between countries."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 37)",
+    "question": "Which of these supports physical movement of goods?",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
+      "Advertising",
+      "Banking",
+      "Transportation",
+      "Warehousing"
     ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "answer": 2,
+    "explanation": "Transportation helps in the physical movement of goods from producer to consumer."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 38)",
+    "question": "The IT sector falls under which type of industry?",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
     ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
+    "answer": 3,
+    "explanation": "IT belongs to the quaternary industry, which involves knowledge-based services."
   },
   {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 39)",
+    "topic": "Industry: Classification",
+    "question": "Which of the following belongs to genetic industry?",
     "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Mining",
+      "Fish farming",
+      "Steel production",
+      "Building dams"
+    ],
+    "answer": 1,
+    "explanation": "Genetic industries involve breeding and reproduction of living organisms like fish and livestock."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "What is the role of commerce in economic development?",
+    "options": [
+      "It delays industrial growth",
+      "It restricts employment",
+      "It facilitates market expansion",
+      "It increases transportation cost"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "Commerce helps reach more customers by expanding the market for goods and services."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "Which of the following completes the chain from producer to consumer?",
+    "options": [
+      "Commerce",
+      "Government",
+      "Politics",
+      "Industry"
+    ],
+    "answer": 0,
+    "explanation": "Commerce ensures goods reach the final consumer through trade and auxiliaries."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which function ensures timely availability of raw materials?",
+    "options": [
+      "Finance",
+      "Marketing",
+      "Purchasing",
+      "Customer Service"
+    ],
+    "answer": 2,
+    "explanation": "The purchasing function manages procurement of raw materials needed for production."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "The process of identifying and satisfying customer needs is called:",
+    "options": [
+      "Finance",
+      "Production",
+      "Marketing",
+      "Distribution"
+    ],
+    "answer": 2,
+    "explanation": "Marketing is all about understanding and fulfilling customer requirements."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 40)",
+    "question": "Which business form has the simplest formation procedure?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Company",
+      "Sole proprietorship",
+      "LLP",
+      "Partnership"
     ],
     "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "explanation": "Sole proprietorship is the easiest to form with minimum legal formalities."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 41)",
+    "topic": "Forms of Business Organization: Sole Proprietorship",
+    "question": "Sole proprietorship is ideal for which of the following businesses?",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
+      "Large-scale manufacturing",
+      "Supermarket chains",
+      "Consulting services",
+      "Public companies"
+    ],
+    "answer": 2,
+    "explanation": "Consulting or service businesses can be effectively run by an individual."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Which characteristic allows each partner to represent the firm?",
+    "options": [
+      "Joint liability",
+      "Mutual agency",
+      "Profit-sharing",
+      "Goodwill"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Mutual agency means each partner can bind the firm by their actions."
+  },
+  {
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "How many maximum partners are allowed in banking business partnerships in India?",
+    "options": [
+      "10",
+      "20",
+      "50",
+      "Unlimited"
+    ],
+    "answer": 0,
+    "explanation": "In banking, the maximum number of partners allowed is 10."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which partner contributes capital but does not manage the firm?",
+    "options": [
+      "Sleeping partner",
+      "Minor partner",
+      "Nominal partner",
+      "Active partner"
+    ],
+    "answer": 0,
+    "explanation": "Sleeping partners invest money but don’t take part in day-to-day activities."
+  },
+  {
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which partner has limited liability and no management rights?",
+    "options": [
+      "Sleeping partner",
+      "Minor partner",
+      "Nominal partner",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "Minor partners have limited liability and can inspect books but don’t manage."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "In LLP, what governs internal operations and rights of partners?",
+    "options": [
+      "MOA",
+      "LLP Act",
+      "LLP Agreement",
+      "AOA"
+    ],
+    "answer": 2,
+    "explanation": "The LLP Agreement outlines the roles, rights, and responsibilities of partners."
+  },
+  {
+    "topic": "Partnership Deed and LLP",
+    "question": "Which of these is NOT a benefit of LLP?",
+    "options": [
+      "Limited liability",
+      "Separate legal identity",
+      "Higher taxation",
+      "Easy transferability"
+    ],
+    "answer": 2,
+    "explanation": "LLPs are usually taxed similarly to partnerships; higher taxation is not a benefit."
+  },
+  
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which of the following best describes trade?",
+    "options": [
+      "Manufacturing of goods",
+      "Providing employment",
+      "Buying and selling of goods",
+      "Government taxation"
+    ],
+    "answer": 2,
+    "explanation": "Trade refers specifically to the buying and selling of goods and services."
+  },
+  {
+    "topic": "Concepts of Business, Trade, Industry, and Commerce",
+    "question": "Which activity is not directly involved in commerce?",
+    "options": [
+      "Warehousing",
+      "Retailing",
+      "Advertising",
+      "Mining"
+    ],
+    "answer": 3,
+    "explanation": "Mining is a part of the extractive industry, not commerce."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Why is business considered an economic activity?",
+    "options": [
+      "It’s done for charity",
+      "It involves fun",
+      "It provides entertainment",
+      "It involves production and exchange of goods/services for profit"
+    ],
+    "answer": 3,
+    "explanation": "Business involves continuous and regular economic activities for profit."
+  },
+  {
+    "topic": "Features of Business",
+    "question": "Which one of the following is an essential feature of business?",
+    "options": [
+      "One-time transaction",
+      "Profit earning",
+      "Charitable work",
+      "Non-economic motive"
+    ],
+    "answer": 1,
+    "explanation": "The essential feature of any business is the motive to earn profit."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 42)",
+    "question": "A wholesaler acts as a link between:",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
+      "Consumer and government",
+      "Producer and retailer",
+      "Bank and consumer",
+      "Retailer and transporter"
     ],
     "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 43)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 44)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 45)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 46)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "Wholesalers buy in bulk from producers and sell in smaller quantities to retailers."
   },
   {
     "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 47)",
+    "question": "Which of the following helps in risk coverage in trade?",
     "options": [
-      "Manufacturing",
+      "Transport",
       "Warehousing",
-      "Farming",
-      "Mining"
+      "Insurance",
+      "Banking"
     ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "answer": 2,
+    "explanation": "Insurance helps protect against risks like theft, fire, damage, etc., in trade."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 48)",
+    "question": "Which sector involves transformation of raw materials into finished products?",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 49)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Primary sector",
+      "Tertiary sector",
+      "Secondary sector",
+      "Quinary sector"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 50)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 51)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 52)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "explanation": "The secondary sector includes manufacturing industries that convert raw materials into goods."
   },
   {
     "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 53)",
+    "question": "Which of the following is an example of tertiary industry?",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 54)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Coal mining",
+      "Ship building",
+      "Retail banking",
+      "Cattle breeding"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "Retail banking is a service, thus part of the tertiary industry."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "The term 'commerce' includes:",
+    "options": [
+      "Only buying and selling",
+      "Only transportation",
+      "All activities assisting trade",
+      "Only production of goods"
+    ],
+    "answer": 2,
+    "explanation": "Commerce encompasses all activities that assist trade like transport, banking, insurance, etc."
+  },
+  {
+    "topic": "Commerce and Its Relationship with Trade and Industry",
+    "question": "Commerce serves as a bridge between:",
+    "options": [
+      "Government and citizen",
+      "Producer and consumer",
+      "Manager and worker",
+      "Bank and customer"
+    ],
+    "answer": 1,
+    "explanation": "Commerce connects the point of production with the point of consumption."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "Which business function deals with human resource management?",
+    "options": [
+      "Production",
+      "Finance",
+      "Personnel",
+      "Marketing"
+    ],
+    "answer": 2,
+    "explanation": "Personnel or HR function manages recruitment, training, and employee welfare."
+  },
+  {
+    "topic": "Functions of Business",
+    "question": "What is the key purpose of the marketing function in business?",
+    "options": [
+      "Producing goods",
+      "Maintaining accounts",
+      "Customer satisfaction",
+      "Managing payroll"
+    ],
+    "answer": 2,
+    "explanation": "Marketing focuses on identifying customer needs and ensuring satisfaction."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 55)",
+    "question": "Who bears all profits and losses in a sole proprietorship?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Shareholders",
+      "Government",
+      "Partners",
+      "Owner"
     ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 56)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 57)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 58)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 59)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "answer": 3,
+    "explanation": "In a sole proprietorship, the owner is solely responsible for all profits and losses."
   },
   {
     "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 60)",
+    "question": "A sole proprietor enjoys:",
     "options": [
+      "Shared decision-making",
+      "Full control over business",
       "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Corporate tax benefits"
     ],
     "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "explanation": "The owner in a sole proprietorship has complete control over decisions and operations."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 61)",
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Partnership arises from:",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 62)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 63)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 64)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Inheritance",
+      "Operation of law",
+      "Mutual agreement",
+      "Public policy"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "A partnership is formed through a contract or agreement among partners."
   },
   {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 65)",
+    "topic": "Partnership: Meaning and Characteristics",
+    "question": "Can a minor be a full-fledged partner in a firm?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
+      "Yes, with guardian approval",
+      "No, but can share profits",
+      "Yes, after court permission",
+      "Yes, under partnership law"
     ],
     "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "explanation": "A minor can be admitted only for benefits of partnership, not as a full partner."
   },
   {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 66)",
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "Which partner invests and actively participates in management?",
     "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
+      "Sleeping partner",
+      "Active partner",
+      "Nominal partner",
+      "Minor partner"
     ],
     "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
+    "explanation": "An active partner contributes capital and manages daily operations of the firm."
   },
   {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 67)",
+    "topic": "Kinds of Partners and Registration of Partnership",
+    "question": "What is the effect of non-registration of a partnership firm?",
     "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
+      "Firm becomes illegal",
+      "Firm cannot sue third parties",
+      "Partners cannot enter into contracts",
+      "Firm becomes a company"
     ],
     "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
+    "explanation": "Unregistered firms cannot sue outsiders in court, though others can sue them."
   },
   {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 68)",
+    "topic": "Partnership Deed and LLP",
+    "question": "Which of the following is a statutory body to register LLPs in India?",
     "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 69)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Income Tax Department",
+      "Ministry of Finance",
+      "Registrar of Companies",
+      "Directorate of LLP"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
+    "explanation": "The Registrar of Companies (ROC) under the Ministry of Corporate Affairs handles LLP registration."
   },
   {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 70)",
+    "topic": "Partnership Deed and LLP",
+    "question": "Which of the following is a key benefit of LLP over traditional partnership?",
     "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 71)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 72)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 73)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 74)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
+      "Higher investment requirement",
+      "Unlimited liability",
+      "Separate legal identity",
+      "Lower registration cost"
     ],
     "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 75)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 76)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 77)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 78)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 79)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 80)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 81)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 82)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 83)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 84)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 85)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 86)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 87)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 88)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 89)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 90)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 91)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 92)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 93)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 94)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 95)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
-  },
-  {
-    "topic": "Concepts of Business, Trade, Industry and Commerce",
-    "question": "Which of the following is a key feature of business? (Variant 96)",
-    "options": [
-      "Involves production only",
-      "Profit motive",
-      "Social welfare",
-      "Government control"
-    ],
-    "answer": 1,
-    "explanation": "A primary feature of business is the profit motive, which distinguishes it from non-profit activities."
-  },
-  {
-    "topic": "Trade: Classification and Aids to Trade",
-    "question": "What is an example of an aid to trade? (Variant 97)",
-    "options": [
-      "Manufacturing",
-      "Warehousing",
-      "Farming",
-      "Mining"
-    ],
-    "answer": 1,
-    "explanation": "Warehousing is an aid to trade that facilitates the storage of goods until they are sold or distributed."
-  },
-  {
-    "topic": "Industry: Classification",
-    "question": "Which of the following is classified as a genetic industry? (Variant 98)",
-    "options": [
-      "Fishing",
-      "Animal husbandry",
-      "Construction",
-      "Banking"
-    ],
-    "answer": 1,
-    "explanation": "Genetic industry includes activities like animal husbandry and poultry farming, which deal with the reproduction of plants and animals."
-  },
-  {
-    "topic": "Commerce",
-    "question": "What is the relationship between trade, industry, and commerce? (Variant 99)",
-    "options": [
-      "They operate independently",
-      "Commerce is a part of trade",
-      "Trade and industry are parts of commerce",
-      "Industry includes trade and commerce"
-    ],
-    "answer": 2,
-    "explanation": "Trade and industry are components of commerce, which is the broader system that facilitates the exchange of goods and services."
-  },
-  {
-    "topic": "Forms of Business Organization: Sole Proprietorship",
-    "question": "Which of the following is an advantage of sole proprietorship? (Variant 100)",
-    "options": [
-      "Limited liability",
-      "Easy to start",
-      "Large capital base",
-      "Separate legal entity"
-    ],
-    "answer": 1,
-    "explanation": "Sole proprietorships are easy to establish with minimal legal formalities and cost."
+    "explanation": "LLP is a separate legal entity which protects partners with limited liability."
   }
-]
+  ]
+  
+
+  
+
