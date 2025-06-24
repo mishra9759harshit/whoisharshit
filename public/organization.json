@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "Decision Making - Strategic vs Routine",
+    "question": "are you a topper?",
+    "options": [
+      "I am a topper",
+      "yes",
+      "absolutely yes",
+      "Topper my 🦶🏻 "
+    ],
+    "answer": 3,
+    "explanation": "Strategic decisions shape the future direction of the business, but most toppers are just executing routines fed to them since childhood."
+  },
+  {
+    "topic": "Mental Health - Performance Pressure",
+    "question": "How does a topper sleep before board results?",
+    "options": [
+      "Peacefully like a yogi",
+      "Doesn't. Sleep is for the weak.",
+      "Only after calculating 100 minus possible silly mistakes",
+      "While mentally drafting IIT entrance strategy"
+    ],
+    "answer": 1,
+    "explanation": "Under high pressure, even top performers suffer quietly. Mental health often goes unspoken in our exam-obsessed culture."
+  },
+  {
+    "topic": "Identity Crisis - Marks vs Self-Worth",
+    "question": "What happens when a topper gets 92%?",
+    "options": [
+      "Celebration with family",
+      "Motivational speech from neighbours",
+      "They feel worthless",
+      "The family says, 'Kya hua beta, sab theek hai?'"
+    ],
+    "answer": 2,
+    "explanation": "Many students tie their self-worth to marks, leading to identity crises when they 'fail' by elite standards."
+  },
+  {
+    "topic": "Society Expectations - Career Pressure",
+    "question": "Why did the topper choose engineering?",
+    "options": [
+      "Passion for machines",
+      "Wanted to solve real problems",
+      "Because Sharma uncle’s son did it",
+      "Because choices are a luxury"
+    ],
+    "answer": 3,
+    "explanation": "Societal norms often dictate student decisions more than personal interest — especially for high achievers."
+  },
+  {
+    "topic": "Burnout - Early Success Syndrome",
+    "question": "Where is the 12th board exam topper now?",
+    "options": [
+      "IIT, obviously",
+      "Working at Google",
+      "Still topping life",
+      "Burned out, rethinking life, and invisible"
+    ],
+    "answer": 3,
+    "explanation": "Early success often comes at the cost of balance. Burnout is real, and many toppers fade out because they were never allowed to slow down."
+  }
+]
