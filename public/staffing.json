@@ -1,0 +1,1204 @@
+[
+  {
+    "topic": "Organization - Meaning",
+    "question": "What is an organization in a management context?",
+    "options": [
+      "A set of government policies",
+      "A group of people working together to achieve specific goals",
+      "A profit-making software tool",
+      "An informal group of workers"
+    ],
+    "answer": 1,
+    "explanation": "An organization is a group of individuals working together in a structured manner to achieve defined goals."
+  },
+  {
+    "topic": "Organization Structure",
+    "question": "Organization structure primarily defines:",
+    "options": [
+      "Company profits",
+      "Employee salaries",
+      "Roles, responsibilities, and reporting relationships",
+      "Product designs"
+    ],
+    "answer": 2,
+    "explanation": "Structure shows how tasks are divided, grouped, and coordinated within an organization."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "An organization chart represents:",
+    "options": [
+      "Job vacancies",
+      "Financial performance",
+      "The formal structure of an organization",
+      "The social environment"
+    ],
+    "answer": 2,
+    "explanation": "An organization chart visually displays the hierarchy and relationships among positions."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Which of the following is a characteristic of a formal organization?",
+    "options": [
+      "Spontaneous relationships",
+      "Defined roles and responsibilities",
+      "Formed for friendship",
+      "No hierarchy"
+    ],
+    "answer": 1,
+    "explanation": "A formal organization has predefined rules, structure, and a clear chain of command."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "What causes informal organizations to form?",
+    "options": [
+      "Formal job roles",
+      "Written contracts",
+      "Social interactions and personal interests",
+      "Government rules"
+    ],
+    "answer": 2,
+    "explanation": "Informal organizations evolve naturally due to social needs of people within the workplace."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "The span of management refers to:",
+    "options": [
+      "Manager's height",
+      "Number of managers",
+      "Number of subordinates a manager can effectively supervise",
+      "The time span of a project"
+    ],
+    "answer": 2,
+    "explanation": "It indicates how many subordinates report directly to one manager."
+  },
+  {
+    "topic": "Span of Management - Factors",
+    "question": "Which of these increases the span of control?",
+    "options": [
+      "Geographical dispersion",
+      "Well-trained subordinates",
+      "Complex tasks",
+      "Poor communication tools"
+    ],
+    "answer": 1,
+    "explanation": "Trained subordinates require less supervision, enabling a wider span."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "Line functions are directly responsible for:",
+    "options": [
+      "Providing financial support",
+      "Strategic planning",
+      "Achieving core objectives",
+      "HR policy advice"
+    ],
+    "answer": 2,
+    "explanation": "Line roles relate directly to production, sales, and delivery of goods or services."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "Which of these is a staff function?",
+    "options": [
+      "Marketing",
+      "Production",
+      "Legal advisory",
+      "Customer service"
+    ],
+    "answer": 2,
+    "explanation": "Staff functions provide expert advice and support to line departments."
+  },
+  {
+    "topic": "Delegation of Authority - Meaning",
+    "question": "What is delegation of authority?",
+    "options": [
+      "Eliminating responsibility",
+      "Transferring ownership",
+      "Giving employees the power to take decisions and perform tasks",
+      "Replacing the manager"
+    ],
+    "answer": 2,
+    "explanation": "Delegation is assigning responsibility and authority to a subordinate to carry out tasks."
+  },
+  {
+    "topic": "Delegation of Authority - Advantages",
+    "question": "One advantage of delegation is:",
+    "options": [
+      "Increased manager workload",
+      "Employee disinterest",
+      "Managerial focus on higher-level tasks",
+      "Loss of control"
+    ],
+    "answer": 2,
+    "explanation": "Delegation frees up managers to focus on strategic activities."
+  },
+  {
+    "topic": "Delegation of Authority - Disadvantages",
+    "question": "A potential disadvantage of delegation is:",
+    "options": [
+      "Decreased productivity",
+      "Misuse of authority by subordinates",
+      "Micromanagement",
+      "Excessive teamwork"
+    ],
+    "answer": 1,
+    "explanation": "If not monitored, delegated authority may be used improperly."
+  },
+  {
+    "topic": "Decentralization - Meaning",
+    "question": "What is decentralization in management?",
+    "options": [
+      "Centralizing authority in one person",
+      "Removing all structure",
+      "Systematic delegation of decision-making power to lower levels",
+      "Firing top executives"
+    ],
+    "answer": 2,
+    "explanation": "Decentralization spreads decision-making across all levels of the organization."
+  },
+  {
+    "topic": "Decentralization - Advantages",
+    "question": "Which of the following is a benefit of decentralization?",
+    "options": [
+      "Slow decision-making",
+      "Better local responsiveness",
+      "Reduced accountability",
+      "Overcentralization of power"
+    ],
+    "answer": 1,
+    "explanation": "Decentralization allows local units to make quicker and more relevant decisions."
+  },
+  {
+    "topic": "Decentralization - Disadvantages",
+    "question": "A disadvantage of decentralization is:",
+    "options": [
+      "Delays in decisions",
+      "Duplication of work and efforts",
+      "Improved communication",
+      "Stronger unity"
+    ],
+    "answer": 1,
+    "explanation": "Decentralization can lead to repetition of efforts in various departments."
+  },
+  {
+    "topic": "Organization - Elements",
+    "question": "Which of the following is not an element of organization?",
+    "options": [
+      "Departmentation",
+      "Delegation",
+      "Random employee grouping",
+      "Span of control"
+    ],
+    "answer": 2,
+    "explanation": "Random grouping doesn't support organized workflow or structure."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "Organization charts are useful because they:",
+    "options": [
+      "Replace policies",
+      "Show informal networks",
+      "Visually represent structure and reporting relationships",
+      "Measure productivity"
+    ],
+    "answer": 2,
+    "explanation": "Org charts help communicate how the organization is structured."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "Which span is considered more efficient under simple tasks?",
+    "options": [
+      "Narrow span",
+      "Wide span",
+      "No span",
+      "Infinite span"
+    ],
+    "answer": 1,
+    "explanation": "Simple and repetitive tasks allow managers to supervise more subordinates effectively."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Which statement is true about formal organizations?",
+    "options": [
+      "They lack structure",
+      "They don't follow rules",
+      "They are created for specific purposes",
+      "They discourage discipline"
+    ],
+    "answer": 2,
+    "explanation": "Formal organizations are created to accomplish specific organizational goals."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "Which of these is a benefit of informal organization?",
+    "options": [
+      "Breakdown of hierarchy",
+      "Disruption of rules",
+      "Better teamwork and motivation",
+      "Unstructured job roles"
+    ],
+    "answer": 2,
+    "explanation": "Informal groups can improve morale, communication, and cooperation among workers."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Which of the following best describes a formal organization?",
+    "options": [
+      "A social club within the office",
+      "A network of personal relationships",
+      "An officially defined structure with authority and rules",
+      "An informal team created for lunch meetings"
+    ],
+    "answer": 2,
+    "explanation": "A formal organization is officially established and follows defined rules and hierarchy."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "Which of the following is not a characteristic of informal organization?",
+    "options": [
+      "Based on personal relationships",
+      "Officially documented structure",
+      "No formal hierarchy",
+      "Evolves naturally"
+    ],
+    "answer": 1,
+    "explanation": "Informal organizations are not documented or formally structured."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "A narrow span of control results in:",
+    "options": [
+      "More levels of management",
+      "Fewer management levels",
+      "Faster communication",
+      "Wide supervision"
+    ],
+    "answer": 0,
+    "explanation": "A narrow span leads to many levels of supervision, making the hierarchy taller."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "Which span is better for quick decision-making?",
+    "options": [
+      "Very narrow",
+      "Wide span",
+      "Zero span",
+      "Irregular span"
+    ],
+    "answer": 1,
+    "explanation": "Wide spans have fewer levels, which helps speed up decisions and communication."
+  },
+  {
+    "topic": "Span of Management - Factors",
+    "question": "Which factor can reduce a manager's span of control?",
+    "options": [
+      "Use of digital tools",
+      "Well-defined tasks",
+      "Complexity of operations",
+      "Skilled employees"
+    ],
+    "answer": 2,
+    "explanation": "The more complex the tasks, the fewer subordinates a manager can supervise effectively."
+  },
+  {
+    "topic": "Span of Management - Factors",
+    "question": "Geographical dispersion of employees leads to:",
+    "options": [
+      "Increased span",
+      "No effect",
+      "Reduced span of control",
+      "Elimination of hierarchy"
+    ],
+    "answer": 2,
+    "explanation": "Distant locations reduce a manager's ability to effectively supervise many employees."
+  },
+  {
+    "topic": "Line and Staff Concepts",
+    "question": "Line authority refers to:",
+    "options": [
+      "Advisory role only",
+      "Power to provide support services",
+      "Direct control over subordinates",
+      "Legal decisions only"
+    ],
+    "answer": 2,
+    "explanation": "Line authority includes the right to give orders and make decisions related to main activities."
+  },
+  {
+    "topic": "Line and Staff Concepts",
+    "question": "Staff authority allows managers to:",
+    "options": [
+      "Directly fire employees",
+      "Overrule line managers",
+      "Advise and support line functions",
+      "Command factory workers"
+    ],
+    "answer": 2,
+    "explanation": "Staff roles are meant to assist and guide, not directly control production."
+  },
+  {
+    "topic": "Line and Staff Concepts",
+    "question": "Which of these is a potential drawback of line and staff structure?",
+    "options": [
+      "Fast communication",
+      "Clear authority",
+      "Role confusion and conflict",
+      "No advisory support"
+    ],
+    "answer": 2,
+    "explanation": "Line and staff conflicts may arise when responsibilities are not clearly defined."
+  },
+  {
+    "topic": "Line and Staff Concepts",
+    "question": "Which is a benefit of staff roles?",
+    "options": [
+      "Improvised decision-making",
+      "Expert advice and specialization",
+      "Shorter span of control",
+      "Breaking organizational hierarchy"
+    ],
+    "answer": 1,
+    "explanation": "Staff roles bring specialized expertise to support line decision-making."
+  },
+  {
+    "topic": "Delegation - Meaning",
+    "question": "Delegation is most effective when:",
+    "options": [
+      "Only one person has all authority",
+      "Authority is shared without responsibility",
+      "Both authority and responsibility are clearly assigned",
+      "Supervisors are not informed"
+    ],
+    "answer": 2,
+    "explanation": "Delegation must include both authority and responsibility for it to be effective."
+  },
+  {
+    "topic": "Delegation - Advantages",
+    "question": "Delegation helps in developing:",
+    "options": [
+      "Employee dependency",
+      "Manager workload",
+      "Future leaders",
+      "Strict policies"
+    ],
+    "answer": 2,
+    "explanation": "It builds leadership skills in subordinates by giving them decision-making authority."
+  },
+  {
+    "topic": "Delegation - Disadvantages",
+    "question": "Over-delegation can result in:",
+    "options": [
+      "Improved efficiency",
+      "Loss of control by management",
+      "Increased loyalty",
+      "Faster promotions"
+    ],
+    "answer": 1,
+    "explanation": "If too much is delegated without supervision, control and direction may be compromised."
+  },
+  {
+    "topic": "Delegation - Advantages",
+    "question": "Delegation leads to:",
+    "options": [
+      "Slower work",
+      "Manager burnout",
+      "Employee growth and motivation",
+      "Increased conflict"
+    ],
+    "answer": 2,
+    "explanation": "Delegation gives employees responsibility, which boosts their engagement and growth."
+  },
+  {
+    "topic": "Decentralization - Meaning",
+    "question": "Decentralization is ideal in which type of organization?",
+    "options": [
+      "Very small business",
+      "Highly bureaucratic systems",
+      "Large geographically spread organizations",
+      "One-man business"
+    ],
+    "answer": 2,
+    "explanation": "Large and geographically spread organizations benefit from decision-making at local levels."
+  },
+  {
+    "topic": "Decentralization - Advantages",
+    "question": "Decentralization improves:",
+    "options": [
+      "Decision delays",
+      "Local responsiveness and accountability",
+      "Hierarchy length",
+      "Central control"
+    ],
+    "answer": 1,
+    "explanation": "With decision-making authority at local levels, responses are quicker and more accurate."
+  },
+  {
+    "topic": "Decentralization - Disadvantages",
+    "question": "Which is a limitation of decentralization?",
+    "options": [
+      "Greater innovation",
+      "Increased uniformity",
+      "Inconsistencies across departments",
+      "Centralized accountability"
+    ],
+    "answer": 2,
+    "explanation": "Different units may adopt different policies, affecting standardization."
+  },
+  {
+    "topic": "Decentralization - Advantages",
+    "question": "Which of the following supports employee empowerment?",
+    "options": [
+      "Micromanagement",
+      "Centralization",
+      "Autocratic decisions",
+      "Decentralization"
+    ],
+    "answer": 3,
+    "explanation": "Decentralization gives employees more autonomy and responsibility."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "Which of these is NOT shown in an organization chart?",
+    "options": [
+      "Job positions",
+      "Salaries",
+      "Lines of authority",
+      "Hierarchy levels"
+    ],
+    "answer": 1,
+    "explanation": "An organization chart does not display salary information."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "A flat structure is associated with:",
+    "options": [
+      "Tall hierarchy",
+      "Few levels of management",
+      "Narrow span of control",
+      "Multiple supervisors"
+    ],
+    "answer": 1,
+    "explanation": "A flat structure means fewer levels and a wider span of control."
+  },
+  {
+    "topic": "Organization - Meaning",
+    "question": "What is the key purpose of an organization?",
+    "options": [
+      "To establish rules only",
+      "To increase salaries",
+      "To achieve common objectives efficiently",
+      "To avoid competition"
+    ],
+    "answer": 2,
+    "explanation": "Organizations exist to accomplish defined goals through structured effort."
+  },
+  {
+    "topic": "Organization Structure",
+    "question": "Which type of structure groups employees by similar tasks?",
+    "options": [
+      "Divisional structure",
+      "Matrix structure",
+      "Functional structure",
+      "Geographical structure"
+    ],
+    "answer": 2,
+    "explanation": "Functional structure organizes departments by specific business functions like marketing, finance, etc."
+  },
+  {
+    "topic": "Organization Structure",
+    "question": "Matrix structure is best described as:",
+    "options": [
+      "A single-line reporting system",
+      "Multiple reporting relationships across functions and projects",
+      "Only used in government organizations",
+      "Not practical for teams"
+    ],
+    "answer": 1,
+    "explanation": "In a matrix structure, employees report to both functional and project managers."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "What does a dotted line in an organization chart usually indicate?",
+    "options": [
+      "Temporary employee",
+      "Strong relationship",
+      "Advisory or secondary reporting relationship",
+      "External stakeholders"
+    ],
+    "answer": 2,
+    "explanation": "Dotted lines in org charts show secondary or informal authority lines."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Which of these is a key feature of formal organizations?",
+    "options": [
+      "No defined goals",
+      "Personal interest-driven",
+      "Fixed rules and responsibilities",
+      "Emotional bonding"
+    ],
+    "answer": 2,
+    "explanation": "Formal organizations operate on defined objectives and responsibilities."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "What is one challenge of informal organizations?",
+    "options": [
+      "Reduced morale",
+      "Undermining formal authority",
+      "Wasting resources",
+      "Increased absenteeism"
+    ],
+    "answer": 1,
+    "explanation": "Informal groups may resist changes or influence others against management."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "What happens when span of control is too wide?",
+    "options": [
+      "Better control",
+      "Improved reporting",
+      "Overburdened managers and weak supervision",
+      "More job satisfaction"
+    ],
+    "answer": 2,
+    "explanation": "Managers may lose effectiveness if they supervise too many employees."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "What is an ideal span of management dependent on?",
+    "options": [
+      "Building size",
+      "Cultural diversity",
+      "Nature of job, skills, and supervision required",
+      "Time of year"
+    ],
+    "answer": 2,
+    "explanation": "The type of work and skills of employees affect how many can be effectively managed."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "Line managers are mainly responsible for:",
+    "options": [
+      "IT infrastructure",
+      "Business operations and results",
+      "Employee welfare",
+      "Legal support"
+    ],
+    "answer": 1,
+    "explanation": "Line managers drive the core business goals and performance."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "A Human Resource department usually holds what kind of authority?",
+    "options": [
+      "Line authority",
+      "No authority",
+      "Staff authority",
+      "Temporary authority"
+    ],
+    "answer": 2,
+    "explanation": "HR provides advice and support to other departments but doesn't directly manage core outputs."
+  },
+  {
+    "topic": "Delegation - Meaning",
+    "question": "Which of the following is not part of effective delegation?",
+    "options": [
+      "Assigning responsibility",
+      "Granting authority",
+      "Holding subordinates accountable",
+      "Avoiding supervision"
+    ],
+    "answer": 3,
+    "explanation": "Effective delegation also includes supervision and feedback."
+  },
+  {
+    "topic": "Delegation - Advantages",
+    "question": "Delegation helps reduce:",
+    "options": [
+      "Innovation",
+      "Work duplication",
+      "Managerial workload",
+      "Employee responsibility"
+    ],
+    "answer": 2,
+    "explanation": "Managers can focus on strategic tasks when they delegate routine work."
+  },
+  {
+    "topic": "Delegation - Disadvantages",
+    "question": "What can happen if tasks are delegated without matching authority?",
+    "options": [
+      "Better results",
+      "Reduced motivation",
+      "Empowerment",
+      "Improved discipline"
+    ],
+    "answer": 1,
+    "explanation": "When employees are held responsible without authority, frustration and poor performance can result."
+  },
+  {
+    "topic": "Decentralization - Meaning",
+    "question": "Decentralization is most effective in organizations with:",
+    "options": [
+      "A single location",
+      "High standardization needs",
+      "Multiple branches and products",
+      "Autocratic leadership"
+    ],
+    "answer": 2,
+    "explanation": "In diversified organizations, decentralization allows for quicker and localized decisions."
+  },
+  {
+    "topic": "Decentralization - Advantages",
+    "question": "Decentralization supports innovation because:",
+    "options": [
+      "It enforces strict control",
+      "It delays new ideas",
+      "It limits flexibility",
+      "It allows local managers to test ideas quickly"
+    ],
+    "answer": 3,
+    "explanation": "Local units can experiment and innovate based on customer needs and feedback."
+  },
+  {
+    "topic": "Decentralization - Disadvantages",
+    "question": "Which of the following is a risk of decentralization?",
+    "options": [
+      "Standardized processes",
+      "Misalignment with company goals",
+      "Faster central communication",
+      "Lack of innovation"
+    ],
+    "answer": 1,
+    "explanation": "Local decisions may deviate from corporate strategy if not properly aligned."
+  },
+  {
+    "topic": "Delegation - Meaning",
+    "question": "Delegation involves which of the following steps?",
+    "options": [
+      "Ignoring feedback",
+      "Assigning tasks only to managers",
+      "Setting goals, assigning tasks, and evaluating results",
+      "Withdrawing responsibilities"
+    ],
+    "answer": 2,
+    "explanation": "Delegation is a process that includes goal setting, responsibility transfer, and performance review."
+  },
+  {
+    "topic": "Organization - Structure",
+    "question": "Which of the following structures is customer-focused?",
+    "options": [
+      "Functional",
+      "Divisional by product or client",
+      "Matrix",
+      "Flat"
+    ],
+    "answer": 1,
+    "explanation": "Divisional structures can be organized around customers, improving service and personalization."
+  },
+  {
+    "topic": "Organization - Structure",
+    "question": "Which structure combines product and functional departments?",
+    "options": [
+      "Flat",
+      "Matrix",
+      "Functional",
+      "Tall"
+    ],
+    "answer": 1,
+    "explanation": "Matrix structures create dual lines of authority by combining functions with projects or products."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "The span of management determines:",
+    "options": [
+      "Types of departments",
+      "Manager’s responsibilities only",
+      "Vertical and horizontal structure of the organization",
+      "Employee job titles"
+    ],
+    "answer": 2,
+    "explanation": "It impacts both levels in the hierarchy and number of subordinates per level."
+  },
+  {
+    "topic": "Formal vs Informal Organization",
+    "question": "Formal organizations are created by:",
+    "options": [
+      "Social interactions",
+      "Spontaneous employee gatherings",
+      "Top-level management with structured goals",
+      "Customer feedback"
+    ],
+    "answer": 2,
+    "explanation": "Formal organizations are intentionally designed by management to achieve objectives."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "A major strength of informal organization is:",
+    "options": [
+      "Slow communication",
+      "Resistance to change",
+      "Improved group cohesiveness",
+      "Lack of rules"
+    ],
+    "answer": 2,
+    "explanation": "Informal networks promote group bonding and can enhance morale."
+  },
+  {
+    "topic": "Delegation",
+    "question": "Which principle supports effective delegation?",
+    "options": [
+      "Manager does everything",
+      "Authority without responsibility",
+      "Unity of command",
+      "Avoid feedback"
+    ],
+    "answer": 2,
+    "explanation": "Delegation works best when there is clear accountability under a single authority."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Which management level benefits most from decentralization?",
+    "options": [
+      "Top-level only",
+      "Middle and lower levels",
+      "Clerical staff",
+      "Temporary workers"
+    ],
+    "answer": 1,
+    "explanation": "Middle and lower levels gain decision-making power and autonomy under decentralization."
+  },
+  {
+    "topic": "Span of Control",
+    "question": "Too narrow a span of control may lead to:",
+    "options": [
+      "Efficient hierarchy",
+      "Excessive levels of management",
+      "Increased clarity",
+      "Speedy decisions"
+    ],
+    "answer": 1,
+    "explanation": "Narrow spans lead to a tall structure with more levels, slowing down communication."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "Staff managers provide:",
+    "options": [
+      "Execution of core business",
+      "Direct authority over line tasks",
+      "Advisory support and expert knowledge",
+      "Manual labor"
+    ],
+    "answer": 2,
+    "explanation": "Staff managers assist and guide line departments without directly controlling operations."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "What is a common issue in line-staff relationships?",
+    "options": [
+      "Lack of expertise",
+      "Coordination and role clarity issues",
+      "Quick decisions",
+      "Shared accountability"
+    ],
+    "answer": 1,
+    "explanation": "Conflicts arise when line and staff roles overlap or are poorly defined."
+  },
+  {
+    "topic": "Delegation",
+    "question": "Delegation enhances employee:",
+    "options": [
+      "Dependency",
+      "Skill development and confidence",
+      "Frustration",
+      "Disinterest"
+    ],
+    "answer": 1,
+    "explanation": "Delegation builds trust and helps employees grow professionally."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Decentralization promotes faster decisions because:",
+    "options": [
+      "Head office makes every decision",
+      "Decisions are made where action is required",
+      "There are more rules",
+      "There are no supervisors"
+    ],
+    "answer": 1,
+    "explanation": "Local managers can act without waiting for top-level approval."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "A tall organizational structure results in:",
+    "options": [
+      "Wider spans of control",
+      "Fewer management levels",
+      "More layers of authority",
+      "Less hierarchy"
+    ],
+    "answer": 2,
+    "explanation": "Tall structures have many management layers and narrow spans."
+  },
+  {
+    "topic": "Organization - Structure",
+    "question": "Which structure is best for project-based work?",
+    "options": [
+      "Matrix structure",
+      "Functional structure",
+      "Flat structure",
+      "Hierarchical structure"
+    ],
+    "answer": 0,
+    "explanation": "Matrix structure allows flexibility and dual reporting for project and functional tasks."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "Informal organizations can help management by:",
+    "options": [
+      "Delaying change",
+      "Creating resistance",
+      "Communicating unofficial information quickly",
+      "Hiding policies"
+    ],
+    "answer": 2,
+    "explanation": "They act as a fast communication channel and influence employee behavior."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "Span of management directly affects:",
+    "options": [
+      "Company size only",
+      "Employee compensation",
+      "Organizational hierarchy",
+      "Employee skills"
+    ],
+    "answer": 2,
+    "explanation": "It determines how many levels exist between top and bottom positions."
+  },
+  {
+    "topic": "Delegation",
+    "question": "What is the first step in effective delegation?",
+    "options": [
+      "Avoid task sharing",
+      "Select a subordinate randomly",
+      "Define the task and objective",
+      "Assign tasks without supervision"
+    ],
+    "answer": 2,
+    "explanation": "Clarity about what needs to be done is crucial before assigning tasks."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Which of the following is most important for effective decentralization?",
+    "options": [
+      "Centralized resources",
+      "Defined authority limits and good coordination",
+      "Unsupervised actions",
+      "Loose accountability"
+    ],
+    "answer": 1,
+    "explanation": "Boundaries and coordination are critical to avoid confusion and inefficiency."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "In the line and staff structure, staff personnel have:",
+    "options": [
+      "Direct control",
+      "Advisory authority",
+      "Operational command",
+      "Budget power"
+    ],
+    "answer": 1,
+    "explanation": "Staff roles are to assist with specialized knowledge, not command execution."
+  },
+  {
+    "topic": "Organization - Elements",
+    "question": "Which of these is not an essential element of organization?",
+    "options": [
+      "Coordination",
+      "Authority and responsibility",
+      "Delegation",
+      "Personal hobbies"
+    ],
+    "answer": 3,
+    "explanation": "Organizational elements are structural, not personal or social."
+  },
+  {
+    "topic": "Span of Management - Factors",
+    "question": "Better communication tools lead to:",
+    "options": [
+      "Wider span of control",
+      "More confusion",
+      "Narrower span",
+      "Increased hierarchy"
+    ],
+    "answer": 0,
+    "explanation": "When managers can communicate effectively, they can supervise more subordinates."
+  },
+  {
+    "topic": "Formal vs Informal",
+    "question": "One key difference between formal and informal organization is:",
+    "options": [
+      "Size",
+      "Communication pattern",
+      "Job location",
+      "Product type"
+    ],
+    "answer": 1,
+    "explanation": "Formal uses official channels, while informal uses social interaction."
+  },
+  {
+    "topic": "Decentralization - Disadvantage",
+    "question": "A challenge of decentralization is:",
+    "options": [
+      "Reduced communication",
+      "Overdependence on central office",
+      "Risk of inconsistent decisions across units",
+      "Improved accountability"
+    ],
+    "answer": 2,
+    "explanation": "Local autonomy may lead to conflicting policies unless well coordinated."
+  },
+
+  {
+    "topic": "Span of Control",
+    "question": "A wider span of control generally results in:",
+    "options": [
+      "Increased number of managerial levels",
+      "Closer supervision",
+      "Lower number of subordinates per manager",
+      "Flatter organizational structure"
+    ],
+    "answer": 3,
+    "explanation": "A wider span means fewer management levels, creating a flatter structure."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "In decentralization, decision-making authority is:",
+    "options": [
+      "Reserved at the top",
+      "Delegated to the lowest possible level",
+      "Randomly allocated",
+      "Eliminated entirely"
+    ],
+    "answer": 1,
+    "explanation": "In a decentralized setup, authority is distributed closer to operational levels."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Formal organizations are based on:",
+    "options": [
+      "Emotions",
+      "Friendship",
+      "Rules and policies",
+      "Random interactions"
+    ],
+    "answer": 2,
+    "explanation": "Formal organizations operate on predefined rules and hierarchies."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "Which of the following is true about informal organization?",
+    "options": [
+      "It follows strict hierarchy",
+      "It is rigid in structure",
+      "It evolves naturally through social interaction",
+      "It replaces formal structure"
+    ],
+    "answer": 2,
+    "explanation": "Informal structures develop spontaneously based on social relationships."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "Which of these is an example of a staff function?",
+    "options": [
+      "Sales",
+      "Production",
+      "Legal advisory",
+      "Operations"
+    ],
+    "answer": 2,
+    "explanation": "Staff functions like legal, HR, and finance provide expert advice to line departments."
+  },
+  {
+    "topic": "Delegation",
+    "question": "Delegation fails when:",
+    "options": [
+      "Subordinates are trained",
+      "Managers supervise appropriately",
+      "There is lack of trust between manager and subordinate",
+      "Objectives are clear"
+    ],
+    "answer": 2,
+    "explanation": "Delegation requires trust; without it, subordinates may be afraid to act decisively."
+  },
+  {
+    "topic": "Span of Management",
+    "question": "One advantage of a wide span of control is:",
+    "options": [
+      "Closer supervision",
+      "More levels of authority",
+      "Reduced communication efficiency",
+      "Cost savings in salaries"
+    ],
+    "answer": 3,
+    "explanation": "Fewer managers are needed, which reduces overhead costs."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Which is a key precondition for decentralization to succeed?",
+    "options": [
+      "Lack of responsibility",
+      "Strong central control only",
+      "Capable and trained employees at all levels",
+      "Undefined processes"
+    ],
+    "answer": 2,
+    "explanation": "Trained employees can make decisions effectively when given authority."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Formal communication follows:",
+    "options": [
+      "Gossip channels",
+      "Family relationships",
+      "Defined organizational hierarchy",
+      "Random conversation"
+    ],
+    "answer": 2,
+    "explanation": "Formal communication travels through predefined official paths."
+  },
+  {
+    "topic": "Informal Organization",
+    "question": "A disadvantage of informal organizations is:",
+    "options": [
+      "Faster decisions",
+      "Undermining of formal authority",
+      "Increased motivation",
+      "Improved productivity"
+    ],
+    "answer": 1,
+    "explanation": "Informal groups may influence subordinates to ignore formal instructions."
+  },
+  {
+    "topic": "Delegation",
+    "question": "Managers must retain what even after delegating?",
+    "options": [
+      "Responsibility",
+      "All tasks",
+      "Job rotation",
+      "Direct reports"
+    ],
+    "answer": 0,
+    "explanation": "Authority can be delegated, but accountability remains with the manager."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Which of the following is not an advantage of decentralization?",
+    "options": [
+      "Improved decision-making at local levels",
+      "Greater workload on top management",
+      "Employee motivation",
+      "Quick adaptation to regional needs"
+    ],
+    "answer": 1,
+    "explanation": "Decentralization reduces the burden on top executives."
+  },
+  {
+    "topic": "Organization Structure",
+    "question": "A structure where power is held at the top is called:",
+    "options": [
+      "Flat structure",
+      "Matrix structure",
+      "Centralized structure",
+      "Informal structure"
+    ],
+    "answer": 2,
+    "explanation": "Centralized structures consolidate decision-making at the top level."
+  },
+  {
+    "topic": "Line and Staff",
+    "question": "In a line and staff organization, conflicts can be reduced by:",
+    "options": [
+      "Letting staff control operations",
+      "Ignoring staff inputs",
+      "Clear role definition and coordination",
+      "Merging line and staff roles"
+    ],
+    "answer": 2,
+    "explanation": "Defining roles and promoting communication reduces tension between line and staff."
+  },
+  {
+    "topic": "Organization Chart",
+    "question": "Which of these is best represented by an organization chart?",
+    "options": [
+      "Company profits",
+      "Authority-responsibility relationships",
+      "Product distribution",
+      "Market share"
+    ],
+    "answer": 1,
+    "explanation": "Organization charts visualize reporting relationships and organizational hierarchy."
+  },
+  {
+    "topic": "Span of Control",
+    "question": "An example of a job that supports a wider span of control is:",
+    "options": [
+      "Software development",
+      "Construction project management",
+      "Telemarketing",
+      "Legal research"
+    ],
+    "answer": 2,
+    "explanation": "Repetitive and simple tasks like telemarketing allow one manager to handle more people."
+  },
+  {
+    "topic": "Decentralization",
+    "question": "Which organization type usually avoids decentralization?",
+    "options": [
+      "Tech startups",
+      "Large conglomerates",
+      "Military organizations",
+      "Retail chains"
+    ],
+    "answer": 2,
+    "explanation": "Military institutions prefer centralized control for discipline and uniformity."
+  },
+  {
+    "topic": "Delegation",
+    "question": "Which factor limits delegation?",
+    "options": [
+      "Competence of subordinates",
+      "Clarity of job roles",
+      "Manager's reluctance to give up control",
+      "Well-defined authority"
+    ],
+    "answer": 2,
+    "explanation": "Some managers hesitate to delegate, fearing loss of control or subpar outcomes."
+  },
+  {
+    "topic": "Formal Organization",
+    "question": "Formal organizations enable:",
+    "options": [
+      "Unstructured reporting",
+      "Clear task allocation",
+      "Unlimited autonomy",
+      "Social networking"
+    ],
+    "answer": 1,
+    "explanation": "They support structured task distribution and accountability."
+  },
+  {
+    "topic": "Span of Control",
+    "question": "What is the ideal span of control influenced by?",
+    "options": [
+      "Number of offices",
+      "Size of buildings",
+      "Nature of work and manager’s capacity",
+      "Salaries of employees"
+    ],
+    "answer": 2,
+    "explanation": "Work complexity and supervisory ability determine optimal span."
+  }
+]
+  
