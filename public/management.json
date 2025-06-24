@@ -1,1202 +1,1085 @@
 [
   {
-    "topic": "Definition of Management",
+    "topic": "Definition and Nature of Management",
     "question": "Which of the following best defines management?",
     "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
+      "Planning only",
+      "Execution only",
+      "Getting things done through and with people",
+      "Operating a machine"
     ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
+    "answer": 2,
+    "explanation": "Management is the process of getting things done efficiently and effectively through and with people."
   },
   {
-    "topic": "Management: Art, Science or Profession",
+    "topic": "Definition and Nature of Management",
+    "question": "Which function of management involves deciding in advance what to do?",
+    "options": [
+      "Organizing",
+      "Planning",
+      "Leading",
+      "Controlling"
+    ],
+    "answer": 1,
+    "explanation": "Planning is the process of setting objectives and deciding how to achieve them."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Controlling in management involves:",
+    "options": [
+      "Assigning tasks",
+      "Checking actual performance against standards",
+      "Hiring staff",
+      "Forecasting the market"
+    ],
+    "answer": 1,
+    "explanation": "Controlling is about monitoring performance and taking corrective actions."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Which of the following is NOT a characteristic of management?",
+    "options": [
+      "Goal-oriented",
+      "Universal",
+      "One-time activity",
+      "Group activity"
+    ],
+    "answer": 2,
+    "explanation": "Management is a continuous process, not a one-time activity."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Which is NOT a core function of management?",
+    "options": [
+      "Leading",
+      "Planning",
+      "Delegating",
+      "Controlling"
+    ],
+    "answer": 2,
+    "explanation": "Delegating is part of organizing but not considered a core function itself."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
     "question": "Why is management considered a science?",
     "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager?",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies?",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Because it requires physical labor",
+      "Because it uses technical skills",
+      "Because it is based on certain principles and theories",
+      "Because it deals with machines"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Management is considered a science as it is based on organized knowledge and principles."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers?",
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which aspect makes management an art?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
-    ],
-    "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management?",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor?",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Use of statistical tools",
+      "Application of principles in a personalized way",
+      "Formal training",
+      "Presence of fixed outcomes"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "Management is an art because it requires personal skills and creativity in applying principles."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy?",
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which of the following is NOT a feature of a profession?",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
+      "Formal education",
+      "Code of conduct",
+      "Profit motive",
+      "Restricted entry"
+    ],
+    "answer": 2,
+    "explanation": "Profit motive is a feature of business, not a profession."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Why is management not considered a full-fledged profession?",
+    "options": [
+      "It lacks formal education",
+      "It lacks professional associations",
+      "It does not have a universally accepted code of conduct",
+      "It doesn’t pay salary"
+    ],
+    "answer": 2,
+    "explanation": "Management is not fully professionalized due to the lack of universally accepted standards."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which statement is true regarding management?",
+    "options": [
+      "Management is neither science nor art",
+      "Management is purely an art",
+      "Management is purely a science",
+      "Management is both art and science"
     ],
     "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 9)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 10)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
+    "explanation": "Management combines scientific principles with artistic application."
   },
   {
     "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 11)",
+    "question": "Which of the following focuses more on doing things right?",
     "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
+      "Leader",
+      "Manager",
+      "Innovator",
+      "Mentor"
     ],
     "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
+    "explanation": "Managers focus on doing things right, ensuring efficiency and correctness."
   },
   {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 12)",
+    "topic": "Manager vs Leader",
+    "question": "Which of the following focuses more on doing the right things?",
     "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Supervisor",
+      "Manager",
+      "Leader",
+      "Technician"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Leaders focus on vision and doing the right things for long-term success."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 13)",
+    "topic": "Manager vs Leader",
+    "question": "Which is NOT a typical trait of a leader?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Inspiring others",
+      "Setting vision",
+      "Following orders strictly",
+      "Creating change"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Leaders are known for initiating change, not just following strict orders."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 14)",
+    "topic": "Manager vs Leader",
+    "question": "Which of the following is a role of a manager but not a leader?",
     "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
+      "Controlling processes",
+      "Inspiring teams",
+      "Creating vision",
+      "Driving transformation"
+    ],
+    "answer": 0,
+    "explanation": "Managers focus on controlling and implementing processes."
+  },
+  {
+    "topic": "Manager vs Leader",
+    "question": "A leader is more likely to:",
+    "options": [
+      "Set strict rules",
+      "Enforce policies",
+      "Inspire and motivate",
+      "Maintain status quo"
     ],
     "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "explanation": "Leaders are known for motivating and inspiring their followers toward a vision."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 15)",
+    "topic": "Definition and Nature of Management",
+    "question": "Which of the following best defines management?",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Planning only",
+      "Execution only",
+      "Getting things done through and with people",
+      "Operating a machine"
+    ],
+    "answer": 2,
+    "explanation": "Management is the process of getting things done efficiently and effectively through and with people."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Which function of management involves deciding in advance what to do?",
+    "options": [
+      "Organizing",
+      "Planning",
+      "Leading",
+      "Controlling"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "Planning is the process of setting objectives and deciding how to achieve them."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 16)",
+    "topic": "Definition and Nature of Management",
+    "question": "Controlling in management involves:",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
+      "Assigning tasks",
+      "Checking actual performance against standards",
+      "Hiring staff",
+      "Forecasting the market"
+    ],
+    "answer": 1,
+    "explanation": "Controlling is about monitoring performance and taking corrective actions."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Which of the following is NOT a characteristic of management?",
+    "options": [
+      "Goal-oriented",
+      "Universal",
+      "One-time activity",
+      "Group activity"
+    ],
+    "answer": 2,
+    "explanation": "Management is a continuous process, not a one-time activity."
+  },
+  {
+    "topic": "Definition and Nature of Management",
+    "question": "Which is NOT a core function of management?",
+    "options": [
+      "Leading",
+      "Planning",
+      "Delegating",
+      "Controlling"
+    ],
+    "answer": 2,
+    "explanation": "Delegating is part of organizing but not considered a core function itself."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Why is management considered a science?",
+    "options": [
+      "Because it requires physical labor",
+      "Because it uses technical skills",
+      "Because it is based on certain principles and theories",
+      "Because it deals with machines"
+    ],
+    "answer": 2,
+    "explanation": "Management is considered a science as it is based on organized knowledge and principles."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which aspect makes management an art?",
+    "options": [
+      "Use of statistical tools",
+      "Application of principles in a personalized way",
+      "Formal training",
+      "Presence of fixed outcomes"
+    ],
+    "answer": 1,
+    "explanation": "Management is an art because it requires personal skills and creativity in applying principles."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which of the following is NOT a feature of a profession?",
+    "options": [
+      "Formal education",
+      "Code of conduct",
+      "Profit motive",
+      "Restricted entry"
+    ],
+    "answer": 2,
+    "explanation": "Profit motive is a feature of business, not a profession."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Why is management not considered a full-fledged profession?",
+    "options": [
+      "It lacks formal education",
+      "It lacks professional associations",
+      "It does not have a universally accepted code of conduct",
+      "It doesn’t pay salary"
+    ],
+    "answer": 2,
+    "explanation": "Management is not fully professionalized due to the lack of universally accepted standards."
+  },
+  {
+    "topic": "Management as Art, Science, Profession",
+    "question": "Which statement is true regarding management?",
+    "options": [
+      "Management is neither science nor art",
+      "Management is purely an art",
+      "Management is purely a science",
+      "Management is both art and science"
     ],
     "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 17)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 18)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
+    "explanation": "Management combines scientific principles with artistic application."
   },
   {
     "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 19)",
+    "question": "Which of the following focuses more on doing things right?",
     "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
+      "Leader",
+      "Manager",
+      "Innovator",
+      "Mentor"
     ],
     "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
+    "explanation": "Managers focus on doing things right, ensuring efficiency and correctness."
   },
   {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 20)",
+    "topic": "Manager vs Leader",
+    "question": "Which of the following focuses more on doing the right things?",
     "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Supervisor",
+      "Manager",
+      "Leader",
+      "Technician"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Leaders focus on vision and doing the right things for long-term success."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 21)",
+    "topic": "Manager vs Leader",
+    "question": "Which is NOT a typical trait of a leader?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Inspiring others",
+      "Setting vision",
+      "Following orders strictly",
+      "Creating change"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Leaders are known for initiating change, not just following strict orders."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 22)",
+    "topic": "Manager vs Leader",
+    "question": "Which of the following is a role of a manager but not a leader?",
+    "options": [
+      "Controlling processes",
+      "Inspiring teams",
+      "Creating vision",
+      "Driving transformation"
+    ],
+    "answer": 0,
+    "explanation": "Managers focus on controlling and implementing processes."
+  },
+  {
+    "topic": "Manager vs Leader",
+    "question": "A leader is more likely to:",
+    "options": [
+      "Set strict rules",
+      "Enforce policies",
+      "Inspire and motivate",
+      "Maintain status quo"
+    ],
+    "answer": 2,
+    "explanation": "Leaders are known for motivating and inspiring their followers toward a vision."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "What is the principle of 'Division of Work' in Fayol’s theory?",
+    "options": [
+      "Everyone should do all types of work",
+      "Work should be divided among workers to increase efficiency",
+      "Only managers should do technical work",
+      "Employees should rotate jobs daily"
+    ],
+    "answer": 1,
+    "explanation": "Division of work increases productivity by allowing specialization."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "According to Fayol, what does 'Authority and Responsibility' mean?",
+    "options": [
+      "Only managers have responsibility",
+      "Authority should exceed responsibility",
+      "Authority and responsibility should go hand in hand",
+      "Employees should not be given any authority"
+    ],
+    "answer": 2,
+    "explanation": "Managers must have the authority to give orders and the responsibility to ensure they are carried out."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "The principle of 'Discipline' emphasizes:",
+    "options": [
+      "Punishment for mistakes",
+      "Strict rules only for workers",
+      "Respect for agreements and rules",
+      "Casual behavior at work"
+    ],
+    "answer": 2,
+    "explanation": "Discipline involves respect for rules and agreements to ensure smooth functioning."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Which principle emphasizes 'one boss, one order'?",
     "options": [
       "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
+      "Unity of Direction",
+      "Order",
       "Scalar Chain"
     ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "answer": 0,
+    "explanation": "Unity of command ensures each employee receives orders from one superior only."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 23)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "The principle of 'Unity of Direction' focuses on:",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "One head, one plan for a group of activities",
+      "Strict supervision",
+      "Multiple plans per employee",
+      "No formal structure"
+    ],
+    "answer": 0,
+    "explanation": "Unity of direction ensures all activities with the same objective are directed by one manager."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "What does the principle of 'Subordination of individual interest to general interest' mean?",
+    "options": [
+      "Personal goals are more important",
+      "General interest must prevail over personal interest",
+      "No one should follow rules",
+      "Individualism is key"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "Organizational interest should take priority over personal interest for overall success."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 24)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "According to Fayol, what does 'Remuneration' refer to?",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 25)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
+      "Providing high salaries to top-level only",
+      "Payment to workers must be fair and satisfactory",
+      "Only paying managers",
+      "Promotions based on favoritism"
     ],
     "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
+    "explanation": "Remuneration involves fair compensation to employees for services provided."
   },
   {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 26)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Which principle suggests a clear line of authority in the organization?",
     "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
+      "Order",
+      "Scalar Chain",
+      "Centralization",
+      "Discipline"
     ],
     "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
+    "explanation": "Scalar Chain is the chain of superiors ranging from the highest to the lowest rank."
   },
   {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 27)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "The 'Order' principle emphasizes:",
     "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
+      "Maintaining strict silence",
+      "Proper placement of things and people",
+      "Job rotation",
+      "Firing old employees"
     ],
     "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
+    "explanation": "Order means everything and everyone should be in their proper place."
   },
   {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 28)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "The principle of 'Equity' focuses on:",
     "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
-    ],
-    "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
-  },
-  {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 29)",
-    "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Equal salaries",
+      "Punishing disobedient workers",
+      "Kindness and justice to employees",
+      "Favoritism in promotions"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Equity involves fair treatment of employees with kindness and justice."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 30)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Which principle promotes job stability for employees?",
     "options": [
+      "Stability of Personnel",
+      "Initiative",
+      "Order",
+      "Discipline"
+    ],
+    "answer": 0,
+    "explanation": "Fayol believed that employee turnover should be minimized for organizational efficiency."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Encouraging employees to take initiative is supported by which principle?",
+    "options": [
+      "Equity",
+      "Initiative",
+      "Discipline",
+      "Scalar Chain"
+    ],
+    "answer": 1,
+    "explanation": "Initiative allows employees to suggest improvements and take ownership of work."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Espirit de Corps means:",
+    "options": [
+      "Discipline and control",
+      "Promoting team spirit and harmony",
+      "Chain of command",
+      "Authoritarian leadership"
+    ],
+    "answer": 1,
+    "explanation": "This principle emphasizes unity and harmony among employees."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Which principle recommends that decisions should be taken from a central point?",
+    "options": [
+      "Decentralization",
+      "Centralization",
+      "Authority",
+      "Initiative"
+    ],
+    "answer": 1,
+    "explanation": "Centralization implies concentration of decision-making at the top."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "When should decentralization be applied according to Fayol?",
+    "options": [
+      "Always",
+      "Never",
+      "Depending on situation and capability",
+      "Only for small businesses"
+    ],
+    "answer": 2,
+    "explanation": "Fayol advocated balance between centralization and decentralization depending on circumstances."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "What is the significance of Fayol’s principles?",
+    "options": [
+      "They apply only to factory workers",
+      "They form the basis for modern management theory",
+      "They were outdated with the Industrial Revolution",
+      "They support bureaucratic procedures"
+    ],
+    "answer": 1,
+    "explanation": "Fayol’s principles laid the foundation for contemporary management practices."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Fayol’s principles are categorized under which school of management?",
+    "options": [
+      "Scientific",
+      "Classical Administrative",
+      "Behavioral",
+      "Contingency"
+    ],
+    "answer": 1,
+    "explanation": "Fayol is considered the father of the classical administrative school of management."
+  },
+  {
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "Which of the following is NOT a principle given by Fayol?",
+    "options": [
+      "Discipline",
       "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
+      "Job Enrichment",
+      "Initiative"
     ],
     "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "explanation": "Job Enrichment is a concept from modern motivation theories, not part of Fayol’s 14 principles."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 31)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "What does 'Scalar Chain' ensure in an organization?",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Flexible communication",
+      "No communication gap",
+      "A clear line of authority",
+      "Unlimited access to top management"
     ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "answer": 2,
+    "explanation": "Scalar chain ensures a well-defined communication and reporting path in the hierarchy."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 32)",
+    "topic": "Henry Fayol’s 14 Principles of Management",
+    "question": "According to Fayol, what strengthens organizational performance?",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
+      "Overlapping roles",
+      "Frequent job changes",
+      "Stability of tenure",
+      "Favoritism in hiring"
+    ],
+    "answer": 2,
+    "explanation": "Stability in employment leads to efficiency and increased performance."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Who is regarded as the Father of Scientific Management?",
+    "options": [
+      "Henri Fayol",
+      "Elton Mayo",
+      "F. W. Taylor",
+      "Max Weber"
+    ],
+    "answer": 2,
+    "explanation": "F. W. Taylor is widely recognized as the Father of Scientific Management."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Scientific management emphasizes:",
+    "options": [
+      "Trial and error",
+      "Intuition and guesswork",
+      "Efficiency through scientific analysis",
+      "Managerial dictatorship"
+    ],
+    "answer": 2,
+    "explanation": "It aims at improving productivity through systematic observation and measurement."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Which of the following is NOT one of Taylor’s principles?",
+    "options": [
+      "Science, not rule of thumb",
+      "Harmony, not discord",
+      "Maximum output, not restricted output",
+      "Decentralized decision making"
     ],
     "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
+    "explanation": "Taylor supported centralized planning and control for efficiency."
   },
   {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 33)",
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor’s principle 'Science, not rule of thumb' emphasizes:",
     "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 34)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 35)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 36)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Personal judgment",
+      "Customs and traditions",
+      "Standard methods based on study",
+      "Flexible work processes"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Taylor promoted using scientific studies to develop best work methods."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 37)",
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor’s principle 'Harmony, not discord' focuses on:",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
-    ],
-    "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 38)",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 39)",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Strikes and lockouts",
+      "Peace between management and workers",
+      "Increased competition",
+      "Eliminating teamwork"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "It encourages cooperation between managers and workers for mutual benefit."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 40)",
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor advocated which of the following for worker motivation?",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
+      "Threats",
+      "Monetary incentives",
+      "Punishment",
+      "Forced labor"
+    ],
+    "answer": 1,
+    "explanation": "Taylor believed in financial motivation to boost productivity."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Functional foremanship involves:",
+    "options": [
+      "One manager per worker",
+      "Eight different foremen for specialized functions",
+      "No supervision",
+      "Foremen working independently"
+    ],
+    "answer": 1,
+    "explanation": "Taylor introduced eight functional foremen for specialized supervision."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "What does 'Standardization' mean in Taylor’s principles?",
+    "options": [
+      "Flexible procedures",
+      "Best practices for tools and work methods",
+      "Random equipment usage",
+      "Unique techniques for each worker"
+    ],
+    "answer": 1,
+    "explanation": "Standardization ensures uniformity and efficiency in production."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Scientific management was primarily applied to:",
+    "options": [
+      "Administrative tasks",
+      "Factory operations",
+      "Research labs",
+      "Education"
+    ],
+    "answer": 1,
+    "explanation": "Taylor’s principles were focused on improving industrial and factory efficiency."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor’s 'Differential Piece Rate System' aimed to:",
+    "options": [
+      "Reduce salaries",
+      "Pay equal wages",
+      "Reward higher efficiency with higher pay",
+      "Encourage teamwork"
+    ],
+    "answer": 2,
+    "explanation": "It paid workers more if they exceeded standard performance."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Which technique is associated with selecting the best worker?",
+    "options": [
+      "Scientific selection and training",
+      "Job enrichment",
+      "Workforce downsizing",
+      "Trade union management"
+    ],
+    "answer": 0,
+    "explanation": "Taylor emphasized selecting and scientifically training the right people for the job."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "According to Taylor, management and workers should:",
+    "options": [
+      "Work independently",
+      "Be in constant conflict",
+      "Cooperate for common goals",
+      "Avoid contact"
+    ],
+    "answer": 2,
+    "explanation": "Taylor emphasized cooperation for efficiency and productivity."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Time study is used to:",
+    "options": [
+      "Increase employee rest time",
+      "Determine optimum time for a task",
+      "Eliminate waste",
+      "Set employee targets randomly"
+    ],
+    "answer": 1,
+    "explanation": "Time study determines how long a task should take for planning and efficiency."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor’s methods are most closely aligned with which school of management?",
+    "options": [
+      "Classical Administrative",
+      "Behavioral",
+      "Scientific",
+      "Contingency"
+    ],
+    "answer": 2,
+    "explanation": "Taylor founded the Scientific School of Management."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Motion study aims to:",
+    "options": [
+      "Eliminate unnecessary movements",
+      "Promote exercise at work",
+      "Avoid standardization",
+      "Slow down workers"
+    ],
+    "answer": 0,
+    "explanation": "Motion study analyzes movements to increase efficiency by eliminating waste."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Which of these best describes Taylor’s view of workers?",
+    "options": [
+      "Creative individuals",
+      "People needing constant motivation",
+      "Machines to be optimized",
+      "Strategic thinkers"
+    ],
+    "answer": 2,
+    "explanation": "Taylor saw workers as units of productivity to be scientifically managed."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Taylor believed that improved efficiency would benefit:",
+    "options": [
+      "Only employers",
+      "Only workers",
+      "Both workers and employers",
+      "Only supervisors"
+    ],
+    "answer": 2,
+    "explanation": "Higher productivity meant higher wages and lower costs, benefiting all."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Which is a limitation of Taylor’s Scientific Management?",
+    "options": [
+      "Focus on mental development",
+      "Neglect of human aspects",
+      "Team-based approach",
+      "Behavioral motivation"
+    ],
+    "answer": 1,
+    "explanation": "It was criticized for treating humans like machines, ignoring social and emotional factors."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "The concept of 'planning the work and working the plan' is emphasized by:",
+    "options": [
+      "Fayol",
+      "Taylor",
+      "Weber",
+      "Maslow"
+    ],
+    "answer": 1,
+    "explanation": "Taylor advocated separation of planning and execution in his scientific management."
+  },
+  {
+    "topic": "F. W. Taylor’s Scientific Management",
+    "question": "Which technique involves observation to identify the best way to perform a task?",
+    "options": [
+      "Time study",
+      "Motion study",
+      "Fatigue study",
+      "Work study"
+    ],
+    "answer": 1,
+    "explanation": "Motion study analyzes body movements to reduce unnecessary actions."
+  },
+  {
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Who is known for developing the theory of bureaucracy in management?",
+    "options": [
+      "F. W. Taylor",
+      "Henri Fayol",
+      "Elton Mayo",
+      "Max Weber"
     ],
     "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
+    "explanation": "Max Weber is known for formalizing the bureaucratic model of organization."
   },
   {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 41)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "What is a core feature of Weber’s bureaucracy?",
     "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 42)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 43)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 44)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Personal discretion",
+      "Charisma-based leadership",
+      "Rule-based hierarchy",
+      "Flexible roles"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Weber emphasized a structured hierarchy governed by formal rules and regulations."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 45)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "According to Weber, authority in a bureaucracy is:",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
-    ],
-    "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 46)",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 47)",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
-    ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
-  },
-  {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 48)",
-    "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
+      "Personal",
+      "Informal",
+      "Charismatic",
+      "Legitimate and rational-legal"
     ],
     "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
+    "explanation": "Weber's bureaucracy is based on legal-rational authority where power comes from formal rules."
   },
   {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 49)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which of the following is NOT a feature of bureaucracy?",
     "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 50)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 51)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 52)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
-    ],
-    "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
-  },
-  {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 53)",
-    "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
-    ],
-    "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 54)",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 55)",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
-    ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
-  },
-  {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 56)",
-    "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
+      "Formal selection of employees",
+      "Impersonal relationships",
+      "Flexible job roles",
       "Hierarchy of authority"
     ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
+    "answer": 2,
+    "explanation": "In bureaucracy, roles are clearly defined, not flexible."
   },
   {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 57)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "What does impersonality mean in bureaucratic theory?",
     "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
+      "Employees should not speak to each other",
+      "Decisions are based on rules, not personal feelings",
+      "Leaders must ignore everyone",
+      "Favoritism is encouraged"
     ],
     "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
+    "explanation": "Impersonality ensures fairness and objectivity in decision-making."
   },
   {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 58)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which of these best describes the recruitment process in bureaucracy?",
     "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 59)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 60)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Based on inheritance",
+      "Based on personal connections",
+      "Formal qualifications and merit",
+      "Through employee voting"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Weber emphasized merit-based selection and promotions."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 61)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which of the following is emphasized in bureaucratic structure?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Emotional leadership",
+      "Informal communication",
+      "Formal rules and procedures",
+      "Democratic participation"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Formal rules and procedures are central to Weber’s bureaucratic system."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 62)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Bureaucracy is often criticized for being:",
     "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
+      "Efficient",
+      "Too flexible",
+      "Rigid and impersonal",
+      "Unstructured"
     ],
     "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "explanation": "A major criticism of bureaucracy is that it can become rigid and overly impersonal."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 63)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "According to Weber, bureaucracies are necessary to:",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Encourage informal leadership",
+      "Ensure efficiency and rationality",
+      "Promote charismatic leaders",
+      "Avoid clear procedures"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "Weber believed bureaucracy was the most rational way to manage complex organizations."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 64)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "What is the role of hierarchy in bureaucracy?",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 65)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 66)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 67)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 68)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Creates confusion",
+      "Ensures equal authority",
+      "Defines clear lines of authority and responsibility",
+      "Reduces accountability"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Hierarchy ensures an organized chain of command and accountability."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 69)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Weber's bureaucracy supports which type of authority?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Traditional",
+      "Charismatic",
+      "Legal-rational",
+      "Personalized"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Bureaucracy is based on legal-rational authority, not personality or tradition."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 70)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Bureaucracy ensures equality by promoting:",
     "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
+      "Favoritism",
+      "Personal bias",
+      "Objective rules and procedures",
+      "Informal systems"
     ],
     "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "explanation": "Objective application of rules helps prevent discrimination and favoritism."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 71)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Why did Weber support written records?",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
-    ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
-  },
-  {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 72)",
-    "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 73)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 74)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 75)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 76)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "To monitor employees",
+      "To make information secret",
+      "To ensure continuity and accountability",
+      "To confuse workers"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Written documentation helps maintain consistency, records, and responsibility."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 77)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which of the following is considered a drawback of bureaucracy?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Clarity of rules",
+      "Reduced efficiency due to red tape",
+      "Predictable performance",
+      "Defined hierarchy"
+    ],
+    "answer": 1,
+    "explanation": "Excessive rules can create delays and reduce flexibility (red tape)."
+  },
+  {
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "In Weber’s bureaucracy, promotions are based on:",
+    "options": [
+      "Family ties",
+      "Personal favoritism",
+      "Merit and performance",
+      "Random selection"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
+    "explanation": "Weber emphasized merit-based promotions to ensure fairness and competence."
   },
   {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 78)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which is NOT a criticism of Weber’s bureaucracy?",
     "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
+      "Lack of flexibility",
+      "Red tape",
+      "Employee empowerment",
+      "Impersonality"
     ],
     "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
+    "explanation": "Bureaucracy is often criticized for limiting employee autonomy and empowerment."
   },
   {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 79)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "According to Weber, rules in a bureaucracy should be:",
     "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
+      "Flexible and changing",
+      "Written and strictly enforced",
+      "Based on personal preference",
+      "Optional"
     ],
     "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
+    "explanation": "Rules should be written, formal, and consistently applied for accountability."
   },
   {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 80)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "In a bureaucratic organization, job roles are:",
     "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 81)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 82)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 83)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 84)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
+      "Flexible and temporary",
+      "Assigned by emotions",
+      "Clearly defined and permanent",
+      "Based on rotation"
     ],
     "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Job roles in bureaucracy are fixed and clearly described in detail."
   },
   {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 85)",
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Which statement reflects a benefit of bureaucracy?",
     "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
+      "Encourages personal discretion",
+      "Ensures transparency and consistency",
+      "Promotes favoritism",
+      "Leads to confusion"
+    ],
+    "answer": 1,
+    "explanation": "Bureaucratic rules create fairness, transparency, and consistent processes."
+  },
+  {
+    "topic": "Max Weber’s Bureaucracy",
+    "question": "Weber’s bureaucracy is best suited for:",
+    "options": [
+      "Small, creative teams",
+      "Dynamic startup culture",
+      "Large, complex organizations",
+      "Informal communities"
     ],
     "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 86)",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 87)",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
-    ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
-  },
-  {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 88)",
-    "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 89)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 90)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 91)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 92)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
-    ],
-    "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
-  },
-  {
-    "topic": "Skills of Management",
-    "question": "Which skill is most essential for top-level managers? (Variant 93)",
-    "options": [
-      "Technical skills",
-      "Human skills",
-      "Conceptual skills",
-      "Manual skills"
-    ],
-    "answer": 2,
-    "explanation": "Conceptual skills, which involve the ability to understand and integrate all of the organization's activities and interests, are most important at the top level."
-  },
-  {
-    "topic": "Henry Fayol's Principles",
-    "question": "Which of the following is NOT one of Henry Fayol's 14 principles of management? (Variant 94)",
-    "options": [
-      "Unity of Command",
-      "Division of Work",
-      "Fair Wages",
-      "Scalar Chain"
-    ],
-    "answer": 2,
-    "explanation": "Fair Wages is not one of Fayol's 14 principles; the listed principles include Unity of Command, Division of Work, and Scalar Chain."
-  },
-  {
-    "topic": "Scientific Management - F.W. Taylor",
-    "question": "Which concept was introduced by F. W. Taylor? (Variant 95)",
-    "options": [
-      "Division of labor",
-      "Time and motion study",
-      "Span of control",
-      "Unity of direction"
-    ],
-    "answer": 1,
-    "explanation": "F. W. Taylor introduced the concept of 'time and motion study' as part of his scientific management principles to increase efficiency."
-  },
-  {
-    "topic": "Max Weber's Bureaucracy",
-    "question": "What is a key feature of Max Weber\u2019s theory of bureaucracy? (Variant 96)",
-    "options": [
-      "Charismatic leadership",
-      "Informal authority",
-      "Personalized decision making",
-      "Hierarchy of authority"
-    ],
-    "answer": 3,
-    "explanation": "Weber's theory emphasized a formal hierarchy of authority, where each level controls the level below and is controlled by the level above."
-  },
-  {
-    "topic": "Definition of Management",
-    "question": "Which of the following best defines management? (Variant 97)",
-    "options": [
-      "The art of producing goods",
-      "The process of planning, organizing, leading, and controlling to achieve goals",
-      "A scientific study of human behavior",
-      "The act of hiring and firing employees"
-    ],
-    "answer": 1,
-    "explanation": "Management is the process of planning, organizing, leading, and controlling organizational resources to achieve specific goals efficiently and effectively."
-  },
-  {
-    "topic": "Management: Art, Science or Profession",
-    "question": "Why is management considered a science? (Variant 98)",
-    "options": [
-      "Because it involves creativity",
-      "Because it has an organized body of knowledge and principles",
-      "Because it requires no formal education",
-      "Because it involves intuition"
-    ],
-    "answer": 1,
-    "explanation": "Management is considered a science because it is based on an organized body of knowledge consisting of theories and principles developed through experiments and observations."
-  },
-  {
-    "topic": "Manager vs Leader",
-    "question": "How does a leader differ from a manager? (Variant 99)",
-    "options": [
-      "A leader controls people, while a manager inspires them",
-      "A manager focuses on tasks, while a leader focuses on people",
-      "Managers are born, leaders are made",
-      "Managers take risks, leaders avoid risks"
-    ],
-    "answer": 1,
-    "explanation": "While managers focus on systems and structures, leaders focus on motivating and aligning people towards common goals."
-  },
-  {
-    "topic": "Levels of Management",
-    "question": "Which of the following levels of management is responsible for framing policies? (Variant 100)",
-    "options": [
-      "Lower level",
-      "Middle level",
-      "Top level",
-      "Supervisory level"
-    ],
-    "answer": 2,
-    "explanation": "Top-level management is responsible for setting objectives and framing policies and strategies to achieve organizational goals."
+    "explanation": "Bureaucracy is ideal for large organizations where structured systems are necessary."
   }
-]
+  ]
+  
+  
+  
