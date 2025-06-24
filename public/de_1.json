@@ -1,0 +1,914 @@
+[
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "Which value does the Boolean constant '1' represent?",
+    "options": ["False", "True", "Null", "Undefined"],
+    "answer": 1,
+    "explanation": "'1' represents logical TRUE in Boolean algebra."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "What is the result of 1 + 1 in Boolean algebra?",
+    "options": ["1", "2", "0", "Undefined"],
+    "answer": 0,
+    "explanation": "In Boolean algebra, 1 + 1 = 1 due to the idempotent law."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "What is the primary application of Boolean algebra?",
+    "options": ["Database management", "Operating systems", "Digital circuits", "Compiler design"],
+    "answer": 2,
+    "explanation": "Boolean algebra is used to design and simplify digital logic circuits."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "Which Boolean operation returns true only if both operands are true?",
+    "options": ["OR", "NOT", "XOR", "AND"],
+    "answer": 3,
+    "explanation": "AND returns true only if both inputs are true."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "What is the complement of 0 in Boolean algebra?",
+    "options": ["0", "1", "-1", "Undefined"],
+    "answer": 1,
+    "explanation": "The complement (NOT) of 0 is 1."
+  },
+  {
+    "topic": "Laws of Boolean Algebra",
+    "question": "Which law states A + A = A?",
+    "options": ["Associative Law", "Distributive Law", "Idempotent Law", "Complement Law"],
+    "answer": 2,
+    "explanation": "The idempotent law states A + A = A."
+  },
+  {
+    "topic": "Laws of Boolean Algebra",
+    "question": "According to the complement law, A + A' = ?",
+    "options": ["A", "A'", "1", "0"],
+    "answer": 2,
+    "explanation": "A + A' = 1, as either A or its complement must be true."
+  },
+  {
+    "topic": "Laws of Boolean Algebra",
+    "question": "Which law is represented by A.(B + C) = AB + AC?",
+    "options": ["Distributive Law", "Demorgan's Law", "Associative Law", "Absorption Law"],
+    "answer": 0,
+    "explanation": "Distributive law distributes AND over OR."
+  },
+  {
+    "topic": "Laws of Boolean Algebra",
+    "question": "What is the result of A.A'?",
+    "options": ["A", "1", "0", "A'"],
+    "answer": 2,
+    "explanation": "A AND NOT A always results in 0."
+  },
+  {
+    "topic": "Laws of Boolean Algebra",
+    "question": "Which law states A + AB = A?",
+    "options": ["Absorption Law", "Distributive Law", "Complement Law", "Identity Law"],
+    "answer": 0,
+    "explanation": "Absorption law: A + AB = A."
+  },
+  {
+    "topic": "Logic Gates - AND",
+    "question": "In an AND gate, the output is high only when:",
+    "options": ["Any input is low", "All inputs are high", "One input is high", "No input is high"],
+    "answer": 1,
+    "explanation": "AND gate outputs 1 only when all inputs are 1."
+  },
+  {
+    "topic": "Logic Gates - OR",
+    "question": "The output of an OR gate is 0 only when:",
+    "options": ["All inputs are 1", "At least one input is 0", "All inputs are 0", "Inputs are undefined"],
+    "answer": 2,
+    "explanation": "OR gate outputs 0 only if all inputs are 0."
+  },
+  {
+    "topic": "Logic Gates - NOT",
+    "question": "What is the output of a NOT gate if input is 1?",
+    "options": ["0", "1", "Undefined", "Same as input"],
+    "answer": 0,
+    "explanation": "NOT gate inverts the input; 1 becomes 0."
+  },
+  {
+    "topic": "Logic Gates - OR",
+    "question": "What is the output of OR gate when both inputs are 1?",
+    "options": ["1", "0", "Undefined", "Error"],
+    "answer": 0,
+    "explanation": "OR gate outputs 1 when any or all inputs are 1."
+  },
+  {
+    "topic": "Logic Gates - AND",
+    "question": "AND gate is also known as a:",
+    "options": ["Multiplier", "Adder", "Subtractor", "Divider"],
+    "answer": 0,
+    "explanation": "AND gate behaves like a multiplier: 1×1 = 1."
+  },
+  {
+    "topic": "Logic Gates - NOT",
+    "question": "NOT gate is also referred to as:",
+    "options": ["Inverter", "Buffer", "Amplifier", "Adder"],
+    "answer": 0,
+    "explanation": "NOT gate inverts input logic and is called an inverter."
+  },
+  {
+    "topic": "Logic Gates - OR",
+    "question": "OR gate corresponds to which arithmetic operation?",
+    "options": ["Multiplication", "Addition", "Division", "Modulo"],
+    "answer": 1,
+    "explanation": "OR gate mimics logical addition."
+  },
+  {
+    "topic": "Logic Gates - AND",
+    "question": "If A=0 and B=1, output of A AND B is:",
+    "options": ["0", "1", "Undefined", "Error"],
+    "answer": 0,
+    "explanation": "0 AND 1 = 0."
+  },
+  {
+    "topic": "Logic Gates - NOT",
+    "question": "NOT 0 equals:",
+    "options": ["0", "1", "Error", "Unknown"],
+    "answer": 1,
+    "explanation": "NOT 0 = 1 in Boolean logic."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which gate outputs 1 only if both inputs differ?",
+    "options": ["AND", "OR", "XOR", "NOR"],
+    "answer": 2,
+    "explanation": "XOR gate outputs 1 when inputs are different."
+  },
+  {
+    "topic": "Logic Gates - NAND",
+    "question": "Which gate gives the opposite output of AND?",
+    "options": ["OR", "NOR", "NAND", "XOR"],
+    "answer": 2,
+    "explanation": "NAND is the complement of AND; it gives 0 only when all inputs are 1."
+  },
+  {
+    "topic": "Logic Gates - NAND",
+    "question": "Output of NAND gate for inputs A=1, B=1 is:",
+    "options": ["0", "1", "Undefined", "A"],
+    "answer": 0,
+    "explanation": "NAND outputs 0 when both inputs are 1."
+  },
+  {
+    "topic": "Logic Gates - NOR",
+    "question": "Which logic gate gives the complement of the OR gate?",
+    "options": ["AND", "NAND", "NOR", "XOR"],
+    "answer": 2,
+    "explanation": "NOR is the inverted OR; it outputs 1 only when all inputs are 0."
+  },
+  {
+    "topic": "Logic Gates - NOR",
+    "question": "NOR gate output for A=0, B=0 is:",
+    "options": ["0", "1", "A", "Undefined"],
+    "answer": 1,
+    "explanation": "Only when all inputs are 0, NOR outputs 1."
+  },
+  {
+    "topic": "Logic Gates - NAND",
+    "question": "NAND gate outputs 1 when:",
+    "options": ["All inputs are 1", "Any input is 0", "All inputs are 0", "None of the above"],
+    "answer": 1,
+    "explanation": "NAND gives 1 unless all inputs are 1."
+  },
+  {
+    "topic": "Logic Gates - NOR",
+    "question": "NOR gate behaves like:",
+    "options": ["AND + NOT", "OR + NOT", "XOR + NOT", "NAND + NOT"],
+    "answer": 1,
+    "explanation": "NOR is OR followed by NOT."
+  },
+  {
+    "topic": "Logic Gates - XOR",
+    "question": "XOR gate outputs 1 when:",
+    "options": ["Inputs are same", "Inputs are different", "All inputs are 0", "All inputs are 1"],
+    "answer": 1,
+    "explanation": "Exclusive-OR returns true only when inputs differ."
+  },
+  {
+    "topic": "Logic Gates - XOR",
+    "question": "Output of A XOR A is:",
+    "options": ["1", "0", "A", "Undefined"],
+    "answer": 1,
+    "explanation": "XOR of a bit with itself is always 0."
+  },
+  {
+    "topic": "Logic Gates - XOR",
+    "question": "Which gate is ideal for error detection in binary addition?",
+    "options": ["AND", "XOR", "NOR", "NOT"],
+    "answer": 1,
+    "explanation": "XOR is widely used in parity and error checking."
+  },
+  {
+    "topic": "Logic Gates - XNOR",
+    "question": "What does XNOR gate output when inputs are the same?",
+    "options": ["0", "1", "A", "Undefined"],
+    "answer": 1,
+    "explanation": "XNOR outputs 1 when both inputs are equal."
+  },
+  {
+    "topic": "Logic Gates - XNOR",
+    "question": "XNOR is also known as:",
+    "options": ["Inequality gate", "Difference gate", "Equivalence gate", "Addition gate"],
+    "answer": 2,
+    "explanation": "XNOR is called equivalence gate as it outputs 1 for equal inputs."
+  },
+  {
+    "topic": "Logic Gates - XNOR",
+    "question": "Output of A XNOR B is same as:",
+    "options": ["NOT(A XOR B)", "A OR B", "A AND B", "A + B"],
+    "answer": 0,
+    "explanation": "XNOR is the complement of XOR."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "What is A + A'B simplified?",
+    "options": ["A + B", "A + A'", "A + B'", "A + 0"],
+    "answer": 0,
+    "explanation": "Using Absorption Law: A + A'B = A + B."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "Simplify A + AB:",
+    "options": ["A", "AB", "B", "A + B"],
+    "answer": 0,
+    "explanation": "By Absorption Law, A + AB = A."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "What is A + 1 equal to?",
+    "options": ["0", "1", "A", "A'"],
+    "answer": 1,
+    "explanation": "Anything OR 1 = 1."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "What is A.A equal to?",
+    "options": ["0", "A", "1", "A'"],
+    "answer": 1,
+    "explanation": "A AND A is A (Idempotent Law)."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "A + A' equals:",
+    "options": ["1", "0", "A", "A'"],
+    "answer": 0,
+    "explanation": "A + A' = 1 (Complement Law)."
+  },
+  {
+    "topic": "Boolean Algebra - Simplification",
+    "question": "Simplify AB + AB':",
+    "options": ["A", "B", "A'", "0"],
+    "answer": 0,
+    "explanation": "A(B + B') = A(1) = A."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which gate is considered a universal gate?",
+    "options": ["OR", "AND", "NAND", "XOR"],
+    "answer": 2,
+    "explanation": "NAND is universal as it can create all other gates."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which gate can be formed by combining NAND gates only?",
+    "options": ["All logic gates", "Only OR gate", "Only AND gate", "Only NOT gate"],
+    "answer": 0,
+    "explanation": "Any logic circuit can be constructed using just NAND gates."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is the primary use of Karnaugh Maps (K-Maps)?",
+    "options": ["Error detection", "Data transmission", "Boolean expression simplification", "Voltage regulation"],
+    "answer": 2,
+    "explanation": "K-Maps simplify Boolean expressions by minimizing logic circuits."
+  },
+  {
+    "topic": "K-Map",
+    "question": "A 2-variable K-Map contains how many cells?",
+    "options": ["2", "4", "6", "8"],
+    "answer": 1,
+    "explanation": "A 2-variable K-Map has 2² = 4 cells."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is the shape of grouping used in K-Maps?",
+    "options": ["Rectangular", "Circular", "Zigzag", "Hexagonal"],
+    "answer": 0,
+    "explanation": "Groups are formed in rectangles of 1, 2, 4, 8, etc."
+  },
+  {
+    "topic": "K-Map",
+    "question": "Which grouping is invalid in K-Map simplification?",
+    "options": ["Group of 2", "Group of 3", "Group of 4", "Group of 8"],
+    "answer": 1,
+    "explanation": "Only power-of-two groupings are valid (1, 2, 4, 8…)."
+  },
+  {
+    "topic": "K-Map",
+    "question": "A group of 4 ones in a 2-variable K-map simplifies to:",
+    "options": ["1", "0", "A", "A'"],
+    "answer": 0,
+    "explanation": "All minterms grouped = 1."
+  },
+  {
+    "topic": "K-Map",
+    "question": "Which term describes a variable that appears in both complemented and uncomplemented form in a group?",
+    "options": ["Don't care", "Redundant", "Eliminated", "Eliminated variable"],
+    "answer": 3,
+    "explanation": "Such variables cancel out and do not appear in simplified expression."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "Which law is used to remove redundant variables?",
+    "options": ["Absorption", "Commutative", "Distributive", "De Morgan's"],
+    "answer": 0,
+    "explanation": "Absorption law helps eliminate redundant terms."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "What is the result of A + A'B?",
+    "options": ["A + B", "A", "A.B", "B"],
+    "answer": 0,
+    "explanation": "Using absorption: A + A'B = A + B."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "Which law supports A(B + C) = AB + AC?",
+    "options": ["Demorgan's Law", "Associative Law", "Distributive Law", "Inverse Law"],
+    "answer": 2,
+    "explanation": "This is the distributive law."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "Which of the following expressions equals 0?",
+    "options": ["A . A'", "A + A'", "A . 1", "A + 0"],
+    "answer": 0,
+    "explanation": "A AND NOT A = 0."
+  },
+  {
+    "topic": "Universal Gates",
+    "question": "NAND and NOR gates are called universal gates because:",
+    "options": ["They are cheap", "They are easy to make", "They can create any other gate", "They only have one input"],
+    "answer": 2,
+    "explanation": "You can build all gates using only NAND or NOR gates."
+  },
+  {
+    "topic": "Universal Gates",
+    "question": "Which gate combination gives NOT using a NAND gate?",
+    "options": ["Connect input to GND", "Connect both inputs to the same value", "One input is 1", "Use a buffer"],
+    "answer": 1,
+    "explanation": "Connecting both inputs of NAND to A gives A'."
+  },
+  {
+    "topic": "Universal Gates",
+    "question": "How many NAND gates are required to form an OR gate?",
+    "options": ["2", "3", "4", "1"],
+    "answer": 2,
+    "explanation": "Minimum 3 NAND gates are needed to create OR logic."
+  },
+  {
+    "topic": "Universal Gates",
+    "question": "What is the minimum number of NOR gates to construct an AND gate?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "4 NOR gates are needed to construct an AND gate."
+  },
+  {
+    "topic": "XOR Applications",
+    "question": "Which logic gate is used in half adders for sum bit?",
+    "options": ["AND", "OR", "XOR", "NOR"],
+    "answer": 2,
+    "explanation": "XOR gate gives sum output in binary addition."
+  },
+  {
+    "topic": "XNOR Applications",
+    "question": "XNOR gate is used when:",
+    "options": ["We need to compare two inputs", "We want to subtract numbers", "Only one input is needed", "Output must always be 0"],
+    "answer": 0,
+    "explanation": "XNOR checks for equality between two bits."
+  },
+  {
+    "topic": "XNOR Applications",
+    "question": "What is the output of XNOR when inputs are A=1, B=0?",
+    "options": ["1", "0", "A", "B"],
+    "answer": 1,
+    "explanation": "XNOR outputs 1 only when inputs are equal."
+  },
+  {
+    "topic": "XOR Applications",
+    "question": "Which logic operation is ideal for detecting differences?",
+    "options": ["XNOR", "AND", "XOR", "NAND"],
+    "answer": 2,
+    "explanation": "XOR outputs 1 only when bits differ."
+  },
+  {
+    "topic": "XOR Applications",
+    "question": "What is the result of XORing any variable with 0?",
+    "options": ["0", "1", "A", "A'"],
+    "answer": 2,
+    "explanation": "A ⊕ 0 = A"
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "Which Boolean law helps in proving A + A.B = A?",
+    "options": ["Commutative", "Absorption", "Associative", "De Morgan"],
+    "answer": 1,
+    "explanation": "Absorption law simplifies A + AB = A."
+  },
+  {
+    "topic": "K-Map",
+    "question": "In a 3-variable K-map, how many cells are there?",
+    "options": ["4", "6", "8", "16"],
+    "answer": 2,
+    "explanation": "3 variables = 2^3 = 8 cells in the K-map."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is the Gray code sequence used in K-map rows?",
+    "options": ["00, 01, 10, 11", "00, 01, 11, 10", "00, 10, 01, 11", "11, 10, 01, 00"],
+    "answer": 1,
+    "explanation": "Gray code ensures only one-bit change between adjacent cells."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What does grouping 4 adjacent 1s in a 4-variable K-map do?",
+    "options": ["Removes 2 variables", "Adds redundancy", "Increases size", "Gives invalid result"],
+    "answer": 0,
+    "explanation": "Each group of 4 removes 2 variables."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is the name for cells not used in K-map but can be grouped optionally?",
+    "options": ["Optional terms", "Redundant terms", "Don’t care conditions", "Undefined cells"],
+    "answer": 2,
+    "explanation": "Don’t care conditions help simplify K-map expressions."
+  },
+  {
+    "topic": "K-Map",
+    "question": "Which of the following K-map expressions is simplified correctly: A'B + A'B'?",
+    "options": ["A'", "B'", "AB", "1"],
+    "answer": 0,
+    "explanation": "A'B + A'B' = A'(B + B') = A'."
+  },
+  {
+    "topic": "Boolean Simplification",
+    "question": "Which Boolean identity is used in this: A + AB = A?",
+    "options": ["Commutative", "Distributive", "Absorption", "Demorgan's"],
+    "answer": 2,
+    "explanation": "This follows the Absorption Law."
+  },
+  {
+    "topic": "Boolean Simplification",
+    "question": "Simplify A(A + B):",
+    "options": ["A", "B", "AB", "0"],
+    "answer": 0,
+    "explanation": "Using Absorption: A(A + B) = A."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "A logic circuit with no memory is called:",
+    "options": ["Sequential", "Parallel", "Combinational", "Analog"],
+    "answer": 2,
+    "explanation": "Combinational circuits produce output solely based on current input."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which logic family is fastest?",
+    "options": ["TTL", "CMOS", "ECL", "RTL"],
+    "answer": 2,
+    "explanation": "Emitter-Coupled Logic (ECL) is fastest among logic families."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "The sum output in a half-adder circuit uses which gate?",
+    "options": ["AND", "OR", "XOR", "NAND"],
+    "answer": 2,
+    "explanation": "XOR gives the sum bit in a half-adder."
+  },
+  {
+    "topic": "Logic Gates - XOR",
+    "question": "Which Boolean expression represents XOR?",
+    "options": ["A'B + AB'", "AB + AB'", "A + B", "A.B"],
+    "answer": 0,
+    "explanation": "XOR = A'B + AB'."
+  },
+  {
+    "topic": "Logic Gates - XNOR",
+    "question": "XNOR gate is also called:",
+    "options": ["Inequality gate", "Parity checker", "Equivalence gate", "Subtractor gate"],
+    "answer": 2,
+    "explanation": "XNOR = Equivalence gate; gives 1 for equal inputs."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "Which Boolean expression is always equal to 1?",
+    "options": ["A + A'", "A.A'", "A + 0", "A.1"],
+    "answer": 0,
+    "explanation": "A + A' = 1."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "Which of these gates is a NOT equivalent using NAND?",
+    "options": ["A NAND 0", "A NAND A", "A NAND 1", "0 NAND A"],
+    "answer": 1,
+    "explanation": "A NAND A = A' (NOT A)."
+  },
+  {
+    "topic": "Universal Gates",
+    "question": "Which gate acts as universal gate with least number of transistors?",
+    "options": ["NAND", "NOR", "XOR", "AND"],
+    "answer": 0,
+    "explanation": "NAND requires fewer components to build universality."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which logic gate has the truth table: output 0 for 1,1 input only?",
+    "options": ["AND", "NOR", "NAND", "OR"],
+    "answer": 2,
+    "explanation": "NAND gate gives 0 only when all inputs are 1."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "Which Boolean law is used in A(B + C) = AB + AC?",
+    "options": ["Distributive", "Associative", "Complement", "Identity"],
+    "answer": 0,
+    "explanation": "Distributive law distributes A across (B + C)."
+  },
+  {
+    "topic": "K-Map",
+    "question": "In a 4-variable K-map, how many groups of 8 can be formed?",
+    "options": ["1", "2", "4", "6"],
+    "answer": 2,
+    "explanation": "4 groups of 8 are possible with overlapping allowed."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What's the simplest expression for A'B + AB?",
+    "options": ["A", "B", "1", "A ⊕ B"],
+    "answer": 1,
+    "explanation": "A'B + AB = B."
+  },
+  {
+    "topic": "Logic Design",
+    "question": "Which gate is commonly used in memory elements?",
+    "options": ["AND", "OR", "XOR", "NAND"],
+    "answer": 3,
+    "explanation": "NAND gates are basic building blocks for latches and flip-flops."
+  },
+  {
+    "topic": "Truth Tables",
+    "question": "A 2-input logic gate will have how many rows in its truth table?",
+    "options": ["2", "4", "6", "8"],
+    "answer": 1,
+    "explanation": "2 inputs = 2^2 = 4 possible combinations in the truth table."
+  },
+  {
+    "topic": "Truth Tables",
+    "question": "What is the output of AND gate for input A=1, B=0?",
+    "options": ["1", "0", "A", "B"],
+    "answer": 1,
+    "explanation": "1 AND 0 = 0."
+  },
+  {
+    "topic": "Truth Tables",
+    "question": "OR gate truth table output is 1 when:",
+    "options": ["Only one input is 1", "Both inputs are 1", "At least one input is 1", "All inputs are 0"],
+    "answer": 2,
+    "explanation": "OR gate gives 1 when any one or both inputs are 1."
+  },
+  {
+    "topic": "Logic Gate Application",
+    "question": "Which gate is used for equality checking?",
+    "options": ["OR", "AND", "XNOR", "NAND"],
+    "answer": 2,
+    "explanation": "XNOR gives 1 when inputs are equal."
+  },
+  {
+    "topic": "Logic Gate Application",
+    "question": "In digital circuits, buffers are used to:",
+    "options": ["Invert input", "Amplify current", "Store logic", "Compare bits"],
+    "answer": 1,
+    "explanation": "Buffers strengthen weak signals in digital systems."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "What is the result of A + A'B in simplest form?",
+    "options": ["A", "B", "A + B", "A'B"],
+    "answer": 2,
+    "explanation": "A + A'B = A + B (using absorption)."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "A.1 equals:",
+    "options": ["A", "0", "1", "A'"],
+    "answer": 0,
+    "explanation": "A AND 1 = A."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "A + 0 simplifies to:",
+    "options": ["0", "A", "1", "A'"],
+    "answer": 1,
+    "explanation": "ORing with 0 returns the original input."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is the advantage of using K-map over algebraic methods?",
+    "options": ["Faster calculations", "Visual minimization", "Complex expressions", "High-level programming"],
+    "answer": 1,
+    "explanation": "K-map is a visual method to minimize Boolean expressions."
+  },
+  {
+    "topic": "K-Map",
+    "question": "Which grouping is preferred in K-map for simplification?",
+    "options": ["Group of 3", "Group of 5", "Group of 6", "Group of 4"],
+    "answer": 3,
+    "explanation": "Only groups in powers of 2 (1, 2, 4, 8…) are allowed."
+  },
+  {
+    "topic": "Digital Design",
+    "question": "Half adder carries are implemented using which gate?",
+    "options": ["AND", "OR", "XOR", "NOT"],
+    "answer": 0,
+    "explanation": "Carry in a half adder = A AND B."
+  },
+  {
+    "topic": "Digital Design",
+    "question": "Which circuit stores bits in sequential logic?",
+    "options": ["Multiplexer", "Latch", "Decoder", "Adder"],
+    "answer": 1,
+    "explanation": "Latches are basic memory units in sequential circuits."
+  },
+  {
+    "topic": "Digital Design",
+    "question": "What is the minimum number of gates in a half adder?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 0,
+    "explanation": "1 XOR (sum) + 1 AND (carry) = 2 gates."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "The full adder handles how many input bits?",
+    "options": ["2", "3", "1", "4"],
+    "answer": 1,
+    "explanation": "Full adder = A, B, and Carry-in → 3 inputs."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "How many outputs are there in a full adder?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "Outputs = sum and carry → 2 outputs."
+  },
+  {
+    "topic": "Digital Design",
+    "question": "Which of these is a sequential circuit?",
+    "options": ["Adder", "Multiplexer", "Flip-flop", "Demultiplexer"],
+    "answer": 2,
+    "explanation": "Flip-flops have memory, making them sequential circuits."
+  },
+  {
+    "topic": "Boolean Algebra Basics",
+    "question": "How many values can a Boolean variable have?",
+    "options": ["3", "2", "4", "8"],
+    "answer": 1,
+    "explanation": "Boolean variables can be 0 or 1."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which of the following is not a basic logic gate?",
+    "options": ["AND", "NOR", "NOT", "OR"],
+    "answer": 1,
+    "explanation": "NOR is a universal, not a basic gate. Basic gates are AND, OR, NOT."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which logic function is performed by this expression: A ⊕ B ⊕ C?",
+    "options": ["AND of all inputs", "Odd parity detection", "Even parity detection", "XNOR logic"],
+    "answer": 1,
+    "explanation": "XOR chain gives 1 for odd number of 1s."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "A multiplexer is used to:",
+    "options": ["Add binary numbers", "Select one input from many", "Invert signals", "Compare outputs"],
+    "answer": 1,
+    "explanation": "Multiplexer selects one of many input signals based on selector lines."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which logic gate is most useful in toggling operations?",
+    "options": ["AND", "OR", "XOR", "NAND"],
+    "answer": 2,
+    "explanation": "XOR is used in toggle operations due to its behavior with different inputs."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "Which gate can detect an odd number of high inputs?",
+    "options": ["AND", "XOR", "XNOR", "OR"],
+    "answer": 1,
+    "explanation": "XOR returns 1 when an odd number of inputs are high (1)."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "What is the output of a NOR gate when both inputs are 1?",
+    "options": ["0", "1", "A", "B"],
+    "answer": 0,
+    "explanation": "OR of 1 and 1 is 1; NOR inverts it to 0."
+  },
+  {
+    "topic": "Boolean Laws",
+    "question": "A + AB equals?",
+    "options": ["A", "B", "AB", "A + B"],
+    "answer": 0,
+    "explanation": "Using Absorption Law: A + AB = A."
+  },
+  {
+    "topic": "K-Map",
+    "question": "The number of adjacent groups possible in a 4-variable K-map?",
+    "options": ["4", "8", "16", "32"],
+    "answer": 2,
+    "explanation": "4-variable K-map has 16 cells; each can form multiple group combinations."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "The output of NAND gate with all inputs 0 is:",
+    "options": ["0", "1", "A", "Undefined"],
+    "answer": 1,
+    "explanation": "AND(0,0) = 0; NAND inverts it to 1."
+  },
+  {
+    "topic": "Logic Circuit",
+    "question": "Which logic circuit has memory?",
+    "options": ["Multiplexer", "Flip-Flop", "Decoder", "Adder"],
+    "answer": 1,
+    "explanation": "Flip-flops are basic storage elements in sequential circuits."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "Which operation is represented by ‘+’ in Boolean algebra?",
+    "options": ["AND", "OR", "NOT", "XOR"],
+    "answer": 1,
+    "explanation": "‘+’ in Boolean logic stands for OR."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "Which of the following is the identity element for OR?",
+    "options": ["0", "1", "A", "A'"],
+    "answer": 0,
+    "explanation": "A + 0 = A; so 0 is the identity for OR."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "Which gate acts as a buffer when inputs are tied together?",
+    "options": ["AND", "OR", "NAND", "NOT"],
+    "answer": 0,
+    "explanation": "AND gate with same inputs behaves like a buffer."
+  },
+  {
+    "topic": "K-Map",
+    "question": "In K-Map, the term ‘implicant’ refers to:",
+    "options": ["Single variable", "Group of 2 cells", "Product term covering one or more 1s", "Sum of products"],
+    "answer": 2,
+    "explanation": "An implicant is a term in Boolean expression that includes 1s."
+  },
+  {
+    "topic": "K-Map",
+    "question": "What is a 'prime implicant' in K-map?",
+    "options": ["Smallest group", "Largest possible group that can't be included in another", "Don’t care condition", "Essential cell"],
+    "answer": 1,
+    "explanation": "Prime implicants are maximal groups of 1s."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which circuit adds binary numbers?",
+    "options": ["Decoder", "Adder", "Multiplexer", "Counter"],
+    "answer": 1,
+    "explanation": "Adder circuits perform binary addition."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "Which logic gate is known for checking parity?",
+    "options": ["XOR", "AND", "NAND", "XNOR"],
+    "answer": 0,
+    "explanation": "XOR is used for parity check in digital circuits."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which gate outputs high only if all inputs are high?",
+    "options": ["OR", "XOR", "AND", "NOR"],
+    "answer": 2,
+    "explanation": "AND gate gives 1 only when all inputs are 1."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "A . A' simplifies to:",
+    "options": ["A", "A'", "1", "0"],
+    "answer": 3,
+    "explanation": "A AND NOT A = 0."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "NAND gate is equivalent to which operation?",
+    "options": ["AND followed by NOT", "OR followed by NOT", "NOT followed by OR", "NOT followed by AND"],
+    "answer": 0,
+    "explanation": "NAND = AND + NOT."
+  },
+  {
+    "topic": "Logic Design",
+    "question": "What type of gate is needed for building any logic system?",
+    "options": ["XOR", "OR", "Universal", "Buffer"],
+    "answer": 2,
+    "explanation": "Universal gates (NAND/NOR) can construct any other logic."
+  },
+  {
+    "topic": "Logic Design",
+    "question": "Which operation does a multiplexer perform?",
+    "options": ["Decoding", "Encoding", "Selection", "Storage"],
+    "answer": 2,
+    "explanation": "A multiplexer selects one input based on selection lines."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "Which logic device decodes binary input to activate only one output?",
+    "options": ["Multiplexer", "Encoder", "Decoder", "Flip-Flop"],
+    "answer": 2,
+    "explanation": "A decoder activates one output based on binary input."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "DeMorgan's Theorem: (A.B)' equals:",
+    "options": ["A' + B'", "A + B", "A'.B'", "A + B'"],
+    "answer": 0,
+    "explanation": "DeMorgan: (A.B)' = A' + B'."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "Which Boolean identity represents A + A = ?",
+    "options": ["A", "0", "1", "A'"],
+    "answer": 0,
+    "explanation": "A + A = A (Idempotent Law)."
+  },
+  {
+    "topic": "K-Map",
+    "question": "K-map simplification results in:",
+    "options": ["Complex expression", "Longer expression", "Minimum SOP or POS", "Hexadecimal codes"],
+    "answer": 2,
+    "explanation": "K-map helps simplify Boolean logic into minimal forms."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "What is the output of NOT(1)?",
+    "options": ["1", "0", "Undefined", "1.1"],
+    "answer": 1,
+    "explanation": "NOT inverts the input, so NOT(1) = 0."
+  },
+  {
+    "topic": "Logic Gates",
+    "question": "In Boolean logic, 1 + 1 = ?",
+    "options": ["0", "1", "2", "Undefined"],
+    "answer": 1,
+    "explanation": "In Boolean logic, 1 + 1 = 1 (OR operation)."
+  },
+  {
+    "topic": "Logic Circuits",
+    "question": "Which of the following is a combinational circuit?",
+    "options": ["Counter", "Adder", "Flip-Flop", "Latch"],
+    "answer": 1,
+    "explanation": "Adder is a combinational logic circuit with no memory."
+  },
+  {
+    "topic": "Digital Logic",
+    "question": "Logic circuits with feedback loops are called:",
+    "options": ["Combinational", "Sequential", "Static", "Linear"],
+    "answer": 1,
+    "explanation": "Sequential circuits include feedback (memory)."
+  },
+  {
+    "topic": "Logic Design",
+    "question": "What is the number of inputs required for an 8-to-1 multiplexer?",
+    "options": ["2", "3", "8", "1"],
+    "answer": 2,
+    "explanation": "An 8:1 mux has 8 data inputs and 3 select lines."
+  },
+  {
+    "topic": "Logic Design",
+    "question": "Which of the following detects overflow in binary addition?",
+    "options": ["OR", "XOR", "XNOR", "AND"],
+    "answer": 1,
+    "explanation": "XOR of carry bits helps detect overflow."
+  },
+  {
+    "topic": "Boolean Algebra",
+    "question": "A + A'B simplifies to:",
+    "options": ["A + B", "B", "A'", "A"],
+    "answer": 0,
+    "explanation": "A + A'B = A + B (Absorption law)."
+  }
+  ]
+  
+  
