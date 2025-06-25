@@ -1,0 +1,635 @@
+[
+  {
+    "topic": "Flip‑Flops",
+    "question": "In an SR flip‑flop, when S=0 and R=0, what happens?",
+    "options": ["Set", "Reset", "No change (Hold)", "Invalid"],
+    "answer": 2,
+    "explanation": "With S=R=0, the outputs remain unchanged (hold state)."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is the invalid state in a basic SR latch?",
+    "options": ["S=1, R=0", "S=0, R=1", "S=1, R=1", "S=0, R=0"],
+    "answer": 2,
+    "explanation": "S=R=1 leads to both outputs being 0 – undefined and invalid."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A D flip‑flop captures input on which clock edge (rising)?",
+    "options": ["On rising edge", "On falling edge", "Continuously", "Never"],
+    "answer": 0,
+    "explanation": "A positive‑edge triggered D‑flip‑flop samples input at the rising edge."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is the main advantage of a J‑K flip‑flop over SR?",
+    "options": ["No race condition", "Toggle mode support", "No clock input", "Cheaper"],
+    "answer": 1,
+    "explanation": "J‑K FF avoids invalid states and can toggle when J=K=1."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In a T flip‑flop, what happens when T=1 on clock edge?",
+    "options": ["Sets Q=1", "Resets Q=0", "Toggles output", "Holds output"],
+    "answer": 2,
+    "explanation": "T=1 makes the flip‑flop toggle its current output state."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What circuit avoids race‑around in J‑K flip‑flop?",
+    "options": ["Master‑Slave", "Edge‑trigger", "Level‑trigger", "Latching circuit"],
+    "answer": 0,
+    "explanation": "Master‑Slave configuration avoids race by sequencing two FFs."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop is constructed from two gated SR latches in series?",
+    "options": ["D‑FF", "J‑K FF", "T‑FF", "Master‑Slave FF"],
+    "answer": 3,
+    "explanation": "Master‑slave FF uses two gated SR latches – master and slave."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "To realize a T flip‑flop using a J‑K FF, connect:",
+    "options": ["J=T, K=T", "J=1, K=0", "J=T', K=T", "J=T, K=T'"],
+    "answer": 0,
+    "explanation": "Setting J = K = T turns the J‑K into a T‑FF."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "To build a D flip‑flop using a J‑K flip‑flop, use:",
+    "options": ["J=D, K=¬D", "J=1, K=D", "J=D, K=0", "J=¬D, K=D"],
+    "answer": 0,
+    "explanation": "J = D and K = ¬D ensure output Q = D at clock."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is 'race‑around' in a J‑K flip‑flop?",
+    "options": ["Fast toggling", "Glitch due to level‑clock", "No triggering", "Invalid state"],
+    "answer": 1,
+    "explanation": "At level clock, J=K=1 causes multiple toggles during active period."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "D flip‑flop eliminates invalid input conditions found in?",
+    "options": ["J‑K FF", "SR latch", "T‑FF", "Master‑Slave FF"],
+    "answer": 1,
+    "explanation": "D‑FF ensures never S=R=1 by construction."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A clocked SR flip‑flop changes output when:",
+    "options": ["Clock=0", "Clock=1", "Any time", "Clock disabled"],
+    "answer": 1,
+    "explanation": "Clocked SR FF is transparent only when clock=1."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In master‑slave D‑FF, master and slave are gated by:",
+    "options": ["Same clock", "Opposite clock phases", "No clock", "Clock and reset"],
+    "answer": 1,
+    "explanation": "One latch is active while the other is inactive (complement of clock)."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "T flip‑flop toggles output when:",
+    "options": ["T=0", "T=1", "Clock low", "Async reset"],
+    "answer": 1,
+    "explanation": "T=1 makes Q invert on each clock pulse."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop avoiding race uses edge triggering?",
+    "options": ["J‑K", "D", "Master‑Slave", "SR"],
+    "answer": 2,
+    "explanation": "Master‑Slave FF is edge triggered by combining two level‑latches."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop suits toggling applications like counters?",
+    "options": ["SR‑FF", "D‑FF", "J‑K FF", "T‑FF"],
+    "answer": 3,
+    "explanation": "T‑FF toggles output – ideal for counters."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "What is a Serial‑in Serial‑out (SISO) register?",
+    "options": ["Loads and shifts data in/out serially", "Parallel input/output", "Hybrid", "Barcode scanner"],
+    "answer": 0,
+    "explanation": "SISO loads and reads bits one by one."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In Serial‑in Parallel‑out (SIPO), data input is serial but read:",
+    "options": ["Serially", "In parallel", "Stored", "Discarded"],
+    "answer": 1,
+    "explanation": "SIPO collects serial bits and makes them available in parallel outputs."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Parallel‑in Serial‑out (PISO) register does?",
+    "options": ["Loads parallel data but outputs serially", "Serial load and serial output", "Only stores", "Only shifts"],
+    "answer": 0,
+    "explanation": "PISO accepts parallel inputs and outputs one bit per clock cycle."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Parallel‑in Parallel‑out (PIPO) register:",
+    "options": ["Serial in/out", "Parallel in/out", "Hybrid", "Seldom used"],
+    "answer": 1,
+    "explanation": "PIPO allows data to be loaded and read in parallel."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which register shifts data both left and right?",
+    "options": ["SISO", "Bi‑directional", "PISO", "SIPO"],
+    "answer": 1,
+    "explanation": "Bi‑directional allows shifting in either direction by control input."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Whats happens in a 4‑bit SIPO register after four clocks?",
+    "options": ["No data", "Full parallel output", "Half data", "Error"],
+    "answer": 1,
+    "explanation": "After 4 bits shifted in, all 4 outputs hold serial bits."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which circuit stores one bit per flip‑flop and shifts on clock?",
+    "options": ["Shift register", "Counter", "Latch", "Oscillator"],
+    "answer": 0,
+    "explanation": "Shift registers are chains of flip‑flops clocked to shift data."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "A PISO register uses what logic to load parallel data?",
+    "options": ["Multiplexers", "Decoders", "Encoders", "Adders"],
+    "answer": 0,
+    "explanation": "PISO uses multiplexers to select between parallel bit inputs and shift line."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In a bidirectional shift register, control=0 shifts right, control=1 shifts left. This uses:",
+    "options": ["Two multiplexers per flip‑flop", "Demultip lexers", "Counters", "Encoders"],
+    "answer": 0,
+    "explanation": "Two‑way shifting needs MUXes at each stage to select direction input."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "What is the main use of SISO register?",
+    "options": ["Data storage", "Serial data delay lines", "Arithmetic", "Parallel conversion"],
+    "answer": 1,
+    "explanation": "SISO acts as a delay line – useful in serial communications."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A master‑slave JKFF toggles only on:",
+    "options": ["Clock level", "Clock edge", "Async set", "Reset"],
+    "answer": 1,
+    "explanation": "Edge triggering in master‑slave prevents race around."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "To convert D‑FF to T‑FF, connect T to which?",
+    "options": ["D", "Clk", "Q", "¬Q"],
+    "answer": 0,
+    "explanation": "Connecting D=T makes flip‑flop toggle when T=1."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In a clocked SR flip‑flop, when CLK=0, inputs S and R are:",
+    "options": ["Active", "Ignored", "Stored", "Toggled"],
+    "answer": 1,
+    "explanation": "When CLK=0, a clocked SR flip‑flop ignores S and R and holds its state."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop ensures no invalid input states and toggles when input=1?",
+    "options": ["SR‑FF", "D‑FF", "J‑K‑FF", "T‑FF"],
+    "answer": 3,
+    "explanation": "T‑FF toggles when T=1 and doesn’t have invalid states like SR‑FF."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Master‑slave flip‑flop prevents race condition by:",
+    "options": ["Dual clock latches", "Edge detection", "Asynchronous reset", "High drive"],
+    "answer": 0,
+    "explanation": "Using master and slave latches in series prevents input feedback during CLK."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "To implement a JK FF using an SR FF, you need:",
+    "options": ["Gates only", "Additional feedback", "Flip‑flop cascade", "Decoder"],
+    "answer": 1,
+    "explanation": "JK FF adds feedback from outputs to inputs of SR FF for toggle functionality."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In a D flip‑flop based shift register, what does Qn+1 output represent?",
+    "options": ["Previous input", "Delayed input", "Negated input", "Old state"],
+    "answer": 1,
+    "explanation": "Each clock, D‑FF shifts and outputs the saved previous data to the next stage."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "How many flip‑flops are required for a 4‑bit serial‑in parallel‑out register?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "Each bit occupies one D‑FF, so 4 D‑FFs are needed."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In a PISO register, parallel inputs are loaded when:",
+    "options": ["CLK=0", "Load=1", "Shift=1", "Reset=1"],
+    "answer": 1,
+    "explanation": "A control signal 'Load' switches the register to parallel load mode."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Serial‑in parallel‑out shift register is used to:",
+    "options": ["Serially load, read parallel", "Read serially", "Store 1 bit", "Toggle data"],
+    "answer": 0,
+    "explanation": "SIPO converts serial data into parallel outputs after multiple clocks."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which register outputs bits as it shifts?",
+    "options": ["SISO", "SIPO", "PISO", "PIPO"],
+    "answer": 0,
+    "explanation": "SISO outputs serial data simultaneously with serial input."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "A bi‑directional shift register can:",
+    "options": ["Only shift left", "Only shift right", "Shift both directions", "Hold data only"],
+    "answer": 2,
+    "explanation": "Bi‑directional can shift right or left based on control input."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is the preset of a flip‑flop used for?",
+    "options": ["Reset Q=0", "Set Q=1 asynchronously", "Enable clock", "Toggle output"],
+    "answer": 1,
+    "explanation": "Preset sets Q=1 instantly, regardless of clock."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is the purpose of the clear input in flip‑flops?",
+    "options": ["Set Q=1", "Reset Q=0 asynchronously", "Enable shift", "Latch input"],
+    "answer": 1,
+    "explanation": "Clear forces Q=0 immediately, overriding other inputs."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A JK FF with J=K=1 in master‑slave mode toggles on:",
+    "options": ["Level clock", "Clock edge", "No action", "Reset"],
+    "answer": 1,
+    "explanation": "Toggle occurs once per clock edge in master‑slave configuration."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop type uses no feedback and has a single input?",
+    "options": ["SR‑FF", "D‑FF", "JK‑FF", "T‑FF"],
+    "answer": 1,
+    "explanation": "D‑FF has a single input D, avoiding feedback complexity."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "To realize a JK FF from D‑FF, you need to add:",
+    "options": ["Multiplexer circuits", "No modification", "Pulse generator", "Edge detector"],
+    "answer": 0,
+    "explanation": "MUX selects proper inputs for D based on J and K signals."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In a 4‑bit PIPO register, how is data transferred?",
+    "options": ["Serially", "Parallelly", "Half‑parallel", "Byte‑wise"],
+    "answer": 1,
+    "explanation": "PIPO moves data in and out in parallel on clock."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which control signal defines left/right shift in bidirectional register?",
+    "options": ["Enable", "Load", "Direction", "Reset"],
+    "answer": 2,
+    "explanation": "A 'Direction' input selects left or right shift path."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Graphic circuit: For a 4‑bit SISO shift register, how many clocks to load data '1010'?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "Four clock pulses load four bits into the SISO register."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop is edge‑triggered?",
+    "options": ["Basic SR", "Clocked D", "Master‑Slave", "Edge‑D FF"],
+    "answer": 3,
+    "explanation": "Edge‑triggered D‑FF changes output precisely on clock edge."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In an edge triggered D‑FF, input D is:",
+    "options": ["Sampled on level", "Ignored until edge", "Always passed", "Disabled"],
+    "answer": 1,
+    "explanation": "Input is sampled only when clock transition occurs."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A master‑slave JK‑FF is triggered on:",
+    "options": ["Rising edge", "Falling edge", "Either edge", "No change"],
+    "answer": 0,
+    "explanation": "It captures data on master at rise, locks slave, updating on rising edge."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "SIPO registers are often used in:",
+    "options": ["LCD display drivers", "Network RAM", "Hard drives", "OSC circuits"],
+    "answer": 0,
+    "explanation": "SIPO converts serial data to parallel form to drive displays."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which register transfers the entire 8‑bit byte at once?",
+    "options": ["SISO", "SIPO", "PISO", "PIPO"],
+    "answer": 3,
+    "explanation": "PIPO loads and outputs all 8 bits in parallel simultaneously."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop configuration is used to avoid race around in JK‑FF?",
+    "options": ["Level‑triggered", "Master‑Slave", "Asynchronous", "Edge‑D"],
+    "answer": 1,
+    "explanation": "Master‑Slave avoids multiple toggles by dividing clocked segments."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which output of a flip‑flop is used as feedback for JK toggling?",
+    "options": ["Q only", "¬Q only", "Both Q and ¬Q", "Neither"],
+    "answer": 2,
+    "explanation": "JK requires both Q and ¬Q feedback to correctly handle toggling."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In a 4‑bit bi‑directional shift register, how many MUX circuits are used?",
+    "options": ["4", "8", "16", "2"],
+    "answer": 0,
+    "explanation": "One 2‑to‑1 multiplexer per flip‑flop selects left or right input."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "What happens when no clock pulses are provided to a shift register?",
+    "options": ["Data lost", "Holds data", "Random values", "Resets"],
+    "answer": 1,
+    "explanation": "Flip‑flops keep their state without clock pulses."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In an edge‑triggered JK flip‑flop, what happens when J=1, K=0 during clock edge?",
+    "options": ["Reset", "Set", "Toggle", "Hold"],
+    "answer": 1,
+    "explanation": "J=1, K=0 sets Q to 1 on the triggering edge."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What output change occurs when a J‑K FF has J=K=0 on a clock edge?",
+    "options": ["Set", "Reset", "Hold", "Toggle"],
+    "answer": 2,
+    "explanation": "J=0, K=0 causes no change (hold state) on clock edge."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which input combination in a master‑slave D‑FF is used to ignore setup violations?",
+    "options": ["D=0", "D=1", "Clock=0", "Clock=1"],
+    "answer": 2,
+    "explanation": "When Clock=0, the master latch is closed and ignored any changes at D."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "In master‑slave configuration, the slave latch triggers on:",
+    "options": ["Same clock phase", "Opposite clock phase", "Asynchronous signal", "Both edges"],
+    "answer": 1,
+    "explanation": "Slave latch operates when master is closed, i.e., on opposite phase."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What ensures stable output in a clocked SR FF?",
+    "options": ["Preset", "Clear", "Proper setup time", "Toggle"],
+    "answer": 2,
+    "explanation": "Flip‑flops require setup time before clock edge for stable operation."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Race condition in JK‑FF is avoided by using:",
+    "options": ["T‑FF", "Edge‑D FF", "Master‑Slave FF", "S‑R FF"],
+    "answer": 2,
+    "explanation": "Master‑Slave JK‑FF avoids race by splitting mastering and slaving stages."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "A 5‑bit serial-in serial-out shift register will have how many flip‑flops?",
+    "options": ["4", "5", "8", "10"],
+    "answer": 1,
+    "explanation": "Each bit requires one latch; so a 5‑bit register uses 5 flip‑flops."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "A 3‑bit SIPO shift register converts:",
+    "options": ["Parallel to serial", "Serial to parallel", "Serial to memory", "Parallel to memory"],
+    "answer": 1,
+    "explanation": "Serial input bits are stored and then presented simultaneously on parallel outputs."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Control line direction=1 in a bi‑directional shift register means:",
+    "options": ["Shift right", "Shift left", "Hold", "Load"],
+    "answer": 1,
+    "explanation": "Direction control signal chooses left shift when high."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Parallel‑in parallel‑out (PIPO) register is primarily used for:",
+    "options": ["Serial comms", "Parallel data storage", "Processing", "Arithmetic"],
+    "answer": 1,
+    "explanation": "PIPO registers can simultaneously load multiple bits in parallel for storage."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "When using a D‑FF as a memory cell, the output holds:",
+    "options": ["Past D", "Current D", "Past Q", "Next Q"],
+    "answer": 0,
+    "explanation": "Before the next trigger, Q holds the last sampled D value."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Setup time refers to the duration input must be stable before:",
+    "options": ["Clock pulse", "Set signal", "Reset signal", "Output change"],
+    "answer": 0,
+    "explanation": "Input must be stable a certain time before clock edge to ensure correct sampling."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Hold time refers to how long input must remain stable after:",
+    "options": ["Clock edge", "Set signal", "Reset signal", "Data read"],
+    "answer": 0,
+    "explanation": "Hold time is the required stable time just after the clock edge for correct sampling."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What is a negative edge‑triggered D‑FF?",
+    "options": ["Triggers on rising edge", "Triggers on falling edge", "Level‑generated", "Latch"],
+    "answer": 1,
+    "explanation": "Negative edge‑triggered FF responds when the clock goes high-to-low."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "A toggle flip‑flop (T‑FF) can be created from a JK‑FF by tying:",
+    "options": ["J=T, K=T", "J=1, K=1", "J=T, K=!T", "J=!T, K=T"],
+    "answer": 1,
+    "explanation": "J and K tied high allow toggling on each clock in JK FF."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop maintains its output state indefinitely when clock is off?",
+    "options": ["Edge‑D FF", "S‑R latch", "Master‑Slave FF", "T‑FF"],
+    "answer": 2,
+    "explanation": "Master‑Slave FF holds Q until next triggering event due to closed slave latch."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Master latch in master‑slave D‑FF is enabled during:",
+    "options": ["Clock=1", "Clock=0", "Rising edge", "Falling edge"],
+    "answer": 0,
+    "explanation": "Master is active during the clock high phase."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "How many bits can be simultaneously loaded in a 6‑bit PIPO register?",
+    "options": ["1", "3", "6", "8"],
+    "answer": 2,
+    "explanation": "It supports parallel loading of all six bits at once."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which register would you use to convert incoming serial data into word-length parallel format?",
+    "options": ["SIPO", "PISO", "SISO", "PIPO"],
+    "answer": 0,
+    "explanation": "SIPO shifts serial input into parallel outputs word by word."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "PISO registers generally use what to select data to shift out?",
+    "options": ["Multiplexer", "Demultiplexer", "Decoder", "Encoder"],
+    "answer": 0,
+    "explanation": "Multiplexers choose which parallel input bit to shift out each cycle."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Using a shift register built with D‑FFs, data delay is:",
+    "options": ["One bit per flip‑flop", "One byte", "One nibble", "Continuous stream"],
+    "answer": 0,
+    "explanation": "Each D‑FF delays data by exactly one clock cycle (bit)."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What defines a race condition problem in JK FF?",
+    "options": ["Rapid toggling", "Invalid state", "Hold state", "Stable output"],
+    "answer": 0,
+    "explanation": "Race condition causes multiple toggles if clock remains active when J=K=1."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Master‑Slave FF is edge‑triggered because:",
+    "options": ["Master and slave triggered together", "Slave only updates after master closes", "No clock", "Asynchronous"],
+    "answer": 1,
+    "explanation": "Slave updating only after master closes creates edge sensitivity."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "What does a Set input do when asynchronously activated?",
+    "options": ["Disables CLK", "Sets Q=1 immediately", "Clears Q=0", "Toggles output"],
+    "answer": 1,
+    "explanation": "Asynchronously sets output regardless of the clock."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which input in a JK FF is used to reset Q asynchronously?",
+    "options": ["J", "K", "Clear", "Preset"],
+    "answer": 2,
+    "explanation": "Clear input asynchronously resets Q to 0."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Ring counters are implemented using:",
+    "options": ["Parallel registers", "Bi‑directional registers", "Shift registers with feedback", "PIPO registers"],
+    "answer": 2,
+    "explanation": "Ring counters use circular-shifted flip-flops with feedback from output."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Johnson counters (twisted ring) are shift registers that feed inverted output back, resulting in:",
+    "options": ["Smaller cycle", "Larger cycle", "No cycle", "Random"],
+    "answer": 1,
+    "explanation": "Inverted feedback makes Johnson counter lengthen its cycle through state-space."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Clock gating is used to:",
+    "options": ["Speed up clock", "Save power", "Increase toggle", "Invert clock"],
+    "answer": 1,
+    "explanation": "Clock gating turns off clock input when FF doesn't need toggling, saving power."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which shift register is used to implement delay elements?",
+    "options": ["SISO", "SIPO", "PISO", "PIPO"],
+    "answer": 0,
+    "explanation": "SISO can act as a delay line by buffering a serial data stream."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "In a PISO register, when LOAD=0, it means:",
+    "options": ["Parallel data loaded", "Register resets", "Serial shift only", "Hold"],
+    "answer": 2,
+    "explanation": "LOAD low disables parallel load, enabling serial shifting."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Which flip‑flop does not allow invalid or illegal input combinations?",
+    "options": ["SR", "JK", "D", "T"],
+    "answer": 2,
+    "explanation": "D‑FF by design prevents forbidden conditions by sampling one input."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "Asynchronous clear and preset can be active:",
+    "options": ["Simultaneously", "Never", "Only on clock", "During reset period"],
+    "answer": 0,
+    "explanation": "Preset and clear may act simultaneously, but design must avoid invalid Q."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which register can be used for serial-to-parallel display updates?",
+    "options": ["SISO", "SIPO", "PISO", "Bi‑directional"],
+    "answer": 1,
+    "explanation": "SIPO provides parallel outputs for displays from serial data."
+  },
+  {
+    "topic": "Shift Registers",
+    "question": "Which flip‑flop type is best suited for frequency division?",
+    "options": ["SR", "D", "T", "JK"],
+    "answer": 2,
+    "explanation": "T‑FF toggles on each pulse, effectively dividing frequency by 2."
+  },
+  {
+    "topic": "Flip‑Flops",
+    "question": "When preset and clear are both active, the state is:",
+    "options": ["Defined", "Undefined", "Reset", "Set"],
+    "answer": 1,
+    "explanation": "Both active asynchronously produce indeterminate output."
+  }
+  ]
+  
+  
+  
