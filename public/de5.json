@@ -1,0 +1,815 @@
+[
+  {
+    "topic": "Counters",
+    "question": "What is a ripple counter?",
+    "options": [
+      "Counter with synchronous clock",
+      "Counter where output of one flip‑flop clocks the next",
+      "Instantaneous counter",
+      "Counter with memory"
+    ],
+    "answer": 1,
+    "explanation": "In a ripple counter, each flip‑flop output serves as the clock input to the next, causing 'rippling'."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter has all flip‑flops clocked simultaneously?",
+    "options": ["Ripple counter", "Synchronous counter", "Ring counter", "Twisted ring"],
+    "answer": 1,
+    "explanation": "Synchronous counters use a common clock to eliminate ripple delays."
+  },
+  {
+    "topic": "Counters",
+    "question": "What defines a modulo‑N counter?",
+    "options": ["Counts up to N‑1 then resets", "Counts only even numbers", "Counts indefinitely", "Counts down"],
+    "answer": 0,
+    "explanation": "A modulo‑N counter cycles from 0 to N‑1 and then resets to 0."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is special about a ring counter?",
+    "options": ["Has one '1' circulating", "Counts by 2s", "Binary-coded", "Decodes data"],
+    "answer": 0,
+    "explanation": "A ring counter circulates a single '1' through the flip‑flop chain."
+  },
+  {
+    "topic": "Counters",
+    "question": "A twisted‑ring counter is also known as:",
+    "options": [
+      "Modulo counter",
+      "Johnson counter",
+      "Binary counter",
+      "Gray counter"
+    ],
+    "answer": 1,
+    "explanation": "A twisted‑ring counter, or Johnson counter, cycles through a unique 2n states."
+  },
+  {
+    "topic": "Counters",
+    "question": "How many flip‑flops are needed for an 8‑state ring counter?",
+    "options": ["3", "7", "8", "4"],
+    "answer": 2,
+    "explanation": "An n‑bit ring counter needs n flip‑flops to circulate one '1'."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter type gives uniform propagation delay?",
+    "options": [
+      "Ripple",
+      "Synchronous",
+      "Ring",
+      "Johnson"
+    ],
+    "answer": 1,
+    "explanation": "Synchronous counters trigger all flip‑flops simultaneously, ensuring uniform delay."
+  },
+  {
+    "topic": "Counters",
+    "question": "The maximum count for a 4‑bit modulo counter is:",
+    "options": ["4", "8", "15", "16"],
+    "answer": 3,
+    "explanation": "A 4‑bit counter has 16 states: 0 to 15, so modulo‑16."
+  },
+  {
+    "topic": "Counters",
+    "question": "In a twisted‑ring counter, the complemented output of last flip‑flop is fed to:",
+    "options": [
+      "Clock input",
+      "Reset",
+      "Serial input of first flip‑flop",
+      "Parallel input"
+    ],
+    "answer": 2,
+    "explanation": "Twisted‑ring (Johnson) feeds inverted Qn into the first stage."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the number of states in an n‑stage Johnson counter?",
+    "options": ["n", "2n", "n‑1", "2^n"],
+    "answer": 1,
+    "explanation": "Johnson counter cycles through 2n unique states before repeating."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What does RAM stand for?",
+    "options": [
+      "Read and Modify",
+      "Random Access Memory",
+      "Read Access Memory",
+      "Reset Access Memory"
+    ],
+    "answer": 1,
+    "explanation": "RAM allows data to be read or written in any order (random)."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which type of RAM loses data when power is off?",
+    "options": [
+      "ROM",
+      "Volatile RAM",
+      "Flash",
+      "EEPROM"
+    ],
+    "answer": 1,
+    "explanation": "Volatile RAM, like DRAM or SRAM, requires continuous power to retain data."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What is ROM primarily used for?",
+    "options": [
+      "Temporary storage",
+      "Storing firmware permanently",
+      "Volatile data",
+      "Floating data"
+    ],
+    "answer": 1,
+    "explanation": "ROM stores permanent firmware or boot instructions that shouldn't change."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "PAL stands for:",
+    "options": [
+      "Programmable Array Logic",
+      "Programmable Address Logic",
+      "Permanent Array Logic",
+      "Parallel Array Logic"
+    ],
+    "answer": 0,
+    "explanation": "PAL devices allow user-defined logic connections in an array."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "PLA differs from PAL by:",
+    "options": [
+      "Fixed OR array",
+      "Both programmable AND and OR arrays",
+      "Only programmable AND array",
+      "No programming"
+    ],
+    "answer": 1,
+    "explanation": "PLA has programmable AND and OR arrays, allowing flexible logic implementation."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "ROM contents are usually written using:",
+    "options": [
+      "Software loader",
+      "Hardware programmer",
+      "Internal CPU",
+      "RAM chip"
+    ],
+    "answer": 1,
+    "explanation": "ROM is programmed in a factory or with a hardware burner."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory is non‑volatile?",
+    "options": ["RAM", "ROM", "SRAM", "DRAM"],
+    "answer": 1,
+    "explanation": "ROM retains data without power, making it non‑volatile."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What type of PAL cell is used to implement OR gate inputs?",
+    "options": [
+      "Soldered",
+      "Fused",
+      "Wired",
+      "Cut"
+    ],
+    "answer": 1,
+    "explanation": "PAL uses fusible links to program connections in the OR matrix."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the propagation delay issue in ripple counters called?",
+    "options": [
+      "Glitch",
+      "Race condition",
+      "Overflow",
+      "Underflow"
+    ],
+    "answer": 1,
+    "explanation": "Ripple counters can glitch due to cascading clock edges, causing temporary incorrect states."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter requires more hardware but avoids ripple delay?",
+    "options": [
+      "Ripple counter",
+      "Synchronous counter",
+      "Ring counter",
+      "Twisted ring"
+    ],
+    "answer": 1,
+    "explanation": "Synchronous counters need gates to generate parallel flip‑flop inputs but eliminate ripple delay."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory is fastest in access?",
+    "options": [
+      "DRAM",
+      "SRAM",
+      "ROM",
+      "Flash"
+    ],
+    "answer": 1,
+    "explanation": "SRAM is fast and doesn’t require refresh cycles like DRAM."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What type of ROM can be electrically erased and reprogrammed?",
+    "options": [
+      "PROM",
+      "EPROM",
+      "Mask ROM",
+      "All of the above"
+    ],
+    "answer": 1,
+    "explanation": "EPROM uses UV light for erase and can be reprogrammed electrically."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "PLA is more flexible than PAL but:",
+    "options": [
+      "Slower",
+      "Cheaper",
+      "Fixed function",
+      "Non‑programmable"
+    ],
+    "answer": 0,
+    "explanation": "PLA offers flexibility at the cost of speed due to larger programmable arrays."
+  },
+  {
+    "topic": "Counters",
+    "question": "A modulo‑10 synchronous counter is called:",
+    "options": [
+      "Binary counter",
+      "Decade counter",
+      "Ring counter",
+      "Johnson counter"
+    ],
+    "answer": 1,
+    "explanation": "Decade counter counts 0–9 with then resets on 10."
+  },
+  {
+    "topic": "Counters",
+    "question": "What state is invalid in a simple ring counter?",
+    "options": [
+      "All 0s",
+      "All 1s",
+      "Single 1",
+      "Multiple 1s"
+    ],
+    "answer": 3,
+    "explanation": "Ring counter must always have exactly one '1'; multiple ones are invalid."
+  },
+  {
+    "topic": "Counters",
+    "question": "A 4‑bit Johnson counter cycles through how many unique states?",
+    "options": ["4", "8", "16", "12"],
+    "answer": 1,
+    "explanation": "A 4‑bit Johnson counter has 8 unique states (2n)."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory uses transistor‑capacitor structure?",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "ROM",
+      "PLA"
+    ],
+    "answer": 1,
+    "explanation": "DRAM uses capacitors to store bits, requiring refresh cycles."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "PAL and PLA are examples of:",
+    "options": [
+      "Memory chips",
+      "Programmable logic devices",
+      "Flip‑flops",
+      "Counters"
+    ],
+    "answer": 1,
+    "explanation": "PAL and PLA are used to implement customizable combinational logic."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which ROM type cannot be rewritten?",
+    "options": [
+      "PROM",
+      "EPROM",
+      "Mask ROM",
+      "EEPROM"
+    ],
+    "answer": 2,
+    "explanation": "Mask ROM is hard‑coded during fabrication and cannot be altered post‑production."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the binary count sequence of a modulo‑5 counter?",
+    "options": [
+      "0000 to 0100",
+      "0000 to 0111",
+      "0000 to 1010",
+      "0000 to 1111"
+    ],
+    "answer": 0,
+    "explanation": "Modulo‑5 counts 0 (0000) to 4 (0100) and then resets to 0."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which logic device is typically used to design a modulo-10 counter?",
+    "options": ["D flip-flops and AND gates", "Multiplexers", "Decoders", "Encoders"],
+    "answer": 0,
+    "explanation": "Modulo-10 counters are often built using D flip-flops and logic gates to reset at 1010 (decimal 10)."
+  },
+  {
+    "topic": "Counters",
+    "question": "How many flip-flops are needed for a modulo-16 counter?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "2⁴ = 16, so 4 flip-flops are required for a modulo-16 counter."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the count sequence of a 3-bit Johnson counter?",
+    "options": [
+      "000, 100, 110, 111, 011, 001",
+      "000, 001, 011, 111, 110, 100",
+      "000, 001, 010, 011, 100, 101",
+      "111, 011, 001, 000, 100, 110"
+    ],
+    "answer": 1,
+    "explanation": "A 3-bit Johnson counter generates 6 unique states: 2n for n=3."
+  },
+  {
+    "topic": "Counters",
+    "question": "A ring counter differs from a binary counter by:",
+    "options": [
+      "Storing data permanently",
+      "Having a single ‘1’ that cycles",
+      "Generating random sequences",
+      "Requiring more logic"
+    ],
+    "answer": 1,
+    "explanation": "Ring counters cycle a single ‘1’ through flip-flops rather than counting in binary."
+  },
+  {
+    "topic": "Counters",
+    "question": "The initial state of a ring counter must be:",
+    "options": ["All 0s", "All 1s", "Single 1 and rest 0s", "Random"],
+    "answer": 2,
+    "explanation": "To operate properly, ring counters must be initialized with only one '1' and the rest '0'."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter is less prone to timing errors?",
+    "options": ["Ripple", "Synchronous", "Asynchronous", "Twisted ring"],
+    "answer": 1,
+    "explanation": "Synchronous counters clock all flip-flops at once, reducing timing issues."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory is used for BIOS storage?",
+    "options": ["RAM", "EPROM", "DRAM", "SRAM"],
+    "answer": 1,
+    "explanation": "EPROM retains data when powered off and can store firmware like BIOS."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What is the key difference between PAL and PLA?",
+    "options": [
+      "PLA is faster",
+      "PLA has programmable OR and AND arrays, PAL has fixed OR",
+      "PAL is more flexible",
+      "PAL uses RAM cells"
+    ],
+    "answer": 1,
+    "explanation": "PLA is more flexible because both AND and OR planes are programmable, unlike PAL."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "ROMs are typically used to store:",
+    "options": ["Temporary cache", "Boot instructions", "User programs", "Dynamic data"],
+    "answer": 1,
+    "explanation": "ROM is non-volatile and stores permanent code like firmware or BIOS."
+  },
+  {
+    "topic": "Counters",
+    "question": "What defines a synchronous decade counter?",
+    "options": [
+      "Counts to 15",
+      "Counts up to 10 then resets",
+      "Has asynchronous clock",
+      "Has 8 outputs"
+    ],
+    "answer": 1,
+    "explanation": "A decade (mod-10) counter counts from 0 to 9 and resets on 10."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "In which memory device are fuses used to program logic?",
+    "options": ["PLA", "PAL", "ROM", "RAM"],
+    "answer": 1,
+    "explanation": "PALs use fusible links to program specific logic connections."
+  },
+  {
+    "topic": "Counters",
+    "question": "Why are ring counters self-starting?",
+    "options": [
+      "Due to preset states",
+      "Because they use JK FFs",
+      "They auto-clear",
+      "They aren't self-starting unless initialized"
+    ],
+    "answer": 3,
+    "explanation": "Ring counters require initialization; without it, all-zero state causes it to halt."
+  },
+  {
+    "topic": "Counters",
+    "question": "A 3-bit binary counter can count from:",
+    "options": ["0 to 3", "0 to 7", "1 to 8", "1 to 6"],
+    "answer": 1,
+    "explanation": "3 bits can represent 2³ = 8 states, from 0 to 7."
+  },
+  {
+    "topic": "Counters",
+    "question": "Modulo-8 counter has how many unique states?",
+    "options": ["6", "7", "8", "10"],
+    "answer": 2,
+    "explanation": "Modulo-8 means the counter goes from 0 to 7: total of 8 states."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the main drawback of ripple counters?",
+    "options": [
+      "High power",
+      "Inaccurate output",
+      "Propagation delay",
+      "Complex design"
+    ],
+    "answer": 2,
+    "explanation": "Each flip-flop waits for the previous one, introducing cumulative delay."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What is the purpose of memory refresh in DRAM?",
+    "options": [
+      "To rewrite corrupted data",
+      "To prevent power loss",
+      "To recharge capacitors",
+      "To erase data"
+    ],
+    "answer": 2,
+    "explanation": "DRAM uses capacitors that leak charge and need refreshing to maintain data."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory type is fastest but volatile?",
+    "options": ["EEPROM", "DRAM", "ROM", "SRAM"],
+    "answer": 3,
+    "explanation": "SRAM is faster than DRAM and is volatile (data is lost when power is off)."
+  },
+  {
+    "topic": "Counters",
+    "question": "Why do synchronous counters use logic gates between flip-flops?",
+    "options": [
+      "To introduce delay",
+      "To ensure proper sequence",
+      "To add feedback",
+      "To increase speed"
+    ],
+    "answer": 1,
+    "explanation": "Logic gates ensure flip-flops toggle at correct times for desired count sequence."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which of the following is a reprogrammable ROM type?",
+    "options": ["EPROM", "RAM", "SRAM", "PLA"],
+    "answer": 0,
+    "explanation": "EPROM can be erased (by UV light) and reprogrammed multiple times."
+  },
+  {
+    "topic": "Counters",
+    "question": "What logic is used to reset a modulo-N counter after N counts?",
+    "options": ["OR gate", "AND gate", "NAND gate", "NOT gate"],
+    "answer": 1,
+    "explanation": "AND gates are used to detect count N and trigger reset."
+  },
+  {
+    "topic": "Counters",
+    "question": "What makes Johnson counter efficient for decoding?",
+    "options": [
+      "Only 2 FFs used",
+      "Twisted input",
+      "One-hot encoding",
+      "One change per state"
+    ],
+    "answer": 3,
+    "explanation": "Only one bit changes between states, simplifying decoding."
+  },
+  {
+    "topic": "Counters",
+    "question": "How many states are there in a 5-bit ring counter?",
+    "options": ["10", "32", "5", "16"],
+    "answer": 2,
+    "explanation": "Ring counter cycles one '1' through 5 FFs = 5 states."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which programmable logic device can implement combinational logic with minimal delay?",
+    "options": ["ROM", "PLA", "SRAM", "PAL"],
+    "answer": 3,
+    "explanation": "PALs are optimized for speed using fixed OR arrays and programmable AND arrays."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which of the following is programmable multiple times electrically?",
+    "options": ["EPROM", "PROM", "PLA", "EEPROM"],
+    "answer": 3,
+    "explanation": "EEPROM can be erased and reprogrammed using electrical signals."
+  },
+  {
+    "topic": "Counters",
+    "question": "The output of a 3-bit asynchronous counter resets after how many pulses?",
+    "options": ["6", "7", "8", "10"],
+    "answer": 2,
+    "explanation": "A 3-bit counter counts from 0–7, so it resets after 8 pulses."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which device offers permanent storage and does not require refresh?",
+    "options": ["ROM", "DRAM", "SRAM", "Flash"],
+    "answer": 0,
+    "explanation": "ROM is non-volatile and retains data permanently without refresh."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which memory type is used for logic implementation besides data storage?",
+    "options": ["RAM", "ROM", "PAL/PLA", "DRAM"],
+    "answer": 2,
+    "explanation": "PAL and PLA are programmable devices that implement logical functions."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "A RAM chip with 8 address lines can store how many memory locations?",
+    "options": ["128", "256", "512", "64"],
+    "answer": 1,
+    "explanation": "2⁸ = 256 locations."
+  },
+  
+  {
+    "topic": "Counters",
+    "question": "Which counter configuration reduces glitching in output?",
+    "options": ["Asynchronous", "Ripple", "Synchronous", "Binary"],
+    "answer": 2,
+    "explanation": "Synchronous counters clock all flip-flops at once, reducing glitches."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What is the function of a decoder in memory systems?",
+    "options": [
+      "Add binary numbers",
+      "Select specific memory location",
+      "Write data to cache",
+      "Encode memory address"
+    ],
+    "answer": 1,
+    "explanation": "A decoder activates one memory line corresponding to an address."
+  },
+  {
+    "topic": "Counters",
+    "question": "A 4-bit counter counts from 0000 to?",
+    "options": ["1000", "1111", "1110", "1010"],
+    "answer": 1,
+    "explanation": "4 bits give 2^4 = 16 states, so from 0000 to 1111 (0 to 15)."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which type of ROM is used for permanent data storage at fabrication?",
+    "options": ["PROM", "EPROM", "EEPROM", "Mask ROM"],
+    "answer": 3,
+    "explanation": "Mask ROM is hard-coded during chip fabrication and is not alterable."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the output frequency of a 4-stage ripple counter if the input is 16kHz?",
+    "options": ["2kHz", "1kHz", "4kHz", "8kHz"],
+    "answer": 1,
+    "explanation": "Each flip-flop divides frequency by 2: 16kHz → 8 → 4 → 2 → 1kHz."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which of the following retains its contents without power?",
+    "options": ["DRAM", "SRAM", "EEPROM", "PAL"],
+    "answer": 2,
+    "explanation": "EEPROM is non-volatile and retains data even without power."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which logic family is commonly used in counters for digital clocks?",
+    "options": ["TTL", "CMOS", "ECL", "FET"],
+    "answer": 0,
+    "explanation": "TTL is robust and commonly used in counters for timing applications."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter can skip states if not designed properly?",
+    "options": ["Ring", "Johnson", "Modulo", "Ripple"],
+    "answer": 3,
+    "explanation": "Ripple counters may skip states due to cumulative delay if improperly wired."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Why is DRAM slower than SRAM?",
+    "options": [
+      "Uses more power",
+      "Uses capacitor storage needing refresh",
+      "More address lines",
+      "Longer access path"
+    ],
+    "answer": 1,
+    "explanation": "DRAM requires refresh cycles for every bit stored in capacitors."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What does PLA stand for in digital systems?",
+    "options": [
+      "Programmable Logic Array",
+      "Parallel Logic Access",
+      "Permanent Logic Adapter",
+      "Programmable Location Architecture"
+    ],
+    "answer": 0,
+    "explanation": "PLA is a configurable logic circuit with programmable AND/OR planes."
+  },
+  {
+    "topic": "Counters",
+    "question": "In a 3-bit synchronous counter, what will be the next state after 101?",
+    "options": ["110", "100", "111", "000"],
+    "answer": 0,
+    "explanation": "Binary count progresses from 101 (5) to 110 (6)."
+  },
+  {
+    "topic": "Counters",
+    "question": "How many flip-flops are required for a modulo-20 counter?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "2^5 = 32, and 5 FFs are required to count up to 20."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What type of ROM is erased with ultraviolet light?",
+    "options": ["EPROM", "EEPROM", "Flash", "PROM"],
+    "answer": 0,
+    "explanation": "EPROM chips must be removed and exposed to UV light to erase content."
+  },
+  {
+    "topic": "Counters",
+    "question": "A 3-bit ring counter has how many valid states?",
+    "options": ["6", "3", "8", "7"],
+    "answer": 1,
+    "explanation": "Ring counter with 3 flip-flops has 3 states—each with one ‘1’ in a different position."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which type of memory allows byte-level erasing?",
+    "options": ["EEPROM", "EPROM", "DRAM", "PLA"],
+    "answer": 0,
+    "explanation": "EEPROM supports individual byte erasing unlike EPROM which requires bulk erasing."
+  },
+  {
+    "topic": "Counters",
+    "question": "The feedback in a twisted ring counter is:",
+    "options": [
+      "Q output of last FF to first FF",
+      "Inverted Q of last FF to input of first FF",
+      "Set input to all FFs",
+      "Clock input for all FFs"
+    ],
+    "answer": 1,
+    "explanation": "In Johnson (twisted ring), the inverted output of last FF is fed into the first FF."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which of the following is a non-volatile programmable logic device?",
+    "options": ["DRAM", "PLA", "PAL", "EEPROM"],
+    "answer": 2,
+    "explanation": "PAL is non-volatile and programmable once for logic functions."
+  },
+  {
+    "topic": "Counters",
+    "question": "What is the purpose of preset and clear in flip-flops of counters?",
+    "options": [
+      "To lock output",
+      "To reset to initial states",
+      "To increase frequency",
+      "To enable counting"
+    ],
+    "answer": 1,
+    "explanation": "Preset and clear are used to initialize counters to specific states."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter cycles through only half of the states of a binary counter?",
+    "options": ["Modulo counter", "Ripple", "Johnson", "Ring"],
+    "answer": 2,
+    "explanation": "Johnson counters use 2n states instead of full 2^n like binary counters."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which component decides the access time of a memory device?",
+    "options": ["Capacitance", "Bus speed", "Internal structure", "Clock signal"],
+    "answer": 2,
+    "explanation": "Memory's internal design (e.g., SRAM vs DRAM) determines its access speed."
+  },
+  {
+    "topic": "Counters",
+    "question": "How many cycles does a modulo-6 counter take to reset?",
+    "options": ["5", "6", "3", "12"],
+    "answer": 1,
+    "explanation": "It counts 0 to 5 (6 cycles) before resetting to 0."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Which of these is programmable only once?",
+    "options": ["EPROM", "PROM", "EEPROM", "Flash"],
+    "answer": 1,
+    "explanation": "PROM is programmed once with a special device and cannot be altered afterward."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Flash memory is a type of:",
+    "options": ["Volatile RAM", "Non-volatile RAM", "Non-volatile ROM", "Volatile ROM"],
+    "answer": 2,
+    "explanation": "Flash is a non-volatile type of ROM used in USBs, SSDs, etc."
+  },
+  {
+    "topic": "Counters",
+    "question": "Why are asynchronous counters slower than synchronous?",
+    "options": [
+      "Higher power use",
+      "Sequential triggering",
+      "Expensive",
+      "Use more gates"
+    ],
+    "answer": 1,
+    "explanation": "In asynchronous counters, each FF waits for the previous one to toggle."
+  },
+  {
+    "topic": "Counters",
+    "question": "Which counter allows non-binary counting sequences?",
+    "options": ["Ring", "Modulo", "Up/down", "Johnson"],
+    "answer": 3,
+    "explanation": "Johnson counters generate unique patterns not in standard binary sequence."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "Why is PLA more versatile than PAL?",
+    "options": [
+      "Faster access",
+      "Lower cost",
+      "Programmable AND and OR planes",
+      "Larger memory"
+    ],
+    "answer": 2,
+    "explanation": "PLA has both programmable AND and OR planes allowing more logic flexibility."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "A memory device that is both programmable and erasable electrically is:",
+    "options": ["PROM", "EEPROM", "SRAM", "PLA"],
+    "answer": 1,
+    "explanation": "EEPROM can be erased and programmed electrically at the byte level."
+  },
+  {
+    "topic": "Counters",
+    "question": "What determines the number of flip-flops in a binary counter?",
+    "options": [
+      "Number of gates",
+      "Number of states required",
+      "Power supply",
+      "Output bits"
+    ],
+    "answer": 1,
+    "explanation": "To represent N states, ⌈log₂(N)⌉ flip-flops are required."
+  },
+  {
+    "topic": "Memory Devices",
+    "question": "What is the key difference between DRAM and SRAM?",
+    "options": [
+      "Speed",
+      "Uses capacitors vs transistors",
+      "Refresh required",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "DRAM uses capacitors (needs refresh), SRAM uses transistors (faster)."
+  }
+  ]
+  
+  
+  
