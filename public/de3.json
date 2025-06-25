@@ -1,0 +1,684 @@
+[
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic circuit can be used to perform binary subtraction using 2’s complement method?",
+    "options": ["Binary Adder", "Multiplexer", "Decoder", "Full Subtractor"],
+    "answer": 0,
+    "explanation": "By inverting the second operand and adding 1 (2's complement), a binary adder can perform subtraction."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "How many full adders are used in a 32-bit ripple carry adder?",
+    "options": ["16", "32", "64", "8"],
+    "answer": 1,
+    "explanation": "A ripple carry adder uses one full adder per bit; thus, 32 full adders are required."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which of the following components is not used in a full adder?",
+    "options": ["AND gate", "XOR gate", "OR gate", "NOT gate"],
+    "answer": 3,
+    "explanation": "NOT gates are not typically used in full adder logic."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which type of adder allows faster addition by reducing carry propagation delay?",
+    "options": ["Ripple Carry Adder", "Look-ahead Carry Adder", "Full Adder", "Half Adder"],
+    "answer": 1,
+    "explanation": "Look-ahead carry adders calculate carry values in advance, improving speed."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which component is commonly used in arithmetic logic units for input selection?",
+    "options": ["Decoder", "Multiplexer", "Encoder", "Counter"],
+    "answer": 1,
+    "explanation": "Multiplexers are used to select one of many input lines."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which device generates binary code based on active input line?",
+    "options": ["Encoder", "Decoder", "Multiplexer", "Demultiplexer"],
+    "answer": 0,
+    "explanation": "Encoders convert active input into a binary code."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "A 2-to-4 decoder requires how many NOT gates?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "2-to-4 decoder uses 2 input lines, each requiring a NOT gate for logic combinations."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the primary function of a subtractor circuit?",
+    "options": ["Add binary numbers", "Multiply binary numbers", "Perform binary subtraction", "Store data"],
+    "answer": 2,
+    "explanation": "A subtractor performs binary subtraction using inputs and borrow."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which configuration is used in a binary multiplier?",
+    "options": ["AND gates and adders", "OR gates only", "XOR gates only", "Flip-flops"],
+    "answer": 0,
+    "explanation": "Binary multipliers use AND gates for partial products and adders for summation."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What does a 1-to-4 demultiplexer do?",
+    "options": ["Selects one of four inputs", "Sends one input to one of four outputs", "Adds binary numbers", "Encodes inputs"],
+    "answer": 1,
+    "explanation": "A demultiplexer routes a single input to one of several outputs."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit provides the reverse operation of a decoder?",
+    "options": ["Encoder", "Multiplexer", "Adder", "Latch"],
+    "answer": 0,
+    "explanation": "Encoders convert 1-of-n inputs into binary form, opposite of decoders."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit is used in digital calculators to perform binary addition?",
+    "options": ["Full Adder", "Encoder", "Decoder", "Latch"],
+    "answer": 0,
+    "explanation": "Full adders perform binary addition and are key in calculators."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which combinational circuit can be used to convert binary to decimal?",
+    "options": ["Multiplexer", "Decoder", "Demultiplexer", "Adder"],
+    "answer": 1,
+    "explanation": "Decoders can activate specific output lines based on binary input, representing decimal."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the role of a subtractor’s borrow output?",
+    "options": ["Indicates addition", "Indicates carry-in", "Indicates need to borrow for next stage", "Selects inputs"],
+    "answer": 2,
+    "explanation": "The borrow output indicates that the subtraction requires borrowing from higher bits."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the typical delay issue in ripple carry adders?",
+    "options": ["Power dissipation", "Cost", "Carry propagation delay", "Gate count"],
+        "answer": 2,
+    "explanation": "Ripple carry adder delay increases as carry must propagate through all previous stages."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which logic circuit is used in traffic light control systems for state selection?",
+    "options": ["Multiplexer", "Demultiplexer", "Decoder", "Encoder"],
+    "answer": 0,
+    "explanation": "Multiplexers are used to select and route signals based on control logic."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What will be the output of an 8-to-3 encoder if input line I6 is high?",
+    "options": ["110", "101", "111", "011"],
+    "answer": 0,
+    "explanation": "I6 = 6 in binary = 110."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit multiplies binary numbers without using shift registers?",
+    "options": ["Carry Save Multiplier", "Array Multiplier", "Booth Multiplier", "Wallace Tree Multiplier"],
+    "answer": 1,
+    "explanation": "Array multipliers use fixed hardware arrays for binary multiplication."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which combinational circuit produces a single output from one of many inputs?",
+    "options": ["Multiplexer", "Demultiplexer", "Decoder", "Register"],
+    "answer": 0,
+    "explanation": "Multiplexers select one input from many and forward it to output."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the output of a 2-to-4 decoder with inputs A=1, B=0?",
+    "options": ["0001", "0010", "0100", "1000"],
+    "answer": 2,
+    "explanation": "10 in binary = 2, which activates third output line = 0100."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which of the following is NOT a basic arithmetic circuit?",
+    "options": ["Adder", "Subtractor", "Decoder", "Multiplier"],
+    "answer": 2,
+    "explanation": "Decoder is a combinational circuit, not arithmetic."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic gate can generate partial product in a multiplier circuit?",
+    "options": ["XOR", "AND", "OR", "NAND"],
+    "answer": 1,
+    "explanation": "AND gates are used to compute partial products in multiplication."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is used to detect overflow in binary addition?",
+    "options": ["XOR of last two carry bits", "OR of sum bits", "AND of MSB and LSB", "XOR of MSB and carry"],
+    "answer": 0,
+    "explanation": "Overflow occurs when the carry into the sign bit differs from carry out."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit is used to convert n binary inputs into 2^n outputs?",
+    "options": ["Decoder", "Encoder", "Multiplexer", "Counter"],
+    "answer": 0,
+    "explanation": "Decoders convert binary inputs to 1-of-2^n outputs."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "In a 4x1 MUX, how many data input lines are there?",
+    "options": ["2", "4", "8", "16"],
+    "answer": 1,
+    "explanation": "4 data input lines and 2 select lines in a 4x1 MUX."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which adder circuit adds two binary numbers and a carry-in bit?",
+    "options": ["Half Adder", "Full Adder", "Parallel Adder", "Serial Adder"],
+    "answer": 1,
+    "explanation": "Full adder handles A, B, and Carry-in inputs."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the result of subtracting 0110 from 1001 using 2’s complement?",
+    "options": ["0011", "1011", "1101", "0111"],
+    "answer": 0,
+    "explanation": "1001 + (2's complement of 0110 = 1010) = 0011."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What does a truth table of a multiplexer represent?",
+    "options": ["Decoder output", "Selected input based on select lines", "Number of output bits", "Binary counter output"],
+    "answer": 1,
+    "explanation": "Truth table maps select lines to corresponding input routed to output."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which of the following is NOT a combinational circuit?",
+    "options": ["Multiplexer", "Encoder", "Counter", "Decoder"],
+    "answer": 2,
+    "explanation": "Counters are sequential circuits, not combinational."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the function of a full adder?",
+    "options": ["Adds two bits", "Adds three bits including carry", "Performs subtraction", "Shifts binary data"],
+    "answer": 1,
+    "explanation": "A full adder adds two input bits and a carry-in, producing a sum and carry-out."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic gates are used to build a half adder?",
+    "options": ["AND and OR", "XOR and AND", "OR and NOT", "NAND and NOR"],
+    "answer": 1,
+    "explanation": "Half adder is built using XOR for sum and AND for carry."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "How many full adders are needed to build a 4-bit binary adder?",
+    "options": ["1", "2", "4", "8"],
+    "answer": 2,
+    "explanation": "Each bit in binary requires one full adder, so 4 bits need 4 full adders."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What logic circuit is used for binary subtraction?",
+    "options": ["Adder", "Subtractor", "Multiplier", "Decoder"],
+    "answer": 1,
+    "explanation": "A binary subtractor subtracts one binary number from another using logic gates."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "In a ripple carry adder, the carry is:",
+    "options": ["Ignored", "Delayed through stages", "Stored in memory", "Reversed"],
+    "answer": 1,
+    "explanation": "Each stage waits for carry from previous stage, causing delay."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic gate is used in binary multiplication?",
+    "options": ["XOR", "OR", "AND", "NOR"],
+    "answer": 2,
+    "explanation": "Binary multiplication uses AND gates to produce partial products."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the output of a half adder with inputs A = 1 and B = 0?",
+    "options": ["Sum = 0, Carry = 0", "Sum = 1, Carry = 1", "Sum = 1, Carry = 0", "Sum = 0, Carry = 1"],
+    "answer": 2,
+    "explanation": "1 + 0 = 1; Sum = 1, Carry = 0."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which component is responsible for subtracting binary numbers using 2’s complement?",
+    "options": ["Subtractor", "Adder", "Multiplexer", "Encoder"],
+    "answer": 1,
+    "explanation": "Binary subtraction is done using adder by adding two’s complement of the number."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which adder is faster in performance?",
+    "options": ["Ripple Carry Adder", "Half Adder", "Full Adder", "Carry Look-Ahead Adder"],
+    "answer": 3,
+    "explanation": "Carry look-ahead adders improve speed by calculating carries in advance."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the result of binary subtraction 1010 - 0011?",
+    "options": ["0111", "1001", "0101", "1011"],
+    "answer": 0,
+    "explanation": "1010 (10) - 0011 (3) = 0111 (7)."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is a multiplexer?",
+    "options": ["Multiple output device", "Single input device", "Many-to-one selector", "One-to-many selector"],
+    "answer": 2,
+    "explanation": "Multiplexer selects one input from many and routes it to output."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "How many selection lines are needed for an 8-to-1 multiplexer?",
+    "options": ["2", "3", "4", "1"],
+    "answer": 1,
+    "explanation": "3 selection lines can select 1 of 8 inputs (2^3 = 8)."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "A decoder performs the function of:",
+    "options": ["Encoding input", "Multiplying bits", "Selecting one of many inputs", "Converting binary to one-hot code"],
+    "answer": 3,
+    "explanation": "Decoder activates one output line corresponding to binary input."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the primary function of a demultiplexer?",
+    "options": ["One-to-many routing", "Many-to-one routing", "Binary subtraction", "Code conversion"],
+    "answer": 0,
+    "explanation": "Demultiplexer routes single input to multiple outputs based on control lines."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which gate is used in a basic multiplexer?",
+    "options": ["NAND", "XOR", "AND, OR, NOT", "NOR"],
+    "answer": 2,
+    "explanation": "Basic multiplexer is built using AND, OR, and NOT gates."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "A 3-to-8 decoder has how many output lines?",
+    "options": ["6", "8", "4", "2"],
+    "answer": 1,
+    "explanation": "3 input bits give 2^3 = 8 output lines."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What does a parallel adder do?",
+    "options": ["Add one-bit numbers", "Add n-bit numbers simultaneously", "Subtract binary numbers", "Multiply bits"],
+    "answer": 1,
+    "explanation": "Parallel adder adds all bits of binary numbers at the same time using full adders."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit encodes 8 inputs into 3 outputs?",
+    "options": ["3-to-8 Decoder", "8-to-3 Encoder", "4-bit Adder", "Multiplexer"],
+    "answer": 1,
+    "explanation": "An 8-to-3 encoder converts one-of-eight input lines to a 3-bit binary code."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "How many inputs are required for a 16-to-4 encoder?",
+    "options": ["16", "4", "8", "10"],
+    "answer": 0,
+    "explanation": "It takes 16 inputs and outputs 4-bit binary code (2^4 = 16)."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the key problem in ripple carry adder?",
+    "options": ["Incorrect sum", "Delay due to carry", "Wrong inputs", "Cost"],
+    "answer": 1,
+    "explanation": "Carries propagate through each stage, causing time delay."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "A subtractor outputs what when 0 - 1 is performed?",
+    "options": ["0, borrow 0", "1, borrow 1", "1, borrow 0", "0, borrow 1"],
+    "answer": 1,
+    "explanation": "0 - 1 requires borrowing; result is 1 with borrow 1."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Binary multiplier is made using:",
+    "options": ["AND gates", "Subtractor", "Decoder", "Counter"],
+    "answer": 0,
+    "explanation": "AND gates create partial products in binary multiplication."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the main function of an encoder?",
+    "options": ["Converts binary to decimal", "Converts decimal to binary", "Converts one-hot to binary", "Performs addition"],
+    "answer": 2,
+    "explanation": "Encoders generate binary code from active input line."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "A multiplexer is also known as:",
+    "options": ["Data router", "Data storage", "Binary adder", "Shift register"],
+    "answer": 0,
+    "explanation": "MUX routes data from multiple sources to one output line."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit calculates result of binary 1101 + 0110?",
+    "options": ["Half Adder", "Parallel Adder", "Subtractor", "Decoder"],
+    "answer": 1,
+    "explanation": "Parallel adder adds two binary numbers in parallel = 1101 + 0110 = 10011."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the output of a 2-to-4 decoder with input 10?",
+    "options": ["0001", "0010", "0100", "1000"],
+    "answer": 2,
+    "explanation": "Input 10 in binary = index 2, hence output = 0100."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which combinational circuit selects binary data from one of many input lines?",
+    "options": ["Decoder", "Encoder", "Multiplexer", "Counter"],
+    "answer": 2,
+    "explanation": "Multiplexer routes one of several inputs to output based on control."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "How many bits can a 4-bit full adder handle?",
+    "options": ["1", "2", "4", "8"],
+    "answer": 2,
+    "explanation": "A 4-bit full adder handles 4-bit numbers (A3-A0 and B3-B0)."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is a carry-out in an adder circuit?",
+    "options": ["Stored bit", "Bit passed to next adder", "Error signal", "Output flag"],
+    "answer": 1,
+    "explanation": "Carry-out is passed to next higher-order bit position in multi-bit addition."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit is commonly used to route audio or video signals in electronics?",
+    "options": ["Encoder", "Multiplexer", "Decoder", "Latch"],
+    "answer": 1,
+    "explanation": "Multiplexers allow selection of one of several signal lines, ideal for routing A/V signals."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the advantage of using a carry look-ahead adder?",
+    "options": ["Cheaper hardware", "Less delay due to pre-calculated carry", "Less power consumption", "Simpler logic"],
+    "answer": 1,
+    "explanation": "Carry look-ahead adders reduce delay by precomputing carry signals."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which logic component can convert 4-bit binary data into decimal output?",
+    "options": ["Multiplexer", "Binary to Decimal Decoder", "Encoder", "Counter"],
+    "answer": 1,
+    "explanation": "A binary-to-decimal decoder activates one output line corresponding to binary input."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "In a 4-bit binary subtractor using 2's complement, what logic is needed?",
+    "options": ["AND and XOR only", "NOT gate and full adder", "Only OR gates", "Only NAND gates"],
+    "answer": 1,
+    "explanation": "Inversion of the second operand (NOT gate) and full adder for 2’s complement subtraction."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the output of 1101 (13) - 1010 (10) using 2’s complement?",
+    "options": ["0011", "0111", "1111", "0101"],
+    "answer": 0,
+    "explanation": "1101 + (2’s complement of 1010 = 0110) = 0011 (3)."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which arithmetic circuit is designed for repeated subtraction?",
+    "options": ["Adder", "Divider", "Subtractor", "Multiplier"],
+    "answer": 1,
+    "explanation": "Binary division is performed using repeated subtraction and shifting."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "In a 4x1 multiplexer, how many control (select) inputs are needed?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "2 control inputs are needed to select 1 of 4 inputs (2^2 = 4)."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the purpose of an enable input in decoders?",
+    "options": ["Power the circuit", "Disable unused inputs", "Activate the decoder", "Change binary output"],
+    "answer": 2,
+    "explanation": "Enable must be active for the decoder to produce output."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What does a full subtractor compute?",
+    "options": ["Sum and carry", "Difference and borrow", "Product", "Quotient"],
+    "answer": 1,
+    "explanation": "A full subtractor computes difference between bits and manages borrow."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit outputs a carry-out of 1 only when both inputs and carry-in are 1?",
+    "options": ["Half Adder", "Full Adder", "Multiplexer", "Encoder"],
+    "answer": 1,
+    "explanation": "In full adder, carry-out is 1 only when at least two of the three inputs are 1."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the maximum number of inputs in a 3-bit priority encoder?",
+    "options": ["3", "7", "8", "4"],
+    "answer": 2,
+    "explanation": "A 3-bit output can represent up to 8 different input lines."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit routes data from one source to multiple destinations based on control inputs?",
+    "options": ["Multiplexer", "Demultiplexer", "Decoder", "Adder"],
+    "answer": 1,
+    "explanation": "Demultiplexer distributes single input to multiple outputs based on select lines."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the output when subtracting 0010 from 0001 in binary using full subtractor?",
+    "options": ["1111", "0001", "1001", "0100"],
+    "answer": 0,
+    "explanation": "1 - 2 results in -1 which is 2’s complement: 1111 in 4-bit binary."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic circuit helps in calculating multiple partial products in multiplication?",
+    "options": ["OR gate", "AND gate", "XOR gate", "Decoder"],
+    "answer": 1,
+    "explanation": "AND gates are used to compute partial products."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "A 4-bit binary multiplier needs how many AND gates for partial product generation?",
+    "options": ["4", "8", "16", "2"],
+    "answer": 2,
+    "explanation": "4 bits × 4 bits = 16 partial products, hence 16 AND gates."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "In a priority encoder, if multiple inputs are active, what is returned?",
+    "options": ["Sum of inputs", "Average", "Highest priority input", "Lowest binary value"],
+    "answer": 2,
+    "explanation": "Priority encoder gives output of highest-priority active input."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What logic gate combination is used in a full adder’s sum output?",
+    "options": ["OR of all inputs", "XOR of all inputs", "AND of all inputs", "NOT of inputs"],
+    "answer": 1,
+    "explanation": "Sum = A ⊕ B ⊕ Cin in full adder."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic gate is essential in detecting overflow in binary addition?",
+    "options": ["XOR", "AND", "OR", "NOT"],
+    "answer": 0,
+    "explanation": "XOR of carry-in and carry-out detects overflow in signed addition."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the result of a 4-to-16 line decoder?",
+    "options": ["16-bit input", "4-bit output", "16 output lines", "4 output lines"],
+    "answer": 2,
+    "explanation": "Decoder with 4 inputs produces 2^4 = 16 output lines."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit would best serve as an address decoder for memory?",
+    "options": ["Multiplexer", "Demultiplexer", "Decoder", "Encoder"],
+    "answer": 2,
+    "explanation": "Decoders activate a specific memory location based on address inputs."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which adder architecture can add two 8-bit numbers in parallel without long carry delay?",
+    "options": ["Ripple Carry Adder", "Carry Look-Ahead Adder", "Half Adder", "Full Adder"],
+    "answer": 1,
+    "explanation": "Carry Look-Ahead Adders reduce delay by predicting carries ahead."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "How many selection lines are required for a 16-to-1 multiplexer?",
+    "options": ["4", "5", "2", "16"],
+    "answer": 0,
+    "explanation": "2^4 = 16, so 4 selection lines are needed."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which combinational circuit performs the reverse operation of a multiplexer?",
+    "options": ["Decoder", "Demultiplexer", "Encoder", "Latch"],
+    "answer": 1,
+    "explanation": "Demux splits a single input into multiple outputs."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What kind of circuit is best for binary-to-seven-segment display conversion?",
+    "options": ["Multiplexer", "BCD to 7-segment decoder", "Adder", "Encoder"],
+    "answer": 1,
+    "explanation": "BCD to 7-segment decoder converts 4-bit binary into display control signals."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the key role of a binary divider circuit?",
+    "options": ["Summing binary numbers", "Multiplying inputs", "Performing repeated subtraction", "Encoding data"],
+    "answer": 2,
+    "explanation": "Binary division works by repeated subtraction and shifting."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which logic gate combination produces a half subtractor?",
+    "options": ["XOR and AND", "XOR and NOT", "XOR and OR", "XOR and NAND"],
+    "answer": 0,
+    "explanation": "Half subtractor uses XOR for difference, AND and NOT for borrow."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit selects between two 8-bit input lines?",
+    "options": ["8-bit Multiplexer", "8-bit Decoder", "Full Adder", "Parallel Subtractor"],
+    "answer": 0,
+    "explanation": "8-bit multiplexer allows selection of one entire 8-bit line based on control."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the output of an encoder with input D4 = 1 in an 8-to-3 encoder?",
+    "options": ["100", "011", "010", "101"],
+    "answer": 0,
+    "explanation": "D4 corresponds to binary 100."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which logic gate is essential in constructing most combinational circuits?",
+    "options": ["NAND", "XOR", "OR", "AND"],
+    "answer": 3,
+    "explanation": "AND gates are fundamental to many combinational circuits like decoders and adders."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit is required to add two 4-bit binary numbers and display overflow?",
+    "options": ["4-bit Half Adder", "Ripple Carry Adder with Overflow Detector", "Binary Multiplier", "4-bit Subtractor"],
+    "answer": 1,
+    "explanation": "Ripple Carry Adder adds multi-bit numbers and overflow can be detected using XOR of last carry-in and carry-out."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "How many output lines will a 5-to-32 line decoder have?",
+    "options": ["16", "32", "64", "5"],
+    "answer": 1,
+    "explanation": "With 5 input lines, a decoder can activate 2^5 = 32 output lines."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What does a 2-to-1 multiplexer do?",
+    "options": ["Chooses one of two outputs", "Chooses one of two inputs", "Encodes two inputs", "Generates two outputs"],
+    "answer": 1,
+    "explanation": "A 2-to-1 MUX selects one of two inputs based on a single control line."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "What is the function of a binary subtractor with borrow in?",
+    "options": ["Adds bits", "Performs half subtraction", "Performs full subtraction", "Generates parity bits"],
+    "answer": 2,
+    "explanation": "Full subtractor handles two bits and a borrow-in to compute difference and borrow-out."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "A 3-bit binary multiplier requires how many partial products?",
+    "options": ["3", "6", "9", "1"],
+    "answer": 2,
+    "explanation": "Multiplying 3-bit × 3-bit numbers generates 3 rows × 3 columns = 9 partial products."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which circuit best suits converting 8 binary inputs to 3-bit binary code?",
+    "options": ["3-to-8 decoder", "8-to-3 encoder", "Demultiplexer", "Full adder"],
+    "answer": 1,
+    "explanation": "An encoder converts active input line among 8 into its binary representation."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What is the main drawback of a basic encoder?",
+    "options": ["Cannot encode binary", "Generates incorrect output", "Cannot detect multiple inputs", "Consumes high power"],
+    "answer": 2,
+    "explanation": "If more than one input is active, basic encoder may give wrong output; priority encoder solves this."
+  },
+  {
+    "topic": "Arithmetic Circuits",
+    "question": "Which circuit combines two half subtractors and an OR gate?",
+    "options": ["Half Adder", "Full Adder", "Full Subtractor", "Parallel Subtractor"],
+    "answer": 2,
+    "explanation": "A full subtractor is built using two half subtractors and an OR gate for borrow."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "Which is the output of a 2-bit binary encoder for input '0100'?",
+    "options": ["00", "10", "01", "11"],
+    "answer": 1,
+    "explanation": "Input line 2 is high (0100), output = 10 (binary of 2)."
+  },
+  {
+    "topic": "Combinational Circuits",
+    "question": "What are the basic gates used to design a 2-to-1 multiplexer?",
+    "options": ["AND, OR, NOT", "NAND and NOR", "XOR and OR", "AND and NAND"],
+    "answer": 0,
+    "explanation": "A 2-to-1 multiplexer can be built using basic gates: AND, OR, and NOT."
+  }
+  ]
+  
+  
+  
