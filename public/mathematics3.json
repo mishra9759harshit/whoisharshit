@@ -1,0 +1,495 @@
+[
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the limit of the function f(x, y) = (x^2 + y^2) as (x, y) → (0, 0)?",
+    "options": ["0", "1", "x + y", "Does not exist"],
+    "answer": 0,
+    "explanation": "As both x and y approach 0, x² + y² → 0."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following is an indeterminate form?",
+    "options": ["0/0", "1/0", "1/∞", "∞ + ∞"],
+    "answer": 0,
+    "explanation": "0/0 is an indeterminate form used to explore limits."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does the partial derivative ∂f/∂x mean?",
+    "options": ["Derivative of f in y-direction", "Change in f with respect to x while keeping y constant", "Second derivative", "Integral of f with respect to x"],
+    "answer": 1,
+    "explanation": "Partial derivative with respect to x holds y constant."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which rule allows differentiating a composite function of several variables?",
+    "options": ["Product Rule", "Chain Rule", "Quotient Rule", "Power Rule"],
+    "answer": 1,
+    "explanation": "The Chain Rule is used for nested functions, such as z = f(x(t), y(t))."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "At a critical point of f(x, y), the gradient is:",
+    "options": ["Zero vector", "Unit vector", "Parallel to x-axis", "Undefined"],
+    "answer": 0,
+    "explanation": "Critical points occur where ∇f = 0."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "The gradient of a function points in the direction of:",
+    "options": ["Maximum decrease", "Zero change", "Maximum increase", "Minimum increase"],
+    "answer": 2,
+    "explanation": "The gradient points in the direction of greatest rate of increase."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Jacobian determinant is useful in:",
+    "options": ["Coordinate transformations", "Matrix multiplication", "Finding limits", "Solving ODEs"],
+    "answer": 0,
+    "explanation": "Jacobian determines the change in area/volume under transformation."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "The divergence of a vector field measures:",
+    "options": ["Rotation", "Magnitude", "Flux out of a point", "Surface area"],
+    "answer": 2,
+    "explanation": "Divergence indicates how much a field spreads from a point."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Curl of a vector field represents:",
+    "options": ["Scaling", "Circular motion", "Field intensity", "Gradient"],
+    "answer": 1,
+    "explanation": "Curl measures rotational tendency at a point in the field."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Euler's Theorem for homogeneous functions states:",
+    "options": ["f = x ∂f/∂x + y ∂f/∂y", "f = x + y", "f = ∂²f/∂x² + ∂²f/∂y²", "f = 0"],
+    "answer": 0,
+    "explanation": "This is Euler’s theorem for homogeneous functions of degree 1."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which partial derivative represents the rate of change of f(x, y) in the y-direction?",
+    "options": ["∂f/∂x", "df/dx", "∂f/∂y", "d²f/dx²"],
+    "answer": 2,
+    "explanation": "∂f/∂y measures how f changes with respect to y, holding x constant."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If f(x, y) = x²y + y³, what is ∂f/∂x?",
+    "options": ["2xy", "x² + 3y²", "2x", "2xy + 3y²"],
+    "answer": 0,
+    "explanation": "Differentiating f with respect to x (treating y constant) gives 2xy."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following is not a common indeterminate form?",
+    "options": ["0/0", "∞/∞", "0^0", "1^1"],
+    "answer": 3,
+    "explanation": "1^1 = 1, which is determinate. Others are indeterminate forms."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "The chain rule is used when:",
+    "options": ["Differentiating a function of one variable", "Finding integrals", "Finding limit of trigonometric functions", "A function depends on other functions"],
+    "answer": 3,
+    "explanation": "Chain rule helps differentiate compositions of multiple-variable functions."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "For f(x, y) = x² + y², the gradient ∇f is:",
+    "options": ["(2x, 2y)", "(x², y²)", "(2x, y)", "(x, y)"],
+    "answer": 0,
+    "explanation": "Gradient is (∂f/∂x, ∂f/∂y) = (2x, 2y)."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following is used to classify critical points?",
+    "options": ["First derivative test", "Second derivative test", "Discriminant D = fxx*fyy - (fxy)²", "All of the above"],
+    "answer": 3,
+    "explanation": "All options help analyze local minima/maxima or saddle points."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Jacobian matrix contains:",
+    "options": ["Partial derivatives of dependent variables", "Partial derivatives of independent variables", "Derivatives of constants", "No derivatives"],
+    "answer": 0,
+    "explanation": "Jacobian matrix is composed of partial derivatives of functions with respect to variables."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Divergence is computed using:",
+    "options": ["Cross product", "Dot product", "Gradient", "Scalar multiplication"],
+    "answer": 1,
+    "explanation": "Divergence is the dot product of ∇ operator and vector field."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "The condition for extremum using second-order partials is based on:",
+    "options": ["Laplace equation", "Euler's condition", "Jacobian", "Hessian determinant"],
+    "answer": 3,
+    "explanation": "Hessian determinant determines the nature of critical points."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If u = f(x, y), and x = r cos θ, y = r sin θ, then du/dr is found using:",
+    "options": ["Product rule", "Direct substitution", "Chain rule", "Power rule"],
+    "answer": 2,
+    "explanation": "Chain rule allows expressing ∂u/∂r via ∂u/∂x and ∂u/∂y."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the Jacobian of transformation from (x, y) to polar (r, θ)?",
+    "options": ["1", "r", "θ", "r²"],
+    "answer": 1,
+    "explanation": "Jacobian determinant in polar coordinates is r."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "A vector field is irrotational if:",
+    "options": ["Its curl is zero", "Its divergence is zero", "It points radially", "Its gradient is zero"],
+    "answer": 0,
+    "explanation": "Irrotational means ∇×F = 0."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "A conservative vector field is also:",
+    "options": ["Divergence-free", "A gradient field", "Always constant", "Rotational"],
+    "answer": 1,
+    "explanation": "Conservative vector fields are gradients of scalar potentials."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Gradient of a scalar function is a:",
+    "options": ["Scalar", "Tensor", "Vector", "Matrix"],
+    "answer": 2,
+    "explanation": "Gradient maps scalar field into vector field."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If ∇f = 0 everywhere, f is:",
+    "options": ["Increasing", "Decreasing", "Constant", "Undefined"],
+    "answer": 2,
+    "explanation": "Zero gradient implies no change, hence f is constant."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "In 3D, divergence is given by:",
+    "options": ["∂F/∂x + ∂F/∂y", "∂Fx/∂x + ∂Fy/∂y + ∂Fz/∂z", "∂Fz/∂z", "FxFyFz"],
+    "answer": 1,
+    "explanation": "Divergence is sum of partials of vector components."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which operation results in a scalar from a vector field?",
+    "options": ["Gradient", "Curl", "Divergence", "Cross Product"],
+    "answer": 2,
+    "explanation": "Divergence returns scalar; gradient and curl return vector."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the chain rule formula for f(x(t), y(t))?",
+    "options": ["df/dt = ∂f/∂x + ∂f/∂y", "df/dt = ∂f/∂x * dx/dt + ∂f/∂y * dy/dt", "df/dt = dx/dt + dy/dt", "df/dt = ∂²f/∂x² + ∂²f/∂y²"],
+    "answer": 1,
+    "explanation": "Total derivative df/dt uses chain rule with partials and dx/dt, dy/dt."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of these is used to find extrema of a function under constraint?",
+    "options": ["Gradient descent", "Jacobian", "Lagrange multipliers", "Hessian matrix"],
+    "answer": 2,
+    "explanation": "Lagrange multipliers solve constrained optimization problems."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "A scalar field has maximum at a point if:",
+    "options": ["Gradient is minimum", "Laplacian is negative", "Gradient is zero and Hessian is negative definite", "Gradient is non-zero"],
+    "answer": 2,
+    "explanation": "At a local max, gradient = 0 and Hessian < 0 (negative definite)."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which mathematical expression represents the directional derivative of f at point P in the direction of unit vector u?",
+    "options": ["∂f/∂x", "∇f × u", "∇f ⋅ u", "∂f/∂y"],
+    "answer": 2,
+    "explanation": "The directional derivative is the dot product of the gradient and the unit direction vector."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does the Hessian matrix of a function represent?",
+    "options": ["First-order derivatives", "Second-order partial derivatives", "Gradient vector", "Jacobian matrix"],
+    "answer": 1,
+    "explanation": "The Hessian matrix contains all second-order partial derivatives of a scalar function."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the value of ∂f/∂y if f(x,y) = x + y² at the point (1,2)?",
+    "options": ["2", "4", "1", "3"],
+    "answer": 1,
+    "explanation": "∂f/∂y = 2y; substituting y = 2 gives 4."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "When is ∂²f/∂x∂y equal to ∂²f/∂y∂x?",
+    "options": ["Always", "Only if f is linear", "If second partial derivatives are continuous", "Never"],
+    "answer": 2,
+    "explanation": "By Clairaut’s theorem, the mixed partial derivatives are equal if they are continuous."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If the Jacobian determinant is zero at a point, what does it imply?",
+    "options": ["Function is constant", "Transformation is not invertible at that point", "Gradient is undefined", "The function is linear"],
+    "answer": 1,
+    "explanation": "A zero Jacobian determinant indicates that the transformation is not locally invertible."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the Laplacian ∇²f of a scalar function f(x, y)?",
+    "options": ["∂f/∂x + ∂f/∂y", "∂²f/∂x² + ∂²f/∂y²", "∇f × ∇f", "∂²f/∂xy"],
+    "answer": 1,
+    "explanation": "The Laplacian is the sum of the second-order partial derivatives of f."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "In multivariable calculus, what does the chain rule allow you to compute?",
+    "options": ["Limits", "Integrals", "Derivatives of composite functions", "Volumes"],
+    "answer": 2,
+    "explanation": "The chain rule is used for computing derivatives of functions composed of other functions."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Given x = t and y = t², what is dz/dt if z = f(x, y)?",
+    "options": ["∂f/∂x + ∂f/∂y", "∂f/∂x * 1 + ∂f/∂y * 2t", "∂f/∂x * t + ∂f/∂y * t²", "∂²f/∂t²"],
+    "answer": 1,
+    "explanation": "Apply the chain rule: dz/dt = ∂f/∂x * dx/dt + ∂f/∂y * dy/dt = ∂f/∂x * 1 + ∂f/∂y * 2t."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What defines a level curve of a function f(x, y)?",
+    "options": ["f(x, y) = 0", "f(x, y) = constant", "f(x, y) is minimized", "f(x, y) has zero gradient"],
+    "answer": 1,
+    "explanation": "A level curve is a curve along which the function value remains constant."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "The gradient of a scalar field is perpendicular to:",
+    "options": ["Vector field", "X-axis", "Level curves", "Direction vector"],
+    "answer": 2,
+    "explanation": "The gradient is always perpendicular to the level curves of a function."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the formula for divergence in 2D vector field F = (P, Q)?",
+    "options": ["∂P/∂y + ∂Q/∂x", "∂P/∂x + ∂Q/∂y", "∂P/∂x * ∂Q/∂y", "∇P ⋅ ∇Q"],
+    "answer": 1,
+    "explanation": "Divergence of F = (P, Q) is ∂P/∂x + ∂Q/∂y."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which operation converts a scalar function into a vector field?",
+    "options": ["Divergence", "Gradient", "Laplacian", "Curl"],
+    "answer": 1,
+    "explanation": "Gradient converts a scalar function into a vector field pointing in the direction of maximum increase."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does the curl of a vector field represent?",
+    "options": ["Flux", "Rotation", "Divergence", "Gradient"],
+    "answer": 1,
+    "explanation": "Curl represents the amount of rotational tendency at a point."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the gradient of f(x, y, z) = x + y + z?",
+    "options": ["(1, 1, 1)", "(x, y, z)", "(x + y + z, x + y + z)", "(0, 0, 0)"],
+    "answer": 0,
+    "explanation": "Each partial derivative is 1, so the gradient is (1, 1, 1)."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which mathematical object is used to represent second-order partial derivatives of a scalar function?",
+    "options": ["Jacobian", "Gradient", "Hessian", "Matrix of divergence"],
+    "answer": 2,
+    "explanation": "The Hessian matrix represents second-order partial derivatives of a scalar function."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "In which condition does a function f(x, y) have a saddle point?",
+    "options": ["Gradient = 0 and Hessian > 0", "Gradient = 0 and Hessian < 0", "Gradient = 0 and Discriminant < 0", "Gradient ≠ 0"],
+    "answer": 2,
+    "explanation": "A saddle point occurs when the gradient is zero and the discriminant (Hessian determinant) is negative."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following operations results in a scalar quantity?",
+    "options": ["Gradient", "Divergence", "Vector multiplication", "Curl"],
+    "answer": 1,
+    "explanation": "Divergence yields a scalar quantity from a vector field."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does Euler's theorem say for homogeneous functions of degree n?",
+    "options": ["f = 0", "f = ∂f/∂x + ∂f/∂y", "xf_x + yf_y = nf", "f = x + y"],
+    "answer": 2,
+    "explanation": "Euler’s theorem: If f is homogeneous of degree n, then x∂f/∂x + y∂f/∂y = nf."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which technique is used for optimization with a constraint?",
+    "options": ["Gradient descent", "Hessian analysis", "Lagrange multipliers", "Newton's method"],
+    "answer": 2,
+    "explanation": "Lagrange multipliers help optimize functions subject to equality constraints."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If ∇f = 0 at a point and Hessian is positive definite, then:",
+    "options": ["Saddle point", "Local minimum", "Local maximum", "Undefined point"],
+    "answer": 1,
+    "explanation": "Positive definite Hessian at a zero gradient implies a local minimum."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the Jacobian determinant of the transformation x = u + v, y = u - v?",
+    "options": ["1", "2", "0", "-2"],
+    "answer": 1,
+    "explanation": "The Jacobian matrix is [[1, 1], [1, -1]], so the determinant is -1 - 1 = -2."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If ∇f points in the direction of (3, 4), what is the direction of steepest ascent?",
+    "options": ["(3, 4)", "(-3, -4)", "(4, -3)", "(0, 1)"],
+    "answer": 0,
+    "explanation": "The gradient always points in the direction of steepest increase."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "For a scalar function f, ∇f = 0 at a point means:",
+    "options": ["f is undefined", "f is constant at that point", "No change in any direction", "Maximum value"],
+    "answer": 2,
+    "explanation": "If gradient is zero, there is no directional change in f at that point."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "In vector calculus, which operator represents the divergence?",
+    "options": ["∇ ×", "∇ ⋅", "∇", "∂/∂x"],
+    "answer": 1,
+    "explanation": "Divergence is represented by the dot product of ∇ and the vector field."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does ∇ × F represent in 3D vector fields?",
+    "options": ["Gradient", "Divergence", "Curl", "Jacobian"],
+    "answer": 2,
+    "explanation": "∇ × F is the curl of the vector field F."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the interpretation of a zero curl in a vector field?",
+    "options": ["Field is conservative", "Field is solenoidal", "Field is divergent", "Field is discontinuous"],
+    "answer": 0,
+    "explanation": "A vector field with zero curl is irrotational, hence conservative."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which rule is applied to compute partial derivative of composite functions?",
+    "options": ["Product Rule", "Chain Rule", "Quotient Rule", "L'Hopital's Rule"],
+    "answer": 1,
+    "explanation": "The chain rule is essential for differentiating composite functions."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following functions has partial derivatives of all orders?",
+    "options": ["e^(x² + y²)", "|x| + |y|", "1/(x² + y²)", "floor(x + y)"],
+    "answer": 0,
+    "explanation": "e^(x² + y²) is infinitely differentiable over all real numbers."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What condition must a function satisfy to apply Euler's theorem?",
+    "options": ["Non-linear", "Homogeneous of degree n", "Piecewise continuous", "Has a maximum"],
+    "answer": 1,
+    "explanation": "Euler's theorem applies only to homogeneous functions of degree n."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following vector fields is irrotational?",
+    "options": ["F = (y, -x)", "F = (x², y²)", "F = (3x, 3y)", "F = (-y, x)"],
+    "answer": 2,
+    "explanation": "The gradient of a scalar potential function (like 3x + 3y) is irrotational."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the directional derivative of f(x, y) = x² + y² at (1,1) in direction u = (1/√2, 1/√2)?",
+    "options": ["0", "2", "4", "√2"],
+    "answer": 2,
+    "explanation": "∇f = (2x, 2y) = (2,2); Duf = ∇f ⋅ u = 2√2."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which type of critical point occurs when the Hessian determinant is negative?",
+    "options": ["Local minimum", "Local maximum", "Saddle point", "Undefined"],
+    "answer": 2,
+    "explanation": "A negative Hessian determinant at a critical point indicates a saddle point."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "If f(x, y) = sin(xy), what is ∂f/∂x?",
+    "options": ["cos(xy)", "y cos(xy)", "y sin(xy)", "x cos(y)"],
+    "answer": 1,
+    "explanation": "Using chain rule: ∂f/∂x = y cos(xy)."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the meaning of the gradient vector in terms of function increase?",
+    "options": ["Minimum direction", "Zero rate of change", "Direction of fastest decrease", "Direction of fastest increase"],
+    "answer": 3,
+    "explanation": "The gradient vector points in the direction where the function increases most rapidly."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the inverse of a function f(x, y) if f is not bijective?",
+    "options": ["Not defined", "Partial", "Total", "Matrix"],
+    "answer": 0,
+    "explanation": "Inverse exists only if the function is bijective (one-to-one and onto)."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which of the following represents a scalar field?",
+    "options": ["f(x, y) = x + y", "F = (x, y)", "F = (x², y²)", "F = ∇f"],
+    "answer": 0,
+    "explanation": "f(x, y) = x + y is a scalar function; it outputs scalar values."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What does ∂²f/∂x² represent?",
+    "options": ["Rate of change", "Gradient", "Second-order rate of change with respect to x", "Jacobian"],
+    "answer": 2,
+    "explanation": "It shows how the rate of change of f in x changes as x changes."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "Which is the scalar triple product of vectors A, B, and C?",
+    "options": ["A × B × C", "A ⋅ (B × C)", "(A ⋅ B) × C", "A × (B ⋅ C)"],
+    "answer": 1,
+    "explanation": "A ⋅ (B × C) gives the scalar volume of the parallelepiped formed by A, B, C."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the significance of the Jacobian in multivariable calculus?",
+    "options": ["Gradient measure", "Change of variables", "Volume of vector field", "Curl computation"],
+    "answer": 1,
+    "explanation": "Jacobian is used in variable transformations and represents the scale factor."
+  },
+  {
+    "topic": "Functions of Several Variables",
+    "question": "What is the curl of the vector field F = (0, 0, z)?",
+    "options": ["(0,0,0)", "(1,0,0)", "(0,1,0)", "Undefined"],
+    "answer": 0,
+    "explanation": "Curl of a constant vector in one direction is zero."
+  }
+  ]
+  
+  
+  
