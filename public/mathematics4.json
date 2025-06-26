@@ -1,0 +1,620 @@
+[
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following series is convergent?",
+    "options": ["∑ 1/n", "∑ 1/n²", "∑ n", "∑ ln(n)/n"],
+    "answer": 1,
+    "explanation": "The p-series ∑ 1/n² converges because the exponent p = 2 > 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What type of series is ∑ (-1)^n/n?",
+    "options": ["Positive term series", "Alternating series", "Divergent series", "Geometric series"],
+    "answer": 1,
+    "explanation": "This is an alternating harmonic series."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is appropriate for checking the convergence of an alternating series?",
+    "options": ["p-series test", "Comparison test", "Leibnitz test", "Cauchy root test"],
+    "answer": 2,
+    "explanation": "Leibnitz test checks alternating series for convergence under certain conditions."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The harmonic series ∑ 1/n is:",
+    "options": ["Convergent", "Divergent", "Oscillatory", "Absolutely convergent"],
+    "answer": 1,
+    "explanation": "Although terms go to 0, the series diverges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "In the Leibnitz test, which of the following is NOT a required condition?",
+    "options": ["Terms decrease", "Terms alternate in sign", "Terms tend to zero", "Terms are all positive"],
+    "answer": 3,
+    "explanation": "The terms must alternate in sign, not all be positive."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is best for factorial-containing series?",
+    "options": ["Ratio test", "Root test", "p-series test", "Logarithmic test"],
+    "answer": 0,
+    "explanation": "The Ratio test simplifies analysis when factorials are involved."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The p-series ∑ 1/n^p converges if:",
+    "options": ["p < 1", "p = 1", "p > 1", "p = 0"],
+    "answer": 2,
+    "explanation": "A p-series converges when p > 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Does the series ∑ (n!)/(2^n) converge?",
+    "options": ["Yes", "No", "It oscillates", "Not enough data"],
+    "answer": 1,
+    "explanation": "It diverges because factorial grows faster than exponential."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If the ratio test gives a limit L < 1, what can we conclude?",
+    "options": ["Series diverges", "Series converges", "Series is oscillatory", "Test is inconclusive"],
+    "answer": 1,
+    "explanation": "The series converges if L < 1 under the Ratio test."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What defines an oscillatory series?",
+    "options": ["Alternates sign and converges", "Diverges", "Does not settle to a value", "Has finite sum"],
+    "answer": 2,
+    "explanation": "It alternates indefinitely without approaching a limit."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which is a necessary condition for convergence of ∑ a_n?",
+    "options": ["a_n → 0", "a_n → ∞", "a_n increases", "a_n remains constant"],
+    "answer": 0,
+    "explanation": "Terms must tend to zero; otherwise, the series diverges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Absolute convergence implies:",
+    "options": ["Conditional convergence", "Divergence", "Oscillation", "Total convergence"],
+    "answer": 0,
+    "explanation": "If a series converges absolutely, it also converges conditionally."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test compares a given series to a known one?",
+    "options": ["Root test", "Ratio test", "Comparison test", "Leibnitz test"],
+    "answer": 2,
+    "explanation": "Comparison test checks convergence by comparing term-by-term with a known series."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the convergence type of ∑ (-1)^n/n?",
+    "options": ["Divergent", "Absolutely convergent", "Conditionally convergent", "Oscillatory"],
+    "answer": 2,
+    "explanation": "This alternating harmonic series is conditionally convergent."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test uses lim (aₙ₊₁ / aₙ)?",
+    "options": ["Leibnitz", "Comparison", "Ratio", "Root"],
+    "answer": 2,
+    "explanation": "Ratio test uses the limit of successive terms."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Cauchy's root test is best for series with:",
+    "options": ["Rapid growth", "Oscillations", "Rational terms", "Exponential terms"],
+    "answer": 0,
+    "explanation": "Root test handles nth root of terms to check convergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does the logarithmic test measure?",
+    "options": ["Number of terms", "Log growth of terms", "Sign change", "Sum convergence"],
+    "answer": 1,
+    "explanation": "It measures convergence based on log characteristics of a_n."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which is a divergent p-series?",
+    "options": ["∑ 1/n^2", "∑ 1/n^3", "∑ 1/n^0.5", "∑ 1/n^4"],
+    "answer": 2,
+    "explanation": "The series diverges since p = 0.5 < 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does the limit comparison test use?",
+    "options": ["Ratio of entire series", "nth term limit ratio", "Partial sum comparison", "Factorials"],
+    "answer": 1,
+    "explanation": "It takes lim (a_n / b_n) for comparison with a known series."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test fails if the ratio test result is 1?",
+    "options": ["Root test", "Leibnitz test", "Comparison test", "Ratio test"],
+    "answer": 3,
+    "explanation": "Ratio test is inconclusive if the limit equals 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "For ∑ a_n to converge, what must lim a_n be?",
+    "options": ["0", "∞", "1", "-1"],
+    "answer": 0,
+    "explanation": "The nth term must tend to 0."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does a convergent series mean?",
+    "options": ["Sum goes to infinity", "Terms are positive", "Partial sums approach a finite value", "Alternates in sign"],
+    "answer": 2,
+    "explanation": "Convergent series have finite limiting sums."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The series ∑ 1/(n ln n) diverges because:",
+    "options": ["Terms increase", "Too slowly decreasing", "Oscillates", "ln n is negative"],
+    "answer": 1,
+    "explanation": "It decreases too slowly to converge."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does D’Alembert’s ratio test best evaluate?",
+    "options": ["Geometric series", "Factorials and exponentials", "Alternating series", "Logarithmic series"],
+    "answer": 1,
+    "explanation": "It works well with factorials or exponential growth."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What happens if a_n does not approach zero?",
+    "options": ["Series converges", "Oscillates", "Series diverges", "Series conditionally converges"],
+    "answer": 2,
+    "explanation": "A non-zero term sequence forces divergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test fails for ∑ 1/n?",
+    "options": ["Ratio test", "Root test", "Leibnitz test", "p-series test"],
+    "answer": 0,
+    "explanation": "Ratio test returns limit 1, which is inconclusive."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which series has logarithmic divergence?",
+    "options": ["∑ 1/ln n", "∑ 1/n ln n", "∑ ln n/n", "∑ 1/n"],
+    "answer": 1,
+    "explanation": "This is a classic example of slow divergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which is NOT used to test series convergence?",
+    "options": ["Ratio test", "Integral test", "Limit test", "Factor test"],
+    "answer": 3,
+    "explanation": "There is no 'Factor test' in standard series analysis."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If ∑ a_n converges but ∑ |a_n| diverges, it is called:",
+    "options": ["Absolutely convergent", "Conditionally convergent", "Oscillatory", "Invalid"],
+    "answer": 1,
+    "explanation": "Conditional convergence occurs when only the original series converges, not the absolute."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following is a geometric series?",
+    "options": ["∑ 2^n", "∑ (1/2)^n", "∑ n^2", "∑ ln n"],
+    "answer": 1,
+    "explanation": "This is a geometric progression with common ratio < 1, so it converges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following is a convergent geometric series?",
+    "options": ["∑ (2^n)", "∑ (1/3)^n", "∑ n(1/2)^n", "∑ n^2"],
+    "answer": 1,
+    "explanation": "The geometric series ∑ (1/3)^n converges since the common ratio is less than 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the sum of the geometric series ∑ (1/2)^n from n = 1 to ∞?",
+    "options": ["1", "1/2", "2", "∞"],
+    "answer": 0,
+    "explanation": "It's a geometric series with a = 1/2 and r = 1/2. Sum = a / (1 - r) = 1/2 / (1 - 1/2) = 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is used when the terms of a series involve nth powers?",
+    "options": ["Root test", "Ratio test", "Comparison test", "Logarithmic test"],
+    "answer": 0,
+    "explanation": "Root test is effective for series with nth powers or exponential terms."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does a divergent series imply about its partial sums?",
+    "options": ["They converge", "They oscillate", "They do not approach a finite limit", "They are constant"],
+    "answer": 2,
+    "explanation": "Divergence means the sequence of partial sums does not tend to a finite number."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is a necessary condition for a series ∑ a_n to converge?",
+    "options": ["a_n is constant", "a_n → 0", "a_n is increasing", "a_n alternates"],
+    "answer": 1,
+    "explanation": "If a_n does not tend to zero, the series cannot converge."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which series is absolutely convergent?",
+    "options": ["∑ (-1)^n/n", "∑ 1/n", "∑ (-1)^n/n^2", "∑ sin(n)/n"],
+    "answer": 2,
+    "explanation": "∑ (-1)^n/n^2 is absolutely convergent because ∑ 1/n^2 is convergent."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which series has terms that decrease slowly and diverge?",
+    "options": ["∑ 1/n", "∑ 1/n^2", "∑ 1/n^3", "∑ 1/n^4"],
+    "answer": 0,
+    "explanation": "∑ 1/n diverges because it’s the harmonic series with p = 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The integral test requires that the function be:",
+    "options": ["Discontinuous", "Decreasing and positive", "Increasing and positive", "Oscillatory"],
+    "answer": 1,
+    "explanation": "For the integral test, the function must be continuous, decreasing, and positive."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is best for analyzing a series like ∑ n/(n+1)?",
+    "options": ["Root test", "Limit comparison test", "Leibnitz test", "Ratio test"],
+    "answer": 1,
+    "explanation": "Use limit comparison test with a known series like ∑ 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The series ∑ 1/(n ln n)^p converges for which value of p?",
+    "options": ["p ≤ 1", "p > 1", "p < 0", "Always converges"],
+    "answer": 1,
+    "explanation": "This series converges only for p > 1 using the integral test."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the value of the nth root of n! as n approaches infinity?",
+    "options": ["∞", "0", "1", "e"],
+    "answer": 0,
+    "explanation": "n! grows faster than any exponential, so its nth root also diverges to infinity."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test would best suit a series like ∑ (ln n)/n?",
+    "options": ["Leibnitz", "Comparison", "Integral", "Geometric"],
+    "answer": 2,
+    "explanation": "Integral test can compare this with an improper integral to determine convergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test cannot be applied to the alternating series ∑ (-1)^n * n?",
+    "options": ["Leibnitz test", "Ratio test", "Root test", "None of the above"],
+    "answer": 0,
+    "explanation": "Leibnitz test cannot apply because n increases, and the terms do not approach zero."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "A series is said to converge absolutely if:",
+    "options": ["Its alternating version converges", "Its term goes to zero", "The series of absolute values converges", "It converges faster than geometric series"],
+    "answer": 2,
+    "explanation": "Absolute convergence means ∑ |a_n| is convergent."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following is a necessary but not sufficient condition for convergence?",
+    "options": ["a_n → ∞", "a_n → 0", "a_n constant", "a_n increasing"],
+    "answer": 1,
+    "explanation": "A term tending to zero is necessary but not enough to guarantee convergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test works by taking the limit of (a_n)^(1/n)?",
+    "options": ["Ratio test", "Root test", "Comparison test", "Alternating test"],
+    "answer": 1,
+    "explanation": "This is Cauchy's root test."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The series ∑ (-1)^n * 1/(n+1) is:",
+    "options": ["Divergent", "Convergent", "Absolutely convergent", "Geometric"],
+    "answer": 1,
+    "explanation": "It satisfies the Leibnitz test, so it's convergent but not absolutely."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the result of the ratio test for ∑ n!/n^n?",
+    "options": ["Convergent", "Divergent", "Oscillatory", "Test fails"],
+    "answer": 0,
+    "explanation": "This series converges by ratio test as the ratio tends to zero."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "For which of the following is the root test inconclusive?",
+    "options": ["Limit = 0", "Limit = ∞", "Limit = 1", "Limit does not exist"],
+    "answer": 2,
+    "explanation": "The root test is inconclusive when the limit is 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "A geometric series converges if the common ratio r satisfies:",
+    "options": ["r = 1", "|r| < 1", "r > 1", "|r| > 1"],
+    "answer": 1,
+    "explanation": "A geometric series converges if the absolute value of the ratio is less than 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is a sufficient condition for divergence of a series?",
+    "options": ["a_n → 0", "a_n does not → 0", "a_n constant", "a_n is bounded"],
+    "answer": 1,
+    "explanation": "If a_n does not go to zero, the series must diverge."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following diverges the fastest?",
+    "options": ["∑ 1/n", "∑ ln n/n", "∑ √n", "∑ 1/n^2"],
+    "answer": 2,
+    "explanation": "√n grows faster than all other expressions listed."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following is an alternating series?",
+    "options": ["∑ n^n", "∑ (-1)^n/n", "∑ 1/2^n", "∑ √n"],
+    "answer": 1,
+    "explanation": "Alternating series involve terms with changing signs."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "In what situation does the logarithmic test best apply?",
+    "options": ["Rapid growth", "Harmonic series", "Slowly decreasing series", "Series with factorials"],
+    "answer": 2,
+    "explanation": "Logarithmic test is ideal for slowly decreasing positive series."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If ∑ a_n is convergent and ∑ b_n is divergent, what about ∑ (a_n + b_n)?",
+    "options": ["Always convergent", "Always divergent", "Depends on b_n", "Equal to ∑ a_n"],
+    "answer": 2,
+    "explanation": "The divergence of b_n can dominate and cause divergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following tests is not commonly used for convergence?",
+    "options": ["Ratio test", "Root test", "Comparison test", "Trapezoid test"],
+    "answer": 3,
+    "explanation": "Trapezoid test is not a standard convergence test."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does 'conditionally convergent' mean?",
+    "options": ["Diverges unless condition met", "Only converges with absolute terms", "Converges but not absolutely", "Always converges"],
+    "answer": 2,
+    "explanation": "It converges as given, but diverges when all terms are made positive."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The nth partial sum of ∑ 1/2^n is an example of:",
+    "options": ["Arithmetic progression", "Harmonic series", "Convergent geometric series", "Divergent geometric series"],
+    "answer": 2,
+    "explanation": "It’s a geometric series with r = 1/2 < 1, so it converges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which condition disqualifies the Leibnitz test for convergence?",
+    "options": ["Alternating sign", "Terms not decreasing", "Terms tend to zero", "Positive terms"],
+    "answer": 1,
+    "explanation": "Leibnitz test requires the terms to be monotonically decreasing."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test works well for factorial-exponential combinations?",
+    "options": ["Integral test", "Ratio test", "Leibnitz test", "Logarithmic test"],
+    "answer": 1,
+    "explanation": "Ratio test is effective when terms include factorials or exponentials."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The alternating harmonic series is:",
+    "options": ["Divergent", "Absolutely convergent", "Conditionally convergent", "Oscillatory"],
+    "answer": 2,
+    "explanation": "∑ (-1)^n/n is conditionally convergent, not absolutely."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test evaluates the convergence using integrals?",
+    "options": ["Root test", "Ratio test", "Integral test", "Logarithmic test"],
+    "answer": 2,
+    "explanation": "The integral test compares the series with an improper integral."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If the ratio test gives L = 1, the conclusion is:",
+    "options": ["Series converges", "Series diverges", "Inconclusive", "Alternating series"],
+    "answer": 2,
+    "explanation": "The ratio test is inconclusive if the limit equals 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is a necessary condition for a geometric series to converge?",
+    "options": ["r = 1", "r > 1", "|r| < 1", "r < -1"],
+    "answer": 2,
+    "explanation": "The series converges only if the absolute value of the ratio is less than 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The series ∑ 1/n diverges because:",
+    "options": ["Terms are negative", "Terms do not go to zero", "It is a harmonic series", "Terms oscillate"],
+    "answer": 2,
+    "explanation": "The harmonic series diverges even though the terms go to zero."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The logarithmic test is most suitable for series like:",
+    "options": ["∑ n!", "∑ ln(n)/n", "∑ 1/2^n", "∑ 1/n^2"],
+    "answer": 1,
+    "explanation": "It analyzes convergence based on logarithmic behavior of terms."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of the following is an example of a p-series?",
+    "options": ["∑ n!", "∑ 1/n^2", "∑ ln(n)", "∑ n(1/2)^n"],
+    "answer": 1,
+    "explanation": "p-series has the form ∑ 1/n^p; p = 2 here, so it converges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The series ∑ (-1)^n/n^0.5 is:",
+    "options": ["Absolutely convergent", "Conditionally convergent", "Divergent", "Oscillatory"],
+    "answer": 2,
+    "explanation": "Although it’s alternating, it fails the Leibnitz test as terms don’t decrease fast enough."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test compares the magnitude of terms with a known series?",
+    "options": ["Ratio test", "Root test", "Direct comparison test", "Integral test"],
+    "answer": 2,
+    "explanation": "The direct comparison test checks convergence by comparing with known benchmark series."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the sum of ∑ 1/2^n from n = 1 to ∞?",
+    "options": ["1", "1/2", "2", "Undefined"],
+    "answer": 0,
+    "explanation": "It’s a geometric series with r = 1/2; sum = 1/2 / (1 - 1/2) = 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If ∑ |a_n| converges, then ∑ a_n is:",
+    "options": ["Absolutely convergent", "Conditionally convergent", "Divergent", "Oscillatory"],
+    "answer": 0,
+    "explanation": "Absolute convergence implies convergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "A divergent series implies:",
+    "options": ["Terms tend to zero", "Partial sums diverge", "It is geometric", "Terms are negative"],
+    "answer": 1,
+    "explanation": "Divergence means the sum does not approach a finite value."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "The function used in the integral test must be:",
+    "options": ["Non-continuous", "Increasing", "Decreasing", "Discontinuous"],
+    "answer": 2,
+    "explanation": "The function must be continuous, decreasing, and positive."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What condition ensures divergence of ∑ a_n?",
+    "options": ["a_n → 0", "a_n does not → 0", "a_n increases", "a_n is constant"],
+    "answer": 1,
+    "explanation": "If the term does not approach zero, the series diverges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test uses limit comparison with another series?",
+    "options": ["Ratio test", "Root test", "Limit comparison test", "Integral test"],
+    "answer": 2,
+    "explanation": "It compares the term-wise limit of a_n/b_n."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is most useful for ∑ n!/2^n?",
+    "options": ["Root test", "Ratio test", "Integral test", "Logarithmic test"],
+    "answer": 1,
+    "explanation": "The Ratio test handles factorials and exponentials well."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the behavior of ∑ ln(n)/n?",
+    "options": ["Convergent", "Divergent", "Oscillatory", "Alternating"],
+    "answer": 1,
+    "explanation": "This series diverges as its integral counterpart is divergent."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "A p-series ∑ 1/n^p diverges for which p?",
+    "options": ["p = 1", "p < 1", "p > 1", "Both A and B"],
+    "answer": 3,
+    "explanation": "It diverges for p ≤ 1."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test is best for the series ∑ (3n+1)/(4n+7)?",
+    "options": ["Comparison test", "Ratio test", "Root test", "Leibnitz test"],
+    "answer": 0,
+    "explanation": "Limit comparison with ∑ 1 shows divergence."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the result of applying root test to ∑ (1/n)^n?",
+    "options": ["Converges", "Diverges", "Oscillates", "Inconclusive"],
+    "answer": 0,
+    "explanation": "The nth root yields 1/n, which → 0, so the series converges."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What does a convergent alternating series require?",
+    "options": ["Constant sign", "Terms increasing", "Terms decreasing and → 0", "Even number of terms"],
+    "answer": 2,
+    "explanation": "Alternating series converge when terms decrease to zero."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which of these diverges by comparison with the harmonic series?",
+    "options": ["∑ 1/n", "∑ 1/n^2", "∑ 1/n^3", "∑ 1/n^4"],
+    "answer": 0,
+    "explanation": "The harmonic series diverges and sets a lower bound."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "If ∑ a_n and ∑ b_n converge, ∑ (a_n + b_n) is:",
+    "options": ["Convergent", "Divergent", "Indeterminate", "Zero"],
+    "answer": 0,
+    "explanation": "Sum of convergent series is convergent."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What is the main idea of Rabbe’s test?",
+    "options": ["Limit behavior of ratios", "Combines ratio with factorials", "Uses logarithmic expansion", "Compares nth term to integral"],
+    "answer": 1,
+    "explanation": "It refines the ratio test using factorial behavior."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which test helps for ∑ (1 + 1/n)^n?",
+    "options": ["Root test", "Ratio test", "Logarithmic test", "None"],
+    "answer": 0,
+    "explanation": "The root test simplifies complex exponents."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which series is always divergent?",
+    "options": ["Geometric with |r| < 1", "Alternating series", "∑ n", "∑ 1/n^2"],
+    "answer": 2,
+    "explanation": "∑ n clearly diverges to infinity."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "What defines an oscillatory series?",
+    "options": ["Alternates sign", "Has no finite sum", "Partial sums oscillate", "Diverges slowly"],
+    "answer": 2,
+    "explanation": "Oscillatory series have partial sums that do not settle to a value."
+  },
+  {
+    "topic": "Infinite Series",
+    "question": "Which is the most powerful test when all others fail?",
+    "options": ["Logarithmic test", "Integral test", "Root test", "Ratio test"],
+    "answer": 0,
+    "explanation": "Logarithmic test often helps when others are inconclusive."
+  }
+  ]
+  
+  
