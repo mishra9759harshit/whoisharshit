@@ -1,0 +1,904 @@
+[
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following properties are required for a relation to be an equivalence relation?",
+    "options": [
+      "Reflexive, Symmetric, Transitive",
+      "Transitive, Antisymmetric",
+      "Reflexive, Antisymmetric, Symmetric",
+      "Symmetric, Associative, Transitive"
+    ],
+    "answer": 0,
+    "explanation": "An equivalence relation must be reflexive, symmetric, and transitive."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "A relation R is said to be symmetric if:",
+    "options": [
+      "If aRb and bRc, then aRc",
+      "If aRb, then bRa",
+      "If a = b, then aRb",
+      "If a ≠ b, then aRb"
+    ],
+    "answer": 1,
+    "explanation": "Symmetric means if (a, b) ∈ R, then (b, a) must also be in R."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is not a type of function?",
+    "options": [
+      "Onto function",
+      "Into function",
+      "Sideways function",
+      "One-to-one function"
+    ],
+    "answer": 2,
+    "explanation": "There is no such classification as 'sideways function'."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the domain of the function f(x) = √(x - 1)?",
+    "options": [
+      "x ≥ 0",
+      "x > 1",
+      "x ≥ 1",
+      "x < 1"
+    ],
+    "answer": 2,
+    "explanation": "Square root must be defined, so x - 1 ≥ 0 ⇒ x ≥ 1."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "A function f: A → B is injective if:",
+    "options": [
+      "Every element of B has a pre-image",
+      "Every element of A maps to a unique element in B",
+      "No element of B is mapped",
+      "Elements of A map to multiple elements of B"
+    ],
+    "answer": 1,
+    "explanation": "Injective (one-to-one) means no two elements in domain map to the same codomain element."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function type ensures that every element in codomain is an image of some domain element?",
+    "options": [
+      "Into function",
+      "Onto function",
+      "One-to-one function",
+      "Partial function"
+    ],
+    "answer": 1,
+    "explanation": "Onto (surjective) function maps the entire codomain."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is the correct expression for the composite of functions f and g?",
+    "options": [
+      "f ∘ g = g(f(x))",
+      "f ∘ g = f(g(x))",
+      "f ∘ g = f(x) + g(x)",
+      "f ∘ g = f(x)g(x)"
+    ],
+    "answer": 1,
+    "explanation": "By definition, f∘g = f(g(x))"
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following relations is an example of a partial order?",
+    "options": [
+      "‘Divides’ on natural numbers",
+      "‘Equal to’ on real numbers",
+      "‘Is a sibling of’ on people",
+      "‘Is taller than’ on students"
+    ],
+    "answer": 0,
+    "explanation": "‘Divides’ is reflexive, antisymmetric, and transitive: satisfies partial order."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The inverse of a function f exists only if:",
+    "options": [
+      "f is onto",
+      "f is injective",
+      "f is bijective",
+      "f is periodic"
+    ],
+    "answer": 2,
+    "explanation": "Only bijective functions have inverses."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is the correct order to apply in a composite function f∘g?",
+    "options": [
+      "First f then g",
+      "First g then f",
+      "Simultaneous application",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "In f(g(x)), g is applied first."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What does the range of a function represent?",
+    "options": [
+      "All x values for which f(x) is defined",
+      "All y values that f(x) can take",
+      "Values not mapped by function",
+      "All possible inputs"
+    ],
+    "answer": 1,
+    "explanation": "Range is the set of all actual outputs of the function."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the base step in mathematical induction?",
+    "options": [
+      "Assume P(n) is true",
+      "Prove P(k) implies P(k+1)",
+      "Verify P(1) or P(0)",
+      "Check if P(n) = 0"
+    ],
+    "answer": 2,
+    "explanation": "Base step is to verify the result for the smallest value."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If a function is both one-to-one and onto, it is called:",
+    "options": [
+      "Surjective",
+      "Injective",
+      "Bijective",
+      "Linear"
+    ],
+    "answer": 2,
+    "explanation": "Bijective means injective + surjective."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which property makes a relation an equivalence relation but not a partial order?",
+    "options": [
+      "Transitive",
+      "Reflexive",
+      "Symmetric",
+      "Antisymmetric"
+    ],
+    "answer": 2,
+    "explanation": "Equivalence relation is symmetric, partial order is antisymmetric."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which relation is reflexive but not symmetric?",
+    "options": [
+      "≤ (less than or equal to)",
+      "= (equality)",
+      "≠ (not equal to)",
+      "Is friend of"
+    ],
+    "answer": 0,
+    "explanation": "a ≤ a is always true (reflexive), but a ≤ b does not mean b ≤ a (not symmetric)."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is an example of a function that is not one-to-one?",
+    "options": [
+      "f(x) = x^2",
+      "f(x) = x + 1",
+      "f(x) = x",
+      "f(x) = 3x"
+    ],
+    "answer": 0,
+    "explanation": "f(x) = x^2 is not one-to-one since f(2) = f(-2)."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which step proves the inductive case in mathematical induction?",
+    "options": [
+      "Verify for base case",
+      "Assume for n = k",
+      "Prove for n = k+1",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Mathematical induction involves verifying base case, assuming for n = k, and proving for n = k + 1."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is true for an equivalence relation?",
+    "options": [
+      "Only symmetric and transitive",
+      "Only reflexive and symmetric",
+      "Reflexive, symmetric, and transitive",
+      "Only transitive and antisymmetric"
+    ],
+    "answer": 2,
+    "explanation": "All three properties are required."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function is invertible?",
+    "options": [
+      "f(x) = x^2, x ∈ ℝ",
+      "f(x) = x + 3",
+      "f(x) = |x|",
+      "f(x) = sin(x)"
+    ],
+    "answer": 1,
+    "explanation": "Linear function f(x) = x + 3 is bijective and thus invertible."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "A relation is called transitive if:",
+    "options": [
+      "If aRb and bRc then aRc",
+      "If aRb then bRa",
+      "If a = b then aRb",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "This is the standard definition of transitivity."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is a valid function?",
+    "options": [
+      "{(1,2), (2,3), (1,3)}",
+      "{(1,2), (2,3), (3,4)}",
+      "{(1,2), (2,3), (2,5)}",
+      "{(x,y) | x + y = 0, x ∈ ℝ}"
+    ],
+    "answer": 1,
+    "explanation": "Each domain element maps to one unique codomain element."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which statement is false?",
+    "options": [
+      "All equivalence relations are reflexive",
+      "Every injective function is also surjective",
+      "Bijective functions are invertible",
+      "Partial orders are antisymmetric"
+    ],
+    "answer": 1,
+    "explanation": "Injective function need not be surjective."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the codomain of a function?",
+    "options": [
+      "Set of outputs actually obtained",
+      "Set of all possible outputs",
+      "Set of all inputs",
+      "Set of inputs that fail"
+    ],
+    "answer": 1,
+    "explanation": "Codomain is the set into which all outputs must fall."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If f(x) = 3x + 2, what is the inverse function f⁻¹(x)?",
+    "options": [
+      "(x - 2)/3",
+      "(x + 2)/3",
+      "3x - 2",
+      "1/(3x + 2)"
+    ],
+    "answer": 0,
+    "explanation": "Switch x and y: x = 3y + 2 → y = (x - 2)/3"
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If f: A → B and g: B → C are both onto, then g∘f is:",
+    "options": [
+      "Onto",
+      "Into",
+      "One-to-one",
+      "Not defined"
+    ],
+    "answer": 0,
+    "explanation": "Composition of two onto functions is onto."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function has restricted domain due to square root?",
+    "options": [
+      "f(x) = √(x + 1)",
+      "f(x) = x^2",
+      "f(x) = 2x + 3",
+      "f(x) = 5"
+    ],
+    "answer": 0,
+    "explanation": "Square root requires expression to be non-negative."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the inverse of the function f(x) = (x - 5)/2?",
+    "options": [
+      "f⁻¹(x) = 2x - 5",
+      "f⁻¹(x) = x/2 - 5",
+      "f⁻¹(x) = (x + 5)/2",
+      "f⁻¹(x) = 2x + 5"
+    ],
+    "answer": 0,
+    "explanation": "To find inverse: x = (y - 5)/2 ⇒ y = 2x + 5"
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The number of elements in the Cartesian product A × B is equal to:",
+    "options": [
+      "|A| × |B|",
+      "|A| + |B|",
+      "|A| - |B|",
+      "|A| ÷ |B|"
+    ],
+    "answer": 0,
+    "explanation": "The Cartesian product contains all ordered pairs (a, b), so |A| × |B|."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is a one-to-one function?",
+    "options": [
+      "f(x) = x^2",
+      "f(x) = |x|",
+      "f(x) = 2x + 3",
+      "f(x) = x^3 - x^3"
+    ],
+    "answer": 2,
+    "explanation": "f(x) = 2x + 3 is linear and one-to-one."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What does the term 'binary relation' mean?",
+    "options": [
+      "A relation between two sets",
+      "A relation defined on a single set",
+      "A function with binary inputs",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "Binary relation is a subset of A × B between two sets A and B."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which property is violated if a relation contains (a,b) and (b,a) but a ≠ b?",
+    "options": [
+      "Symmetric",
+      "Transitive",
+      "Reflexive",
+      "Antisymmetric"
+    ],
+    "answer": 3,
+    "explanation": "Antisymmetry requires that if (a,b) and (b,a) exist, then a = b."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of these sets represents the domain of f(x) = 1/(x^2 - 9)?",
+    "options": [
+      "ℝ − {3, -3}",
+      "ℝ − {0}",
+      "All Real Numbers",
+      "ℝ − {9}"
+    ],
+    "answer": 0,
+    "explanation": "x^2 - 9 = 0 when x = ±3, which are excluded."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which relation is symmetric but not transitive?",
+    "options": [
+      "Friendship",
+      "Equality",
+      "≤ (less than or equal)",
+      "‘Has the same birthday as’"
+    ],
+    "answer": 0,
+    "explanation": "Friendship is symmetric but may not be transitive."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If A has 4 elements and B has 2, how many functions from A to B exist?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "Each element in A has 2 choices ⇒ 2⁴ = 16 functions."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function maps all elements of the domain to the same codomain value?",
+    "options": [
+      "Constant function",
+      "Identity function",
+      "Linear function",
+      "Quadratic function"
+    ],
+    "answer": 0,
+    "explanation": "Constant function has the form f(x) = c, for all x."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The power set of a set with n elements has how many elements?",
+    "options": [
+      "2n",
+      "n²",
+      "n!",
+      "n × 2"
+    ],
+    "answer": 0,
+    "explanation": "Power set has 2^n subsets."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following sets forms an equivalence relation under 'has the same length'?",
+    "options": [
+      "Set of strings",
+      "Set of integers",
+      "Set of real numbers",
+      "Set of matrices"
+    ],
+    "answer": 0,
+    "explanation": "‘Has same length’ is reflexive, symmetric, and transitive on strings."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "How many relations can be defined on a set with 2 elements?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "Number of relations = 2^(n²); for n=2, 2^4 = 16."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the minimum number of elements in domain for a bijective function to exist with codomain having 5 elements?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "Bijective requires equal size of domain and codomain."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of these relations on ℕ is antisymmetric?",
+    "options": [
+      "Is equal to (=)",
+      "Is less than (<)",
+      "Is less than or equal to (≤)",
+      "Is sibling of"
+    ],
+    "answer": 2,
+    "explanation": "a ≤ b and b ≤ a ⇒ a = b ⇒ antisymmetric."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If f(x) = 3x - 1 and g(x) = x², what is (g∘f)(x)?",
+    "options": [
+      "3x² - x",
+      "x² - 1",
+      "(3x - 1)²",
+      "3x² - 1"
+    ],
+    "answer": 2,
+    "explanation": "g(f(x)) = (3x - 1)²."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is not a property of equivalence relation?",
+    "options": [
+      "Reflexive",
+      "Symmetric",
+      "Transitive",
+      "Antisymmetric"
+    ],
+    "answer": 3,
+    "explanation": "Equivalence relation does not require antisymmetry."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The function f(x) = ln(x) is defined for:",
+    "options": [
+      "All real numbers",
+      "x > 0",
+      "x ≠ 0",
+      "x ≥ 0"
+    ],
+    "answer": 1,
+    "explanation": "Logarithm is defined only for x > 0."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function is not defined for x = 0?",
+    "options": [
+      "f(x) = 1/x",
+      "f(x) = x^2",
+      "f(x) = √x",
+      "f(x) = ln(x)"
+    ],
+    "answer": 0,
+    "explanation": "1/0 is undefined."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If f is bijective, then f⁻¹ is also:",
+    "options": [
+      "Only injective",
+      "Only surjective",
+      "Bijective",
+      "Not a function"
+    ],
+    "answer": 2,
+    "explanation": "Inverse of a bijective function is also bijective."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If domain of f is A and codomain is B, then f is a function only if:",
+    "options": [
+      "Every a ∈ A has at most one image in B",
+      "Every b ∈ B is mapped",
+      "Every a ∈ A has exactly one image in B",
+      "Every b ∈ B has one pre-image in A"
+    ],
+    "answer": 2,
+    "explanation": "Function maps every element in domain to exactly one in codomain."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following functions is even?",
+    "options": [
+      "f(x) = x",
+      "f(x) = x^3",
+      "f(x) = x^2",
+      "f(x) = x + 1"
+    ],
+    "answer": 2,
+    "explanation": "Even function: f(-x) = f(x), which holds for x^2."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "A relation R is defined on A = {1,2,3} as R = {(1,1),(2,2),(3,3)}. It is:",
+    "options": [
+      "Reflexive",
+      "Symmetric",
+      "Transitive",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Identity relation is reflexive, symmetric, and transitive."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which function is neither one-to-one nor onto?",
+    "options": [
+      "f(x) = x",
+      "f(x) = x^2",
+      "f(x) = x + 5",
+      "f(x) = log(x)"
+    ],
+    "answer": 1,
+    "explanation": "f(x) = x^2 is neither injective (fails for x = ±a) nor onto (output ≥ 0 only)."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is the graphical test for a function?",
+    "options": [
+      "Vertical line test",
+      "Horizontal line test",
+      "Slope test",
+      "Origin symmetry test"
+    ],
+    "answer": 0,
+    "explanation": "A graph passes the vertical line test if it is a function."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What does f(f⁻¹(x)) equal to, if f is bijective?",
+    "options": [
+      "0",
+      "x",
+      "f(x)",
+      "f⁻¹(x)"
+    ],
+    "answer": 1,
+    "explanation": "f(f⁻¹(x)) = x for all x in the codomain of f."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which is an example of non-function?",
+    "options": [
+      "{(1,2), (2,3)}",
+      "{(1,2), (1,3)}",
+      "{(2,3), (3,4)}",
+      "{(x,x) | x ∈ ℝ}"
+    ],
+    "answer": 1,
+    "explanation": "A function cannot assign two values to one input (here, 1 → 2 and 3)."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is NOT a valid representation of a function?",
+    "options": [
+      "f(x) = 2x + 1",
+      "{(1,2), (2,3), (3,4)}",
+      "{(1,2), (1,3)}",
+      "f(x) = √x"
+    ],
+    "answer": 2,
+    "explanation": "A function cannot assign two different outputs (2 and 3) to the same input (1)."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The composition f∘g is defined if:",
+    "options": [
+      "Domain of g is equal to domain of f",
+      "Codomain of g is equal to codomain of f",
+      "Codomain of g is subset of domain of f",
+      "Domain of g is subset of domain of f"
+    ],
+    "answer": 2,
+    "explanation": "To compute f(g(x)), the output of g must lie within the domain of f."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the number of reflexive relations on a set with n elements?",
+    "options": [
+      "2^n",
+      "2^(n²)",
+      "2^(n² - n)",
+      "2^(n² - n) × 1"
+    ],
+    "answer": 2,
+    "explanation": "Reflexive relation must include all (a,a), remaining n²-n pairs are optional."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of these describes an equivalence class?",
+    "options": [
+      "The set of all ordered pairs in a relation",
+      "All elements related to a particular element under an equivalence relation",
+      "All subsets of a set",
+      "All possible functions from a set to itself"
+    ],
+    "answer": 1,
+    "explanation": "An equivalence class contains all elements equivalent to a given element under the relation."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The function f(x) = x³ is:",
+    "options": [
+      "Even",
+      "Odd",
+      "Constant",
+      "Periodic"
+    ],
+    "answer": 1,
+    "explanation": "f(-x) = -f(x), hence it is an odd function."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The set of all pairs (a, b) such that a divides b is a:",
+    "options": [
+      "Partial order",
+      "Equivalence relation",
+      "Symmetric relation",
+      "Non-transitive relation"
+    ],
+    "answer": 0,
+    "explanation": "‘Divides’ is reflexive, antisymmetric, and transitive."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the result of composing f(x) = x + 2 and g(x) = 3x?",
+    "options": [
+      "3x + 2",
+      "3x + 6",
+      "(x + 2)/3",
+      "x + 6"
+    ],
+    "answer": 1,
+    "explanation": "f(g(x)) = f(3x) = 3x + 2"
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is true about the identity function?",
+    "options": [
+      "f(x) = 0 for all x",
+      "f(x) = x for all x",
+      "f(x) = 1 for all x",
+      "f(x) = x + 1"
+    ],
+    "answer": 1,
+    "explanation": "An identity function maps every element to itself."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If a relation R on set A is not reflexive, then:",
+    "options": [
+      "All (a,a) ∈ R",
+      "Some (a,a) ∉ R",
+      "None (a,a) ∈ R",
+      "Only symmetric pairs exist"
+    ],
+    "answer": 1,
+    "explanation": "Not reflexive means at least one element lacks (a,a) in R."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The function f(x) = sin(x) is:",
+    "options": [
+      "Even",
+      "Odd",
+      "Neither",
+      "Both"
+    ],
+    "answer": 1,
+    "explanation": "sin(-x) = -sin(x), hence it is odd."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "How many onto functions exist from A (3 elements) to B (3 elements)?",
+    "options": [
+      "6",
+      "27",
+      "3",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Total onto functions = 3! = 6 when |A| = |B| = 3."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following sets form a function under division?",
+    "options": [
+      "ℝ → ℝ",
+      "ℝ - {0} → ℝ",
+      "ℝ → ℝ - {0}",
+      "ℝ - {0} → ℝ - {0}"
+    ],
+    "answer": 3,
+    "explanation": "Division is undefined for 0, hence domain and codomain exclude 0."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If f(x) = x², then domain of its inverse is:",
+    "options": [
+      "All real numbers",
+      "Non-negative real numbers",
+      "All integers",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "f⁻¹(x) = √x is only defined for x ≥ 0."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is the range of f(x) = |x - 2|?",
+    "options": [
+      "[0, ∞)",
+      "(-∞, 0]",
+      "(-∞, ∞)",
+      "[2, ∞)"
+    ],
+    "answer": 0,
+    "explanation": "The absolute function is always ≥ 0."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The set of all real-valued functions forms a:",
+    "options": [
+      "Group",
+      "Ring",
+      "Set",
+      "Field"
+    ],
+    "answer": 2,
+    "explanation": "Functions from ℝ to ℝ form a set unless more structure is defined."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "The function f(x) = tan(x) is not defined for:",
+    "options": [
+      "x = π/2",
+      "x = 0",
+      "x = π/4",
+      "x = π"
+    ],
+    "answer": 0,
+    "explanation": "tan(x) is undefined when cos(x) = 0, like at π/2."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "A relation R is defined by R = {(1,1), (2,2), (1,2), (2,1)}. It is:",
+    "options": [
+      "Reflexive and symmetric",
+      "Only symmetric",
+      "Only reflexive",
+      "Not transitive"
+    ],
+    "answer": 0,
+    "explanation": "It has (a,a) and (a,b) with (b,a), so reflexive and symmetric."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Let f(x) = x² and g(x) = x - 1, then (f∘g)(x) is:",
+    "options": [
+      "x² - 1",
+      "x² + 1",
+      "(x - 1)²",
+      "x - 1"
+    ],
+    "answer": 2,
+    "explanation": "f(g(x)) = f(x - 1) = (x - 1)²"
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Mathematical induction is used to prove:",
+    "options": [
+      "Theorems for natural numbers",
+      "Inequalities only",
+      "Existence of irrational numbers",
+      "Differential equations"
+    ],
+    "answer": 0,
+    "explanation": "Induction proves statements for positive integers."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Base case and inductive step are parts of:",
+    "options": [
+      "Contradiction",
+      "Induction",
+      "Direct proof",
+      "Contrapositive"
+    ],
+    "answer": 1,
+    "explanation": "These two are the foundation of mathematical induction."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "What is required in the inductive step?",
+    "options": [
+      "Prove P(k) ⇒ P(k+1)",
+      "Prove P(1)",
+      "Prove P(k)",
+      "Guess the pattern"
+    ],
+    "answer": 0,
+    "explanation": "You must prove that if P(k) is true, then P(k+1) is also true."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "Which of the following is the best candidate for induction proof?",
+    "options": [
+      "x² + y² = z²",
+      "aⁿ ≥ n for a ≥ 1",
+      "x² + 1 = 0",
+      "π is irrational"
+    ],
+    "answer": 1,
+    "explanation": "Induction is most suited to proving statements about natural numbers."
+  },
+  {
+    "topic": "Relations and Functions",
+    "question": "If a set A has n elements, then the number of equivalence relations on A is:",
+    "options": [
+      "Bell number of n",
+      "n!",
+      "2ⁿ",
+      "C(n,2)"
+    ],
+    "answer": 0,
+    "explanation": "Equivalence relations correspond to partitions of the set, counted by Bell numbers."
+  }
+  ]
+  
+  
