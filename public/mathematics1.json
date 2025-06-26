@@ -1,0 +1,800 @@
+[
+  {
+    "topic": "Sets",
+    "question": "Which of the following is a proper subset of the set A = {1, 2, 3}?",
+    "options": ["{1, 2, 3}", "{2, 3, 4}", "{1, 2}", "{4, 5}"],
+    "answer": 2,
+    "explanation": "{1, 2} is a proper subset of A because it contains some but not all elements."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the cardinality of the set {a, e, i, o, u}?",
+    "options": ["4", "5", "6", "3"],
+    "answer": 1,
+    "explanation": "Cardinality refers to the number of elements in a set; here it is 5."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the universal set in a context where A = {1, 2}, B = {2, 3}?",
+    "options": [
+      "Set of real numbers",
+      "{1, 2, 3}",
+      "{1, 2, 3, 4}",
+      "{1, 3}"
+    ],
+    "answer": 1,
+    "explanation": "The universal set includes all elements being considered: {1, 2, 3}."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following sets is equivalent to {a, b, c}?",
+    "options": ["{1, 2, 3}", "{a, b}", "{a, b, c, d}", "{x, y}"],
+    "answer": 0,
+    "explanation": "Equivalent sets have the same number of elements, regardless of what those elements are."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the intersection of sets A = {1, 2, 3} and B = {2, 4, 5}?",
+    "options": ["{2}", "{1, 2, 3}", "{4, 5}", "{1, 3}"],
+    "answer": 0,
+    "explanation": "Intersection is the set of elements common to both sets. Here, only 2 is common."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is the power set of {0, 1}?",
+    "options": [
+      "{{}, {0}, {1}, {0, 1}}",
+      "{{0, 1}}",
+      "{{0}, {1}}",
+      "{{1, 0, 2}}"
+    ],
+    "answer": 0,
+    "explanation": "Power set is the set of all subsets, including empty and full sets."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of these is not a finite set?",
+    "options": [
+      "Set of all months in a year",
+      "Set of natural numbers",
+      "Set of vowels",
+      "Set of planets"
+    ],
+    "answer": 1,
+    "explanation": "Natural numbers go on indefinitely, so the set is infinite."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation on sets is denoted by the symbol ∪?",
+    "options": ["Intersection", "Complement", "Union", "Difference"],
+    "answer": 2,
+    "explanation": "The union (∪) of two sets combines all distinct elements from both."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is A ∩ B if A = {x | x is even}, B = {x | x is divisible by 4}?",
+    "options": [
+      "Set of all odd numbers",
+      "Set of numbers divisible by 2 and 4",
+      "Set of numbers divisible by 4",
+      "Set of prime numbers"
+    ],
+    "answer": 2,
+    "explanation": "Intersection of even and divisible-by-4 results in numbers divisible by 4."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is an empty set?",
+    "options": [
+      "{0}",
+      "{}",
+      "∅",
+      "Both B and C"
+    ],
+    "answer": 3,
+    "explanation": "{} and ∅ both represent the empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the Cartesian product A × B if A = {1,2}, B = {a,b}?",
+    "options": [
+      "{{1a}, {2b}}",
+      "{(1, a), (1, b), (2, a), (2, b)}",
+      "{(a, 1), (b, 2)}",
+      "{(1, 2), (a, b)}"
+    ],
+    "answer": 1,
+    "explanation": "Cartesian product pairs each element of A with each element of B."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following sets are equal?",
+    "options": [
+      "{1, 2, 3} and {3, 2, 1}",
+      "{1, 2, 3} and {1, 2}",
+      "{1, 2} and {2, 3}",
+      "{1, 2} and {1, 2, 2}"
+    ],
+    "answer": 0,
+    "explanation": "Sets are equal if they have exactly the same elements, regardless of order."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which symbol represents set complement?",
+    "options": ["∩", "∪", "−", "'"],
+    "answer": 3,
+    "explanation": "A′ (or A complement) means all elements not in A from the universal set."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1,2}, what is the power set of A?",
+    "options": [
+      "{{1}, {2}}",
+      "{{}, {1}, {2}, {1,2}}",
+      "{1,2}",
+      "{{}, {1,2}}"
+    ],
+    "answer": 1,
+    "explanation": "The power set includes all subsets, totaling 2^n = 4 subsets for 2 elements."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is an infinite set?",
+    "options": [
+      "Set of days in a week",
+      "Set of integers",
+      "Set of English vowels",
+      "Set of players in a cricket team"
+    ],
+    "answer": 1,
+    "explanation": "Integers are infinite in both positive and negative directions."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A ⊆ B and B ⊆ A, then:",
+    "options": [
+      "A = B",
+      "A ∩ B = ∅",
+      "A ⊂ B",
+      "A ≠ B"
+    ],
+    "answer": 0,
+    "explanation": "Mutual subsets imply equality."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the cardinality of the power set of a set with 3 elements?",
+    "options": ["3", "6", "8", "9"],
+    "answer": 2,
+    "explanation": "Power set of a set with n elements has 2^n subsets. 2^3 = 8."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation gives all elements in either A or B but not both?",
+    "options": [
+      "Union",
+      "Symmetric Difference",
+      "Intersection",
+      "Complement"
+    ],
+    "answer": 1,
+    "explanation": "Symmetric difference contains elements in either of the sets but not in both."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the result of A − B if A = {1,2,3}, B = {2,3,4}?",
+    "options": ["{1}", "{2, 3}", "{1, 4}", "{2}"],
+    "answer": 0,
+    "explanation": "Set difference A − B contains elements in A but not in B."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which is the smallest set among the following?",
+    "options": [
+      "Power set of empty set",
+      "Empty set",
+      "Set containing empty set",
+      "Set with 0 as element"
+    ],
+    "answer": 1,
+    "explanation": "The empty set contains no elements and is the smallest possible set."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1,2}, B = {2,3}, then A ∪ B = ?",
+    "options": ["{1,2,3}", "{2}", "{1,3}", "{1,2}"],
+    "answer": 0,
+    "explanation": "Union includes all distinct elements from both sets."
+  },
+  {
+    "topic": "Sets",
+    "question": "Set of prime numbers is an example of:",
+    "options": ["Finite set", "Infinite set", "Equal set", "Power set"],
+    "answer": 1,
+    "explanation": "Prime numbers are infinite as there’s no largest prime."
+  },
+  {
+    "topic": "Sets",
+    "question": "If P = {a,b}, how many elements in P × P?",
+    "options": ["2", "4", "6", "8"],
+    "answer": 1,
+    "explanation": "Cartesian product of a set with itself of size n gives n×n pairs. 2×2=4."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which set is a subset of every set?",
+    "options": ["Universal set", "Power set", "Empty set", "Proper set"],
+    "answer": 2,
+    "explanation": "The empty set is a subset of all sets by definition."
+  },
+  {
+    "topic": "Sets",
+    "question": "What does it mean if two sets are disjoint?",
+    "options": [
+      "They are equal",
+      "They have no elements in common",
+      "One is subset of the other",
+      "They have the same number of elements"
+    ],
+    "answer": 1,
+    "explanation": "Disjoint sets have no common elements."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is true about equal sets?",
+    "options": [
+      "They have same elements in the same order",
+      "They must be subsets of the universal set",
+      "They contain exactly the same elements",
+      "They are always finite"
+    ],
+    "answer": 2,
+    "explanation": "Equal sets must contain exactly the same elements regardless of order."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is a power set of ∅?",
+    "options": [
+      "{{}}",
+      "∅",
+      "{{∅}}",
+      "{{}, ∅}"
+    ],
+    "answer": 0,
+    "explanation": "Power set of the empty set is a set containing just the empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "What does A ⊂ B mean?",
+    "options": [
+      "A is equal to B",
+      "A is a proper subset of B",
+      "B is a subset of A",
+      "A is a power set"
+    ],
+    "answer": 1,
+    "explanation": "A ⊂ B implies A is a proper subset of B."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following represents a finite universal set?",
+    "options": [
+      "Set of integers",
+      "Set of natural numbers",
+      "Set of English alphabets",
+      "Set of real numbers"
+    ],
+    "answer": 2,
+    "explanation": "The set of English alphabets is countable and finite."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the result of A ∩ B if A = {x ∈ N | x ≤ 5}, B = {2, 4, 6}?",
+    "options": ["{2, 4}", "{1, 3, 5}", "{2, 4, 6}", "{6}"],
+    "answer": 0,
+    "explanation": "Only 2 and 4 are common in both sets A and B."
+  },
+  {
+    "topic": "Sets",
+    "question": "How many elements does the power set of {x, y, z} have?",
+    "options": ["6", "8", "9", "7"],
+    "answer": 1,
+    "explanation": "Power set has 2^n elements. Here, 2^3 = 8."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which statement about the empty set is correct?",
+    "options": [
+      "It contains the element 0",
+      "It is a subset of every set",
+      "It is larger than any finite set",
+      "It has cardinality one"
+    ],
+    "answer": 1,
+    "explanation": "The empty set is a subset of every set by definition."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1,2} and B = {a,b}, what is the number of ordered pairs in A × B?",
+    "options": ["2", "4", "6", "8"],
+    "answer": 1,
+    "explanation": "Cartesian product has m×n elements. 2×2 = 4."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the union of two disjoint sets?",
+    "options": [
+      "Empty set",
+      "Intersection of sets",
+      "All elements from both sets",
+      "Common elements"
+    ],
+    "answer": 2,
+    "explanation": "Union includes all elements from both sets, even if disjoint."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following represents a singleton set?",
+    "options": ["{1}", "{}", "{1, 2}", "{0, 1}"],
+    "answer": 0,
+    "explanation": "A singleton set contains only one element."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which is not a subset of {1, 2, 3}?",
+    "options": ["{1, 2}", "{2, 3, 4}", "{}", "{3}"],
+    "answer": 1,
+    "explanation": "4 is not an element of the original set, so it's not a valid subset."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation results in an empty set when applied on disjoint sets A and B?",
+    "options": ["A ∪ B", "A ∩ B", "A − B", "B − A"],
+    "answer": 1,
+    "explanation": "Disjoint sets have no elements in common, so their intersection is empty."
+  },
+  {
+    "topic": "Sets",
+    "question": "The set {x | x is an even prime number} is:",
+    "options": ["Infinite", "Empty", "Singleton", "Universal"],
+    "answer": 2,
+    "explanation": "The only even prime number is 2, making this a singleton set."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the cardinality of the set {{}, {∅}}?",
+    "options": ["1", "2", "3", "0"],
+    "answer": 1,
+    "explanation": "There are two elements: empty set and a set containing empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1,2,3}, then A × A contains how many elements?",
+    "options": ["3", "6", "9", "12"],
+    "answer": 2,
+    "explanation": "3 × 3 = 9 ordered pairs in the Cartesian product."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A ⊂ B and B ⊂ C, then:",
+    "options": [
+      "A ⊂ C",
+      "C ⊂ A",
+      "A = C",
+      "A ∩ C = ∅"
+    ],
+    "answer": 0,
+    "explanation": "If A is a subset of B and B of C, then A is also a subset of C."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is an application of Cartesian product?",
+    "options": [
+      "Venn diagrams",
+      "Coordinate geometry",
+      "Union operation",
+      "Set difference"
+    ],
+    "answer": 1,
+    "explanation": "In coordinate geometry, points (x, y) are formed using Cartesian products."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the result of the complement of universal set?",
+    "options": ["Empty set", "Itself", "Universal set", "Undefined"],
+    "answer": 0,
+    "explanation": "Nothing is outside the universal set; its complement is empty."
+  },
+  {
+    "topic": "Sets",
+    "question": "How many proper subsets does the set {a, b, c} have?",
+    "options": ["8", "7", "6", "3"],
+    "answer": 1,
+    "explanation": "Total subsets: 2^3 = 8. One of them is the set itself, so proper subsets = 7."
+  },
+  {
+    "topic": "Sets",
+    "question": "The symmetric difference of A and B is denoted by:",
+    "options": ["A ∪ B", "A − B", "A △ B", "A ∩ B"],
+    "answer": 2,
+    "explanation": "A △ B includes elements in A or B but not in both."
+  },
+  {
+    "topic": "Sets",
+    "question": "Set builder form of {2, 4, 6, 8} is:",
+    "options": [
+      "{x | x is even and x < 10}",
+      "{x | x is odd}",
+      "{x | x ∈ ℕ and x < 5}",
+      "{x | x is prime}"
+    ],
+    "answer": 0,
+    "explanation": "These are even numbers less than 10."
+  },
+  {
+    "topic": "Sets",
+    "question": "The union of a set with the empty set is:",
+    "options": ["Empty set", "The set itself", "Universal set", "Subset"],
+    "answer": 1,
+    "explanation": "Union with an empty set doesn't change the original set."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following sets is countably infinite?",
+    "options": [
+      "Set of integers",
+      "Set of real numbers",
+      "Set of irrational numbers",
+      "Set of lines on a plane"
+    ],
+    "answer": 0,
+    "explanation": "Integers are countable, unlike reals and irrationals."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {a, b} and B = {b, c}, what is A ∩ B?",
+    "options": ["{a}", "{b}", "{c}", "{a, b, c}"],
+    "answer": 1,
+    "explanation": "Only 'b' is common in both sets."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the complement of A if A = {1, 2} and U = {1, 2, 3, 4}?",
+    "options": ["{1, 2}", "{3, 4}", "{2, 3}", "{1, 4}"],
+    "answer": 1,
+    "explanation": "Complement = U − A = {3, 4}"
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the null set symbol?",
+    "options": ["{}", "∅", "both", "none"],
+    "answer": 2,
+    "explanation": "Both {} and ∅ are valid notations for the empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {x ∈ ℕ | x < 4}, what is A?",
+    "options": ["{1, 2, 3}", "{0, 1, 2, 3}", "{4, 5, 6}", "{1, 2, 3, 4}"],
+    "answer": 1,
+    "explanation": "ℕ includes 0, so A = {0, 1, 2, 3}."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the output of (A × B) ∩ (B × A) if A = B = {1,2}?",
+    "options": ["Empty set", "{(1,1), (2,2)}", "{(1,2), (2,1)}", "{(1,1), (1,2)}"],
+    "answer": 1,
+    "explanation": "Intersection includes common pairs; only symmetric ones remain."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which set represents all English alphabets?",
+    "options": [
+      "{A, B, C, ..., Z}",
+      "{a, b, ..., z}",
+      "Both A and B",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Both uppercase and lowercase alphabet sets are valid representations."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A has n elements, how many subsets does it have?",
+    "options": ["n", "2n", "n^2", "2^n"],
+    "answer": 3,
+    "explanation": "Total number of subsets = 2^n."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation is not closed in set theory?",
+    "options": ["Union", "Complement", "Subtraction", "Division"],
+    "answer": 3,
+    "explanation": "Division is not a valid set operation."
+  },
+  {
+    "topic": "Sets",
+    "question": "A set that contains all subsets of a given set is called:",
+    "options": ["Universal set", "Power set", "Empty set", "Proper set"],
+    "answer": 1,
+    "explanation": "Power set includes all possible subsets."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is not a valid set?",
+    "options": [
+      "Set of natural numbers less than 10",
+      "Set of tall students",
+      "Set of even integers",
+      "Set of English vowels"
+    ],
+    "answer": 1,
+    "explanation": "‘Tall’ is subjective and not well-defined, hence not a valid set."
+  },
+  {
+    "topic": "Sets",
+    "question": "How many subsets does the set {a, b, c, d} have?",
+    "options": ["16", "8", "10", "12"],
+    "answer": 0,
+    "explanation": "For a set with 4 elements, subsets = 2^4 = 16."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which set operation is represented by A ∩ B?",
+    "options": ["Union", "Difference", "Intersection", "Complement"],
+    "answer": 2,
+    "explanation": "A ∩ B gives common elements between A and B."
+  },
+  {
+    "topic": "Sets",
+    "question": "If U = {1,2,3,4,5}, A = {1,3}, then A′ is:",
+    "options": ["{1, 3}", "{2, 4, 5}", "{1, 2, 3}", "{4, 5}"],
+    "answer": 1,
+    "explanation": "A′ = U − A = {2, 4, 5}"
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the intersection of a set with itself?",
+    "options": ["Empty set", "Universal set", "The set itself", "Power set"],
+    "answer": 2,
+    "explanation": "A ∩ A = A"
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is true for finite sets?",
+    "options": [
+      "They can be listed completely",
+      "They contain infinite elements",
+      "They cannot be compared",
+      "They are not measurable"
+    ],
+    "answer": 0,
+    "explanation": "Finite sets can be completely listed."
+  },
+  {
+    "topic": "Sets",
+    "question": "Set of months with exactly 30 days is:",
+    "options": [
+      "{April, June, September, November}",
+      "{January, March, May}",
+      "{February}",
+      "{All months}"
+    ],
+    "answer": 0,
+    "explanation": "Only April, June, September, and November have 30 days."
+  },
+  {
+    "topic": "Sets",
+    "question": "The Cartesian product A × ∅ equals:",
+    "options": ["A", "∅", "U", "{∅}"],
+    "answer": 1,
+    "explanation": "Any set multiplied with empty set results in empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the proper subset of {1,2}?",
+    "options": ["{1,2}", "{{1}}", "{1}", "∅"],
+    "answer": 2,
+    "explanation": "Proper subset excludes the set itself but includes all smaller combinations."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of these is a universal set for animals?",
+    "options": [
+      "{Lion, Tiger}",
+      "All animals in the zoo",
+      "All living beings",
+      "All animals being considered"
+    ],
+    "answer": 3,
+    "explanation": "Universal set depends on context: 'all animals under discussion.'"
+  },
+  {
+    "topic": "Sets",
+    "question": "Set difference A − B includes:",
+    "options": [
+      "Only elements of B",
+      "Common elements",
+      "Elements in A but not in B",
+      "Elements in both A and B"
+    ],
+    "answer": 2,
+    "explanation": "Set difference includes items only in A and not in B."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of these sets is uncountable?",
+    "options": [
+      "Set of integers",
+      "Set of prime numbers",
+      "Set of real numbers",
+      "Set of odd numbers"
+    ],
+    "answer": 2,
+    "explanation": "Real numbers are uncountable; they can't be listed one-by-one."
+  },
+  {
+    "topic": "Sets",
+    "question": "The set {x | x^2 = 4} is equal to:",
+    "options": ["{2, -2}", "{4, -4}", "{0}", "{1, 2}"],
+    "answer": 0,
+    "explanation": "x^2 = 4 → x = ±2"
+  },
+  {
+    "topic": "Sets",
+    "question": "Which set contains only vowels?",
+    "options": [
+      "{a, b, c}",
+      "{a, e, i, o, u}",
+      "{x, y, z}",
+      "{a, e, i, x}"
+    ],
+    "answer": 1,
+    "explanation": "Only option 2 contains all and only vowels."
+  },
+  {
+    "topic": "Sets",
+    "question": "Set A has 3 elements. How many elements does its power set have?",
+    "options": ["6", "9", "8", "3"],
+    "answer": 2,
+    "explanation": "Power set = 2^n → 2^3 = 8"
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {a, b} and B = {1}, how many elements in A × B?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "A × B = {(a,1), (b,1)} → 2 elements"
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = ∅ and B = {1, 2}, then A ∪ B =",
+    "options": ["∅", "{1, 2}", "{{1, 2}}", "{0}"],
+    "answer": 1,
+    "explanation": "Union with empty set gives the other set."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which is true about equal sets?",
+    "options": [
+      "They must have same number of elements",
+      "They must be subsets of each other",
+      "They must be in the same order",
+      "Only (1) and (2)"
+    ],
+    "answer": 3,
+    "explanation": "Equal sets: same elements, regardless of order; mutual subset relation holds."
+  },
+  {
+    "topic": "Sets",
+    "question": "Power set of {∅} is:",
+    "options": [
+      "{{}, {∅}}",
+      "{∅}",
+      "{{∅}, ∅}",
+      "{{{∅}}}"
+    ],
+    "answer": 0,
+    "explanation": "It contains both ∅ and {∅} as subsets."
+  },
+  {
+    "topic": "Sets",
+    "question": "A set with only one element is called:",
+    "options": ["Null set", "Finite set", "Singleton set", "Power set"],
+    "answer": 2,
+    "explanation": "Singleton set = one element."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which is not an example of a finite set?",
+    "options": [
+      "Set of students in a class",
+      "Set of months in a year",
+      "Set of stars in the universe",
+      "Set of fingers on a hand"
+    ],
+    "answer": 2,
+    "explanation": "Number of stars is unknown/infinite."
+  },
+  {
+    "topic": "Sets",
+    "question": "How many proper subsets does {a, b, c, d} have?",
+    "options": ["16", "15", "8", "12"],
+    "answer": 1,
+    "explanation": "Proper subsets = 2^n - 1 = 16 - 1 = 15"
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of these is a null set?",
+    "options": [
+      "{x ∈ ℕ | x < 0}",
+      "{0}",
+      "{{}}",
+      "{}"
+    ],
+    "answer": 0,
+    "explanation": "No natural number is less than 0 → empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the cardinality of the power set of ∅?",
+    "options": ["0", "1", "2", "3"],
+    "answer": 1,
+    "explanation": "Power set of ∅ has 1 element: ∅ itself."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation is associative in set theory?",
+    "options": ["Union", "Intersection", "Both", "None"],
+    "answer": 2,
+    "explanation": "Both union and intersection are associative."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1,2}, B = {3,4}, then A ∩ B =",
+    "options": ["{1, 2}", "{3, 4}", "∅", "{1, 3}"],
+    "answer": 2,
+    "explanation": "No common elements → empty set."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which of the following is true about power sets?",
+    "options": [
+      "Power set is always larger than the original set",
+      "Power set is smaller than the original set",
+      "Power set equals the original set",
+      "Power set is undefined"
+    ],
+    "answer": 0,
+    "explanation": "Power set has 2^n elements → always larger for n > 1."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A has 0 elements, how many subsets does it have?",
+    "options": ["0", "1", "2", "None"],
+    "answer": 1,
+    "explanation": "Empty set has 1 subset: itself."
+  },
+  {
+    "topic": "Sets",
+    "question": "What is the Cartesian product A × A called?",
+    "options": ["Union", "Ordered pair", "Square set", "Binary relation"],
+    "answer": 3,
+    "explanation": "A × A forms a binary relation on set A."
+  },
+  {
+    "topic": "Sets",
+    "question": "Which operation removes common elements?",
+    "options": ["Union", "Intersection", "Difference", "Complement"],
+    "answer": 2,
+    "explanation": "A − B removes elements common with B."
+  },
+  {
+    "topic": "Sets",
+    "question": "If A = {1}, B = {2}, then A × B =",
+    "options": ["{(1,2)}", "{1,2}", "{(2,1)}", "{1}"],
+    "answer": 0,
+    "explanation": "Cartesian product is {(1,2)}."
+  }
+  ]
+  
+  
