@@ -1,0 +1,548 @@
+[
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "Which of the following must be true for Rolle’s Theorem to apply on [a, b]?",
+    "options": [
+      "f(a) ≠ f(b)",
+      "f is discontinuous on [a, b]",
+      "f is differentiable on [a, b]",
+      "f is continuous on [a, b] and f(a) = f(b)"
+    ],
+    "answer": 3,
+    "explanation": "Rolle’s Theorem applies when the function is continuous on [a, b], differentiable on (a, b), and f(a) = f(b)."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "What does Rolle’s Theorem guarantee?",
+    "options": [
+      "A root in (a, b)",
+      "A maximum at a",
+      "A point c in (a, b) where f’(c) = 0",
+      "Discontinuity at b"
+    ],
+    "answer": 2,
+    "explanation": "It guarantees at least one point c in (a, b) where the derivative f’(c) = 0."
+  },
+  {
+    "topic": "Lagrange’s Mean Value Theorem",
+    "question": "Which condition is not required for Lagrange’s MVT?",
+    "options": [
+      "f must be continuous on [a, b]",
+      "f must be differentiable on (a, b)",
+      "f(a) = f(b)",
+      "f must be real-valued"
+    ],
+    "answer": 2,
+    "explanation": "Lagrange’s MVT does not require f(a) = f(b); that’s a condition for Rolle’s Theorem."
+  },
+  {
+    "topic": "Lagrange’s Mean Value Theorem",
+    "question": "According to Lagrange’s MVT, there exists c in (a, b) such that:",
+    "options": [
+      "f(c) = 0",
+      "f'(c) = [f(b) - f(a)] / (b - a)",
+      "f'(c) = f(a)",
+      "f'(c) = f(b)"
+    ],
+    "answer": 1,
+    "explanation": "The theorem states that the instantaneous rate of change equals the average rate over [a, b]."
+  },
+  {
+    "topic": "Cauchy’s Mean Value Theorem",
+    "question": "Cauchy’s MVT involves how many functions?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "It generalizes Lagrange’s theorem by involving two functions f and g."
+  },
+  {
+    "topic": "Cauchy’s Mean Value Theorem",
+    "question": "Which of the following is required for Cauchy’s MVT?",
+    "options": [
+      "f and g are continuous on (a, b)",
+      "g’(x) ≠ 0 in (a, b)",
+      "g is non-differentiable",
+      "f(a) = f(b)"
+    ],
+    "answer": 1,
+    "explanation": "g’(x) must not be zero in the interval to avoid division by zero."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What is the Maclaurin series for sin(x)?",
+    "options": [
+      "x - x^2/2! + x^3/3!",
+      "x - x^3/3! + x^5/5! - x^7/7!",
+      "1 + x + x^2/2!",
+      "x^2 + x^4"
+    ],
+    "answer": 1,
+    "explanation": "sin(x) = x - x^3/3! + x^5/5! - x^7/7! + ..."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Which of the following is the Maclaurin expansion of cos(x)?",
+    "options": [
+      "1 - x^2/2! + x^4/4! - x^6/6!",
+      "x - x^3/3!",
+      "1 + x + x^2/2!",
+      "1 - x + x^2"
+    ],
+    "answer": 0,
+    "explanation": "cos(x) = 1 - x^2/2! + x^4/4! - x^6/6! + ..."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Maclaurin series for e^x is:",
+    "options": [
+      "x + x^2/2 + x^3/3",
+      "1 + x + x^2/2! + x^3/3! + ...",
+      "x - x^2/2 + x^3/3",
+      "1 - x + x^2 - x^3"
+    ],
+    "answer": 1,
+    "explanation": "e^x = 1 + x + x^2/2! + x^3/3! + ..."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Maclaurin series of log(1 + x) is valid for:",
+    "options": ["x > 1", "|x| < 1", "x < 0", "x = 1"],
+    "answer": 1,
+    "explanation": "The expansion is valid for |x| < 1."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which of the following is NOT an indeterminate form?",
+    "options": [
+      "0/0",
+      "∞/∞",
+      "1^∞",
+      "2^3"
+    ],
+    "answer": 3,
+    "explanation": "2^3 is a determinate expression."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→0 (sinx)/x is an example of:",
+    "options": [
+      "∞/∞",
+      "0/0",
+      "Indeterminate power",
+      "Convergent limit"
+    ],
+    "answer": 1,
+    "explanation": "Both numerator and denominator tend to 0 → 0/0 form."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "What is f’(x) used for in finding extrema?",
+    "options": [
+      "To evaluate continuity",
+      "To find turning points",
+      "To find domain",
+      "To evaluate limits"
+    ],
+    "answer": 1,
+    "explanation": "Extrema occur where the derivative equals zero."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "A function has a maximum at x = a if:",
+    "options": [
+      "f’(a) = 0 and f’’(a) < 0",
+      "f’(a) = 0 and f’’(a) > 0",
+      "f’(a) ≠ 0",
+      "f’’(a) = 0"
+    ],
+    "answer": 0,
+    "explanation": "Second derivative negative → maximum at x = a."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "The minimum value of f(x) = x² + 2x + 3 is at:",
+    "options": [
+      "x = 1",
+      "x = 0",
+      "x = -1",
+      "x = -2"
+    ],
+    "answer": 2,
+    "explanation": "Vertex formula gives x = -b/2a = -1."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which method can resolve 0/0 limits?",
+    "options": [
+      "L'Hôpital’s Rule",
+      "Direct substitution",
+      "Chain rule",
+      "Power rule"
+    ],
+    "answer": 0,
+    "explanation": "L'Hôpital’s Rule applies to 0/0 or ∞/∞ indeterminate forms."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "tan(x) Maclaurin series starts as:",
+    "options": [
+      "x + x^3/3 + 2x^5/15 + ...",
+      "x - x^3/3 + x^5/5",
+      "1 + x + x^2",
+      "x^2 + x^4"
+    ],
+    "answer": 0,
+    "explanation": "The tan(x) expansion is x + x^3/3 + 2x^5/15 + ..."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "If f(x) = x^2 - 4x + 4 on [2, 4], does Rolle’s Theorem apply?",
+    "options": ["Yes", "No", "Only if f’(x) is positive", "Only if f’(x) is negative"],
+    "answer": 0,
+    "explanation": "The function is continuous, differentiable, and f(2) = f(4), so Rolle’s Theorem applies."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "For f(x) = x³ on [-1, 1], does Rolle’s Theorem apply?",
+    "options": ["Yes", "No", "Only for x > 0", "Only for x < 0"],
+    "answer": 1,
+    "explanation": "f(x) = x³ is continuous and differentiable, but f(-1) ≠ f(1), so the theorem does not apply."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "For f(x) = x² on [1, 3], what is the value of c such that f’(c) = [f(3)-f(1)]/(3-1)?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "Average slope = (9 - 1)/2 = 4. f’(x) = 2x → 2x = 4 → x = 2."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "What geometric interpretation does Lagrange’s Theorem offer?",
+    "options": ["A point of intersection", "A tangent parallel to secant", "A tangent perpendicular to x-axis", "Minimum value of function"],
+    "answer": 1,
+    "explanation": "The theorem ensures a tangent line exists parallel to the secant line joining (a, f(a)) and (b, f(b))."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "Cauchy’s MVT reduces to Lagrange’s MVT when:",
+    "options": ["f = g", "g(x) = x", "f(a) = f(b)", "g is constant"],
+    "answer": 1,
+    "explanation": "If g(x) = x, then CMVT becomes Lagrange’s MVT."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "Let f(x) = x² and g(x) = x³ on [1, 2]. Find c such that f’(c)/g’(c) = [f(2)-f(1)]/[g(2)-g(1)]",
+    "options": ["1", "1.2", "1.5", "1.8"],
+    "answer": 2,
+    "explanation": "Compute both sides and solve: 2c/3c² = (4 - 1)/(8 - 1) → c = 1.5."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Which of the following is the Maclaurin series for log(1 - x)?",
+    "options": [
+      "x + x^2/2 + x^3/3",
+      "-x - x^2/2 - x^3/3 - ...",
+      "1 + x + x^2",
+      "x - x^2 + x^3"
+    ],
+    "answer": 1,
+    "explanation": "log(1 - x) = -x - x²/2 - x³/3 - ..."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What is the general term of the Maclaurin series for e^x?",
+    "options": [
+      "x^n",
+      "x^n / n",
+      "x^n / n!",
+      "x^n * n!"
+    ],
+    "answer": 2,
+    "explanation": "e^x = Σ (x^n / n!) from n = 0 to ∞."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Evaluate lim x→0 (1 - cos(x)) / x²",
+    "options": ["0", "1", "1/2", "Undefined"],
+    "answer": 2,
+    "explanation": "Use L'Hôpital’s Rule or expansion: (1 - cos(x)) ≈ x²/2 ⇒ limit = 1/2."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which form is not indeterminate?",
+    "options": ["0^0", "∞^0", "0/0", "1^1"],
+    "answer": 3,
+    "explanation": "1^1 is determinate and equals 1."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "Find the critical point of f(x) = x³ - 6x² + 9x + 15",
+    "options": ["x = 1 and x = 3", "x = 2 and x = 4", "x = 3 only", "No critical points"],
+    "answer": 0,
+    "explanation": "Set derivative to zero: f’(x) = 3x² - 12x + 9 = 0 → x = 1, 3."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "What is the condition for a local minimum at x = a?",
+    "options": ["f’(a) = 0 and f’’(a) > 0", "f’(a) = 0 and f’’(a) < 0", "f’(a) > 0", "f’’(a) = 0"],
+    "answer": 0,
+    "explanation": "Second derivative test indicates a minimum if f’’(a) > 0."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Which function's Maclaurin series includes only even powers of x?",
+    "options": ["sin(x)", "cos(x)", "e^x", "tan(x)"],
+    "answer": 1,
+    "explanation": "cos(x) = 1 - x²/2! + x⁴/4! + ... (only even powers)."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What is the second-degree Maclaurin polynomial of e^x?",
+    "options": [
+      "1 + x",
+      "1 + x + x^2/2",
+      "x + x^2",
+      "x + x^2/2"
+    ],
+    "answer": 1,
+    "explanation": "e^x = 1 + x + x²/2! + ..."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Evaluate lim x→0 (tan x - x)/x³",
+    "options": ["1/3", "0", "1", "1/2"],
+    "answer": 0,
+    "explanation": "Use series expansion: tan x ≈ x + x³/3 + ... ⇒ limit = 1/3."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "Does Rolle’s Theorem apply to f(x) = |x| on [-1, 1]?",
+    "options": ["Yes", "No", "Only on positive side", "Only if x ≠ 0"],
+    "answer": 1,
+    "explanation": "Function is not differentiable at x = 0."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "Find c for f(x) = 1/x on [1, 2]",
+    "options": ["1", "1.5", "1.25", "c does not exist"],
+    "answer": 3,
+    "explanation": "f(x) = 1/x is not differentiable at x = 0, but since it’s differentiable on [1, 2], c exists."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "The Maclaurin expansion of sin(x) is valid for:",
+    "options": ["Only for x < 0", "All real x", "|x| < 1", "x > 0"],
+    "answer": 1,
+    "explanation": "sin(x) Maclaurin series converges for all x ∈ ℝ."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which rule is used to resolve ∞/∞?",
+    "options": ["Taylor’s Rule", "L'Hôpital’s Rule", "Cauchy’s Rule", "Binomial Rule"],
+    "answer": 1,
+    "explanation": "L'Hôpital’s Rule is used for 0/0 or ∞/∞ forms."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "What is the minimum value of f(x) = x² + 4x + 7?",
+    "options": ["3", "5", "7", "Minimum at x = -2"],
+    "answer": 3,
+    "explanation": "Vertex is at x = -2, minimum value f(-2) = 3."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "For which function does Rolle’s Theorem apply on [−1, 1]?",
+    "options": [
+      "f(x) = x",
+      "f(x) = x²",
+      "f(x) = x³",
+      "f(x) = sin(x)"
+    ],
+    "answer": 3,
+    "explanation": "f(x) = sin(x) is continuous, differentiable, and f(−1) = f(1) ≈ 0.84."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "If f(x) = ln(x), what is the average rate of change on [1, e]?",
+    "options": ["1", "0", "e", "ln(e)"],
+    "answer": 0,
+    "explanation": "Average rate = (ln e − ln 1)/(e − 1) = 1/(e − 1)."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "Which is the conclusion of Cauchy’s MVT?",
+    "options": [
+      "f'(c) = g'(c)",
+      "f'(c)/g'(c) = [f(b) − f(a)] / [g(b) − g(a)]",
+      "f(c) = g(c)",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Cauchy’s MVT provides a relation between derivatives of two functions."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What is the Maclaurin expansion of log(1 + x)^m?",
+    "options": [
+      "m(x - x²/2 + x³/3 - ...)",
+      "x + x² + x³",
+      "x + x²/2 + x³/3",
+      "m(x + x² + x³)"
+    ],
+    "answer": 0,
+    "explanation": "log(1 + x)^m expands as m(x − x²/2 + x³/3 − ...)"
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→0⁺ x * ln(x) equals?",
+    "options": ["0", "∞", "−∞", "An indeterminate form"],
+    "answer": 3,
+    "explanation": "x → 0 and ln(x) → −∞, so it’s an indeterminate form (0 * ∞)."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→0 (e^x − 1)/x equals?",
+    "options": ["0", "1", "∞", "e"],
+    "answer": 1,
+    "explanation": "Using first-order expansion: e^x ≈ 1 + x → limit = 1."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "f(x) = −x² + 2x has its maximum at:",
+    "options": ["x = 1", "x = 0", "x = −1", "x = 2"],
+    "answer": 0,
+    "explanation": "f’(x) = −2x + 2 = 0 ⇒ x = 1; second derivative negative ⇒ max."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "The maximum area of a rectangle inscribed in a circle of radius r is:",
+    "options": [
+      "r²",
+      "2r²",
+      "4r²",
+      "r²√2"
+    ],
+    "answer": 2,
+    "explanation": "Square inside circle gives area = side² = (√2 r)² = 2r²."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Maclaurin series for tan(x) converges for:",
+    "options": [
+      "All x",
+      "|x| < π/2",
+      "|x| < 1",
+      "x = 0 only"
+    ],
+    "answer": 1,
+    "explanation": "tan(x) diverges at ±π/2, so series converges only for |x| < π/2."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "e^(−x) expansion is:",
+    "options": [
+      "1 − x + x²/2! − x³/3! + ...",
+      "1 + x + x²/2!",
+      "x − x² + x³",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "e^(−x) = 1 − x + x²/2! − x³/3! + ..."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which of the following is equivalent to 0⁰?",
+    "options": [
+      "Undefined",
+      "1",
+      "0",
+      "Indeterminate"
+    ],
+    "answer": 3,
+    "explanation": "0⁰ is an indeterminate form."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "f(x) = x(x − 1)(x − 2) on [0, 2]; Does Rolle’s apply?",
+    "options": ["Yes", "No", "Only at x = 1", "Only if x ≠ 0"],
+    "answer": 0,
+    "explanation": "f(0) = f(2) = 0, and function is smooth ⇒ Rolle’s applies."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "f(x) = 3x + 5 on [2, 4]; what is f’(c)?",
+    "options": ["3", "5", "1", "2"],
+    "answer": 0,
+    "explanation": "f’(x) = 3 is constant and equals [f(4)−f(2)] / (4−2) = 3."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "First three non-zero terms of log(1 + x)^2:",
+    "options": [
+      "2x − x² + 2x³/3",
+      "2x − x² + x³",
+      "x − x² + x³",
+      "x² + x³"
+    ],
+    "answer": 0,
+    "explanation": "log(1 + x)^2 = 2(x − x²/2 + x³/3)."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "f(x) = x⁴ − 4x³ + 6x² + 1; Find local minimum point.",
+    "options": ["x = 1", "x = 0", "x = 3", "x = −1"],
+    "answer": 2,
+    "explanation": "Second derivative test gives minimum at x = 3."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "What if g'(x) = 0 at some point in (a, b) in Cauchy’s Theorem?",
+    "options": [
+      "The theorem fails",
+      "No c exists",
+      "We divide by zero",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "g’(x) in denominator ⇒ division by zero not allowed."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→0 (x − sin x)/x³ equals?",
+    "options": ["0", "1/6", "1", "Undefined"],
+    "answer": 1,
+    "explanation": "Use series: sin x ≈ x − x³/6 ⇒ numerator ≈ x³/6 ⇒ limit = 1/6."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Expansion of cos(x) has what type of symmetry?",
+    "options": [
+      "Odd symmetry",
+      "Even symmetry",
+      "No symmetry",
+      "Mixed symmetry"
+    ],
+    "answer": 1,
+    "explanation": "cos(x) is even ⇒ only even powers appear in expansion."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "Why does Rolle’s Theorem fail for f(x) = |x| on [−1, 1]?",
+    "options": [
+      "f is not continuous",
+      "f is not differentiable at x = 0",
+      "f(a) ≠ f(b)",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "f is not differentiable at x = 0."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "At what point is f(x) = −x² + 2x − 3 minimized?",
+    "options": ["x = 1", "x = 3", "x = 0", "It has no minimum"],
+    "answer": 3,
+    "explanation": "Opens downward ⇒ no minimum, only maximum exists."
+  }
+  ]
+  
+  
