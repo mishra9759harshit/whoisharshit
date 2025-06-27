@@ -542,6 +542,247 @@
     "options": ["x = 1", "x = 3", "x = 0", "It has no minimum"],
     "answer": 3,
     "explanation": "Opens downward ⇒ no minimum, only maximum exists."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Which function has a Maclaurin series with only odd powers?",
+    "options": ["sin(x)", "cos(x)", "e^x", "ln(x)"],
+    "answer": 0,
+    "explanation": "The series for sin(x) = x − x³/3! + x⁵/5! − ... includes only odd powers."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What is the coefficient of x⁴ in the Maclaurin series of e^x?",
+    "options": ["1/4", "1/4!", "4", "0"],
+    "answer": 1,
+    "explanation": "e^x = Σ x^n / n! → x⁴ coefficient is 1/4! = 1/24."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Evaluate: lim x→0⁺ (x^x)",
+    "options": ["1", "0", "∞", "Undefined"],
+    "answer": 0,
+    "explanation": "x^x = e^(x ln x); as x→0⁺, x ln x → 0 ⇒ e^0 = 1."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which limit is of type ∞ − ∞?",
+    "options": [
+      "lim x→∞ (√(x² + x) − x)",
+      "lim x→0 (1/x − 1/x²)",
+      "lim x→0 (x^x)",
+      "lim x→∞ (x/x)"
+    ],
+    "answer": 0,
+    "explanation": "Both terms → ∞ ⇒ ∞ − ∞ form."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "At x = 0, what is the nature of f(x) = x⁴?",
+    "options": ["Local maximum", "Local minimum", "Saddle point", "None"],
+    "answer": 1,
+    "explanation": "f'(0) = 0, f''(0) = 0, but f⁴(0) > 0 ⇒ local minimum."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Which of the following functions is not analytic at x = 0?",
+    "options": ["sin(x)", "e^x", "|x|", "cos(x)"],
+    "answer": 2,
+    "explanation": "Absolute value function is not differentiable at x = 0."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "What is the geometric meaning of Lagrange’s Theorem?",
+    "options": [
+      "Function reaches its maximum",
+      "Tangent equals average rate",
+      "Secant is perpendicular to curve",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "There exists a point where tangent slope = average rate of change."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Maclaurin expansion of log(1 + x) converges for:",
+    "options": ["|x| < 1", "|x| ≤ 1", "x ≥ 0", "All x"],
+    "answer": 0,
+    "explanation": "The series converges absolutely for |x| < 1."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→0+ (ln x)^x = ?",
+    "options": ["0", "1", "Undefined", "∞"],
+    "answer": 0,
+    "explanation": "As x→0+, ln x → −∞, and exponent → 0 ⇒ 0."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "In Cauchy's MVT, both f and g must be:",
+    "options": [
+      "Increasing",
+      "Differentiable on (a, b) and continuous on [a, b]",
+      "Equal",
+      "Non-negative"
+    ],
+    "answer": 1,
+    "explanation": "Both functions must be continuous on [a, b] and differentiable on (a, b)."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "The function f(x) = sin(x) on [0, 2π] attains minimum at:",
+    "options": ["π", "0", "3π/2", "π/2"],
+    "answer": 2,
+    "explanation": "Minimum of sin(x) on [0, 2π] is −1 at x = 3π/2."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Find Maclaurin series of tan(x) up to x³.",
+    "options": [
+      "x + x³/3",
+      "x − x³/3",
+      "x − x²/2",
+      "x + x²/2"
+    ],
+    "answer": 0,
+    "explanation": "tan(x) = x + x³/3 + ..."
+  },
+  {
+    "topic": "Lagrange’s MVT",
+    "question": "If f(x) = √x on [1, 4], find f’(c) for some c ∈ (1, 4).",
+    "options": ["1/√2", "1", "1/2", "1/√c"],
+    "answer": 3,
+    "explanation": "f’(x) = 1/(2√x); set average slope = 1/√c."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "What does Rolle’s Theorem guarantee?",
+    "options": [
+      "An inflection point",
+      "A tangent line of zero slope",
+      "A maximum point",
+      "Function is invertible"
+    ],
+    "answer": 1,
+    "explanation": "It guarantees at least one c in (a, b) where f’(c) = 0."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "Which limit is of 0⁰ form?",
+    "options": [
+      "lim x→0 x^x",
+      "lim x→∞ (1 + 1/x)^x",
+      "lim x→∞ ln(x)/x",
+      "lim x→0 (1/x)^x"
+    ],
+    "answer": 0,
+    "explanation": "As x→0+, x → 0 and x^x → 0⁰."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "f(x) = x^3 has:",
+    "options": [
+      "Local maximum",
+      "Local minimum",
+      "No extrema",
+      "Inflection point at x = 0"
+    ],
+    "answer": 3,
+    "explanation": "f''(0) = 0 and changes sign ⇒ inflection point."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "e^(x²) can be expanded as:",
+    "options": [
+      "1 + x + x²/2 + ...",
+      "1 + x² + x⁴/2 + ...",
+      "x + x² + x³",
+      "log(1 + x)"
+    ],
+    "answer": 1,
+    "explanation": "Substitute x² into e^x series ⇒ only even powers."
+  },
+  {
+    "topic": "Rolle’s Theorem",
+    "question": "Can Rolle’s theorem be applied to f(x) = √x on [−1, 1]?",
+    "options": ["Yes", "No", "Only on (0, 1)", "Only if x > 0"],
+    "answer": 1,
+    "explanation": "f(x) is not real/defined for x < 0 ⇒ not continuous."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "f(x) = x/(1 + x²) has its maximum at:",
+    "options": ["x = 0", "x = 1", "x = √2", "x = 1/√2"],
+    "answer": 3,
+    "explanation": "Use first derivative test; maximum at x = 1/√2."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→∞ (x − ln x) = ?",
+    "options": ["∞", "−∞", "0", "1"],
+    "answer": 0,
+    "explanation": "x grows faster than ln x ⇒ ∞."
+  },
+  {
+    "topic": "Cauchy’s MVT",
+    "question": "Cauchy’s MVT implies what when g'(x) = constant?",
+    "options": ["Lagrange’s MVT", "Rolle’s Theorem", "f = g", "Nothing"],
+    "answer": 0,
+    "explanation": "If g'(x) = constant, CMVT reduces to Lagrange’s MVT."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Find f''(0) if f(x) = e^x",
+    "options": ["1", "2", "0", "e"],
+    "answer": 0,
+    "explanation": "All derivatives of e^x = e^x ⇒ f''(0) = 1."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "If f'(x) = 0 and f''(x) = 0, what should you do?",
+    "options": [
+      "Check higher-order derivatives",
+      "Assume minimum",
+      "Assume maximum",
+      "Stop the test"
+    ],
+    "answer": 0,
+    "explanation": "Use higher-order derivatives to test nature."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "What’s the x⁵ term of sin(x)?",
+    "options": ["x⁵/5!", "−x⁵/5!", "x⁵/3!", "−x⁵/3!"],
+    "answer": 1,
+    "explanation": "sin(x) = x − x³/3! + x⁵/5! − ... ⇒ x⁵ term is −x⁵/5!"
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→∞ (1 + 1/x)^x = ?",
+    "options": ["1", "e", "∞", "0"],
+    "answer": 1,
+    "explanation": "This is the standard limit definition of e."
+  },
+  {
+    "topic": "Maxima and Minima",
+    "question": "What is the nature of f(x) = −x² + 1 at x = 0?",
+    "options": ["Minimum", "Maximum", "Inflection", "Saddle point"],
+    "answer": 1,
+    "explanation": "f''(x) = −2 < 0 ⇒ local maximum at x = 0."
+  },
+  {
+    "topic": "Maclaurin Series",
+    "question": "Maclaurin series of cos(x) starts with:",
+    "options": ["x", "x²", "1", "x³"],
+    "answer": 2,
+    "explanation": "cos(x) = 1 − x²/2! + x⁴/4! − ..."
+  },
+  {
+    "topic": "Indeterminate Forms",
+    "question": "lim x→∞ (ln x)/x = ?",
+    "options": ["∞", "0", "1", "Undefined"],
+    "answer": 1,
+    "explanation": "x grows faster than ln x ⇒ limit = 0."
   }
   ]
   
